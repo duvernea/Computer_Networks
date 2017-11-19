@@ -1,0 +1,2995 @@
+('initial routing table for node ', 'GT', {'GT': 0})
+('initial routing table for node ', 'UC', {'UC': 0})
+('initial routing table for node ', 'OSU', {'OSU': 0})
+('initial routing table for node ', 'EGLN', {'EGLN': 0})
+('initial routing table for node ', 'DRPA', {'DRPA': 0})
+('initial routing table for node ', 'PTGN', {'PTGN': 0})
+('initial routing table for node ', 'CMCT', {'CMCT': 0})
+('initial routing table for node ', 'TWC', {'TWC': 0})
+('initial routing table for node ', 'VONA', {'VONA': 0})
+('initial routing table for node ', 'VZ', {'VZ': 0})
+('initial routing table for node ', 'ATT', {'ATT': 0})
+('initial routing table for node ', 'GSAT', {'GSAT': 0})
+('initial routing table for node ', 'UGA', {'UGA': 0})
+sending message from  GT  to  UC
+sending message from  GT  to  EGLN
+sending message from  UC  to  GT
+sending message from  UC  to  OSU
+sending message from  OSU  to  UC
+sending message from  OSU  to  PTGN
+sending message from  EGLN  to  GT
+sending message from  EGLN  to  DRPA
+sending message from  DRPA  to  EGLN
+sending message from  PTGN  to  OSU
+sending message from  CMCT  to  DRPA
+sending message from  CMCT  to  TWC
+sending message from  CMCT  to  ATT
+sending message from  TWC  to  CMCT
+sending message from  VONA  to  PTGN
+sending message from  VONA  to  TWC
+sending message from  VONA  to  GSAT
+sending message from  VZ  to  VONA
+sending message from  ATT  to  CMCT
+sending message from  ATT  to  VZ
+sending message from  ATT  to  UGA
+sending message from  GSAT  to  VONA
+sending message from  GSAT  to  ATT
+sending message from  GSAT  to  UGA
+sending message from  UGA  to  ATT
+sending message from  UGA  to  GSAT
+Adding node  UC  to routing table with weight  0
+sending messages from  GT  to  UC
+msg:  ('GT', 'GT', 0)
+sending messages from  GT  to  UC
+msg:  ('GT', 'UC', 0)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'GT', 0)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'UC', 0)
+Adding node  EGLN  to routing table with weight  2
+sending messages from  GT  to  UC
+msg:  ('GT', 'GT', 0)
+sending messages from  GT  to  UC
+msg:  ('GT', 'EGLN', 2)
+sending messages from  GT  to  UC
+msg:  ('GT', 'UC', 0)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'GT', 0)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'EGLN', 2)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'UC', 0)
+GT {'GT': 0, 'EGLN': 2, 'UC': 0}
+GT:GT0,EGLN2,UC0
+Adding node  GT  to routing table with weight  0
+sending messages from  UC  to  GT
+msg:  ('UC', 'GT', 0)
+sending messages from  UC  to  GT
+msg:  ('UC', 'UC', 0)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'GT', 0)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'UC', 0)
+Adding node  OSU  to routing table with weight  0
+sending messages from  UC  to  GT
+msg:  ('UC', 'GT', 0)
+sending messages from  UC  to  GT
+msg:  ('UC', 'OSU', 0)
+sending messages from  UC  to  GT
+msg:  ('UC', 'UC', 0)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'GT', 0)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'OSU', 0)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'UC', 0)
+ADD NODE [msg[1]
+sending messages from  UC  to  GT
+msg:  ('UC', 'GT', 0)
+sending messages from  UC  to  GT
+msg:  ('UC', 'OSU', 0)
+sending messages from  UC  to  GT
+msg:  ('UC', 'EGLN', 2)
+sending messages from  UC  to  GT
+msg:  ('UC', 'UC', 0)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'GT', 0)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'OSU', 0)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'EGLN', 2)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'UC', 0)
+UC {'GT': 0, 'OSU': 0, 'EGLN': 2, 'UC': 0}
+UC:GT0,OSU0,EGLN2,UC0
+Adding node  UC  to routing table with weight  0
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'OSU', 0)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'UC', 0)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'OSU', 0)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'UC', 0)
+Adding node  PTGN  to routing table with weight  2
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'PTGN', 2)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'OSU', 0)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'UC', 0)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'PTGN', 2)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'OSU', 0)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'UC', 0)
+ADD NODE [msg[1]
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'GT', 0)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'PTGN', 2)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'OSU', 0)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'UC', 0)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'GT', 0)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'PTGN', 2)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'OSU', 0)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'UC', 0)
+ADD NODE [msg[1]
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'GT', 0)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'PTGN', 2)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'OSU', 0)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'EGLN', 2)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'UC', 0)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'GT', 0)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'PTGN', 2)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'OSU', 0)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'EGLN', 2)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'UC', 0)
+OSU {'GT': 0, 'PTGN': 2, 'OSU': 0, 'EGLN': 2, 'UC': 0}
+OSU:GT0,PTGN2,OSU0,EGLN2,UC0
+Adding node  GT  to routing table with weight  -2
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'GT', -2)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'EGLN', 0)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'GT', -2)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'EGLN', 0)
+Adding node  DRPA  to routing table with weight  1
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'DRPA', 1)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'GT', -2)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'EGLN', 0)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'DRPA', 1)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'GT', -2)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'EGLN', 0)
+ADD NODE [msg[1]
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'DRPA', 1)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'GT', -2)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'UC', -2)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'EGLN', 0)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'DRPA', 1)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'GT', -2)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'UC', -2)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'EGLN', 0)
+EGLN {'DRPA': 1, 'GT': -2, 'UC': -2, 'EGLN': 0}
+EGLN:DRPA1,GT-2,UC-2,EGLN0
+Adding node  EGLN  to routing table with weight  1
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'DRPA', 0)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'EGLN', 1)
+Adding node  CMCT  to routing table with weight  12
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'DRPA', 0)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'CMCT', 12)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'EGLN', 1)
+ADD NODE [msg[1]
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'GT', -1)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'DRPA', 0)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'CMCT', 12)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'EGLN', 1)
+ADD NODE [msg[1]
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'UC', -1)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'GT', -1)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'DRPA', 0)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'CMCT', 12)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'EGLN', 1)
+DRPA {'UC': -1, 'GT': -1, 'DRPA': 0, 'CMCT': 12, 'EGLN': 1}
+DRPA:UC-1,GT-1,DRPA0,CMCT12,EGLN1
+Adding node  OSU  to routing table with weight  -1
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'PTGN', 0)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'OSU', -1)
+Adding node  VONA  to routing table with weight  3
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'PTGN', 0)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'OSU', -1)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'VONA', 3)
+ADD NODE [msg[1]
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'PTGN', 0)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'OSU', -1)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'UC', -1)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'VONA', 3)
+ADD NODE [msg[1]
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'GT', -1)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'PTGN', 0)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'OSU', -1)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'UC', -1)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'VONA', 3)
+ADD NODE [msg[1]
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'GT', -1)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'PTGN', 0)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'OSU', -1)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'VONA', 3)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'EGLN', 1)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'UC', -1)
+PTGN {'GT': -1, 'PTGN': 0, 'OSU': -1, 'VONA': 3, 'EGLN': 1, 'UC': -1}
+PTGN:GT-1,PTGN0,OSU-1,VONA3,EGLN1,UC-1
+Adding node  TWC  to routing table with weight  0
+sending messages from  CMCT  to  DRPA
+msg:  ('CMCT', 'TWC', 0)
+sending messages from  CMCT  to  DRPA
+msg:  ('CMCT', 'CMCT', 0)
+sending messages from  CMCT  to  TWC
+msg:  ('CMCT', 'TWC', 0)
+sending messages from  CMCT  to  TWC
+msg:  ('CMCT', 'CMCT', 0)
+sending messages from  CMCT  to  ATT
+msg:  ('CMCT', 'TWC', 0)
+sending messages from  CMCT  to  ATT
+msg:  ('CMCT', 'CMCT', 0)
+Adding node  ATT  to routing table with weight  1
+sending messages from  CMCT  to  DRPA
+msg:  ('CMCT', 'TWC', 0)
+sending messages from  CMCT  to  DRPA
+msg:  ('CMCT', 'ATT', 1)
+sending messages from  CMCT  to  DRPA
+msg:  ('CMCT', 'CMCT', 0)
+sending messages from  CMCT  to  TWC
+msg:  ('CMCT', 'TWC', 0)
+sending messages from  CMCT  to  TWC
+msg:  ('CMCT', 'ATT', 1)
+sending messages from  CMCT  to  TWC
+msg:  ('CMCT', 'CMCT', 0)
+sending messages from  CMCT  to  ATT
+msg:  ('CMCT', 'TWC', 0)
+sending messages from  CMCT  to  ATT
+msg:  ('CMCT', 'ATT', 1)
+sending messages from  CMCT  to  ATT
+msg:  ('CMCT', 'CMCT', 0)
+CMCT {'TWC': 0, 'ATT': 1, 'CMCT': 0}
+CMCT:TWC0,ATT1,CMCT0
+Adding node  CMCT  to routing table with weight  0
+sending messages from  TWC  to  CMCT
+msg:  ('TWC', 'TWC', 0)
+sending messages from  TWC  to  CMCT
+msg:  ('TWC', 'CMCT', 0)
+Adding node  VONA  to routing table with weight  1
+sending messages from  TWC  to  CMCT
+msg:  ('TWC', 'TWC', 0)
+sending messages from  TWC  to  CMCT
+msg:  ('TWC', 'CMCT', 0)
+sending messages from  TWC  to  CMCT
+msg:  ('TWC', 'VONA', 1)
+ADD NODE [msg[1]
+sending messages from  TWC  to  CMCT
+msg:  ('TWC', 'TWC', 0)
+sending messages from  TWC  to  CMCT
+msg:  ('TWC', 'ATT', 1)
+sending messages from  TWC  to  CMCT
+msg:  ('TWC', 'CMCT', 0)
+sending messages from  TWC  to  CMCT
+msg:  ('TWC', 'VONA', 1)
+TWC {'TWC': 0, 'ATT': 1, 'CMCT': 0, 'VONA': 1}
+TWC:TWC0,ATT1,CMCT0,VONA1
+Adding node  VZ  to routing table with weight  8
+sending messages from  VONA  to  PTGN
+msg:  ('VONA', 'VZ', 8)
+sending messages from  VONA  to  PTGN
+msg:  ('VONA', 'VONA', 0)
+sending messages from  VONA  to  TWC
+msg:  ('VONA', 'VZ', 8)
+sending messages from  VONA  to  TWC
+msg:  ('VONA', 'VONA', 0)
+sending messages from  VONA  to  GSAT
+msg:  ('VONA', 'VZ', 8)
+sending messages from  VONA  to  GSAT
+msg:  ('VONA', 'VONA', 0)
+Adding node  GSAT  to routing table with weight  3
+sending messages from  VONA  to  PTGN
+msg:  ('VONA', 'GSAT', 3)
+sending messages from  VONA  to  PTGN
+msg:  ('VONA', 'VZ', 8)
+sending messages from  VONA  to  PTGN
+msg:  ('VONA', 'VONA', 0)
+sending messages from  VONA  to  TWC
+msg:  ('VONA', 'GSAT', 3)
+sending messages from  VONA  to  TWC
+msg:  ('VONA', 'VZ', 8)
+sending messages from  VONA  to  TWC
+msg:  ('VONA', 'VONA', 0)
+sending messages from  VONA  to  GSAT
+msg:  ('VONA', 'GSAT', 3)
+sending messages from  VONA  to  GSAT
+msg:  ('VONA', 'VZ', 8)
+sending messages from  VONA  to  GSAT
+msg:  ('VONA', 'VONA', 0)
+VONA {'GSAT': 3, 'VZ': 8, 'VONA': 0}
+VONA:GSAT3,VZ8,VONA0
+Adding node  ATT  to routing table with weight  2
+sending messages from  VZ  to  VONA
+msg:  ('VZ', 'VZ', 0)
+sending messages from  VZ  to  VONA
+msg:  ('VZ', 'ATT', 2)
+VZ {'VZ': 0, 'ATT': 2}
+VZ:VZ0,ATT2
+Adding node  CMCT  to routing table with weight  1
+sending messages from  ATT  to  CMCT
+msg:  ('ATT', 'ATT', 0)
+sending messages from  ATT  to  CMCT
+msg:  ('ATT', 'CMCT', 1)
+sending messages from  ATT  to  VZ
+msg:  ('ATT', 'ATT', 0)
+sending messages from  ATT  to  VZ
+msg:  ('ATT', 'CMCT', 1)
+sending messages from  ATT  to  UGA
+msg:  ('ATT', 'ATT', 0)
+sending messages from  ATT  to  UGA
+msg:  ('ATT', 'CMCT', 1)
+Adding node  GSAT  to routing table with weight  -8
+sending messages from  ATT  to  CMCT
+msg:  ('ATT', 'GSAT', -8)
+sending messages from  ATT  to  CMCT
+msg:  ('ATT', 'ATT', 0)
+sending messages from  ATT  to  CMCT
+msg:  ('ATT', 'CMCT', 1)
+sending messages from  ATT  to  VZ
+msg:  ('ATT', 'GSAT', -8)
+sending messages from  ATT  to  VZ
+msg:  ('ATT', 'ATT', 0)
+sending messages from  ATT  to  VZ
+msg:  ('ATT', 'CMCT', 1)
+sending messages from  ATT  to  UGA
+msg:  ('ATT', 'GSAT', -8)
+sending messages from  ATT  to  UGA
+msg:  ('ATT', 'ATT', 0)
+sending messages from  ATT  to  UGA
+msg:  ('ATT', 'CMCT', 1)
+Adding node  UGA  to routing table with weight  -50
+sending messages from  ATT  to  CMCT
+msg:  ('ATT', 'GSAT', -8)
+sending messages from  ATT  to  CMCT
+msg:  ('ATT', 'ATT', 0)
+sending messages from  ATT  to  CMCT
+msg:  ('ATT', 'CMCT', 1)
+sending messages from  ATT  to  CMCT
+msg:  ('ATT', 'UGA', -50)
+sending messages from  ATT  to  VZ
+msg:  ('ATT', 'GSAT', -8)
+sending messages from  ATT  to  VZ
+msg:  ('ATT', 'ATT', 0)
+sending messages from  ATT  to  VZ
+msg:  ('ATT', 'CMCT', 1)
+sending messages from  ATT  to  VZ
+msg:  ('ATT', 'UGA', -50)
+sending messages from  ATT  to  UGA
+msg:  ('ATT', 'GSAT', -8)
+sending messages from  ATT  to  UGA
+msg:  ('ATT', 'ATT', 0)
+sending messages from  ATT  to  UGA
+msg:  ('ATT', 'CMCT', 1)
+sending messages from  ATT  to  UGA
+msg:  ('ATT', 'UGA', -50)
+ADD NODE [msg[1]
+sending messages from  ATT  to  CMCT
+msg:  ('ATT', 'TWC', 1)
+sending messages from  ATT  to  CMCT
+msg:  ('ATT', 'GSAT', -8)
+sending messages from  ATT  to  CMCT
+msg:  ('ATT', 'ATT', 0)
+sending messages from  ATT  to  CMCT
+msg:  ('ATT', 'CMCT', 1)
+sending messages from  ATT  to  CMCT
+msg:  ('ATT', 'UGA', -50)
+sending messages from  ATT  to  VZ
+msg:  ('ATT', 'TWC', 1)
+sending messages from  ATT  to  VZ
+msg:  ('ATT', 'GSAT', -8)
+sending messages from  ATT  to  VZ
+msg:  ('ATT', 'ATT', 0)
+sending messages from  ATT  to  VZ
+msg:  ('ATT', 'CMCT', 1)
+sending messages from  ATT  to  VZ
+msg:  ('ATT', 'UGA', -50)
+sending messages from  ATT  to  UGA
+msg:  ('ATT', 'TWC', 1)
+sending messages from  ATT  to  UGA
+msg:  ('ATT', 'GSAT', -8)
+sending messages from  ATT  to  UGA
+msg:  ('ATT', 'ATT', 0)
+sending messages from  ATT  to  UGA
+msg:  ('ATT', 'CMCT', 1)
+sending messages from  ATT  to  UGA
+msg:  ('ATT', 'UGA', -50)
+ATT {'TWC': 1, 'GSAT': -8, 'ATT': 0, 'CMCT': 1, 'UGA': -50}
+ATT:TWC1,GSAT-8,ATT0,CMCT1,UGA-50
+Adding node  VONA  to routing table with weight  -3
+sending messages from  GSAT  to  VONA
+msg:  ('GSAT', 'GSAT', 0)
+sending messages from  GSAT  to  VONA
+msg:  ('GSAT', 'VONA', -3)
+sending messages from  GSAT  to  ATT
+msg:  ('GSAT', 'GSAT', 0)
+sending messages from  GSAT  to  ATT
+msg:  ('GSAT', 'VONA', -3)
+sending messages from  GSAT  to  UGA
+msg:  ('GSAT', 'GSAT', 0)
+sending messages from  GSAT  to  UGA
+msg:  ('GSAT', 'VONA', -3)
+Adding node  UGA  to routing table with weight  0
+sending messages from  GSAT  to  VONA
+msg:  ('GSAT', 'GSAT', 0)
+sending messages from  GSAT  to  VONA
+msg:  ('GSAT', 'UGA', 0)
+sending messages from  GSAT  to  VONA
+msg:  ('GSAT', 'VONA', -3)
+sending messages from  GSAT  to  ATT
+msg:  ('GSAT', 'GSAT', 0)
+sending messages from  GSAT  to  ATT
+msg:  ('GSAT', 'UGA', 0)
+sending messages from  GSAT  to  ATT
+msg:  ('GSAT', 'VONA', -3)
+sending messages from  GSAT  to  UGA
+msg:  ('GSAT', 'GSAT', 0)
+sending messages from  GSAT  to  UGA
+msg:  ('GSAT', 'UGA', 0)
+sending messages from  GSAT  to  UGA
+msg:  ('GSAT', 'VONA', -3)
+ADD NODE [msg[1]
+sending messages from  GSAT  to  VONA
+msg:  ('GSAT', 'GSAT', 0)
+sending messages from  GSAT  to  VONA
+msg:  ('GSAT', 'UGA', 0)
+sending messages from  GSAT  to  VONA
+msg:  ('GSAT', 'VZ', 5)
+sending messages from  GSAT  to  VONA
+msg:  ('GSAT', 'VONA', -3)
+sending messages from  GSAT  to  ATT
+msg:  ('GSAT', 'GSAT', 0)
+sending messages from  GSAT  to  ATT
+msg:  ('GSAT', 'UGA', 0)
+sending messages from  GSAT  to  ATT
+msg:  ('GSAT', 'VZ', 5)
+sending messages from  GSAT  to  ATT
+msg:  ('GSAT', 'VONA', -3)
+sending messages from  GSAT  to  UGA
+msg:  ('GSAT', 'GSAT', 0)
+sending messages from  GSAT  to  UGA
+msg:  ('GSAT', 'UGA', 0)
+sending messages from  GSAT  to  UGA
+msg:  ('GSAT', 'VZ', 5)
+sending messages from  GSAT  to  UGA
+msg:  ('GSAT', 'VONA', -3)
+GSAT {'GSAT': 0, 'UGA': 0, 'VZ': 5, 'VONA': -3}
+GSAT:GSAT0,UGA0,VZ5,VONA-3
+Adding node  ATT  to routing table with weight  50
+sending messages from  UGA  to  ATT
+msg:  ('UGA', 'UGA', 0)
+sending messages from  UGA  to  ATT
+msg:  ('UGA', 'ATT', 50)
+sending messages from  UGA  to  GSAT
+msg:  ('UGA', 'UGA', 0)
+sending messages from  UGA  to  GSAT
+msg:  ('UGA', 'ATT', 50)
+Adding node  GSAT  to routing table with weight  50
+sending messages from  UGA  to  ATT
+msg:  ('UGA', 'GSAT', 50)
+sending messages from  UGA  to  ATT
+msg:  ('UGA', 'UGA', 0)
+sending messages from  UGA  to  ATT
+msg:  ('UGA', 'ATT', 50)
+sending messages from  UGA  to  GSAT
+msg:  ('UGA', 'GSAT', 50)
+sending messages from  UGA  to  GSAT
+msg:  ('UGA', 'UGA', 0)
+sending messages from  UGA  to  GSAT
+msg:  ('UGA', 'ATT', 50)
+ADD NODE [msg[1]
+sending messages from  UGA  to  ATT
+msg:  ('UGA', 'GSAT', 50)
+sending messages from  UGA  to  ATT
+msg:  ('UGA', 'UGA', 0)
+sending messages from  UGA  to  ATT
+msg:  ('UGA', 'ATT', 50)
+sending messages from  UGA  to  ATT
+msg:  ('UGA', 'CMCT', 51)
+sending messages from  UGA  to  GSAT
+msg:  ('UGA', 'GSAT', 50)
+sending messages from  UGA  to  GSAT
+msg:  ('UGA', 'UGA', 0)
+sending messages from  UGA  to  GSAT
+msg:  ('UGA', 'ATT', 50)
+sending messages from  UGA  to  GSAT
+msg:  ('UGA', 'CMCT', 51)
+Shorter distance found to node
+ADD NODE [msg[1]
+sending messages from  UGA  to  ATT
+msg:  ('UGA', 'TWC', 51)
+sending messages from  UGA  to  ATT
+msg:  ('UGA', 'GSAT', 42)
+sending messages from  UGA  to  ATT
+msg:  ('UGA', 'UGA', 0)
+sending messages from  UGA  to  ATT
+msg:  ('UGA', 'ATT', 50)
+sending messages from  UGA  to  ATT
+msg:  ('UGA', 'CMCT', 51)
+sending messages from  UGA  to  GSAT
+msg:  ('UGA', 'TWC', 51)
+sending messages from  UGA  to  GSAT
+msg:  ('UGA', 'GSAT', 42)
+sending messages from  UGA  to  GSAT
+msg:  ('UGA', 'UGA', 0)
+sending messages from  UGA  to  GSAT
+msg:  ('UGA', 'ATT', 50)
+sending messages from  UGA  to  GSAT
+msg:  ('UGA', 'CMCT', 51)
+ADD NODE [msg[1]
+sending messages from  UGA  to  ATT
+msg:  ('UGA', 'TWC', 51)
+sending messages from  UGA  to  ATT
+msg:  ('UGA', 'GSAT', 42)
+sending messages from  UGA  to  ATT
+msg:  ('UGA', 'UGA', 0)
+sending messages from  UGA  to  ATT
+msg:  ('UGA', 'ATT', 50)
+sending messages from  UGA  to  ATT
+msg:  ('UGA', 'CMCT', 51)
+sending messages from  UGA  to  ATT
+msg:  ('UGA', 'VONA', 47)
+sending messages from  UGA  to  GSAT
+msg:  ('UGA', 'TWC', 51)
+sending messages from  UGA  to  GSAT
+msg:  ('UGA', 'GSAT', 42)
+sending messages from  UGA  to  GSAT
+msg:  ('UGA', 'UGA', 0)
+sending messages from  UGA  to  GSAT
+msg:  ('UGA', 'ATT', 50)
+sending messages from  UGA  to  GSAT
+msg:  ('UGA', 'CMCT', 51)
+sending messages from  UGA  to  GSAT
+msg:  ('UGA', 'VONA', 47)
+ADD NODE [msg[1]
+sending messages from  UGA  to  ATT
+msg:  ('UGA', 'TWC', 51)
+sending messages from  UGA  to  ATT
+msg:  ('UGA', 'GSAT', 42)
+sending messages from  UGA  to  ATT
+msg:  ('UGA', 'UGA', 0)
+sending messages from  UGA  to  ATT
+msg:  ('UGA', 'ATT', 50)
+sending messages from  UGA  to  ATT
+msg:  ('UGA', 'VZ', 55)
+sending messages from  UGA  to  ATT
+msg:  ('UGA', 'CMCT', 51)
+sending messages from  UGA  to  ATT
+msg:  ('UGA', 'VONA', 47)
+sending messages from  UGA  to  GSAT
+msg:  ('UGA', 'TWC', 51)
+sending messages from  UGA  to  GSAT
+msg:  ('UGA', 'GSAT', 42)
+sending messages from  UGA  to  GSAT
+msg:  ('UGA', 'UGA', 0)
+sending messages from  UGA  to  GSAT
+msg:  ('UGA', 'ATT', 50)
+sending messages from  UGA  to  GSAT
+msg:  ('UGA', 'VZ', 55)
+sending messages from  UGA  to  GSAT
+msg:  ('UGA', 'CMCT', 51)
+sending messages from  UGA  to  GSAT
+msg:  ('UGA', 'VONA', 47)
+UGA {'TWC': 51, 'GSAT': 42, 'UGA': 0, 'ATT': 50, 'VZ': 55, 'CMCT': 51, 'VONA': 47}
+UGA:TWC51,GSAT42,UGA0,ATT50,VZ55,CMCT51,VONA47
+ADD NODE [msg[1]
+sending messages from  GT  to  UC
+msg:  ('GT', 'GT', 0)
+sending messages from  GT  to  UC
+msg:  ('GT', 'OSU', 0)
+sending messages from  GT  to  UC
+msg:  ('GT', 'EGLN', 2)
+sending messages from  GT  to  UC
+msg:  ('GT', 'UC', 0)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'GT', 0)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'OSU', 0)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'EGLN', 2)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'UC', 0)
+ADD NODE [msg[1]
+sending messages from  GT  to  UC
+msg:  ('GT', 'DRPA', 3)
+sending messages from  GT  to  UC
+msg:  ('GT', 'GT', 0)
+sending messages from  GT  to  UC
+msg:  ('GT', 'OSU', 0)
+sending messages from  GT  to  UC
+msg:  ('GT', 'EGLN', 2)
+sending messages from  GT  to  UC
+msg:  ('GT', 'UC', 0)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'DRPA', 3)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'GT', 0)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'OSU', 0)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'EGLN', 2)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'UC', 0)
+GT {'DRPA': 3, 'GT': 0, 'OSU': 0, 'EGLN': 2, 'UC': 0}
+GT:DRPA3,GT0,OSU0,EGLN2,UC0
+ADD NODE [msg[1]
+sending messages from  UC  to  GT
+msg:  ('UC', 'PTGN', 2)
+sending messages from  UC  to  GT
+msg:  ('UC', 'GT', 0)
+sending messages from  UC  to  GT
+msg:  ('UC', 'OSU', 0)
+sending messages from  UC  to  GT
+msg:  ('UC', 'EGLN', 2)
+sending messages from  UC  to  GT
+msg:  ('UC', 'UC', 0)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'PTGN', 2)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'GT', 0)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'OSU', 0)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'EGLN', 2)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'UC', 0)
+ADD NODE [msg[1]
+sending messages from  UC  to  GT
+msg:  ('UC', 'GT', 0)
+sending messages from  UC  to  GT
+msg:  ('UC', 'PTGN', 2)
+sending messages from  UC  to  GT
+msg:  ('UC', 'OSU', 0)
+sending messages from  UC  to  GT
+msg:  ('UC', 'EGLN', 2)
+sending messages from  UC  to  GT
+msg:  ('UC', 'DRPA', 3)
+sending messages from  UC  to  GT
+msg:  ('UC', 'UC', 0)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'GT', 0)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'PTGN', 2)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'OSU', 0)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'EGLN', 2)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'DRPA', 3)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'UC', 0)
+UC {'GT': 0, 'PTGN': 2, 'OSU': 0, 'EGLN': 2, 'DRPA': 3, 'UC': 0}
+UC:GT0,PTGN2,OSU0,EGLN2,DRPA3,UC0
+ADD NODE [msg[1]
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'GT', 0)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'PTGN', 2)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'OSU', 0)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'VONA', 5)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'EGLN', 2)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'UC', 0)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'GT', 0)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'PTGN', 2)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'OSU', 0)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'VONA', 5)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'EGLN', 2)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'UC', 0)
+ADD NODE [msg[1]
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'GT', 0)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'PTGN', 2)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'OSU', 0)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'VONA', 5)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'EGLN', 2)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'DRPA', 3)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'UC', 0)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'GT', 0)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'PTGN', 2)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'OSU', 0)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'VONA', 5)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'EGLN', 2)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'DRPA', 3)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'UC', 0)
+OSU {'GT': 0, 'PTGN': 2, 'OSU': 0, 'VONA': 5, 'EGLN': 2, 'DRPA': 3, 'UC': 0}
+OSU:GT0,PTGN2,OSU0,VONA5,EGLN2,DRPA3,UC0
+ADD NODE [msg[1]
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'DRPA', 1)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'GT', -2)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'UC', -2)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'EGLN', 0)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'CMCT', 13)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'DRPA', 1)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'GT', -2)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'UC', -2)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'EGLN', 0)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'CMCT', 13)
+ADD NODE [msg[1]
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'GT', -2)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'OSU', -2)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'EGLN', 0)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'DRPA', 1)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'CMCT', 13)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'UC', -2)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'GT', -2)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'OSU', -2)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'EGLN', 0)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'DRPA', 1)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'CMCT', 13)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'UC', -2)
+EGLN {'GT': -2, 'OSU': -2, 'EGLN': 0, 'DRPA': 1, 'CMCT': 13, 'UC': -2}
+EGLN:GT-2,OSU-2,EGLN0,DRPA1,CMCT13,UC-2
+ADD NODE [msg[1]
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'TWC', 12)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'GT', -1)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'EGLN', 1)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'DRPA', 0)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'CMCT', 12)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'UC', -1)
+ADD NODE [msg[1]
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'TWC', 12)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'GT', -1)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'ATT', 13)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'EGLN', 1)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'DRPA', 0)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'CMCT', 12)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'UC', -1)
+ADD NODE [msg[1]
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'TWC', 12)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'GT', -1)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'OSU', -1)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'ATT', 13)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'EGLN', 1)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'DRPA', 0)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'CMCT', 12)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'UC', -1)
+DRPA {'TWC': 12, 'GT': -1, 'OSU': -1, 'ATT': 13, 'EGLN': 1, 'DRPA': 0, 'CMCT': 12, 'UC': -1}
+DRPA:TWC12,GT-1,OSU-1,ATT13,EGLN1,DRPA0,CMCT12,UC-1
+ADD NODE [msg[1]
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'GT', -1)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'PTGN', 0)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'OSU', -1)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'VONA', 3)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'EGLN', 1)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'VZ', 11)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'UC', -1)
+ADD NODE [msg[1]
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'GT', -1)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'GSAT', 6)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'PTGN', 0)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'OSU', -1)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'VONA', 3)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'EGLN', 1)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'VZ', 11)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'UC', -1)
+ADD NODE [msg[1]
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'GT', -1)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'GSAT', 6)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'PTGN', 0)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'OSU', -1)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'VONA', 3)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'EGLN', 1)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'VZ', 11)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'DRPA', 2)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'UC', -1)
+PTGN {'GT': -1, 'GSAT': 6, 'PTGN': 0, 'OSU': -1, 'VONA': 3, 'EGLN': 1, 'VZ': 11, 'DRPA': 2, 'UC': -1}
+PTGN:GT-1,GSAT6,PTGN0,OSU-1,VONA3,EGLN1,VZ11,DRPA2,UC-1
+ADD NODE [msg[1]
+sending messages from  CMCT  to  DRPA
+msg:  ('CMCT', 'TWC', 0)
+sending messages from  CMCT  to  DRPA
+msg:  ('CMCT', 'ATT', 1)
+sending messages from  CMCT  to  DRPA
+msg:  ('CMCT', 'CMCT', 0)
+sending messages from  CMCT  to  DRPA
+msg:  ('CMCT', 'VONA', 1)
+sending messages from  CMCT  to  TWC
+msg:  ('CMCT', 'TWC', 0)
+sending messages from  CMCT  to  TWC
+msg:  ('CMCT', 'ATT', 1)
+sending messages from  CMCT  to  TWC
+msg:  ('CMCT', 'CMCT', 0)
+sending messages from  CMCT  to  TWC
+msg:  ('CMCT', 'VONA', 1)
+sending messages from  CMCT  to  ATT
+msg:  ('CMCT', 'TWC', 0)
+sending messages from  CMCT  to  ATT
+msg:  ('CMCT', 'ATT', 1)
+sending messages from  CMCT  to  ATT
+msg:  ('CMCT', 'CMCT', 0)
+sending messages from  CMCT  to  ATT
+msg:  ('CMCT', 'VONA', 1)
+ADD NODE [msg[1]
+sending messages from  CMCT  to  DRPA
+msg:  ('CMCT', 'TWC', 0)
+sending messages from  CMCT  to  DRPA
+msg:  ('CMCT', 'ATT', 1)
+sending messages from  CMCT  to  DRPA
+msg:  ('CMCT', 'CMCT', 0)
+sending messages from  CMCT  to  DRPA
+msg:  ('CMCT', 'VONA', 1)
+sending messages from  CMCT  to  DRPA
+msg:  ('CMCT', 'GSAT', -7)
+sending messages from  CMCT  to  TWC
+msg:  ('CMCT', 'TWC', 0)
+sending messages from  CMCT  to  TWC
+msg:  ('CMCT', 'ATT', 1)
+sending messages from  CMCT  to  TWC
+msg:  ('CMCT', 'CMCT', 0)
+sending messages from  CMCT  to  TWC
+msg:  ('CMCT', 'VONA', 1)
+sending messages from  CMCT  to  TWC
+msg:  ('CMCT', 'GSAT', -7)
+sending messages from  CMCT  to  ATT
+msg:  ('CMCT', 'TWC', 0)
+sending messages from  CMCT  to  ATT
+msg:  ('CMCT', 'ATT', 1)
+sending messages from  CMCT  to  ATT
+msg:  ('CMCT', 'CMCT', 0)
+sending messages from  CMCT  to  ATT
+msg:  ('CMCT', 'VONA', 1)
+sending messages from  CMCT  to  ATT
+msg:  ('CMCT', 'GSAT', -7)
+ADD NODE [msg[1]
+sending messages from  CMCT  to  DRPA
+msg:  ('CMCT', 'TWC', 0)
+sending messages from  CMCT  to  DRPA
+msg:  ('CMCT', 'GSAT', -7)
+sending messages from  CMCT  to  DRPA
+msg:  ('CMCT', 'UGA', -49)
+sending messages from  CMCT  to  DRPA
+msg:  ('CMCT', 'ATT', 1)
+sending messages from  CMCT  to  DRPA
+msg:  ('CMCT', 'CMCT', 0)
+sending messages from  CMCT  to  DRPA
+msg:  ('CMCT', 'VONA', 1)
+sending messages from  CMCT  to  TWC
+msg:  ('CMCT', 'TWC', 0)
+sending messages from  CMCT  to  TWC
+msg:  ('CMCT', 'GSAT', -7)
+sending messages from  CMCT  to  TWC
+msg:  ('CMCT', 'UGA', -49)
+sending messages from  CMCT  to  TWC
+msg:  ('CMCT', 'ATT', 1)
+sending messages from  CMCT  to  TWC
+msg:  ('CMCT', 'CMCT', 0)
+sending messages from  CMCT  to  TWC
+msg:  ('CMCT', 'VONA', 1)
+sending messages from  CMCT  to  ATT
+msg:  ('CMCT', 'TWC', 0)
+sending messages from  CMCT  to  ATT
+msg:  ('CMCT', 'GSAT', -7)
+sending messages from  CMCT  to  ATT
+msg:  ('CMCT', 'UGA', -49)
+sending messages from  CMCT  to  ATT
+msg:  ('CMCT', 'ATT', 1)
+sending messages from  CMCT  to  ATT
+msg:  ('CMCT', 'CMCT', 0)
+sending messages from  CMCT  to  ATT
+msg:  ('CMCT', 'VONA', 1)
+CMCT {'TWC': 0, 'GSAT': -7, 'UGA': -49, 'ATT': 1, 'CMCT': 0, 'VONA': 1}
+CMCT:TWC0,GSAT-7,UGA-49,ATT1,CMCT0,VONA1
+ADD NODE [msg[1]
+sending messages from  TWC  to  CMCT
+msg:  ('TWC', 'VZ', 9)
+sending messages from  TWC  to  CMCT
+msg:  ('TWC', 'TWC', 0)
+sending messages from  TWC  to  CMCT
+msg:  ('TWC', 'ATT', 1)
+sending messages from  TWC  to  CMCT
+msg:  ('TWC', 'CMCT', 0)
+sending messages from  TWC  to  CMCT
+msg:  ('TWC', 'VONA', 1)
+ADD NODE [msg[1]
+sending messages from  TWC  to  CMCT
+msg:  ('TWC', 'TWC', 0)
+sending messages from  TWC  to  CMCT
+msg:  ('TWC', 'GSAT', 4)
+sending messages from  TWC  to  CMCT
+msg:  ('TWC', 'ATT', 1)
+sending messages from  TWC  to  CMCT
+msg:  ('TWC', 'VZ', 9)
+sending messages from  TWC  to  CMCT
+msg:  ('TWC', 'CMCT', 0)
+sending messages from  TWC  to  CMCT
+msg:  ('TWC', 'VONA', 1)
+Shorter distance found to node
+ADD NODE [msg[1]
+sending messages from  TWC  to  CMCT
+msg:  ('TWC', 'TWC', 0)
+sending messages from  TWC  to  CMCT
+msg:  ('TWC', 'GSAT', -7)
+sending messages from  TWC  to  CMCT
+msg:  ('TWC', 'UGA', -49)
+sending messages from  TWC  to  CMCT
+msg:  ('TWC', 'ATT', 1)
+sending messages from  TWC  to  CMCT
+msg:  ('TWC', 'VZ', 9)
+sending messages from  TWC  to  CMCT
+msg:  ('TWC', 'CMCT', 0)
+sending messages from  TWC  to  CMCT
+msg:  ('TWC', 'VONA', 1)
+TWC {'TWC': 0, 'GSAT': -7, 'UGA': -49, 'ATT': 1, 'VZ': 9, 'CMCT': 0, 'VONA': 1}
+TWC:TWC0,GSAT-7,UGA-49,ATT1,VZ9,CMCT0,VONA1
+ADD NODE [msg[1]
+sending messages from  VONA  to  PTGN
+msg:  ('VONA', 'GSAT', 3)
+sending messages from  VONA  to  PTGN
+msg:  ('VONA', 'VZ', 8)
+sending messages from  VONA  to  PTGN
+msg:  ('VONA', 'ATT', 10)
+sending messages from  VONA  to  PTGN
+msg:  ('VONA', 'VONA', 0)
+sending messages from  VONA  to  TWC
+msg:  ('VONA', 'GSAT', 3)
+sending messages from  VONA  to  TWC
+msg:  ('VONA', 'VZ', 8)
+sending messages from  VONA  to  TWC
+msg:  ('VONA', 'ATT', 10)
+sending messages from  VONA  to  TWC
+msg:  ('VONA', 'VONA', 0)
+sending messages from  VONA  to  GSAT
+msg:  ('VONA', 'GSAT', 3)
+sending messages from  VONA  to  GSAT
+msg:  ('VONA', 'VZ', 8)
+sending messages from  VONA  to  GSAT
+msg:  ('VONA', 'ATT', 10)
+sending messages from  VONA  to  GSAT
+msg:  ('VONA', 'VONA', 0)
+ADD NODE [msg[1]
+sending messages from  VONA  to  PTGN
+msg:  ('VONA', 'GSAT', 3)
+sending messages from  VONA  to  PTGN
+msg:  ('VONA', 'VZ', 8)
+sending messages from  VONA  to  PTGN
+msg:  ('VONA', 'ATT', 10)
+sending messages from  VONA  to  PTGN
+msg:  ('VONA', 'VONA', 0)
+sending messages from  VONA  to  PTGN
+msg:  ('VONA', 'UGA', 3)
+sending messages from  VONA  to  TWC
+msg:  ('VONA', 'GSAT', 3)
+sending messages from  VONA  to  TWC
+msg:  ('VONA', 'VZ', 8)
+sending messages from  VONA  to  TWC
+msg:  ('VONA', 'ATT', 10)
+sending messages from  VONA  to  TWC
+msg:  ('VONA', 'VONA', 0)
+sending messages from  VONA  to  TWC
+msg:  ('VONA', 'UGA', 3)
+sending messages from  VONA  to  GSAT
+msg:  ('VONA', 'GSAT', 3)
+sending messages from  VONA  to  GSAT
+msg:  ('VONA', 'VZ', 8)
+sending messages from  VONA  to  GSAT
+msg:  ('VONA', 'ATT', 10)
+sending messages from  VONA  to  GSAT
+msg:  ('VONA', 'VONA', 0)
+sending messages from  VONA  to  GSAT
+msg:  ('VONA', 'UGA', 3)
+VONA {'GSAT': 3, 'VZ': 8, 'ATT': 10, 'VONA': 0, 'UGA': 3}
+VONA:GSAT3,VZ8,ATT10,VONA0,UGA3
+ADD NODE [msg[1]
+sending messages from  VZ  to  VONA
+msg:  ('VZ', 'VZ', 0)
+sending messages from  VZ  to  VONA
+msg:  ('VZ', 'ATT', 2)
+sending messages from  VZ  to  VONA
+msg:  ('VZ', 'CMCT', 3)
+ADD NODE [msg[1]
+sending messages from  VZ  to  VONA
+msg:  ('VZ', 'GSAT', -6)
+sending messages from  VZ  to  VONA
+msg:  ('VZ', 'VZ', 0)
+sending messages from  VZ  to  VONA
+msg:  ('VZ', 'ATT', 2)
+sending messages from  VZ  to  VONA
+msg:  ('VZ', 'CMCT', 3)
+ADD NODE [msg[1]
+sending messages from  VZ  to  VONA
+msg:  ('VZ', 'GSAT', -6)
+sending messages from  VZ  to  VONA
+msg:  ('VZ', 'VZ', 0)
+sending messages from  VZ  to  VONA
+msg:  ('VZ', 'ATT', 2)
+sending messages from  VZ  to  VONA
+msg:  ('VZ', 'UGA', -48)
+sending messages from  VZ  to  VONA
+msg:  ('VZ', 'CMCT', 3)
+ADD NODE [msg[1]
+sending messages from  VZ  to  VONA
+msg:  ('VZ', 'TWC', 3)
+sending messages from  VZ  to  VONA
+msg:  ('VZ', 'GSAT', -6)
+sending messages from  VZ  to  VONA
+msg:  ('VZ', 'UGA', -48)
+sending messages from  VZ  to  VONA
+msg:  ('VZ', 'ATT', 2)
+sending messages from  VZ  to  VONA
+msg:  ('VZ', 'VZ', 0)
+sending messages from  VZ  to  VONA
+msg:  ('VZ', 'CMCT', 3)
+VZ {'TWC': 3, 'GSAT': -6, 'UGA': -48, 'ATT': 2, 'VZ': 0, 'CMCT': 3}
+VZ:TWC3,GSAT-6,UGA-48,ATT2,VZ0,CMCT3
+ADD NODE [msg[1]
+sending messages from  ATT  to  CMCT
+msg:  ('ATT', 'TWC', 1)
+sending messages from  ATT  to  CMCT
+msg:  ('ATT', 'GSAT', -8)
+sending messages from  ATT  to  CMCT
+msg:  ('ATT', 'UGA', -50)
+sending messages from  ATT  to  CMCT
+msg:  ('ATT', 'ATT', 0)
+sending messages from  ATT  to  CMCT
+msg:  ('ATT', 'CMCT', 1)
+sending messages from  ATT  to  CMCT
+msg:  ('ATT', 'VONA', -11)
+sending messages from  ATT  to  VZ
+msg:  ('ATT', 'TWC', 1)
+sending messages from  ATT  to  VZ
+msg:  ('ATT', 'GSAT', -8)
+sending messages from  ATT  to  VZ
+msg:  ('ATT', 'UGA', -50)
+sending messages from  ATT  to  VZ
+msg:  ('ATT', 'ATT', 0)
+sending messages from  ATT  to  VZ
+msg:  ('ATT', 'CMCT', 1)
+sending messages from  ATT  to  VZ
+msg:  ('ATT', 'VONA', -11)
+sending messages from  ATT  to  UGA
+msg:  ('ATT', 'TWC', 1)
+sending messages from  ATT  to  UGA
+msg:  ('ATT', 'GSAT', -8)
+sending messages from  ATT  to  UGA
+msg:  ('ATT', 'UGA', -50)
+sending messages from  ATT  to  UGA
+msg:  ('ATT', 'ATT', 0)
+sending messages from  ATT  to  UGA
+msg:  ('ATT', 'CMCT', 1)
+sending messages from  ATT  to  UGA
+msg:  ('ATT', 'VONA', -11)
+ADD NODE [msg[1]
+sending messages from  ATT  to  CMCT
+msg:  ('ATT', 'TWC', 1)
+sending messages from  ATT  to  CMCT
+msg:  ('ATT', 'GSAT', -8)
+sending messages from  ATT  to  CMCT
+msg:  ('ATT', 'UGA', -50)
+sending messages from  ATT  to  CMCT
+msg:  ('ATT', 'ATT', 0)
+sending messages from  ATT  to  CMCT
+msg:  ('ATT', 'VZ', -3)
+sending messages from  ATT  to  CMCT
+msg:  ('ATT', 'CMCT', 1)
+sending messages from  ATT  to  CMCT
+msg:  ('ATT', 'VONA', -11)
+sending messages from  ATT  to  VZ
+msg:  ('ATT', 'TWC', 1)
+sending messages from  ATT  to  VZ
+msg:  ('ATT', 'GSAT', -8)
+sending messages from  ATT  to  VZ
+msg:  ('ATT', 'UGA', -50)
+sending messages from  ATT  to  VZ
+msg:  ('ATT', 'ATT', 0)
+sending messages from  ATT  to  VZ
+msg:  ('ATT', 'VZ', -3)
+sending messages from  ATT  to  VZ
+msg:  ('ATT', 'CMCT', 1)
+sending messages from  ATT  to  VZ
+msg:  ('ATT', 'VONA', -11)
+sending messages from  ATT  to  UGA
+msg:  ('ATT', 'TWC', 1)
+sending messages from  ATT  to  UGA
+msg:  ('ATT', 'GSAT', -8)
+sending messages from  ATT  to  UGA
+msg:  ('ATT', 'UGA', -50)
+sending messages from  ATT  to  UGA
+msg:  ('ATT', 'ATT', 0)
+sending messages from  ATT  to  UGA
+msg:  ('ATT', 'VZ', -3)
+sending messages from  ATT  to  UGA
+msg:  ('ATT', 'CMCT', 1)
+sending messages from  ATT  to  UGA
+msg:  ('ATT', 'VONA', -11)
+ATT {'TWC': 1, 'GSAT': -8, 'UGA': -50, 'ATT': 0, 'VZ': -3, 'CMCT': 1, 'VONA': -11}
+ATT:TWC1,GSAT-8,UGA-50,ATT0,VZ-3,CMCT1,VONA-11
+ADD NODE [msg[1]
+sending messages from  GSAT  to  VONA
+msg:  ('GSAT', 'ATT', 50)
+sending messages from  GSAT  to  VONA
+msg:  ('GSAT', 'GSAT', 0)
+sending messages from  GSAT  to  VONA
+msg:  ('GSAT', 'UGA', 0)
+sending messages from  GSAT  to  VONA
+msg:  ('GSAT', 'VZ', 5)
+sending messages from  GSAT  to  VONA
+msg:  ('GSAT', 'VONA', -3)
+sending messages from  GSAT  to  ATT
+msg:  ('GSAT', 'ATT', 50)
+sending messages from  GSAT  to  ATT
+msg:  ('GSAT', 'GSAT', 0)
+sending messages from  GSAT  to  ATT
+msg:  ('GSAT', 'UGA', 0)
+sending messages from  GSAT  to  ATT
+msg:  ('GSAT', 'VZ', 5)
+sending messages from  GSAT  to  ATT
+msg:  ('GSAT', 'VONA', -3)
+sending messages from  GSAT  to  UGA
+msg:  ('GSAT', 'ATT', 50)
+sending messages from  GSAT  to  UGA
+msg:  ('GSAT', 'GSAT', 0)
+sending messages from  GSAT  to  UGA
+msg:  ('GSAT', 'UGA', 0)
+sending messages from  GSAT  to  UGA
+msg:  ('GSAT', 'VZ', 5)
+sending messages from  GSAT  to  UGA
+msg:  ('GSAT', 'VONA', -3)
+ADD NODE [msg[1]
+sending messages from  GSAT  to  VONA
+msg:  ('GSAT', 'GSAT', 0)
+sending messages from  GSAT  to  VONA
+msg:  ('GSAT', 'UGA', 0)
+sending messages from  GSAT  to  VONA
+msg:  ('GSAT', 'ATT', 50)
+sending messages from  GSAT  to  VONA
+msg:  ('GSAT', 'VZ', 5)
+sending messages from  GSAT  to  VONA
+msg:  ('GSAT', 'CMCT', 51)
+sending messages from  GSAT  to  VONA
+msg:  ('GSAT', 'VONA', -3)
+sending messages from  GSAT  to  ATT
+msg:  ('GSAT', 'GSAT', 0)
+sending messages from  GSAT  to  ATT
+msg:  ('GSAT', 'UGA', 0)
+sending messages from  GSAT  to  ATT
+msg:  ('GSAT', 'ATT', 50)
+sending messages from  GSAT  to  ATT
+msg:  ('GSAT', 'VZ', 5)
+sending messages from  GSAT  to  ATT
+msg:  ('GSAT', 'CMCT', 51)
+sending messages from  GSAT  to  ATT
+msg:  ('GSAT', 'VONA', -3)
+sending messages from  GSAT  to  UGA
+msg:  ('GSAT', 'GSAT', 0)
+sending messages from  GSAT  to  UGA
+msg:  ('GSAT', 'UGA', 0)
+sending messages from  GSAT  to  UGA
+msg:  ('GSAT', 'ATT', 50)
+sending messages from  GSAT  to  UGA
+msg:  ('GSAT', 'VZ', 5)
+sending messages from  GSAT  to  UGA
+msg:  ('GSAT', 'CMCT', 51)
+sending messages from  GSAT  to  UGA
+msg:  ('GSAT', 'VONA', -3)
+ADD NODE [msg[1]
+sending messages from  GSAT  to  VONA
+msg:  ('GSAT', 'TWC', 51)
+sending messages from  GSAT  to  VONA
+msg:  ('GSAT', 'GSAT', 0)
+sending messages from  GSAT  to  VONA
+msg:  ('GSAT', 'UGA', 0)
+sending messages from  GSAT  to  VONA
+msg:  ('GSAT', 'ATT', 50)
+sending messages from  GSAT  to  VONA
+msg:  ('GSAT', 'VZ', 5)
+sending messages from  GSAT  to  VONA
+msg:  ('GSAT', 'CMCT', 51)
+sending messages from  GSAT  to  VONA
+msg:  ('GSAT', 'VONA', -3)
+sending messages from  GSAT  to  ATT
+msg:  ('GSAT', 'TWC', 51)
+sending messages from  GSAT  to  ATT
+msg:  ('GSAT', 'GSAT', 0)
+sending messages from  GSAT  to  ATT
+msg:  ('GSAT', 'UGA', 0)
+sending messages from  GSAT  to  ATT
+msg:  ('GSAT', 'ATT', 50)
+sending messages from  GSAT  to  ATT
+msg:  ('GSAT', 'VZ', 5)
+sending messages from  GSAT  to  ATT
+msg:  ('GSAT', 'CMCT', 51)
+sending messages from  GSAT  to  ATT
+msg:  ('GSAT', 'VONA', -3)
+sending messages from  GSAT  to  UGA
+msg:  ('GSAT', 'TWC', 51)
+sending messages from  GSAT  to  UGA
+msg:  ('GSAT', 'GSAT', 0)
+sending messages from  GSAT  to  UGA
+msg:  ('GSAT', 'UGA', 0)
+sending messages from  GSAT  to  UGA
+msg:  ('GSAT', 'ATT', 50)
+sending messages from  GSAT  to  UGA
+msg:  ('GSAT', 'VZ', 5)
+sending messages from  GSAT  to  UGA
+msg:  ('GSAT', 'CMCT', 51)
+sending messages from  GSAT  to  UGA
+msg:  ('GSAT', 'VONA', -3)
+Shorter distance found to node
+GSAT {'TWC': 51, 'GSAT': 0, 'UGA': 0, 'ATT': 7, 'VZ': 5, 'CMCT': 51, 'VONA': -3}
+GSAT:TWC51,GSAT0,UGA0,ATT7,VZ5,CMCT51,VONA-3
+Shorter distance found to node
+Shorter distance found to node
+UGA {'TWC': 51, 'GSAT': 42, 'UGA': 0, 'ATT': 50, 'VZ': 47, 'CMCT': 51, 'VONA': 39}
+UGA:TWC51,GSAT42,UGA0,ATT50,VZ47,CMCT51,VONA39
+ADD NODE [msg[1]
+sending messages from  GT  to  UC
+msg:  ('GT', 'GT', 0)
+sending messages from  GT  to  UC
+msg:  ('GT', 'PTGN', 2)
+sending messages from  GT  to  UC
+msg:  ('GT', 'OSU', 0)
+sending messages from  GT  to  UC
+msg:  ('GT', 'EGLN', 2)
+sending messages from  GT  to  UC
+msg:  ('GT', 'DRPA', 3)
+sending messages from  GT  to  UC
+msg:  ('GT', 'UC', 0)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'GT', 0)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'PTGN', 2)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'OSU', 0)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'EGLN', 2)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'DRPA', 3)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'UC', 0)
+ADD NODE [msg[1]
+sending messages from  GT  to  UC
+msg:  ('GT', 'GT', 0)
+sending messages from  GT  to  UC
+msg:  ('GT', 'PTGN', 2)
+sending messages from  GT  to  UC
+msg:  ('GT', 'OSU', 0)
+sending messages from  GT  to  UC
+msg:  ('GT', 'EGLN', 2)
+sending messages from  GT  to  UC
+msg:  ('GT', 'DRPA', 3)
+sending messages from  GT  to  UC
+msg:  ('GT', 'CMCT', 15)
+sending messages from  GT  to  UC
+msg:  ('GT', 'UC', 0)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'GT', 0)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'PTGN', 2)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'OSU', 0)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'EGLN', 2)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'DRPA', 3)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'CMCT', 15)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'UC', 0)
+GT {'GT': 0, 'PTGN': 2, 'OSU': 0, 'EGLN': 2, 'DRPA': 3, 'CMCT': 15, 'UC': 0}
+GT:GT0,PTGN2,OSU0,EGLN2,DRPA3,CMCT15,UC0
+ADD NODE [msg[1]
+sending messages from  UC  to  GT
+msg:  ('UC', 'GT', 0)
+sending messages from  UC  to  GT
+msg:  ('UC', 'PTGN', 2)
+sending messages from  UC  to  GT
+msg:  ('UC', 'OSU', 0)
+sending messages from  UC  to  GT
+msg:  ('UC', 'VONA', 5)
+sending messages from  UC  to  GT
+msg:  ('UC', 'EGLN', 2)
+sending messages from  UC  to  GT
+msg:  ('UC', 'DRPA', 3)
+sending messages from  UC  to  GT
+msg:  ('UC', 'UC', 0)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'GT', 0)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'PTGN', 2)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'OSU', 0)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'VONA', 5)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'EGLN', 2)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'DRPA', 3)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'UC', 0)
+ADD NODE [msg[1]
+sending messages from  UC  to  GT
+msg:  ('UC', 'GT', 0)
+sending messages from  UC  to  GT
+msg:  ('UC', 'PTGN', 2)
+sending messages from  UC  to  GT
+msg:  ('UC', 'OSU', 0)
+sending messages from  UC  to  GT
+msg:  ('UC', 'VONA', 5)
+sending messages from  UC  to  GT
+msg:  ('UC', 'EGLN', 2)
+sending messages from  UC  to  GT
+msg:  ('UC', 'DRPA', 3)
+sending messages from  UC  to  GT
+msg:  ('UC', 'CMCT', 15)
+sending messages from  UC  to  GT
+msg:  ('UC', 'UC', 0)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'GT', 0)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'PTGN', 2)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'OSU', 0)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'VONA', 5)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'EGLN', 2)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'DRPA', 3)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'CMCT', 15)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'UC', 0)
+UC {'GT': 0, 'PTGN': 2, 'OSU': 0, 'VONA': 5, 'EGLN': 2, 'DRPA': 3, 'CMCT': 15, 'UC': 0}
+UC:GT0,PTGN2,OSU0,VONA5,EGLN2,DRPA3,CMCT15,UC0
+ADD NODE [msg[1]
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'GT', 0)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'PTGN', 2)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'OSU', 0)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'VONA', 5)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'EGLN', 2)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'VZ', 13)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'DRPA', 3)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'UC', 0)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'GT', 0)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'PTGN', 2)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'OSU', 0)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'VONA', 5)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'EGLN', 2)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'VZ', 13)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'DRPA', 3)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'UC', 0)
+ADD NODE [msg[1]
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'GT', 0)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'GSAT', 8)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'PTGN', 2)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'OSU', 0)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'VONA', 5)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'EGLN', 2)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'VZ', 13)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'DRPA', 3)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'UC', 0)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'GT', 0)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'GSAT', 8)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'PTGN', 2)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'OSU', 0)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'VONA', 5)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'EGLN', 2)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'VZ', 13)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'DRPA', 3)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'UC', 0)
+ADD NODE [msg[1]
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'GT', 0)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'GSAT', 8)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'PTGN', 2)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'OSU', 0)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'VONA', 5)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'EGLN', 2)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'VZ', 13)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'DRPA', 3)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'CMCT', 15)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'UC', 0)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'GT', 0)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'GSAT', 8)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'PTGN', 2)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'OSU', 0)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'VONA', 5)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'EGLN', 2)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'VZ', 13)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'DRPA', 3)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'CMCT', 15)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'UC', 0)
+OSU {'GT': 0, 'GSAT': 8, 'PTGN': 2, 'OSU': 0, 'VONA': 5, 'EGLN': 2, 'VZ': 13, 'DRPA': 3, 'CMCT': 15, 'UC': 0}
+OSU:GT0,GSAT8,PTGN2,OSU0,VONA5,EGLN2,VZ13,DRPA3,CMCT15,UC0
+ADD NODE [msg[1]
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'TWC', 13)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'GT', -2)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'OSU', -2)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'EGLN', 0)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'DRPA', 1)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'CMCT', 13)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'UC', -2)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'TWC', 13)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'GT', -2)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'OSU', -2)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'EGLN', 0)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'DRPA', 1)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'CMCT', 13)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'UC', -2)
+ADD NODE [msg[1]
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'TWC', 13)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'GT', -2)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'OSU', -2)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'ATT', 14)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'EGLN', 0)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'DRPA', 1)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'CMCT', 13)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'UC', -2)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'TWC', 13)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'GT', -2)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'OSU', -2)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'ATT', 14)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'EGLN', 0)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'DRPA', 1)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'CMCT', 13)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'UC', -2)
+ADD NODE [msg[1]
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'TWC', 13)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'GT', -2)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'PTGN', 0)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'OSU', -2)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'ATT', 14)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'EGLN', 0)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'DRPA', 1)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'CMCT', 13)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'UC', -2)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'TWC', 13)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'GT', -2)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'PTGN', 0)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'OSU', -2)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'ATT', 14)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'EGLN', 0)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'DRPA', 1)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'CMCT', 13)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'UC', -2)
+EGLN {'TWC': 13, 'GT': -2, 'PTGN': 0, 'OSU': -2, 'ATT': 14, 'EGLN': 0, 'DRPA': 1, 'CMCT': 13, 'UC': -2}
+EGLN:TWC13,GT-2,PTGN0,OSU-2,ATT14,EGLN0,DRPA1,CMCT13,UC-2
+ADD NODE [msg[1]
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'TWC', 12)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'GT', -1)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'OSU', -1)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'ATT', 13)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'VONA', 13)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'EGLN', 1)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'DRPA', 0)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'CMCT', 12)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'UC', -1)
+ADD NODE [msg[1]
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'TWC', 12)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'GT', -1)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'GSAT', 5)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'OSU', -1)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'ATT', 13)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'VONA', 13)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'EGLN', 1)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'DRPA', 0)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'CMCT', 12)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'UC', -1)
+ADD NODE [msg[1]
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'TWC', 12)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'GT', -1)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'GSAT', 5)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'UGA', -37)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'OSU', -1)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'ATT', 13)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'VONA', 13)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'EGLN', 1)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'DRPA', 0)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'CMCT', 12)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'UC', -1)
+ADD NODE [msg[1]
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'TWC', 12)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'GT', -1)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'GSAT', 5)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'UGA', -37)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'PTGN', 1)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'OSU', -1)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'ATT', 13)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'VONA', 13)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'EGLN', 1)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'DRPA', 0)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'CMCT', 12)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'UC', -1)
+DRPA {'TWC': 12, 'GT': -1, 'GSAT': 5, 'UGA': -37, 'PTGN': 1, 'OSU': -1, 'ATT': 13, 'VONA': 13, 'EGLN': 1, 'DRPA': 0, 'CMCT': 12, 'UC': -1}
+DRPA:TWC12,GT-1,GSAT5,UGA-37,PTGN1,OSU-1,ATT13,VONA13,EGLN1,DRPA0,CMCT12,UC-1
+ADD NODE [msg[1]
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'GT', -1)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'GSAT', 6)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'PTGN', 0)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'OSU', -1)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'ATT', 13)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'VONA', 3)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'EGLN', 1)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'VZ', 11)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'DRPA', 2)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'UC', -1)
+ADD NODE [msg[1]
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'GT', -1)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'GSAT', 6)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'UGA', 6)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'PTGN', 0)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'OSU', -1)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'ATT', 13)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'VONA', 3)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'EGLN', 1)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'VZ', 11)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'DRPA', 2)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'UC', -1)
+ADD NODE [msg[1]
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'GT', -1)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'GSAT', 6)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'UGA', 6)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'PTGN', 0)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'OSU', -1)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'ATT', 13)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'VONA', 3)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'EGLN', 1)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'VZ', 11)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'DRPA', 2)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'CMCT', 14)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'UC', -1)
+PTGN {'GT': -1, 'GSAT': 6, 'UGA': 6, 'PTGN': 0, 'OSU': -1, 'ATT': 13, 'VONA': 3, 'EGLN': 1, 'VZ': 11, 'DRPA': 2, 'CMCT': 14, 'UC': -1}
+PTGN:GT-1,GSAT6,UGA6,PTGN0,OSU-1,ATT13,VONA3,EGLN1,VZ11,DRPA2,CMCT14,UC-1
+ADD NODE [msg[1]
+sending messages from  CMCT  to  DRPA
+msg:  ('CMCT', 'TWC', 0)
+sending messages from  CMCT  to  DRPA
+msg:  ('CMCT', 'GSAT', -7)
+sending messages from  CMCT  to  DRPA
+msg:  ('CMCT', 'UGA', -49)
+sending messages from  CMCT  to  DRPA
+msg:  ('CMCT', 'ATT', 1)
+sending messages from  CMCT  to  DRPA
+msg:  ('CMCT', 'VZ', 9)
+sending messages from  CMCT  to  DRPA
+msg:  ('CMCT', 'CMCT', 0)
+sending messages from  CMCT  to  DRPA
+msg:  ('CMCT', 'VONA', 1)
+sending messages from  CMCT  to  TWC
+msg:  ('CMCT', 'TWC', 0)
+sending messages from  CMCT  to  TWC
+msg:  ('CMCT', 'GSAT', -7)
+sending messages from  CMCT  to  TWC
+msg:  ('CMCT', 'UGA', -49)
+sending messages from  CMCT  to  TWC
+msg:  ('CMCT', 'ATT', 1)
+sending messages from  CMCT  to  TWC
+msg:  ('CMCT', 'VZ', 9)
+sending messages from  CMCT  to  TWC
+msg:  ('CMCT', 'CMCT', 0)
+sending messages from  CMCT  to  TWC
+msg:  ('CMCT', 'VONA', 1)
+sending messages from  CMCT  to  ATT
+msg:  ('CMCT', 'TWC', 0)
+sending messages from  CMCT  to  ATT
+msg:  ('CMCT', 'GSAT', -7)
+sending messages from  CMCT  to  ATT
+msg:  ('CMCT', 'UGA', -49)
+sending messages from  CMCT  to  ATT
+msg:  ('CMCT', 'ATT', 1)
+sending messages from  CMCT  to  ATT
+msg:  ('CMCT', 'VZ', 9)
+sending messages from  CMCT  to  ATT
+msg:  ('CMCT', 'CMCT', 0)
+sending messages from  CMCT  to  ATT
+msg:  ('CMCT', 'VONA', 1)
+Shorter distance found to node
+Shorter distance found to node
+CMCT {'TWC': 0, 'GSAT': -7, 'UGA': -49, 'ATT': 1, 'VZ': -2, 'CMCT': 0, 'VONA': -10}
+CMCT:TWC0,GSAT-7,UGA-49,ATT1,VZ-2,CMCT0,VONA-10
+TWC {'TWC': 0, 'GSAT': -7, 'UGA': -49, 'ATT': 1, 'VZ': 9, 'CMCT': 0, 'VONA': 1}
+TWC:TWC0,GSAT-7,UGA-49,ATT1,VZ9,CMCT0,VONA1
+ADD NODE [msg[1]
+sending messages from  VONA  to  PTGN
+msg:  ('VONA', 'GSAT', 3)
+sending messages from  VONA  to  PTGN
+msg:  ('VONA', 'UGA', 3)
+sending messages from  VONA  to  PTGN
+msg:  ('VONA', 'ATT', 10)
+sending messages from  VONA  to  PTGN
+msg:  ('VONA', 'VZ', 8)
+sending messages from  VONA  to  PTGN
+msg:  ('VONA', 'CMCT', 11)
+sending messages from  VONA  to  PTGN
+msg:  ('VONA', 'VONA', 0)
+sending messages from  VONA  to  TWC
+msg:  ('VONA', 'GSAT', 3)
+sending messages from  VONA  to  TWC
+msg:  ('VONA', 'UGA', 3)
+sending messages from  VONA  to  TWC
+msg:  ('VONA', 'ATT', 10)
+sending messages from  VONA  to  TWC
+msg:  ('VONA', 'VZ', 8)
+sending messages from  VONA  to  TWC
+msg:  ('VONA', 'CMCT', 11)
+sending messages from  VONA  to  TWC
+msg:  ('VONA', 'VONA', 0)
+sending messages from  VONA  to  GSAT
+msg:  ('VONA', 'GSAT', 3)
+sending messages from  VONA  to  GSAT
+msg:  ('VONA', 'UGA', 3)
+sending messages from  VONA  to  GSAT
+msg:  ('VONA', 'ATT', 10)
+sending messages from  VONA  to  GSAT
+msg:  ('VONA', 'VZ', 8)
+sending messages from  VONA  to  GSAT
+msg:  ('VONA', 'CMCT', 11)
+sending messages from  VONA  to  GSAT
+msg:  ('VONA', 'VONA', 0)
+Shorter distance found to node
+Shorter distance found to node
+ADD NODE [msg[1]
+sending messages from  VONA  to  PTGN
+msg:  ('VONA', 'TWC', 11)
+sending messages from  VONA  to  PTGN
+msg:  ('VONA', 'GSAT', 2)
+sending messages from  VONA  to  PTGN
+msg:  ('VONA', 'UGA', -40)
+sending messages from  VONA  to  PTGN
+msg:  ('VONA', 'ATT', 10)
+sending messages from  VONA  to  PTGN
+msg:  ('VONA', 'VZ', 8)
+sending messages from  VONA  to  PTGN
+msg:  ('VONA', 'CMCT', 11)
+sending messages from  VONA  to  PTGN
+msg:  ('VONA', 'VONA', 0)
+sending messages from  VONA  to  TWC
+msg:  ('VONA', 'TWC', 11)
+sending messages from  VONA  to  TWC
+msg:  ('VONA', 'GSAT', 2)
+sending messages from  VONA  to  TWC
+msg:  ('VONA', 'UGA', -40)
+sending messages from  VONA  to  TWC
+msg:  ('VONA', 'ATT', 10)
+sending messages from  VONA  to  TWC
+msg:  ('VONA', 'VZ', 8)
+sending messages from  VONA  to  TWC
+msg:  ('VONA', 'CMCT', 11)
+sending messages from  VONA  to  TWC
+msg:  ('VONA', 'VONA', 0)
+sending messages from  VONA  to  GSAT
+msg:  ('VONA', 'TWC', 11)
+sending messages from  VONA  to  GSAT
+msg:  ('VONA', 'GSAT', 2)
+sending messages from  VONA  to  GSAT
+msg:  ('VONA', 'UGA', -40)
+sending messages from  VONA  to  GSAT
+msg:  ('VONA', 'ATT', 10)
+sending messages from  VONA  to  GSAT
+msg:  ('VONA', 'VZ', 8)
+sending messages from  VONA  to  GSAT
+msg:  ('VONA', 'CMCT', 11)
+sending messages from  VONA  to  GSAT
+msg:  ('VONA', 'VONA', 0)
+VONA {'TWC': 11, 'GSAT': 2, 'UGA': -40, 'ATT': 10, 'VZ': 8, 'CMCT': 11, 'VONA': 0}
+VONA:TWC11,GSAT2,UGA-40,ATT10,VZ8,CMCT11,VONA0
+ADD NODE [msg[1]
+sending messages from  VZ  to  VONA
+msg:  ('VZ', 'TWC', 3)
+sending messages from  VZ  to  VONA
+msg:  ('VZ', 'GSAT', -6)
+sending messages from  VZ  to  VONA
+msg:  ('VZ', 'UGA', -48)
+sending messages from  VZ  to  VONA
+msg:  ('VZ', 'ATT', 2)
+sending messages from  VZ  to  VONA
+msg:  ('VZ', 'VZ', 0)
+sending messages from  VZ  to  VONA
+msg:  ('VZ', 'CMCT', 3)
+sending messages from  VZ  to  VONA
+msg:  ('VZ', 'VONA', -9)
+VZ {'TWC': 3, 'GSAT': -6, 'UGA': -48, 'ATT': 2, 'VZ': 0, 'CMCT': 3, 'VONA': -9}
+VZ:TWC3,GSAT-6,UGA-48,ATT2,VZ0,CMCT3,VONA-9
+ATT {'TWC': 1, 'GSAT': -8, 'UGA': -50, 'ATT': 0, 'VZ': -3, 'CMCT': 1, 'VONA': -11}
+ATT:TWC1,GSAT-8,UGA-50,ATT0,VZ-3,CMCT1,VONA-11
+Shorter distance found to node
+Shorter distance found to node
+Shorter distance found to node
+GSAT {'TWC': 8, 'GSAT': 0, 'UGA': -43, 'ATT': 7, 'VZ': 5, 'CMCT': 8, 'VONA': -3}
+GSAT:TWC8,GSAT0,UGA-43,ATT7,VZ5,CMCT8,VONA-3
+UGA {'TWC': 51, 'GSAT': 42, 'UGA': 0, 'ATT': 50, 'VZ': 47, 'CMCT': 51, 'VONA': 39}
+UGA:TWC51,GSAT42,UGA0,ATT50,VZ47,CMCT51,VONA39
+ADD NODE [msg[1]
+sending messages from  GT  to  UC
+msg:  ('GT', 'GT', 0)
+sending messages from  GT  to  UC
+msg:  ('GT', 'PTGN', 2)
+sending messages from  GT  to  UC
+msg:  ('GT', 'OSU', 0)
+sending messages from  GT  to  UC
+msg:  ('GT', 'VONA', 5)
+sending messages from  GT  to  UC
+msg:  ('GT', 'EGLN', 2)
+sending messages from  GT  to  UC
+msg:  ('GT', 'DRPA', 3)
+sending messages from  GT  to  UC
+msg:  ('GT', 'CMCT', 15)
+sending messages from  GT  to  UC
+msg:  ('GT', 'UC', 0)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'GT', 0)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'PTGN', 2)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'OSU', 0)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'VONA', 5)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'EGLN', 2)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'DRPA', 3)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'CMCT', 15)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'UC', 0)
+ADD NODE [msg[1]
+sending messages from  GT  to  UC
+msg:  ('GT', 'TWC', 15)
+sending messages from  GT  to  UC
+msg:  ('GT', 'GT', 0)
+sending messages from  GT  to  UC
+msg:  ('GT', 'PTGN', 2)
+sending messages from  GT  to  UC
+msg:  ('GT', 'OSU', 0)
+sending messages from  GT  to  UC
+msg:  ('GT', 'VONA', 5)
+sending messages from  GT  to  UC
+msg:  ('GT', 'EGLN', 2)
+sending messages from  GT  to  UC
+msg:  ('GT', 'DRPA', 3)
+sending messages from  GT  to  UC
+msg:  ('GT', 'CMCT', 15)
+sending messages from  GT  to  UC
+msg:  ('GT', 'UC', 0)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'TWC', 15)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'GT', 0)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'PTGN', 2)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'OSU', 0)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'VONA', 5)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'EGLN', 2)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'DRPA', 3)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'CMCT', 15)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'UC', 0)
+ADD NODE [msg[1]
+sending messages from  GT  to  UC
+msg:  ('GT', 'TWC', 15)
+sending messages from  GT  to  UC
+msg:  ('GT', 'GT', 0)
+sending messages from  GT  to  UC
+msg:  ('GT', 'PTGN', 2)
+sending messages from  GT  to  UC
+msg:  ('GT', 'OSU', 0)
+sending messages from  GT  to  UC
+msg:  ('GT', 'ATT', 16)
+sending messages from  GT  to  UC
+msg:  ('GT', 'VONA', 5)
+sending messages from  GT  to  UC
+msg:  ('GT', 'EGLN', 2)
+sending messages from  GT  to  UC
+msg:  ('GT', 'DRPA', 3)
+sending messages from  GT  to  UC
+msg:  ('GT', 'CMCT', 15)
+sending messages from  GT  to  UC
+msg:  ('GT', 'UC', 0)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'TWC', 15)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'GT', 0)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'PTGN', 2)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'OSU', 0)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'ATT', 16)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'VONA', 5)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'EGLN', 2)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'DRPA', 3)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'CMCT', 15)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'UC', 0)
+GT {'TWC': 15, 'GT': 0, 'PTGN': 2, 'OSU': 0, 'ATT': 16, 'VONA': 5, 'EGLN': 2, 'DRPA': 3, 'CMCT': 15, 'UC': 0}
+GT:TWC15,GT0,PTGN2,OSU0,ATT16,VONA5,EGLN2,DRPA3,CMCT15,UC0
+ADD NODE [msg[1]
+sending messages from  UC  to  GT
+msg:  ('UC', 'GT', 0)
+sending messages from  UC  to  GT
+msg:  ('UC', 'PTGN', 2)
+sending messages from  UC  to  GT
+msg:  ('UC', 'OSU', 0)
+sending messages from  UC  to  GT
+msg:  ('UC', 'VONA', 5)
+sending messages from  UC  to  GT
+msg:  ('UC', 'EGLN', 2)
+sending messages from  UC  to  GT
+msg:  ('UC', 'VZ', 13)
+sending messages from  UC  to  GT
+msg:  ('UC', 'DRPA', 3)
+sending messages from  UC  to  GT
+msg:  ('UC', 'CMCT', 15)
+sending messages from  UC  to  GT
+msg:  ('UC', 'UC', 0)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'GT', 0)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'PTGN', 2)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'OSU', 0)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'VONA', 5)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'EGLN', 2)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'VZ', 13)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'DRPA', 3)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'CMCT', 15)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'UC', 0)
+ADD NODE [msg[1]
+sending messages from  UC  to  GT
+msg:  ('UC', 'GT', 0)
+sending messages from  UC  to  GT
+msg:  ('UC', 'GSAT', 8)
+sending messages from  UC  to  GT
+msg:  ('UC', 'PTGN', 2)
+sending messages from  UC  to  GT
+msg:  ('UC', 'OSU', 0)
+sending messages from  UC  to  GT
+msg:  ('UC', 'VONA', 5)
+sending messages from  UC  to  GT
+msg:  ('UC', 'EGLN', 2)
+sending messages from  UC  to  GT
+msg:  ('UC', 'VZ', 13)
+sending messages from  UC  to  GT
+msg:  ('UC', 'DRPA', 3)
+sending messages from  UC  to  GT
+msg:  ('UC', 'CMCT', 15)
+sending messages from  UC  to  GT
+msg:  ('UC', 'UC', 0)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'GT', 0)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'GSAT', 8)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'PTGN', 2)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'OSU', 0)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'VONA', 5)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'EGLN', 2)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'VZ', 13)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'DRPA', 3)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'CMCT', 15)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'UC', 0)
+ADD NODE [msg[1]
+sending messages from  UC  to  GT
+msg:  ('UC', 'TWC', 15)
+sending messages from  UC  to  GT
+msg:  ('UC', 'GT', 0)
+sending messages from  UC  to  GT
+msg:  ('UC', 'GSAT', 8)
+sending messages from  UC  to  GT
+msg:  ('UC', 'PTGN', 2)
+sending messages from  UC  to  GT
+msg:  ('UC', 'OSU', 0)
+sending messages from  UC  to  GT
+msg:  ('UC', 'VONA', 5)
+sending messages from  UC  to  GT
+msg:  ('UC', 'EGLN', 2)
+sending messages from  UC  to  GT
+msg:  ('UC', 'VZ', 13)
+sending messages from  UC  to  GT
+msg:  ('UC', 'DRPA', 3)
+sending messages from  UC  to  GT
+msg:  ('UC', 'CMCT', 15)
+sending messages from  UC  to  GT
+msg:  ('UC', 'UC', 0)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'TWC', 15)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'GT', 0)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'GSAT', 8)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'PTGN', 2)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'OSU', 0)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'VONA', 5)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'EGLN', 2)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'VZ', 13)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'DRPA', 3)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'CMCT', 15)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'UC', 0)
+ADD NODE [msg[1]
+sending messages from  UC  to  GT
+msg:  ('UC', 'TWC', 15)
+sending messages from  UC  to  GT
+msg:  ('UC', 'GT', 0)
+sending messages from  UC  to  GT
+msg:  ('UC', 'GSAT', 8)
+sending messages from  UC  to  GT
+msg:  ('UC', 'PTGN', 2)
+sending messages from  UC  to  GT
+msg:  ('UC', 'OSU', 0)
+sending messages from  UC  to  GT
+msg:  ('UC', 'ATT', 16)
+sending messages from  UC  to  GT
+msg:  ('UC', 'VONA', 5)
+sending messages from  UC  to  GT
+msg:  ('UC', 'EGLN', 2)
+sending messages from  UC  to  GT
+msg:  ('UC', 'VZ', 13)
+sending messages from  UC  to  GT
+msg:  ('UC', 'DRPA', 3)
+sending messages from  UC  to  GT
+msg:  ('UC', 'CMCT', 15)
+sending messages from  UC  to  GT
+msg:  ('UC', 'UC', 0)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'TWC', 15)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'GT', 0)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'GSAT', 8)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'PTGN', 2)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'OSU', 0)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'ATT', 16)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'VONA', 5)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'EGLN', 2)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'VZ', 13)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'DRPA', 3)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'CMCT', 15)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'UC', 0)
+UC {'TWC': 15, 'GT': 0, 'GSAT': 8, 'PTGN': 2, 'OSU': 0, 'ATT': 16, 'VONA': 5, 'EGLN': 2, 'VZ': 13, 'DRPA': 3, 'CMCT': 15, 'UC': 0}
+UC:TWC15,GT0,GSAT8,PTGN2,OSU0,ATT16,VONA5,EGLN2,VZ13,DRPA3,CMCT15,UC0
+ADD NODE [msg[1]
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'GT', 0)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'GSAT', 8)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'PTGN', 2)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'OSU', 0)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'ATT', 15)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'VONA', 5)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'EGLN', 2)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'VZ', 13)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'DRPA', 3)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'CMCT', 15)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'UC', 0)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'GT', 0)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'GSAT', 8)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'PTGN', 2)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'OSU', 0)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'ATT', 15)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'VONA', 5)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'EGLN', 2)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'VZ', 13)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'DRPA', 3)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'CMCT', 15)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'UC', 0)
+ADD NODE [msg[1]
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'GT', 0)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'GSAT', 8)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'UGA', 8)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'PTGN', 2)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'OSU', 0)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'ATT', 15)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'VONA', 5)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'EGLN', 2)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'VZ', 13)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'DRPA', 3)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'CMCT', 15)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'UC', 0)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'GT', 0)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'GSAT', 8)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'UGA', 8)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'PTGN', 2)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'OSU', 0)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'ATT', 15)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'VONA', 5)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'EGLN', 2)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'VZ', 13)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'DRPA', 3)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'CMCT', 15)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'UC', 0)
+ADD NODE [msg[1]
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'TWC', 15)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'GT', 0)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'GSAT', 8)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'UGA', 8)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'PTGN', 2)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'OSU', 0)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'ATT', 15)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'VONA', 5)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'EGLN', 2)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'VZ', 13)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'DRPA', 3)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'CMCT', 15)
+sending messages from  OSU  to  UC
+msg:  ('OSU', 'UC', 0)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'TWC', 15)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'GT', 0)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'GSAT', 8)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'UGA', 8)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'PTGN', 2)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'OSU', 0)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'ATT', 15)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'VONA', 5)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'EGLN', 2)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'VZ', 13)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'DRPA', 3)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'CMCT', 15)
+sending messages from  OSU  to  PTGN
+msg:  ('OSU', 'UC', 0)
+OSU {'TWC': 15, 'GT': 0, 'GSAT': 8, 'UGA': 8, 'PTGN': 2, 'OSU': 0, 'ATT': 15, 'VONA': 5, 'EGLN': 2, 'VZ': 13, 'DRPA': 3, 'CMCT': 15, 'UC': 0}
+OSU:TWC15,GT0,GSAT8,UGA8,PTGN2,OSU0,ATT15,VONA5,EGLN2,VZ13,DRPA3,CMCT15,UC0
+ADD NODE [msg[1]
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'TWC', 13)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'GT', -2)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'PTGN', 0)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'OSU', -2)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'ATT', 14)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'VONA', 14)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'EGLN', 0)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'DRPA', 1)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'CMCT', 13)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'UC', -2)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'TWC', 13)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'GT', -2)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'PTGN', 0)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'OSU', -2)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'ATT', 14)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'VONA', 14)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'EGLN', 0)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'DRPA', 1)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'CMCT', 13)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'UC', -2)
+ADD NODE [msg[1]
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'TWC', 13)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'GT', -2)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'GSAT', 6)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'PTGN', 0)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'OSU', -2)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'ATT', 14)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'VONA', 14)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'EGLN', 0)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'DRPA', 1)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'CMCT', 13)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'UC', -2)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'TWC', 13)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'GT', -2)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'GSAT', 6)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'PTGN', 0)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'OSU', -2)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'ATT', 14)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'VONA', 14)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'EGLN', 0)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'DRPA', 1)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'CMCT', 13)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'UC', -2)
+ADD NODE [msg[1]
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'TWC', 13)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'GT', -2)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'GSAT', 6)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'UGA', -36)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'PTGN', 0)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'OSU', -2)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'ATT', 14)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'VONA', 14)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'EGLN', 0)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'DRPA', 1)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'CMCT', 13)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'UC', -2)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'TWC', 13)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'GT', -2)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'GSAT', 6)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'UGA', -36)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'PTGN', 0)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'OSU', -2)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'ATT', 14)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'VONA', 14)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'EGLN', 0)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'DRPA', 1)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'CMCT', 13)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'UC', -2)
+Shorter distance found to node
+EGLN {'TWC': 13, 'GT': -2, 'GSAT': 6, 'UGA': -36, 'PTGN': 0, 'OSU': -2, 'ATT': 14, 'VONA': 3, 'EGLN': 0, 'DRPA': 1, 'CMCT': 13, 'UC': -2}
+EGLN:TWC13,GT-2,GSAT6,UGA-36,PTGN0,OSU-2,ATT14,VONA3,EGLN0,DRPA1,CMCT13,UC-2
+ADD NODE [msg[1]
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'TWC', 12)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'GT', -1)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'GSAT', 5)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'UGA', -37)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'PTGN', 1)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'OSU', -1)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'ATT', 13)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'VONA', 13)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'EGLN', 1)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'VZ', 21)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'DRPA', 0)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'CMCT', 12)
+sending messages from  DRPA  to  EGLN
+msg:  ('DRPA', 'UC', -1)
+DRPA {'TWC': 12, 'GT': -1, 'GSAT': 5, 'UGA': -37, 'PTGN': 1, 'OSU': -1, 'ATT': 13, 'VONA': 13, 'EGLN': 1, 'VZ': 21, 'DRPA': 0, 'CMCT': 12, 'UC': -1}
+DRPA:TWC12,GT-1,GSAT5,UGA-37,PTGN1,OSU-1,ATT13,VONA13,EGLN1,VZ21,DRPA0,CMCT12,UC-1
+ADD NODE [msg[1]
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'TWC', 14)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'GT', -1)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'GSAT', 6)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'UGA', 6)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'PTGN', 0)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'OSU', -1)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'ATT', 13)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'VONA', 3)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'EGLN', 1)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'VZ', 11)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'DRPA', 2)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'CMCT', 14)
+sending messages from  PTGN  to  OSU
+msg:  ('PTGN', 'UC', -1)
+Shorter distance found to node
+Shorter distance found to node
+PTGN {'TWC': 14, 'GT': -1, 'GSAT': 5, 'UGA': -37, 'PTGN': 0, 'OSU': -1, 'ATT': 13, 'VONA': 3, 'EGLN': 1, 'VZ': 11, 'DRPA': 2, 'CMCT': 14, 'UC': -1}
+PTGN:TWC14,GT-1,GSAT5,UGA-37,PTGN0,OSU-1,ATT13,VONA3,EGLN1,VZ11,DRPA2,CMCT14,UC-1
+CMCT {'TWC': 0, 'GSAT': -7, 'UGA': -49, 'ATT': 1, 'VZ': -2, 'CMCT': 0, 'VONA': -10}
+CMCT:TWC0,GSAT-7,UGA-49,ATT1,VZ-2,CMCT0,VONA-10
+TWC {'TWC': 0, 'GSAT': -7, 'UGA': -49, 'ATT': 1, 'VZ': 9, 'CMCT': 0, 'VONA': 1}
+TWC:TWC0,GSAT-7,UGA-49,ATT1,VZ9,CMCT0,VONA1
+VONA {'TWC': 11, 'GSAT': 2, 'UGA': -40, 'ATT': 10, 'VZ': 8, 'CMCT': 11, 'VONA': 0}
+VONA:TWC11,GSAT2,UGA-40,ATT10,VZ8,CMCT11,VONA0
+VZ {'TWC': 3, 'GSAT': -6, 'UGA': -48, 'ATT': 2, 'VZ': 0, 'CMCT': 3, 'VONA': -9}
+VZ:TWC3,GSAT-6,UGA-48,ATT2,VZ0,CMCT3,VONA-9
+ATT {'TWC': 1, 'GSAT': -8, 'UGA': -50, 'ATT': 0, 'VZ': -3, 'CMCT': 1, 'VONA': -11}
+ATT:TWC1,GSAT-8,UGA-50,ATT0,VZ-3,CMCT1,VONA-11
+GSAT {'TWC': 8, 'GSAT': 0, 'UGA': -43, 'ATT': 7, 'VZ': 5, 'CMCT': 8, 'VONA': -3}
+GSAT:TWC8,GSAT0,UGA-43,ATT7,VZ5,CMCT8,VONA-3
+UGA {'TWC': 51, 'GSAT': 42, 'UGA': 0, 'ATT': 50, 'VZ': 47, 'CMCT': 51, 'VONA': 39}
+UGA:TWC51,GSAT42,UGA0,ATT50,VZ47,CMCT51,VONA39
+ADD NODE [msg[1]
+sending messages from  GT  to  UC
+msg:  ('GT', 'TWC', 15)
+sending messages from  GT  to  UC
+msg:  ('GT', 'GT', 0)
+sending messages from  GT  to  UC
+msg:  ('GT', 'PTGN', 2)
+sending messages from  GT  to  UC
+msg:  ('GT', 'OSU', 0)
+sending messages from  GT  to  UC
+msg:  ('GT', 'ATT', 16)
+sending messages from  GT  to  UC
+msg:  ('GT', 'VONA', 5)
+sending messages from  GT  to  UC
+msg:  ('GT', 'EGLN', 2)
+sending messages from  GT  to  UC
+msg:  ('GT', 'VZ', 13)
+sending messages from  GT  to  UC
+msg:  ('GT', 'DRPA', 3)
+sending messages from  GT  to  UC
+msg:  ('GT', 'CMCT', 15)
+sending messages from  GT  to  UC
+msg:  ('GT', 'UC', 0)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'TWC', 15)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'GT', 0)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'PTGN', 2)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'OSU', 0)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'ATT', 16)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'VONA', 5)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'EGLN', 2)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'VZ', 13)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'DRPA', 3)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'CMCT', 15)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'UC', 0)
+ADD NODE [msg[1]
+sending messages from  GT  to  UC
+msg:  ('GT', 'TWC', 15)
+sending messages from  GT  to  UC
+msg:  ('GT', 'GT', 0)
+sending messages from  GT  to  UC
+msg:  ('GT', 'GSAT', 8)
+sending messages from  GT  to  UC
+msg:  ('GT', 'PTGN', 2)
+sending messages from  GT  to  UC
+msg:  ('GT', 'OSU', 0)
+sending messages from  GT  to  UC
+msg:  ('GT', 'ATT', 16)
+sending messages from  GT  to  UC
+msg:  ('GT', 'VONA', 5)
+sending messages from  GT  to  UC
+msg:  ('GT', 'EGLN', 2)
+sending messages from  GT  to  UC
+msg:  ('GT', 'VZ', 13)
+sending messages from  GT  to  UC
+msg:  ('GT', 'DRPA', 3)
+sending messages from  GT  to  UC
+msg:  ('GT', 'CMCT', 15)
+sending messages from  GT  to  UC
+msg:  ('GT', 'UC', 0)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'TWC', 15)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'GT', 0)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'GSAT', 8)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'PTGN', 2)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'OSU', 0)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'ATT', 16)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'VONA', 5)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'EGLN', 2)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'VZ', 13)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'DRPA', 3)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'CMCT', 15)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'UC', 0)
+ADD NODE [msg[1]
+sending messages from  GT  to  UC
+msg:  ('GT', 'TWC', 15)
+sending messages from  GT  to  UC
+msg:  ('GT', 'GT', 0)
+sending messages from  GT  to  UC
+msg:  ('GT', 'GSAT', 8)
+sending messages from  GT  to  UC
+msg:  ('GT', 'UGA', -34)
+sending messages from  GT  to  UC
+msg:  ('GT', 'PTGN', 2)
+sending messages from  GT  to  UC
+msg:  ('GT', 'OSU', 0)
+sending messages from  GT  to  UC
+msg:  ('GT', 'ATT', 16)
+sending messages from  GT  to  UC
+msg:  ('GT', 'VONA', 5)
+sending messages from  GT  to  UC
+msg:  ('GT', 'EGLN', 2)
+sending messages from  GT  to  UC
+msg:  ('GT', 'VZ', 13)
+sending messages from  GT  to  UC
+msg:  ('GT', 'DRPA', 3)
+sending messages from  GT  to  UC
+msg:  ('GT', 'CMCT', 15)
+sending messages from  GT  to  UC
+msg:  ('GT', 'UC', 0)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'TWC', 15)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'GT', 0)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'GSAT', 8)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'UGA', -34)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'PTGN', 2)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'OSU', 0)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'ATT', 16)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'VONA', 5)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'EGLN', 2)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'VZ', 13)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'DRPA', 3)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'CMCT', 15)
+sending messages from  GT  to  EGLN
+msg:  ('GT', 'UC', 0)
+GT {'TWC': 15, 'GT': 0, 'GSAT': 8, 'UGA': -34, 'PTGN': 2, 'OSU': 0, 'ATT': 16, 'VONA': 5, 'EGLN': 2, 'VZ': 13, 'DRPA': 3, 'CMCT': 15, 'UC': 0}
+GT:TWC15,GT0,GSAT8,UGA-34,PTGN2,OSU0,ATT16,VONA5,EGLN2,VZ13,DRPA3,CMCT15,UC0
+Shorter distance found to node
+ADD NODE [msg[1]
+sending messages from  UC  to  GT
+msg:  ('UC', 'TWC', 15)
+sending messages from  UC  to  GT
+msg:  ('UC', 'GT', 0)
+sending messages from  UC  to  GT
+msg:  ('UC', 'GSAT', 8)
+sending messages from  UC  to  GT
+msg:  ('UC', 'UGA', 8)
+sending messages from  UC  to  GT
+msg:  ('UC', 'PTGN', 2)
+sending messages from  UC  to  GT
+msg:  ('UC', 'OSU', 0)
+sending messages from  UC  to  GT
+msg:  ('UC', 'ATT', 15)
+sending messages from  UC  to  GT
+msg:  ('UC', 'VONA', 5)
+sending messages from  UC  to  GT
+msg:  ('UC', 'EGLN', 2)
+sending messages from  UC  to  GT
+msg:  ('UC', 'VZ', 13)
+sending messages from  UC  to  GT
+msg:  ('UC', 'DRPA', 3)
+sending messages from  UC  to  GT
+msg:  ('UC', 'CMCT', 15)
+sending messages from  UC  to  GT
+msg:  ('UC', 'UC', 0)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'TWC', 15)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'GT', 0)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'GSAT', 8)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'UGA', 8)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'PTGN', 2)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'OSU', 0)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'ATT', 15)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'VONA', 5)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'EGLN', 2)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'VZ', 13)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'DRPA', 3)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'CMCT', 15)
+sending messages from  UC  to  OSU
+msg:  ('UC', 'UC', 0)
+Shorter distance found to node
+UC {'TWC': 15, 'GT': 0, 'GSAT': 8, 'UGA': -34, 'PTGN': 2, 'OSU': 0, 'ATT': 15, 'VONA': 5, 'EGLN': 2, 'VZ': 13, 'DRPA': 3, 'CMCT': 15, 'UC': 0}
+UC:TWC15,GT0,GSAT8,UGA-34,PTGN2,OSU0,ATT15,VONA5,EGLN2,VZ13,DRPA3,CMCT15,UC0
+OSU {'TWC': 15, 'GT': 0, 'GSAT': 8, 'UGA': 8, 'PTGN': 2, 'OSU': 0, 'ATT': 15, 'VONA': 5, 'EGLN': 2, 'VZ': 13, 'DRPA': 3, 'CMCT': 15, 'UC': 0}
+OSU:TWC15,GT0,GSAT8,UGA8,PTGN2,OSU0,ATT15,VONA5,EGLN2,VZ13,DRPA3,CMCT15,UC0
+ADD NODE [msg[1]
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'TWC', 13)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'GT', -2)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'GSAT', 6)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'UGA', -36)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'PTGN', 0)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'OSU', -2)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'ATT', 14)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'VONA', 3)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'EGLN', 0)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'VZ', 22)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'DRPA', 1)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'CMCT', 13)
+sending messages from  EGLN  to  GT
+msg:  ('EGLN', 'UC', -2)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'TWC', 13)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'GT', -2)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'GSAT', 6)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'UGA', -36)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'PTGN', 0)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'OSU', -2)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'ATT', 14)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'VONA', 3)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'EGLN', 0)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'VZ', 22)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'DRPA', 1)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'CMCT', 13)
+sending messages from  EGLN  to  DRPA
+msg:  ('EGLN', 'UC', -2)
+Shorter distance found to node
+EGLN {'TWC': 13, 'GT': -2, 'GSAT': 6, 'UGA': -36, 'PTGN': 0, 'OSU': -2, 'ATT': 14, 'VONA': 3, 'EGLN': 0, 'VZ': 11, 'DRPA': 1, 'CMCT': 13, 'UC': -2}
+EGLN:TWC13,GT-2,GSAT6,UGA-36,PTGN0,OSU-2,ATT14,VONA3,EGLN0,VZ11,DRPA1,CMCT13,UC-2
+Shorter distance found to node
+DRPA {'TWC': 12, 'GT': -1, 'GSAT': 5, 'UGA': -37, 'PTGN': 1, 'OSU': -1, 'ATT': 13, 'VONA': 4, 'EGLN': 1, 'VZ': 21, 'DRPA': 0, 'CMCT': 12, 'UC': -1}
+DRPA:TWC12,GT-1,GSAT5,UGA-37,PTGN1,OSU-1,ATT13,VONA4,EGLN1,VZ21,DRPA0,CMCT12,UC-1
+PTGN {'TWC': 14, 'GT': -1, 'GSAT': 5, 'UGA': -37, 'PTGN': 0, 'OSU': -1, 'ATT': 13, 'VONA': 3, 'EGLN': 1, 'VZ': 11, 'DRPA': 2, 'CMCT': 14, 'UC': -1}
+PTGN:TWC14,GT-1,GSAT5,UGA-37,PTGN0,OSU-1,ATT13,VONA3,EGLN1,VZ11,DRPA2,CMCT14,UC-1
+CMCT {'TWC': 0, 'GSAT': -7, 'UGA': -49, 'ATT': 1, 'VZ': -2, 'CMCT': 0, 'VONA': -10}
+CMCT:TWC0,GSAT-7,UGA-49,ATT1,VZ-2,CMCT0,VONA-10
+TWC {'TWC': 0, 'GSAT': -7, 'UGA': -49, 'ATT': 1, 'VZ': 9, 'CMCT': 0, 'VONA': 1}
+TWC:TWC0,GSAT-7,UGA-49,ATT1,VZ9,CMCT0,VONA1
+VONA {'TWC': 11, 'GSAT': 2, 'UGA': -40, 'ATT': 10, 'VZ': 8, 'CMCT': 11, 'VONA': 0}
+VONA:TWC11,GSAT2,UGA-40,ATT10,VZ8,CMCT11,VONA0
+VZ {'TWC': 3, 'GSAT': -6, 'UGA': -48, 'ATT': 2, 'VZ': 0, 'CMCT': 3, 'VONA': -9}
+VZ:TWC3,GSAT-6,UGA-48,ATT2,VZ0,CMCT3,VONA-9
+ATT {'TWC': 1, 'GSAT': -8, 'UGA': -50, 'ATT': 0, 'VZ': -3, 'CMCT': 1, 'VONA': -11}
+ATT:TWC1,GSAT-8,UGA-50,ATT0,VZ-3,CMCT1,VONA-11
+GSAT {'TWC': 8, 'GSAT': 0, 'UGA': -43, 'ATT': 7, 'VZ': 5, 'CMCT': 8, 'VONA': -3}
+GSAT:TWC8,GSAT0,UGA-43,ATT7,VZ5,CMCT8,VONA-3
+UGA {'TWC': 51, 'GSAT': 42, 'UGA': 0, 'ATT': 50, 'VZ': 47, 'CMCT': 51, 'VONA': 39}
+UGA:TWC51,GSAT42,UGA0,ATT50,VZ47,CMCT51,VONA39
+Shorter distance found to node
+GT {'TWC': 15, 'GT': 0, 'GSAT': 8, 'UGA': -34, 'PTGN': 2, 'OSU': 0, 'ATT': 15, 'VONA': 5, 'EGLN': 2, 'VZ': 13, 'DRPA': 3, 'CMCT': 15, 'UC': 0}
+GT:TWC15,GT0,GSAT8,UGA-34,PTGN2,OSU0,ATT15,VONA5,EGLN2,VZ13,DRPA3,CMCT15,UC0
+UC {'TWC': 15, 'GT': 0, 'GSAT': 8, 'UGA': -34, 'PTGN': 2, 'OSU': 0, 'ATT': 15, 'VONA': 5, 'EGLN': 2, 'VZ': 13, 'DRPA': 3, 'CMCT': 15, 'UC': 0}
+UC:TWC15,GT0,GSAT8,UGA-34,PTGN2,OSU0,ATT15,VONA5,EGLN2,VZ13,DRPA3,CMCT15,UC0
+OSU {'TWC': 15, 'GT': 0, 'GSAT': 8, 'UGA': 8, 'PTGN': 2, 'OSU': 0, 'ATT': 15, 'VONA': 5, 'EGLN': 2, 'VZ': 13, 'DRPA': 3, 'CMCT': 15, 'UC': 0}
+OSU:TWC15,GT0,GSAT8,UGA8,PTGN2,OSU0,ATT15,VONA5,EGLN2,VZ13,DRPA3,CMCT15,UC0
+EGLN {'TWC': 13, 'GT': -2, 'GSAT': 6, 'UGA': -36, 'PTGN': 0, 'OSU': -2, 'ATT': 14, 'VONA': 3, 'EGLN': 0, 'VZ': 11, 'DRPA': 1, 'CMCT': 13, 'UC': -2}
+EGLN:TWC13,GT-2,GSAT6,UGA-36,PTGN0,OSU-2,ATT14,VONA3,EGLN0,VZ11,DRPA1,CMCT13,UC-2
+DRPA {'TWC': 12, 'GT': -1, 'GSAT': 5, 'UGA': -37, 'PTGN': 1, 'OSU': -1, 'ATT': 13, 'VONA': 4, 'EGLN': 1, 'VZ': 21, 'DRPA': 0, 'CMCT': 12, 'UC': -1}
+DRPA:TWC12,GT-1,GSAT5,UGA-37,PTGN1,OSU-1,ATT13,VONA4,EGLN1,VZ21,DRPA0,CMCT12,UC-1
+PTGN {'TWC': 14, 'GT': -1, 'GSAT': 5, 'UGA': -37, 'PTGN': 0, 'OSU': -1, 'ATT': 13, 'VONA': 3, 'EGLN': 1, 'VZ': 11, 'DRPA': 2, 'CMCT': 14, 'UC': -1}
+PTGN:TWC14,GT-1,GSAT5,UGA-37,PTGN0,OSU-1,ATT13,VONA3,EGLN1,VZ11,DRPA2,CMCT14,UC-1
+CMCT {'TWC': 0, 'GSAT': -7, 'UGA': -49, 'ATT': 1, 'VZ': -2, 'CMCT': 0, 'VONA': -10}
+CMCT:TWC0,GSAT-7,UGA-49,ATT1,VZ-2,CMCT0,VONA-10
+TWC {'TWC': 0, 'GSAT': -7, 'UGA': -49, 'ATT': 1, 'VZ': 9, 'CMCT': 0, 'VONA': 1}
+TWC:TWC0,GSAT-7,UGA-49,ATT1,VZ9,CMCT0,VONA1
+VONA {'TWC': 11, 'GSAT': 2, 'UGA': -40, 'ATT': 10, 'VZ': 8, 'CMCT': 11, 'VONA': 0}
+VONA:TWC11,GSAT2,UGA-40,ATT10,VZ8,CMCT11,VONA0
+VZ {'TWC': 3, 'GSAT': -6, 'UGA': -48, 'ATT': 2, 'VZ': 0, 'CMCT': 3, 'VONA': -9}
+VZ:TWC3,GSAT-6,UGA-48,ATT2,VZ0,CMCT3,VONA-9
+ATT {'TWC': 1, 'GSAT': -8, 'UGA': -50, 'ATT': 0, 'VZ': -3, 'CMCT': 1, 'VONA': -11}
+ATT:TWC1,GSAT-8,UGA-50,ATT0,VZ-3,CMCT1,VONA-11
+GSAT {'TWC': 8, 'GSAT': 0, 'UGA': -43, 'ATT': 7, 'VZ': 5, 'CMCT': 8, 'VONA': -3}
+GSAT:TWC8,GSAT0,UGA-43,ATT7,VZ5,CMCT8,VONA-3
+UGA {'TWC': 51, 'GSAT': 42, 'UGA': 0, 'ATT': 50, 'VZ': 47, 'CMCT': 51, 'VONA': 39}
+UGA:TWC51,GSAT42,UGA0,ATT50,VZ47,CMCT51,VONA39
+Ouput validation initiated on ComplexTopo.log:
+Output validation complete.

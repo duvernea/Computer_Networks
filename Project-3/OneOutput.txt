@@ -1,0 +1,17 @@
+# This topology has a node that has only outgoing, 
+# and a node with only an incoming connection
+#
+# A < --- 1 --- B < --- 5 --- > CC < --- -2 --- D
+#       |       ^
+#       |       |   
+#       -4      -8
+#       |       |   
+#       v       v
+#       G < --- 3 --- > HK
+
+A
+B,A,1,CC,5,G,-4
+CC,B,5,HK,-8
+G,HK,3
+HK,G,3,CC,-8
+D,CC,-2
