@@ -1,0 +1,1 @@
+document.writeln("<script src=\'https:\/\/www.googletagservices.com\/tag\/js\/gpt.js\'>\ngoogletag.pubads().definePassback(\'\/12523293\/atlanta_np\/passback\/ajc_web_default\/Centro_desktop\', [[728, 90]]).display();\n<\/script>");

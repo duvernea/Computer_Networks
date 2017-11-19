@@ -1,0 +1,32 @@
+<html>
+<head><title>Pixels</title></head>
+<body>
+<script type="text/javascript">(function() {
+  var PX_LS_KEY = 'pd';
+  try {
+    var px = localStorage.getItem(PX_LS_KEY),
+        PX_QS_KEY = 'pd',
+        urlPrefix = 'http://us-u.openx.net',
+        path = '/w/1.0/pdcl',
+        qa = 'cc=1&plm=6&ph=e31558e5-75b7-420e-989f-cbc513e3a26b&bi=360ff085-ca20-4dad-958c-cb1c22f37976',
+        BI_LS_KEY = 'OX_BI',
+        BI_OLD = localStorage.getItem(BI_LS_KEY),
+        BI_NEW ='360ff085-ca20-4dad-958c-cb1c22f37976';
+
+    localStorage.setItem(BI_LS_KEY, BI_NEW);
+    if (BI_NEW != BI_OLD) {
+      localStorage.removeItem(PX_LS_KEY);
+      px = '';
+    }
+    var iframe = document.createElement('iframe');
+    iframe.src = [urlPrefix, path, '?', qa, '&', PX_QS_KEY, '=', px ].join('');
+    document.body.appendChild(iframe);
+  } catch (err) {
+    // fail to trigger cookieless sd request
+  }
+})();
+</script>
+
+
+</body>
+</html>

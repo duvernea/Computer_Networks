@@ -1,0 +1,10 @@
+HTTP Running : 8000  from  /home/mininet/Projects/Project4-2nd/Project-4/myURLS2/ad.crwdcntrl.net  with delay  0.0 s
+<socket._socketobject object at 0x7f7c6c51fbb0>
+/home/mininet/Projects/Project4-2nd/Project-4/myURLS2/ad.crwdcntrl.net/5/c=1859/pe=y/callback=_nw2e.closures.c0
+/5/c=1859/pe=y/callback=_nw2e.closures.c0
+10.0.0.89 - - [12/Oct/2017 22:20:05] "GET /5/c=1859/pe=y/callback=_nw2e.closures.c0 HTTP/1.1" 200 -
+<socket._socketobject object at 0x7f7c6c51fbb0>
+/home/mininet/Projects/Project4-2nd/Project-4/myURLS2/ad.crwdcntrl.net/5/c=1859/pe=y/callback=_nw2e.closures.c0
+/5/c=1859/pe=y/callback=_nw2e.closures.c0
+10.0.0.89 - - [12/Oct/2017 22:21:13] "GET /5/c=1859/pe=y/callback=_nw2e.closures.c0 HTTP/1.1" 200 -
+Killed

@@ -1,0 +1,53 @@
+var AF = {
+    displayAd: function (url, width, height) {
+
+        if (url.indexOf('cpm') === -1)
+        {
+            if (typeof (JCMInfo) !== "undefined")
+            {
+                url = url + "&cpm=" + JCMInfo.toString();
+            } else if (typeof (parent.JCMInfo) !== "undefined")
+            {
+                url = url + "&cpm=" + parent.JCMInfo.toString();
+            }
+        }
+
+        var siteId = 0;
+        var siteIdStart = url.indexOf('&s=');
+        if (siteIdStart !== -1) {
+            var siteIdTmp = url.substring(siteIdStart + 3);
+            siteId = siteIdTmp.substring(0, siteIdTmp.indexOf("&"));
+        }
+                
+        var adTypeId = "af_ad_" + width + "_" + height + "_" + siteId;
+        var adFrameDiv = document.getElementById(adTypeId);
+        if (adFrameDiv !== null) {
+            //adFrameDiv.innerHTML = "";
+        	while (adFrameDiv.firstChild) adFrameDiv.removeChild(adFrameDiv.firstChild);
+        } else {
+            document.write('<div id="' + adTypeId + '" style="width:' + width + 'px;height:' + height + 'px;"></div>');
+            adFrameDiv = document.getElementById(adTypeId);
+        }
+
+        var adFrame = document.createElement('iframe');
+        adFrame.width = width;
+        adFrame.height = height;
+        adFrame.frameBorder = '0';
+        adFrame.scrolling = 'no';
+        adFrame.marginHeight = '0';
+        adFrame.marginWidth = '0';
+
+        adFrameDiv.appendChild(adFrame);
+
+        var ipt = "ipt";
+        var rnd = Math.random() * 99999999;
+        var adCode = '<scr' + ipt + ' language="javascript" src="' + url + '&xvk=' + rnd + '">' + '</scr' + ipt + '>';
+        var adFrameBody = '<!DOCTYPE html>' + '<html><head><title></title></head><body marginwidth="0" marginheight="0" leftmargin="0" topmargin="0" style="background-color:transparent">' + adCode + '</body></html>';
+
+        adFrame.contentWindow.document.open('text/html', 'replace');
+        adFrame.contentWindow.document.write(adFrameBody);
+        adFrame.contentWindow.document.close();
+    }
+};
+
+AF.displayAd('http://media.adfrontiers.com/pq?t=j2&s=1994&ac=19&at=2&xvk=45966781.02988325&tc=0&modTag=t', 300, 250);

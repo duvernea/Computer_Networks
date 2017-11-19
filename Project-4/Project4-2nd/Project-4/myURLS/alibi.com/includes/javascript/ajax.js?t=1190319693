@@ -1,0 +1,1 @@
+var ref = '';function ajax_request(url,data,target,cb_func){   clearTimeout(ref);   new Ajax.Request(url, {      method: 'get',      parameters: data,      onSuccess: function(transport) {         if(target){            $(target).innerHTML = transport.responseText;         }         if(cb_func){            ref = setTimeout(cb_func,2000);         }      }   });}

@@ -1,0 +1,5 @@
+var DISQUSWIDGETS;
+
+if (typeof DISQUSWIDGETS != 'undefined') {
+    DISQUSWIDGETS.displayCount({"text":{"and":"and","comments":{"zero":"Waiting for your comment","multiple":"{num} Comments","one":"1 Comment"}},"counts":[{"id":"43805 https:\/\/blog.vandalog.com\/?p=43805","comments":0},{"id":"43835 https:\/\/blog.vandalog.com\/?p=43835","comments":0},{"id":"43776 https:\/\/blog.vandalog.com\/?p=43776","comments":0},{"id":"43824 https:\/\/blog.vandalog.com\/?p=43824","comments":0},{"id":"43762 https:\/\/blog.vandalog.com\/?p=43762","comments":0},{"id":"43828 https:\/\/blog.vandalog.com\/?p=43828","comments":0},{"id":"43745 https:\/\/blog.vandalog.com\/?p=43745","comments":0},{"id":"43789 https:\/\/blog.vandalog.com\/?p=43789","comments":0},{"id":"43740 https:\/\/blog.vandalog.com\/?p=43740","comments":0},{"id":"43768 https:\/\/blog.vandalog.com\/?p=43768","comments":0}]});
+}

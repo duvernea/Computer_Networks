@@ -1,0 +1,12 @@
+# CS 6250 Fall 2017 - Bad Firewall Policy Example
+# Rule number, srcmac, dstmac, srcip, dstip, srcport, dstport, protocol
+# Refer to the instructions for the full syntax of the pol file.
+# Rule number is incremented each time - mostly for debug purposes
+# - for a rule element indicates that you don't need to match it.
+# Comments are on their own line
+# Only Line 1 is invalid.
+
+1, -, -, -, -, -, 80, 6
+2, 00:00:00:00:00:00, 00:00:00:00:00:01, -, -, -, -, 6
+3, -, -, 1.2.3.4, 2.3.4.5, -, -, 2
+#4, -, -, -, -, -, -

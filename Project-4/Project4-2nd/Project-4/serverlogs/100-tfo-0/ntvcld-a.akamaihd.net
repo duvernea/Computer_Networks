@@ -1,0 +1,30 @@
+HTTP Running : 8000  from  /home/mininet/Projects/Project4-2nd/Project-4/myURLS2/ntvcld-a.akamaihd.net  with delay  0.0 s
+<socket._socketobject object at 0x7f13250fabb0>
+/home/mininet/Projects/Project4-2nd/Project-4/myURLS2/ntvcld-a.akamaihd.net/image/upload/w_558,h_223,c_fill,g_auto:text,f_auto,fl_lossy,e_sharpen:70/assets/737403D681B1466EA68428E4FF1B8AA6.png
+/image/upload/w_558,h_223,c_fill,g_auto:text,f_auto,fl_lossy,e_sharpen:70/assets/737403D681B1466EA68428E4FF1B8AA6.png
+/image/upload/w_558,h_223,c_fill,g_auto:text,f_auto,fl_lossy,e_sharpen:70/assets/737403D681B1466EA68428E4FF1B8AA6.png
+trying hash: 8a12a0d2701d2549b2915409344dde2f
+10.0.0.89 - - [12/Oct/2017 22:20:23] "GET /image/upload/w_558,h_223,c_fill,g_auto:text,f_auto,fl_lossy,e_sharpen:70/assets/737403D681B1466EA68428E4FF1B8AA6.png HTTP/1.1" 200 -
+<socket._socketobject object at 0x7f13250fabb0>
+/home/mininet/Projects/Project4-2nd/Project-4/myURLS2/ntvcld-a.akamaihd.net/image/upload/w_769,h_308,c_fill,g_auto:text,f_auto,e_sharpen:80,fl_lossy/assets/737403D681B1466EA68428E4FF1B8AA6.png
+/image/upload/w_769,h_308,c_fill,g_auto:text,f_auto,e_sharpen:80,fl_lossy/assets/737403D681B1466EA68428E4FF1B8AA6.png
+/image/upload/w_769,h_308,c_fill,g_auto:text,f_auto,e_sharpen:80,fl_lossy/assets/737403D681B1466EA68428E4FF1B8AA6.png
+trying hash: 2df5e42a1fda2a1fac214ddafbff4a44
+10.0.0.89 - - [12/Oct/2017 22:20:28] code 404, message file not found
+10.0.0.89 - - [12/Oct/2017 22:20:28] "GET /image/upload/w_769,h_308,c_fill,g_auto:text,f_auto,e_sharpen:80,fl_lossy/assets/737403D681B1466EA68428E4FF1B8AA6.png HTTP/1.1" 404 -
+10.0.0.89 - - [12/Oct/2017 22:20:28] "GET /image/upload/w_769,h_308,c_fill,g_auto:text,f_auto,e_sharpen:80,fl_lossy/assets/737403D681B1466EA68428E4FF1B8AA6.png HTTP/1.1" 200 -
+<socket._socketobject object at 0x7f13250fabb0>
+/home/mininet/Projects/Project4-2nd/Project-4/myURLS2/ntvcld-a.akamaihd.net/image/upload/w_558,h_223,c_fill,g_auto:text,f_auto,fl_lossy,e_sharpen:70/assets/737403D681B1466EA68428E4FF1B8AA6.png
+/image/upload/w_558,h_223,c_fill,g_auto:text,f_auto,fl_lossy,e_sharpen:70/assets/737403D681B1466EA68428E4FF1B8AA6.png
+/image/upload/w_558,h_223,c_fill,g_auto:text,f_auto,fl_lossy,e_sharpen:70/assets/737403D681B1466EA68428E4FF1B8AA6.png
+trying hash: 8a12a0d2701d2549b2915409344dde2f
+10.0.0.89 - - [12/Oct/2017 22:21:15] "GET /image/upload/w_558,h_223,c_fill,g_auto:text,f_auto,fl_lossy,e_sharpen:70/assets/737403D681B1466EA68428E4FF1B8AA6.png HTTP/1.1" 200 -
+<socket._socketobject object at 0x7f13250fabb0>
+/home/mininet/Projects/Project4-2nd/Project-4/myURLS2/ntvcld-a.akamaihd.net/image/upload/w_769,h_308,c_fill,g_auto:text,f_auto,e_sharpen:80,fl_lossy/assets/737403D681B1466EA68428E4FF1B8AA6.png
+/image/upload/w_769,h_308,c_fill,g_auto:text,f_auto,e_sharpen:80,fl_lossy/assets/737403D681B1466EA68428E4FF1B8AA6.png
+/image/upload/w_769,h_308,c_fill,g_auto:text,f_auto,e_sharpen:80,fl_lossy/assets/737403D681B1466EA68428E4FF1B8AA6.png
+trying hash: 2df5e42a1fda2a1fac214ddafbff4a44
+10.0.0.89 - - [12/Oct/2017 22:21:19] code 404, message file not found
+10.0.0.89 - - [12/Oct/2017 22:21:19] "GET /image/upload/w_769,h_308,c_fill,g_auto:text,f_auto,e_sharpen:80,fl_lossy/assets/737403D681B1466EA68428E4FF1B8AA6.png HTTP/1.1" 404 -
+10.0.0.89 - - [12/Oct/2017 22:21:19] "GET /image/upload/w_769,h_308,c_fill,g_auto:text,f_auto,e_sharpen:80,fl_lossy/assets/737403D681B1466EA68428E4FF1B8AA6.png HTTP/1.1" 200 -
+Killed

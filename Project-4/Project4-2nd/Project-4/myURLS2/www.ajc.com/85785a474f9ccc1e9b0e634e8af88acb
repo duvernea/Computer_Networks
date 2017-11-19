@@ -1,0 +1,89 @@
+window.onload = (function(cmg) {
+    cmg.monitorTweetShares = function() {
+        var $ = window.cmg.query,
+            $form = $('div.janrainShareForm.janrainProvider_twitter'),
+            $counterNodes = $form.find('div.janrainShareInputCounter'),
+            $submitNode = $form.find('div.janrainShareSubmitActions'),
+            $messageSpans = $form.find('span.janrainShareResponseMessage'),
+            counterConfig = { subtree: true, attributes: true },
+            MutationObserver = window.MutationObserver || window.WebKitMutationObserver,
+            flag = null,
+            invalidMessage = "Your tweet is too long...",
+            facebookSuccess = "Thanks for sharing on your timeline!",
+            twitterSuccess = "Thanks for sharing with your followers!";
+
+        // Listen to mutations on the Janrain twitter share form in order
+        // to provide a better UX experience than they provide out-of-the-box.
+        function counterHandler(mutations) {
+            mutations.forEach(function(mutation) {
+                var target = mutation.target.attributes[1],
+                    className = target.value;
+                if ($form.hasClass('janrainProvider_twitter')) {
+                	// This class is added when the tweet character count is 
+                	// in excess of the limit. If so, tell the user that their 
+                	// tweet is too long. Also change the colour of the submit
+                	// button just as a visual cue for the same information; we
+                	// can't actually prevent janrain from submitting a malformed
+                	// tweet, so we must resort to hacks and UX.
+                	if (className === 'janrainShareInputCounterExcess') {
+                        if ($messageSpans.text() === "" || $messageSpans.text() !== invalidMessage) {
+                            $messageSpans.css({display:'inline', opacity:'1'});
+                            $messageSpans.text(invalidMessage);
+                        }
+                        $('button.janrainShare').css('background', 'white');
+                        if (flag === null) {
+                            flag = true;
+                        }
+                    // If the count has never been in excess the flag will be `null' 
+                    // and this block will never run. If the flag is 'true' we just 
+                    // make sure that the only message we display (if the count is not
+                    // over the limit and the form has not been submitted) is nothing.
+                    } else if (flag === true) {
+                    	if ($messageSpans.text() === invalidMessage) {
+                            $messageSpans.text("");
+                            $messageSpans.css({display:'inline', opacity:'0'});
+                        }
+                        $('button.janrainShare').css('background', '#27C9FF');
+                        flag = null;
+                    }
+                } 
+                     
+            });
+        }
+
+        // Set up a mutation observer to monitor twitter share form activity.
+        var CounterObserver = new MutationObserver(counterHandler);
+
+        $counterNodes.each(function() {
+            CounterObserver.observe(this, counterConfig);
+        });
+        
+        // Do some cleanup and priming of the message area and buttons 
+        // when certain events are fired, making sure our state 
+        // manipulations in the twitter share form do not persist.
+        janrain.social.on({
+        	share_done: function(data) {  
+        		$messageSpans.css({display:'inline', opacity:'1'});
+        		if (data.provider === 'facebook') {
+        			$messageSpans.text(facebookSuccess);                       	    			
+     	    	}
+     	    	if (data.provider === 'twitter') {
+     	    		$messageSpans.text(twitterSuccess);    
+     	    	}
+      		},
+      		
+     	    provider_select: function(data) {
+     	    	$messageSpans.css({display:'inline', opacity:'1'});
+                $messageSpans.text("");
+     	    	if (data.provider === 'facebook') {
+     	    		$('button.janrainShare').css('background', '#3b5998');                        	    			
+     	    	}
+     	    	if (data.provider === 'twitter') {
+                	$('button.janrainShare').css('background', '#27C9FF');
+     	    	}
+      	    } 
+    	});
+
+    };
+
+})(window.janrain.cmg || (window.janrain.cmg = {}));

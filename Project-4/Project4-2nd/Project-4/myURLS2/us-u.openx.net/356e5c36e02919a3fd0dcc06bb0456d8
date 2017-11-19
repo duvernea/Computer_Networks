@@ -1,0 +1,17 @@
+<html>
+<head><title>Pixels</title></head>
+<body>
+<script type="text/javascript">(function() {
+  var PX_LS_KEY = 'pd',
+      px = 'v2|1507860130.1|aya4aa9VaBdt.9D9S';
+  try {
+    localStorage.setItem(PX_LS_KEY, px);
+  } catch (err) {
+    // failed to set cookieless pixel in local storage
+  }
+})();
+</script>
+
+<iframe src="http://cm.g.doubleclick.net/pixel?google_nid=openx&amp;google_cm&amp;google_sc" width='0' height='0' style='display:none;'></iframe><iframe src="http://match.adsrvr.org/track/cmf/openx?oxid=e5a3cfdc-63a7-725a-cf5a-03f446d44a8b" width='0' height='0' style='display:none;'></iframe>
+</body>
+</html>

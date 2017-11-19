@@ -1,0 +1,32 @@
+# CS 6250 Fall 2017 - Assignment Part 6
+# Rule Format: Rule number, srcmac, dstmac, srcip, dstip, srcport, dstport, protocol
+
+# ​1: Prohibit all​ ​from accessing​ ​a​ ​PPTP​ server​ ​running​ ​on​ ​server2 (10.0.0.6).​
+# 1: PPTP uses TCP and port 1723
+1, -, -, -, 10.0.0.6, -, 1723, 6
+# 2: Prohibit​ ​all​ ​cfrom​ ​connecting​ ​to​ ​a​ ​SSH​ ​server​ ​on​ ​the​ ​west​ ​hosts​ ​(w1-w3).
+# 2: SSH uses TCP port 22
+2, -, -, -, 10.0.0.8, -, 22, 6
+3, -, -, -, 10.0.0.9, -, 22, 6
+4, -, -, -, 10.0.0.10, -, 22, 6
+# 3: Prevent distributed​ ​denial​ ​of​ ​service​ ​(DDOS)​ ​attack​ ​for server1 and server2
+# 3: UDP protocol blocked for NTP (123) and DNS (port 53)
+5, -, -, -, 10.0.0.5, -, 123, 17
+6, -, -, -, 10.0.0.6, -, 123, 17
+7, -, -, -, 10.0.0.5, -, 53, 17
+8, -, -, -, 10.0.0.6, -, 53, 17
+# 4: Disallow ​host​ ​w1​ ​from​ ​pinging​ (ICMP, protocol 1) ​mobile1.
+9, -, -, 10.0.0.8, 10.0.0.4, -, -, 1
+# 5: Disallow​ ​traffic​ ​destined​ ​to​ ​TCP​ ​ports​ ​9950-9952​ ​on​ ​host​ ​e3​ ​from​ ​host​ ​e1.
+10, -, -, 10.0.0.1, 10.0.0.3, -, 9950, 6
+11, -, -, 10.0.0.1, 10.0.0.3, -, 9951, 6
+12, -, -, 10.0.0.1, 10.0.0.3, -, 9952, 6
+# 6: Prohibit​ ​mobile1​ ​host​ ​accessing​ ​the​ ​NetBIOS​ ​over​ ​TCP/IP​ ​on​ ​any host.
+# 6: UDP port 137, UDP port 138, TCP port 139
+13, -, -, 10.0.0.4, -, -, 137, 17
+14, -, -, 10.0.0.4, -, -, 138, 17
+15, -, -, 10.0.0.4, -, -, 139, 6
+
+
+
+

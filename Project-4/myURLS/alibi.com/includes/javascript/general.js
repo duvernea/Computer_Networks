@@ -1,0 +1,1 @@
+function showShare(id){   if(document.getElementById('share'+id).style.visibility == 'visible'){      document.getElementById('share'+id).style.visibility='hidden';      }else{      document.getElementById('share'+id).style.visibility='visible';   }}

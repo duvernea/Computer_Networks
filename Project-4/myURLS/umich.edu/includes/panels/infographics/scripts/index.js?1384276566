@@ -1,0 +1,2 @@
+
+$(document).ready(function(){$('.drop-down').closest('div').find('> a').click(function(event){event.preventDefault();$(this).find('.fa-plus').toggle(0);$(this).find('.fa-minus').toggle(0);$(this).closest('div').find('.drop-down').slideToggle('slow');});});

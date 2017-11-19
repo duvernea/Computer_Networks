@@ -1,0 +1,29 @@
+OX_4963074372({
+  "ads":{
+    "chain":1,
+    "medium":"w",
+    "record_tmpl":"http://delivery-us-central-1.openx.net/{medium}/1.0/{rtype}?ai=24d6b601-3d9b-42af-bf97-85ea77847567&ph=94ef58655625200a8cfc5b15afcd0b94ad52d590&ts={txn_state}",
+    "pixels":"http://us-u.openx.net/w/1.0/pd?plm=10&ph=94ef58655625200a8cfc5b15afcd0b94ad52d590",
+    "oxt": 63.311,
+    "adunits" : [
+      {
+        "auid":"538709810",
+        "chain_timeout":"",
+        "chain":[
+          {
+            "is_fallback":1,
+            "ad_id":"0",
+            "adv_acct_id":"",
+            "width":"300",
+            "height":"250",
+            "html":"<script type=\"text/javascript\">\n    parent.AF.displayAd(\"http://media.adfrontiers.com/pq?t=p&ac=19&cm=28806&s=1994&ft=nf\", 300, 250);\n</script>",
+            "target":"_blank",
+            "ts":"1fHU9MXxyaWQ9NjE0YWM0ZjktZjE0ZC00MGU5LTg0NGYtY2U1NzVlOGFhOTFkfHJ0PTE1MDc2ODAyOTd8YXVpZD01Mzg3MDk4MTB8YXVtPURNSUQuV0VCfGF1cGY9ZGlzcGxheXxzaWQ9NTM3MzA4NjQ0fHB1Yj0xMjgyMjB8cGM9VVNEfHJhaWQ9MTQxN2ZkMDQtNWY2Ni00MmIxLWE0ODItZjJlMjIxZmE1YzIwfHJzPTF8bXdmPTB8dXI9RDU0VW82NXJnbQ",
+            "type":"html",
+            "ad_url":"<script type=\"text/javascript\">\n    parent.AF.displayAd(\"http://media.adfrontiers.com/pq?t=p&ac=19&cm=28806&s=1994&ft=nf\", 300, 250);\n</script>"
+          }
+        ]
+      }
+    ]
+  }
+});

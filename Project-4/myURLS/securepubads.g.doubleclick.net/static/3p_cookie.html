@@ -1,0 +1,6 @@
+<html><body><script>
+var ifr = document.createElement('iframe');
+ifr.name = '3p_cookie_' + (document.cookie ? 'yes' : 'no');
+document.body.appendChild(ifr);
+window.parent.postMessage(ifr.name, '*');
+</script></body></html>

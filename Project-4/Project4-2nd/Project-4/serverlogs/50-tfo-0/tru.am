@@ -1,0 +1,34 @@
+HTTP Running : 8000  from  /home/mininet/Projects/Project4-2nd/Project-4/myURLS2/tru.am  with delay  0.0 s
+<socket._socketobject object at 0x7f07119d8b40>
+/home/mininet/Projects/Project4-2nd/Project-4/myURLS2/tru.am/scripts/custom/coxmedia.js
+/scripts/custom/coxmedia.js
+10.0.0.89 - - [12/Oct/2017 22:19:00] "GET /scripts/custom/coxmedia.js HTTP/1.1" 200 -
+<socket._socketobject object at 0x7f07119d8b40>
+/home/mininet/Projects/Project4-2nd/Project-4/myURLS2/tru.am/scripts/ta-pagesocial-sdk.js
+/scripts/ta-pagesocial-sdk.js
+10.0.0.89 - - [12/Oct/2017 22:19:03] "GET /scripts/ta-pagesocial-sdk.js HTTP/1.1" 200 -
+<socket._socketobject object at 0x7f07119d8b40>
+/home/mininet/Projects/Project4-2nd/Project-4/myURLS2/tru.am/page_views
+/page_views?clientID%5B%5D=1033&clientID%5B%5D=1064&version=13&canonical=http%3A%2F%2Fwww.ajc.com%2F&ogURL=http%3A%2F%2Fwww.ajc.com%2F&title=AJC.com%3A+Atlanta+Georgia+News%2C+AJC+Sports%2C+Atlanta+Weather&image=%2Frw%2FPortalConfig%2Fnp-free%2Fassets%2Fajc%2Fimages%2FAJC_200x200.png&callback=reqwest_1507861143916
+/page_views?clientID%5B%5D=1033&clientID%5B%5D=1064&version=13&canonical=http%3A%2F%2Fwww.ajc.com%2F&ogURL=http%3A%2F%2Fwww.ajc.com%2F&title=AJC.com%3A+Atlanta+Georgia+News%2C+AJC+Sports%2C+Atlanta+Weather&image=%2Frw%2FPortalConfig%2Fnp-free%2Fassets%2Fajc%2Fimages%2FAJC_200x200.png&callback=reqwest_1507861143916
+trying hash: bb21b36a72e6901dcb47359fecf8c300
+10.0.0.89 - - [12/Oct/2017 22:19:04] code 404, message file not found
+10.0.0.89 - - [12/Oct/2017 22:19:04] "GET /page_views?clientID%5B%5D=1033&clientID%5B%5D=1064&version=13&canonical=http%3A%2F%2Fwww.ajc.com%2F&ogURL=http%3A%2F%2Fwww.ajc.com%2F&title=AJC.com%3A+Atlanta+Georgia+News%2C+AJC+Sports%2C+Atlanta+Weather&image=%2Frw%2FPortalConfig%2Fnp-free%2Fassets%2Fajc%2Fimages%2FAJC_200x200.png&callback=reqwest_1507861143916 HTTP/1.1" 404 -
+10.0.0.89 - - [12/Oct/2017 22:19:04] "GET /page_views?clientID%5B%5D=1033&clientID%5B%5D=1064&version=13&canonical=http%3A%2F%2Fwww.ajc.com%2F&ogURL=http%3A%2F%2Fwww.ajc.com%2F&title=AJC.com%3A+Atlanta+Georgia+News%2C+AJC+Sports%2C+Atlanta+Weather&image=%2Frw%2FPortalConfig%2Fnp-free%2Fassets%2Fajc%2Fimages%2FAJC_200x200.png&callback=reqwest_1507861143916 HTTP/1.1" 200 -
+<socket._socketobject object at 0x7f07119d8b40>
+/home/mininet/Projects/Project4-2nd/Project-4/myURLS2/tru.am/scripts/custom/coxmedia.js
+/scripts/custom/coxmedia.js
+10.0.0.89 - - [12/Oct/2017 22:19:10] "GET /scripts/custom/coxmedia.js HTTP/1.1" 200 -
+<socket._socketobject object at 0x7f07119d8b40>
+/home/mininet/Projects/Project4-2nd/Project-4/myURLS2/tru.am/scripts/ta-pagesocial-sdk.js
+/scripts/ta-pagesocial-sdk.js
+10.0.0.89 - - [12/Oct/2017 22:19:13] "GET /scripts/ta-pagesocial-sdk.js HTTP/1.1" 200 -
+<socket._socketobject object at 0x7f07119d8b40>
+/home/mininet/Projects/Project4-2nd/Project-4/myURLS2/tru.am/page_views
+/page_views?clientID%5B%5D=1033&clientID%5B%5D=1064&version=13&canonical=http%3A%2F%2Fwww.ajc.com%2F&ogURL=http%3A%2F%2Fwww.ajc.com%2F&title=AJC.com%3A+Atlanta+Georgia+News%2C+AJC+Sports%2C+Atlanta+Weather&image=%2Frw%2FPortalConfig%2Fnp-free%2Fassets%2Fajc%2Fimages%2FAJC_200x200.png&callback=reqwest_1507861153752
+/page_views?clientID%5B%5D=1033&clientID%5B%5D=1064&version=13&canonical=http%3A%2F%2Fwww.ajc.com%2F&ogURL=http%3A%2F%2Fwww.ajc.com%2F&title=AJC.com%3A+Atlanta+Georgia+News%2C+AJC+Sports%2C+Atlanta+Weather&image=%2Frw%2FPortalConfig%2Fnp-free%2Fassets%2Fajc%2Fimages%2FAJC_200x200.png&callback=reqwest_1507861153752
+trying hash: e68a2cff638f24e9635078614e853f25
+10.0.0.89 - - [12/Oct/2017 22:19:13] code 404, message file not found
+10.0.0.89 - - [12/Oct/2017 22:19:13] "GET /page_views?clientID%5B%5D=1033&clientID%5B%5D=1064&version=13&canonical=http%3A%2F%2Fwww.ajc.com%2F&ogURL=http%3A%2F%2Fwww.ajc.com%2F&title=AJC.com%3A+Atlanta+Georgia+News%2C+AJC+Sports%2C+Atlanta+Weather&image=%2Frw%2FPortalConfig%2Fnp-free%2Fassets%2Fajc%2Fimages%2FAJC_200x200.png&callback=reqwest_1507861153752 HTTP/1.1" 404 -
+10.0.0.89 - - [12/Oct/2017 22:19:13] "GET /page_views?clientID%5B%5D=1033&clientID%5B%5D=1064&version=13&canonical=http%3A%2F%2Fwww.ajc.com%2F&ogURL=http%3A%2F%2Fwww.ajc.com%2F&title=AJC.com%3A+Atlanta+Georgia+News%2C+AJC+Sports%2C+Atlanta+Weather&image=%2Frw%2FPortalConfig%2Fnp-free%2Fassets%2Fajc%2Fimages%2FAJC_200x200.png&callback=reqwest_1507861153752 HTTP/1.1" 200 -
+Killed

@@ -1,0 +1,25 @@
+body div.janrainSocialRoot div.janrainShareForm {
+  z-index: 5;
+}
+
+body li.janrainShareContactSearchResult {
+  height: auto;
+}
+
+body div.janrainSocialRoot div.janrainShareSelectedContactsDetails {
+  height:auto;
+}
+
+body div.janrainSocialRoot li.janrainShareSelectedContactEntry {
+  padding: 0;
+  border: 0;
+  margin: 0 0 0.4em 0;
+}
+
+body a.janrainShareSelectedContactRemoveButton {
+  margin-right: 0.3em;
+}
+
+body .janrain-icon-delete:before {
+  visibility: hidden;
+}

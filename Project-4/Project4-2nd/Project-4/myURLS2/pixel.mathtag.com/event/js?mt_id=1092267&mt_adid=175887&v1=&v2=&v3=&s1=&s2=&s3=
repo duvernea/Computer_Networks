@@ -1,0 +1,21 @@
+(function() {
+try {
+    (function() {
+    var mid = document.createElement('script'); mid.type = 'text/javascript'; mid.async = true;
+    mid.src = '//mathid.mathtag.com/d/i.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mid, s);
+})();
+
+(window.MathIDInits = window.MathIDInits || []).push(function() {
+    MathID.getData({mt_id:'1092267',ccid:'',cuid:'',mm_uuid:'',src:'mt2'}).then(function(data) {
+        var p = document.createElement('script');
+        p.src = '//pixel.mathtag.com/event/js?mt_id=1092267&mt_adid=175887&v1=&v2=&v3=&s1=&s2=&s3=&mm_bnc&mm_bct&mathid_data=' + encodeURIComponent(data);
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(p, s);
+    });
+});
+}
+catch(ex)
+{
+   document.createElement("img").src="//pixel.mathtag.com/error/img?error_domain=wrap&what="+encodeURIComponent(ex.message);
+}
+})();

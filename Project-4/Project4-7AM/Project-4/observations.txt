@@ -1,0 +1,105 @@
+Run1, 715am
+
+Page    RTT(ms) PLT: no TFO (s) PLT: TFO (s)    Improv.
+httpen.wikipedia.orgwikiTransmission_Control_Protocol
+    200     8203.234    4518.852    44.9137742505
+    100     3874.182    2819.51     27.2230886417
+    20  2342.781    2095.172    10.5690203224
+httpwww.amazon.com
+    200     5045.353    3890.337    22.8926697498
+    100     2983.902    2174.213    27.1352410367
+    20  1467.084    1257.795    14.2656453209
+
+Run2, 725am
+
+Page    RTT(ms) PLT: no TFO (s) PLT: TFO (s)    Improv.
+httpen.wikipedia.orgwikiTransmission_Control_Protocol
+    200     5997.813    6182.759    3.08355728997
+    100     3685.425    2925.192    20.6280958098
+    20  2202.68     2294.319    4.1603410391
+httpwww.amazon.com
+    200     4965.975    4324.113    12.9251959585
+    100     2961.548    2033.967    31.3208160057
+    20  1412.183    1371.568    2.87604368556
+
+Run3, 734am, Ethernet
+Page    RTT(ms) PLT: no TFO (s) PLT: TFO (s)    Improv.
+httpen.wikipedia.orgwikiTransmission_Control_Protocol
+    200     6058.327    4876.422    19.5087686749
+    100     3660.113    2737.802    25.1989760972
+    20  2274.544    2075.925    8.73225578402
+httpwww.amazon.com
+    200     4907.405    3695.783    24.689667961
+    100     2940.689    2028.115    31.032659353
+    20  1532.897    1289.956    15.8484881894
+
+Run4, 740am, Ethernet
+Page    RTT(ms) PLT: no TFO (s) PLT: TFO (s)    Improv.
+httpen.wikipedia.orgwikiTransmission_Control_Protocol
+    200     6058.485    4326.066    28.5949210075
+    100     3620.686    2676.466    26.0784834697
+    20  2382.836    2086.561    12.4337134406
+httpwww.amazon.com
+    200     4904.821    3309.18     32.5320944434
+    100     2998.742    2008.882    33.0091751808
+    20  1453.203    1322.881    8.96791432443
+
+Run5, 747am, Ethernet, close chrome, turn off display powersave
+
+Page    RTT(ms) PLT: no TFO (s) PLT: TFO (s)    Improv.
+httpen.wikipedia.orgwikiTransmission_Control_Protocol
+    200     6021.778    5586.413    7.22984141893
+    100     3591.779    2839.004    20.9582772214
+    20  2272.383    2041.937    10.1411601829
+httpwww.amazon.com
+    200     4904.48     13306.345   171.310006362
+    100     2977.681    2047.253    31.2467319367
+    20  1511.135    1284.645    14.9880718797
+
+
+myURLS first run 8:00 AM
+
+Page    RTT(ms) PLT: no TFO (s) PLT: TFO (s)    Improv.
+httpwww.chipublib.org
+    200     717.88  298.337     58.4419401571
+    100     402.602     189.514     52.9277052772
+    20  152.149     103.717     31.8319542028
+httpblog.vandalog.com
+    200     702.471     294.058     58.1394819146
+    100     397.463     188.365     52.6081673011
+    20  153.054     96.758  36.7817894338
+httpen.wikipedia.orgwikiElectronic_design_automation
+    200     703.96  296.078     57.9410761975
+    100     413.228     186.641     54.8334091591
+    20  158.46  111.312     29.7538811056
+httpalibi.com
+    200     720.05  283.376     60.6449552114
+    100     405.849     191.061     52.9231315095
+    20  178.687     95.241  46.6995360603
+
+
+Page    RTT(ms) PLT: no TFO (s) PLT: TFO (s)    Improv.
+httpwww.chipublib.org
+    200     694.439     301.538     56.578187573
+    100     400.822     198.575     50.4580586894
+    20  155.874     110.178     29.3159859887
+httpblog.vandalog.com
+    200     700.419     298.696     57.3546691338
+    100     388.09  198.696     48.8015666469
+    20  158.434     106.752     32.6205233725
+httpen.wikipedia.orgwikiElectronic_design_automation
+    200     696.596     304.407     56.3007826631
+    100     408.024     185.741     54.4779228673
+    20  154.052     106.542     30.8402357645
+httpalibi.com
+    200     721.518     300.719     58.3213447204
+    100     402.593     198.77  50.6275568626
+    20  183.551     99.374  45.8602786147
+
+
+
+
+
+
+
+

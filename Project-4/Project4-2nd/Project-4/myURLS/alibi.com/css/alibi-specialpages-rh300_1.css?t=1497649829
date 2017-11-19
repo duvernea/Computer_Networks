@@ -1,0 +1,900 @@
+/* advert page */
+
+.pagecenterer {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: red;
+}
+
+.advert-nav {
+    background-color: #333333;
+  	font-family: Veranda, Arial, Helvetica; 
+    font-size: 14px;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6px;
+}
+
+.advert-nav a:link, .advert-nav a:visited, .advert-nav a:active {
+    color: #cccccc;
+    font-weight: bold;
+}
+.advert-nav a:hover{
+    color: #999999;
+}
+
+.press-release-demo {
+  	font-family: serif; 
+  	background-color: #cccccc;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.advert {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.adver-inner {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.advert-header {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* annual report */
+.annualreport {
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Trebuchet MS, sans-serif;
+}
+
+.annualreport .featured_this_week {
+	padding: 5px;
+	background-color: #CCE9DB;
+}
+
+.annualreport .date {
+	background: white;
+	color: black;
+
+}
+
+.annualreport .issuedata {
+	background: white;
+	color: black;
+
+}
+
+
+.ar-centerer {
+    margin-left: auto;
+    margin-right: auto;
+    border: dotted 3px silver;
+    margin-top: 9px;
+    padding-bottom: 18px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.ar-company-dropdown {
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+.ar-biz-info {
+    background-color: #000033;
+    background-color: white; 
+    color: #ffffff;
+    color: black;
+    font-size: 14px;
+    /* float: left;  */
+    padding: 10px;
+    /* width: 496px; */ /* 4/1/11 */
+}
+
+.ar-biz-name {
+    background-color: #000033; 
+    background-color: black; 
+    color: #ff9900;
+    font-size: 22px;
+    font-weight: bold;
+    /* float: left;  */
+    padding: 10px;
+    margin-top: 12px;
+    /* width: 100%; */
+    border-bottom: thin dotted #ffffff;
+    clear: both;
+}
+
+.ar-biz-info b {
+    font-weight: bold;
+    font-size: 15px;
+    color: #999999;
+    color: black;
+}
+
+.ar-question {
+    font-weight: bold;
+    font-size: 15px;
+    color: #000033;
+    color: black;
+}
+
+.ar-answer {
+    font-size: 13px;
+    color: #111111;
+    color: black;
+}
+
+.ar-answers-box {
+    background-color: #cccccc;
+    padding: 10px;
+    /* width: 496px; */ /* 4/1/11 */
+}
+
+.ar-biz-info a:link, .ar-biz-info a:visited, .ar-biz-info a:active, .ar-biz-info a:hover {
+    color: #ff9900;
+    color: black; 
+    font-size: 10pt;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.ar-bottom-nav a,
+.ar-bottom-nav a:link,
+.ar-bottom-nav a:visited,
+.ar-bottom-nav a:active,
+.ar-bottom-nav a:hover {
+    color: #ff9900;
+    font-size: 10pt;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* .ar-photo {
+    float: right; 
+    padding-left: 10px;
+    border-color: #000033;
+    border: 2px;
+} */
+
+div.current-poll {
+    background: #339966;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+div.past-polls {
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: #C7FFE3;
+    border: 1px solid #339966;
+
+}
+
+.alibiPoll {
+   margin-top: 3px;
+   margin-bottom: 3px;
+   width: 156px;
+   float: left;
+   clear: both;
+   border-right: 1px solid #339966;
+    font-size: 9px; 
+    color: #333333;
+}
+
+.alibiPoll .head {
+   display: block;
+}
+
+.alibiPoll .cont {
+   display: block;
+   background: #C7FFE3;
+   border: 1px solid #339966;
+   border-top: 0;
+   border-right: 0;
+   padding: 3px;
+}
+
+.pollhr {
+    background-color: #339966;
+    height: 1px;
+    width: 100%;
+}
+
+.pollhead {
+    font-size: 14px; 
+    font-weight: bold; 
+}
+
+.pollheadlarge {
+    font-size: 16px; 
+    font-weight: bold; 
+}
+.pollheadtop {
+    font-size: 28px; 
+    font-weight: bold; 
+}
+
+.polldate {
+    font-size: 10px; 
+}
+
+.pollalert {
+    font-size: 11px; 
+}
+
+.pollbutton {
+   background-color: #339966;
+   color: #C7FFE3;
+}
+
+.pollform p {
+
+    margin: 0;
+    padding: 0;
+    margin-top: 2px;
+}
+
+div.see_flee {
+    background: #356998;
+    width: 200px;
+    height: 100%;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 4px;
+    font-size: 10px;
+    float: left;
+    z-index: 500;
+}
+div.see_flee_head {
+  margin-top: 2px;
+  background: #333333;
+  color: #ffffff;
+  padding:1px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+
+div.buywristband {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #000000;
+   	font-family: "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", Trebuchet, Arial, sans-serif;
+	font-size: 13px;
+	text-align: justify;
+	padding: 10px 15px 0px 15px;
+	color: #ffffcc;
+}
+
+div.genericmargins {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+div.ask-a-mexican {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+div.thanks {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+div.chowtown {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+div.jeffdrew {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+div.editorial-blog-submit {
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+div.advertisers {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+div.search {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+div.bob {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+div.crossword {
+    text-align: left;
+}
+
+div.staffblock {
+/*    margin-left: 20px;
+    margin-right: 20px; */
+}
+
+
+
+
+/* film times */
+
+div.filmtimes {
+/*    margin-left: 20px;
+    margin-right: 20px; */
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.filmtimes h1, .filmtimes h2 {
+	font-family:"Lucida Grande","Lucida Sans Unicode","Trebuchet MS","Trebuchet","Arial",sans-serif;
+}
+
+
+.filmtimes .byline {
+	display: block;
+	font-size: 80%;
+	font-weight: normal;
+}
+
+
+div.filmtimes h1 {
+
+	font-size: 16px;
+	font-size: 20px;
+	color: black;
+/* 	background: green; */
+	/* margin: 0px; */ /* um, this sucks */
+	padding: 0px;
+/* 	float: left; */
+
+}
+
+div.filmtimes h2 {
+
+	background:black;
+	color:white;
+	width: 100%;
+	margin-top: 12px;
+	margin-bottom: 0px;
+	padding: 3px;
+	clear: both; /* johnm 11/28/8 */
+}
+
+div.filmtimes h3 {
+
+	color:#666666;
+	font-weight: bold;
+	margin-top: 5px;
+	font-size: 13px;
+	margin-bottom: 0px;
+
+}
+
+div.filmtimes img.film {
+
+	margin-top: 9px;
+	margin-right: 6px;
+	margin-left: 6px;
+	border: thin black solid;
+	clear: left;
+
+}
+
+div.filmtimes img#rss { 
+
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-left: 1px;
+    padding-bottom: 1px;
+    clear: none;
+}
+
+
+div.filmtimes .cap {
+
+	background: #EEEEEE;
+   z-index: 100;
+   height: 100%;
+	margin-top: 0px;
+	margin-bottom: 6px;
+	line-height: 1.3;
+	padding-bottom: 0.4em;
+	padding-top: 0.2em;
+	
+	/* font-size: 11px; */ 
+/* 	clear: both; */
+
+}
+
+
+div.filmtimes #theater {
+
+	background: #EEEEEE;
+	padding: 3px;
+	margin-top: 0px;
+	margin-bottom: 6px;
+/* 	font-size: 11px; */
+/* 	clear: both; */
+
+}
+
+
+
+div.filmtimes #times {
+
+/* 	background: gray; */
+	margin-top: 0px;
+	margin-bottom: 24px;
+	font-size: 11px;
+/* 	font-size: 11px; */
+/* 	clear: both; */
+
+}
+
+
+div.filmtimes .links {
+
+/* 	float: right; */
+	text-align: left;
+/* 	background: blue; */
+/* 	margin: 3px; */
+/* 	padding: 3px; */
+	font-size: 9px;
+	margin-bottom: 0.75em;
+}
+
+/* div.filmtimes br { */
+/*  */
+/* 	margin: 0px; */
+/* 	padding: 0px; */
+/*  */
+/* } */
+
+div.filmtimes .sidebar {
+	float:right;
+	clear: both;
+	margin: 0px 0px 9px 9px;
+	padding: 0;
+	width: 160px;
+	border: solid thin black;
+	z-index: 101;
+	background-color: white;
+}
+
+div.filmtimes .sidebar_text {
+	margin: 5px;
+}
+
+div.filmtimes .sidebar ul,
+div.filmtimes .sidebar li {
+	list-style-type: none;
+	/* width: 160px; */
+	margin: 0;
+	padding: 0;
+}
+
+div.filmtimes .sidebar li {
+	text-align: center;
+}
+
+div.filmtimes .sidebar h4.people {
+	padding: 0;
+	margin: 0;
+}
+
+div.filmtimes .film_comments {
+	margin-top: 5px;
+	margin-bottom: 12px;
+}
+
+
+.filmtimes .cap h1 a,
+.filmtimes .cap h1 a:link {
+	color: #000;
+}
+
+.filmtimes .cap h1 a:hover {
+	color: #630;
+}
+/*
+div.filmtimes h1 a:link,
+div.filmtimes h1 a:visited,
+div.filmtimes h1 a:hover,
+div.filmtimes h1 a:active {
+	color: black;
+	text-decoration: none;
+}
+*/
+
+
+/* aaron filmtimes stuff 9/2010 */
+
+.filmtimes .content_head h1 {
+	font-size: 42px;
+	line-height: 45px; /* 10/2/14 so maybe this'll look a little less silly */
+	text-transform: uppercase;
+}
+
+.filmtimes .content_head a {
+	text-decoration: underline;
+}
+
+.filmtimes .content_head {
+	background-color: #CCDBE9;
+	border: 1px solid #ccc;
+	padding: 0 1em;
+	padding-bottom: 0.5em;
+	position: relative;
+	margin-bottom: 0.5em;
+}
+
+* html .filmtimes .content_head {
+	zoom: 1;
+}
+
+
+.filmtimes .content_head .nav {
+	margin-top: -5px;
+	margin-bottom: 3px;
+}
+
+
+.filmtimes .content_head .rss {
+	float: right;
+	font-size: 12px;
+	margin: 0.25em;
+	margin-top: 1em;
+}
+
+
+* html .filmtimes .content_head .rss {
+	width: 150px; /* IE6: the box was taking up the whole width of the container; there's probably a better fix but this works for now */
+}
+
+.filmtimes .rss h2 {
+	background-color: transparent;
+	background-image: url(/images/feed-icon-14x14.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	font-weight: normal;
+	font-size: 1em;
+	padding: 0;
+	color: #111;
+	margin: 0;
+}
+
+.filmtimes .rss a {
+	font-weight: normal;
+}
+
+.filmtimes .rss ul {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
+
+
+
+
+.filmtimes .fresh_times {
+	margin: 0.25em 0;
+	text-align: center;
+	background-color: #111;
+	padding: 0.25em;
+	color: #fff;
+}
+
+
+.filmtimes .fresh_date {
+	font-weight: bold;
+	display: block;
+}
+
+.filmtimes .times_for {
+	font-size: 90%;
+}
+
+
+
+
+
+
+div.filmtimes h2 {
+	background-color: transparent;
+	color: #C00000;
+	font-size: 24px;
+	font-weight: normal;
+	margin-top: 1.5em;
+	margin-top: 0;
+	padding-top: 1.5em; /* so that jump link targets have some "room to breathe" on top */
+	padding-top: 0;
+}
+
+
+div.filmtimes h2 .byline {
+	color: #0083D7;
+	font-size: 65%;
+	display: inline;
+}
+
+#caps_times {
+	margin-top: 0;
+}
+
+#times_by_theater {
+	padding-top: 1.5em;
+	margin-top: 3em; 
+	/*border-top: 3px dotted #111; */
+}
+
+div.filmtimes h3 {
+	font-size: 22px;
+	background-color: #000000;
+	color: #ffffff;
+	padding: 0.15em 0.5em;
+	margin-top: 1em;
+	margin-bottom: 0.25em;
+}
+
+div.filmtimes h3 a.navback {
+	float: right;
+	color: #ffffff;
+	font-size: 11px;
+	margin-top: 0.5em;
+}
+
+div.filmtimes h3 a.navback:hover {
+	color: #f00;
+	border-bottom: 1px solid #ffffff;
+}
+
+div.filmtimes h4 {
+	color: #666666;
+	font-size:13px;
+	font-weight:bold;
+	margin-bottom:0;
+	margin-top:5px;
+}
+
+
+.filmtimes .section_jump_nav {
+	margin: 0.5em 0;
+}
+
+
+
+
+.filmtimes .persist_nav_container {
+	position: fixed;
+	bottom: 0;
+	z-index: 9000;
+	background-color: #fff;
+	padding-bottom: 5px;
+	padding-top: 1px;
+	/* width: 480px;    removed 5/1/17 */ /* 5/20/11 was: 66%; */
+}
+
+* html .filmtimes .persist_nav_container {
+	position: static;
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.filmtimes .persist_nav {
+	background-color: #d0d0d0;
+	padding: 2px 7px;
+	padding-bottom: 4px;
+	border: 1px solid #333;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+
+
+
+.filmtimes .persist_nav h2,
+.filmtimes .persist_nav h3 {
+	color: #111;
+	margin: 0;
+	background-color: transparent;
+	font-size: 12px;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+
+.persist_nav ul.nav li {
+	margin-right: 0.5em;
+	padding-right: 0.5em;
+}
+
+
+
+.persist_nav ul.nav a {
+	font-weight: normal;
+}
+
+
+
+/* film times for mobile safari */
+/* disabled 3/23/12
+@media screen and (max-device-width: 480px) {
+
+	.filmtimes .persist_nav_container {
+		position: static;
+		display: none;
+	}	
+}
+*/
+
+
+
+
+/* end of filmtimes */
+
+
+
+
+
+
+
+
+
+
+
+div.howto {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+div.personals {
+    margin-left: 20px;
+    margin-right: 20px;
+	font-size: 10px;
+	text-decoration: none; 
+	color: #645F61;
+}
+
+div.personals h1 {
+
+    color: white;
+    font-size: 36px;
+
+}
+
+div.personals a {
+
+    color: white;
+
+}
+
+
+/* maybe by adding a previously unused style, the browser will re-poll the CSS instead of relying on the cache */
+
+div.personals div.choose {
+
+    padding: 0; margin: 0; background: black; height: 50px; width: 100%;
+
+}
+
+div.personals div.chooseagain {
+
+    padding: 0; margin: 0; background: black; height: 18px; width: 100%; color: white; font-size: 14px; padding-top: 6px; padding-bottom: 6px;
+
+}
+
+
+div.alts {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+div.alts a {
+
+    color: white;
+
+}
+
+/* maybe by adding a previously unused style, the browser will re-poll the CSS instead of relying on the cache */
+
+div.alts div.strip {
+
+    padding: 0; margin: 0; text-align: center; margin-bottom: 10px;
+
+}
+
+div.feedyourpod {
+	width: 500px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: #993333;
+    background-image: url(../feedyourpod/background.jpg);
+    background-repeat: repeat; 
+}
+
+
+img.feedyourpod {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.feedyourpod { 
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", Trebuchet, Arial, sans-serif;
+	font-size: 13px;
+	text-align: justify;
+	padding: 10px 15px 0px 15px;
+	color: #FFCC99;
+}
+	
+p.feedcenter { 
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", Trebuchet, Arial, sans-serif;
+	font-size: 13px;
+	text-align: center;
+	padding: 10px 15px 0px 15px;
+}
+	
+h1.feedyourpod, h2.feedyourpod { 
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", Trebuchet, Arial, sans-serif;
+	font-size: 18px;
+	letter-spacing: 1px;
+	margin-top: 15px;
+	margin-bottom: 0px; 
+	color: #FFFFFF;
+	padding: 10px 15px 0px 15px;
+}
+	
+a.feedyourpod:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #FF9933;
+}
+	
+a.feedyourpod:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #FF6633;
+}
+	
+a.feedyourpod:hover, a.feedyourpod:active { 
+	text-decoration: underline; 
+	color: #FFFFFF;
+}
+

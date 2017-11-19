@@ -1,0 +1,232 @@
+sdiv.squawktabs {
+	/* background: #941200 url(../rocksquawk/images/rocksquawk-header-repeater.gif) repeat-x; */
+	background: #941200;
+	margin: 0px;
+	padding: 0px;
+}
+
+div.rocksquawklogo {
+	
+	/* background: #FFBFBE url(../rocksquawk/images/rocksquawk-header-repeater.gif) repeat-x; */
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", Trebuchet, Arial, sans-serif;	
+	/* color: white; #4A260D */
+	/* letter-spacing: .3em; */
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding: 0px;
+	/* clear: both; */
+	float: left;
+}
+
+div.rocksquawklogo img {
+	/* see also alibi-IE-exceptions.css */
+	border: 0px;
+}
+
+div.squawktabs div.login {
+	clear: none;
+	float: right;
+	width: 160px; /* bad things happen without this */
+}
+
+/* old version:
+div.squawktabs fieldset.login {
+	border: 1px solid #a2b2c1;
+	font-size: 9px;
+	text-align: right;
+	padding: 5px;
+	width: 140px;
+	margin: 5px;
+	float: right;
+	display: block;
+	overflow:hidden;
+	background-color: white;
+} */
+
+div.squawktabs fieldset.login {
+    border: 1px solid #a2b2c1;
+    font-size: 9px;
+    text-align: right;
+    padding: 5px;
+    width: 155px;
+    margin: 0px;
+    margin-right: 6px;
+    float: right;
+    clear: right;
+   	/* display: inline; */ /* WTF?? */
+    overflow:hidden;
+    height: 90px;
+    background-color: white;
+}
+
+
+div.squawktabs fieldset.login legend {
+	margin: 5px;
+	font-weight: bold;
+	color: #000000;
+	background-color: white; /* workaround for amazing firefox bug; safari and msie don't need this */
+}
+
+div.squawktabs input.logintext {
+	width: 75px;
+	background: #eee;
+    font-size: 9px;
+}
+
+
+div.squawktabs input.loginsubmit {
+	font-size: 9px;
+	margin-bottom: 0px;
+	padding: 0;
+	float: right;
+}
+
+div.squawktabs div.firefox {
+    padding-top: 0px;
+	margin: 0px;
+	margin-right: 26px;
+	padding-top: 6px;
+	display: inline;
+	float: right;
+	vertical-align: middle;
+ 	background: #941200;
+ 	margin-top: 12px;
+}
+
+div.squawktabs div.googleSearch {
+	padding-top: 3px;
+	padding-right: 6px;
+	padding-bottom: 3px;
+	display: inline;
+	float: right;
+	text-align: left;
+	font-size: 9px;
+	vertical-align: middle;
+	margin-top: 12px;
+}
+
+
+div.rocksquawk div.subnav {
+    clear: none;
+}
+
+div.RS_contenttop {
+    background: #FFFFFF url(../rocksquawk/images/mainitem_top.gif) no-repeat;
+    width: 600px;
+    height: 15px;
+    margin-left: 10px;
+    margin-top: 10px;    
+    overflow: hidden;
+}
+
+div.RS_contentbottom {
+    background: #FFFFFF url(../rocksquawk/images/mainitem_bottom.gif) no-repeat;
+    width: 600px;
+    height: 15px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    margin-left: 10px;    
+}
+
+div.RS_content {
+    background: red url(../rocksquawk/images/mainitem_background.gif) repeat-y;
+    width: 600px;
+    overflow: hidden;
+    margin-left: 10px;
+    margin-right: 10px;    
+}
+
+div.RS_content_nest {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px; 
+    background: green;
+}
+
+
+
+RS_img { 
+
+border:0px; 
+margin-left: 20px;
+} 
+
+div.flyerboxnew {
+	width: 160px;
+	margin-top: 10px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	background: black;
+	color: white;
+}
+
+
+div.flyerboxnew p { 
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", Trebuchet, Arial, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	padding: 10px 15px 0px 15px;
+	margin-top: 0px;
+	margin-bottom: 0px;	
+	}
+	
+	
+	
+div.flyerboxnew a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: red;
+	}	
+
+div.flyerboxnew a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: gray;
+	}
+	
+div.flyerboxnew a:hover, 
+div.flyerboxnew a:active { 
+	text-decoration: underline; 
+	color: #FFFFFF;
+	}
+
+div.flyerboxnew RS_img {
+
+	margin-top: 3px;
+	margin-bottom: 3px;
+	border:0px; 
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+div.flyerboxnew hr {
+	width: 75%;
+	color: #FFFFFF;
+	margin-top: 5px;
+	margin-bottom: 5px;	
+}
+
+.RS_bodytext {
+	color: #333333;
+    font-family: "Arial";
+	font-size: 12px;  
+}
+
+.RS_introtext {
+	color: #000000;
+    font-family: "Georgia, Times New Roman, Times, serif";
+	font-size: 16px;  
+}
+
+.RS_headtext {
+	color: #000000;
+    font-family: "serif";
+	font-size: 24px;  
+}
+.RS_datetext {
+	color: #777777;
+    font-family: "Georgia, Times New Roman, Times, serif";
+	font-size: 16px;  
+}

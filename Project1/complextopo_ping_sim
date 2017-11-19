@@ -1,0 +1,12 @@
+h1 ping h2 
+--- 10.0.0.2 ping statistics ---
+100 packets transmitted, 91 received, 9% packet loss, time 99161ms
+rtt min/avg/max/mdev = 24.484/26.051/28.170/0.664 ms
+
+h1 ping h3
+--- 10.0.0.3 ping statistics ---
+100 packets transmitted, 88 received, 12% packet loss, time 99197ms
+rtt min/avg/max/mdev = 32.530/34.095/38.706/1.032 ms
+
+
+

@@ -1,0 +1,14 @@
+HTTP Running : 8000  from  /home/mininet/Projects/Project4-2nd/Project-4/myURLS2/ntvcld-a.akamaihd.net  with delay  0.0 s
+<socket._socketobject object at 0x7f80ba9dabb0>
+/home/mininet/Projects/Project4-2nd/Project-4/myURLS2/ntvcld-a.akamaihd.net/image/upload/w_558,h_223,c_fill,g_auto:text,f_auto,fl_lossy,e_sharpen:70/assets/737403D681B1466EA68428E4FF1B8AA6.png
+/image/upload/w_558,h_223,c_fill,g_auto:text,f_auto,fl_lossy,e_sharpen:70/assets/737403D681B1466EA68428E4FF1B8AA6.png
+/image/upload/w_558,h_223,c_fill,g_auto:text,f_auto,fl_lossy,e_sharpen:70/assets/737403D681B1466EA68428E4FF1B8AA6.png
+trying hash: 8a12a0d2701d2549b2915409344dde2f
+10.0.0.89 - - [12/Oct/2017 22:19:03] "GET /image/upload/w_558,h_223,c_fill,g_auto:text,f_auto,fl_lossy,e_sharpen:70/assets/737403D681B1466EA68428E4FF1B8AA6.png HTTP/1.1" 200 -
+<socket._socketobject object at 0x7f80ba9dabb0>
+/home/mininet/Projects/Project4-2nd/Project-4/myURLS2/ntvcld-a.akamaihd.net/image/upload/w_558,h_223,c_fill,g_auto:text,f_auto,fl_lossy,e_sharpen:70/assets/737403D681B1466EA68428E4FF1B8AA6.png
+/image/upload/w_558,h_223,c_fill,g_auto:text,f_auto,fl_lossy,e_sharpen:70/assets/737403D681B1466EA68428E4FF1B8AA6.png
+/image/upload/w_558,h_223,c_fill,g_auto:text,f_auto,fl_lossy,e_sharpen:70/assets/737403D681B1466EA68428E4FF1B8AA6.png
+trying hash: 8a12a0d2701d2549b2915409344dde2f
+10.0.0.89 - - [12/Oct/2017 22:19:12] "GET /image/upload/w_558,h_223,c_fill,g_auto:text,f_auto,fl_lossy,e_sharpen:70/assets/737403D681B1466EA68428E4FF1B8AA6.png HTTP/1.1" 200 -
+Killed

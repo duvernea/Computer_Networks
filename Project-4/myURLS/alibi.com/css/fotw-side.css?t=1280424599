@@ -1,0 +1,30 @@
+.roundcont {
+	width: 160px;
+	background: black;
+	color: #fff;
+	margin: 0px;
+	padding: 0px;
+}
+
+.center_column {
+	margin: 0px;
+	padding: 0px;
+	color: white;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", Trebuchet, Arial, sans-serif;
+	font-size: 10px;
+}
+
+.roundtop { 
+	background: url(/images/redesign/tr.gif) no-repeat top right; 
+}
+
+.roundbottom {
+	background: url(/images/redesign/br.gif) no-repeat bottom right;
+}
+
+img.corner {
+	width: 15px;
+	height: 15px;
+	border: none;
+	display: block !important;
+}

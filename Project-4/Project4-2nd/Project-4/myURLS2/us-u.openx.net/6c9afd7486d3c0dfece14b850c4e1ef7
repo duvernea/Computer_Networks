@@ -1,0 +1,17 @@
+<html>
+<head><title>Pixels</title></head>
+<body>
+<script type="text/javascript">(function() {
+  var PX_LS_KEY = 'pd',
+      px = 'v2|1507860130.1|aya4aa9VaBdt.9D9S';
+  try {
+    localStorage.setItem(PX_LS_KEY, px);
+  } catch (err) {
+    // failed to set cookieless pixel in local storage
+  }
+})();
+</script>
+
+
+</body>
+</html>

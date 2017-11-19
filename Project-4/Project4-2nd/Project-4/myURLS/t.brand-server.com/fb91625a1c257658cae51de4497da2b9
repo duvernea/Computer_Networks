@@ -1,0 +1,1 @@
+document.writeln("<script src=\"http:\/\/alibi.com\/?request_type=ad&type=rectangle\"><\/script>");

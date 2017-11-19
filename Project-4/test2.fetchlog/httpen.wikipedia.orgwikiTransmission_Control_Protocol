@@ -1,0 +1,704 @@
+[31260:31267:3583741237:ERROR:nss_util.cc(90)] Failed to create /home/mininet/.pki/nssdb directory.
+[31260:31267:3583744226:WARNING:proxy_service.cc(889)] PAC support disabled because there is no system implementation
+*** Renamed /w/load.php?debug=false&lang=en&modules=ext.cite.styles%7Cext.math.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&only=styles&skin=vector to /cc9bce8544533a994d40e5d215237d2d ***
+*** Renamed /w/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector to /62565c42f607c3f7abd26b8a4fe1a63d ***
+*** Renamed /w/load.php?debug=false&lang=en&modules=ext.gadget.charinsert-styles&only=styles&skin=vector to /c6fdeba7cff6598c9476fa406b7a9d4f ***
+*** Renamed /w/load.php?debug=false&lang=en&modules=site.styles&only=styles&skin=vector to /b94b36f348b6f1b2abdf5c871d30fc17 ***
+*** Renamed /wikipedia/commons/thumb/f/f6/Tcp_state_diagram_fixed_new.svg/250px-Tcp_state_diagram_fixed_new.svg.png to /21ae57b8a221a21fb2dd223c55bd4686 ***
+*** Renamed /wikipedia/commons/thumb/5/55/TCP_CLOSE.svg/260px-TCP_CLOSE.svg.png to /b16185027918c39917b3694a50a74243 ***
+*** Renamed /api/rest_v1/media/math/render/svg/32319283141584248ce57da63837f20742f4c2ed to /ae85235045190cf642dd875686b6c8ce ***
+*** Renamed /api/rest_v1/media/math/render/svg/f5f3c8921a3b352de45446a6789b104458c9f90b to /75dddd5708425fc30b7e362088da631e ***
+*** Renamed /wikipedia/commons/thumb/d/d2/Internet_map_1024.jpg/28px-Internet_map_1024.jpg to /15f763f708f41ef4307dd49ab8444b5d ***
+*** Renamed /wikipedia/commons/thumb/d/d7/Desktop_computer_clipart_-_Yellow_theme.svg/32px-Desktop_computer_clipart_-_Yellow_theme.svg.png to /464b277a64edb7c54b32fa9ba470dfe0 ***
+*** Renamed /wikipedia/commons/thumb/9/91/Wikiversity-logo.svg/40px-Wikiversity-logo.svg.png to /1a8d46ffe2374f65a747ee60d605a2f2 ***
+*** Renamed /wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png to /9ef2a32c66a1d56c03a14c3776069cc3 ***
+*** Renamed /w/load.php?debug=false&lang=en&modules=jquery%2Cmediawiki%7Cmediawiki.legacy.wikibits&only=scripts&skin=vector&version=0v61to4 to /7a610d9dc4def316851e0db2a69794f0 ***
+[31260:31260:3589731835:INFO:CONSOLE(0)] "JQMIGRATE: Migrate is installed with logging active, version 3.0.1," source: https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=jquery%2Cmediawiki%7Cmediawiki.legacy.wikibits&only=scripts&skin=vector&version=0v61to4(139)
+*** Renamed /w/load.php?debug=false&lang=en&modules=ext.centralNotice.bannerHistoryLogger%2CchoiceData%2Cdisplay%2CgeoIP%2CimpressionDiet%2CkvStore%2CkvStoreMaintenance%2ClargeBannerLimit%2ClegacySupport%2CstartUp%7Cext.centralauth.centralautologin%7Cext.cite.a11y%7Cext.eventLogging%2CnavigationTiming%2CwikimediaEvents%7Cext.eventLogging.subscriber%7Cext.math.scripts%7Cext.uls.common%2Ceventlogger%2Cinit%2Cinterface%2Cpreferences%2Cwebfonts%7Cext.visualEditor.desktopArticleTarget.init%7Cext.visualEditor.supportCheck%2CtargetLoader%2Ctrack%2Cve%7Cjquery.accessKeyLabel%2CbyteLength%2CcheckboxShiftClick%2Cclient%2Ccookie%2CgetAttrs%2Chidpi%2ChighlightText%2Cmw-jump%2Csuggestions%2CtabIndex%2CtextSelection%2Cthrottle-debounce%7Cjquery.uls.data%7Cmediawiki.RegExp%2CTitle%2CUri%2Capi%2Ccldr%2Ccookie%2Cexperiments%2Chidpi%2CjqueryMsg%2Clanguage%2Cnotification%2Cnotify%2CsearchSuggest%2Cstorage%2Ctemplate%2Ctoc%2Cuser%2Cutil%7Cmediawiki.action.view.postEdit%7Cmediawiki.api.options%2Cuser%7Cmediawiki.language.data%2Cinit%7Cmediawiki.legacy.wikibits%7Cmediawiki.libs.pluralruleparser%7Cmediawiki.page.ready%2Cstartup%7Cmediawiki.template.regexp%7Cmediawiki.ui.button%2Cicon%7Cmmv.bootstrap%2Chead%7Cmmv.bootstrap.autostart%7Coojs%2Csite%7Cschema.UniversalLanguageSelector%7Cskins.vector.js%7Cuser.defaults&skin=vector&version=0l2c182 to /917c48d0cea608512bb56a085d70c442 ***
+*** Renamed /w/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice&skin=vector&version=03ts5td to /009093622d1c411d7a15d9032f2bcc11 ***
+<stats>
+c:tfo.supported:	0
+c:WebFrameActiveCount:	1
+t:tfo.page_load_timer:	5964
+c:URLRequestCount:	22
+c:disk_cache.miss:	23
+c:HttpNetworkTransaction.Count:	23
+c:tcp.connect:	15
+c:tcp.write_bytes:	18276
+c:tcp.read_bytes:	304415
+</stats>
+
+<resolves>
+strt (ms) | end (ms)  | len (ms)  | err | url:port -> address_list
+  144.388 |  5157.585 |  5013.197 |   0 | en.wikipedia.org:80 ->  208.80.154.224:80 [2620:0:861:ed1a::1]:80
+  144.460 |   144.460 |     0.000 |   1 | en.wikipedia.org:80 ->  nil
+ 5248.758 |  6158.966 |   910.208 |   0 | en.wikipedia.org:443 ->  208.80.154.224:443 [2620:0:861:ed1a::1]:443
+ 5248.932 |  5248.932 |     0.000 |   1 | en.wikipedia.org:443 ->  nil
+ 5248.939 |  5248.939 |     0.000 |   1 | en.wikipedia.org:443 ->  nil
+ 5459.087 |  5459.087 |     0.000 |   1 | en.wikipedia.org:443 ->  nil
+ 5459.119 |  5459.119 |     0.000 |   1 | en.wikipedia.org:443 ->  nil
+ 5459.123 |  5459.123 |     0.000 |   1 | en.wikipedia.org:443 ->  nil
+ 5459.810 |  5459.810 |     0.000 |   1 | en.wikipedia.org:443 ->  nil
+ 5459.838 |  5459.838 |     0.000 |   1 | en.wikipedia.org:443 ->  nil
+ 5459.842 |  5459.842 |     0.000 |   1 | en.wikipedia.org:443 ->  nil
+ 5460.582 |  5460.582 |     0.000 |   1 | en.wikipedia.org:443 ->  nil
+ 5460.600 |  5460.600 |     0.000 |   1 | en.wikipedia.org:443 ->  nil
+ 5460.603 |  5460.603 |     0.000 |   1 | en.wikipedia.org:443 ->  nil
+ 5461.044 |  5461.044 |     0.000 |   1 | en.wikipedia.org:443 ->  nil
+ 5461.063 |  5461.063 |     0.000 |   1 | en.wikipedia.org:443 ->  nil
+ 5461.066 |  5461.066 |     0.000 |   1 | en.wikipedia.org:443 ->  nil
+ 5470.953 |  5631.461 |   160.508 |   0 | upload.wikimedia.org:443 ->  208.80.154.240:443 [2620:0:861:ed1a::2:b]:443
+ 5470.989 |  5470.989 |     0.000 |   1 | upload.wikimedia.org:443 ->  nil
+ 5472.020 |  5472.020 |     0.000 |   1 | upload.wikimedia.org:443 ->  nil
+ 5472.045 |  5472.045 |     0.000 |   1 | upload.wikimedia.org:443 ->  nil
+ 5473.177 |  5497.332 |    24.155 |   0 | wikimedia.org:443 ->  208.80.154.224:443 [2620:0:861:ed1a::1]:443
+ 5473.195 |  5473.195 |     0.000 |   1 | wikimedia.org:443 ->  nil
+ 5473.556 |  5473.556 |     0.000 |   1 | wikimedia.org:443 ->  nil
+ 5473.571 |  5473.571 |     0.000 |   1 | wikimedia.org:443 ->  nil
+ 5474.109 |  5474.109 |     0.000 |   1 | upload.wikimedia.org:443 ->  nil
+ 5474.123 |  5474.123 |     0.000 |   1 | upload.wikimedia.org:443 ->  nil
+ 5481.663 |  5481.663 |     0.000 |   1 | upload.wikimedia.org:443 ->  nil
+ 5481.693 |  5481.693 |     0.000 |   1 | upload.wikimedia.org:443 ->  nil
+ 5481.996 |  5481.996 |     0.000 |   1 | upload.wikimedia.org:443 ->  nil
+ 5482.011 |  5482.011 |     0.000 |   1 | upload.wikimedia.org:443 ->  nil
+ 5482.296 |  5482.296 |     0.000 |   1 | upload.wikimedia.org:443 ->  nil
+ 5482.315 |  5482.315 |     0.000 |   1 | upload.wikimedia.org:443 ->  nil
+ 5487.398 |  5487.398 |     0.000 |   1 | upload.wikimedia.org:443 ->  nil
+ 5487.492 |  5487.492 |     0.000 |   1 | upload.wikimedia.org:443 ->  nil
+ 5487.615 |  5487.615 |     0.000 |   1 | upload.wikimedia.org:443 ->  nil
+ 5487.720 |  5487.720 |     0.000 |   1 | upload.wikimedia.org:443 ->  nil
+ 5487.849 |  5487.849 |     0.000 |   1 | upload.wikimedia.org:443 ->  nil
+ 5487.925 |  5487.925 |     0.000 |   1 | upload.wikimedia.org:443 ->  nil
+ 5488.139 |  5488.139 |     0.000 |   1 | upload.wikimedia.org:443 ->  nil
+ 5488.581 |  5488.581 |     0.000 |   1 | upload.wikimedia.org:443 ->  nil
+ 5494.727 |  5494.727 |     0.000 |   1 | en.wikipedia.org:443 ->  nil
+ 5494.753 |  5494.753 |     0.000 |   1 | en.wikipedia.org:443 ->  nil
+ 5494.756 |  5494.756 |     0.000 |   1 | en.wikipedia.org:443 ->  nil
+ 5495.270 |  5495.270 |     0.000 |   1 | en.wikipedia.org:443 ->  nil
+ 5497.242 |  5497.242 |     0.000 |   1 | wikimedia.org:443 ->  nil
+ 5497.330 |  5497.330 |     0.000 |   1 | wikimedia.org:443 ->  nil
+ 5631.455 |  5631.455 |     0.000 |   1 | upload.wikimedia.org:443 ->  nil
+ 5657.571 |  5657.571 |     0.000 |   1 | en.wikipedia.org:443 ->  nil
+ 6000.822 |  6000.822 |     0.000 |   1 | en.wikipedia.org:443 ->  nil
+ 6155.948 |  6155.948 |     0.000 |   1 | en.wikipedia.org:443 ->  nil
+ 6158.955 |  6158.955 |     0.000 |   1 | en.wikipedia.org:443 ->  nil
+</resolves>
+
+<transactions>
+strt (ms) | end (ms)  | len (ms)  | url
+  144.350 |  5248.531 |  5104.181 | http://en.wikipedia.org/wiki/Transmission_Control_Protocol
+ 5248.741 |  5492.528 |   243.787 | https://en.wikipedia.org/wiki/Transmission_Control_Protocol
+ 5459.049 |  5540.486 |    81.437 | https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=ext.cite.styles%7Cext.math.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&only=styles&skin=vector
+ 5460.573 |  5603.229 |   142.656 | https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=ext.gadget.charinsert-styles&only=styles&skin=vector
+ 5461.037 |  5616.354 |   155.317 | https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=site.styles&only=styles&skin=vector
+ 5494.713 |  5663.345 |   168.632 | https://en.wikipedia.org/static/images/wikimedia-button.png
+ 5495.256 |  5663.526 |   168.270 | https://en.wikipedia.org/static/images/poweredby_mediawiki_88x31.png
+ 5481.647 |  5958.410 |   476.763 | https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Bus_icon.svg/32px-Bus_icon.svg.png
+ 5481.988 |  5959.084 |   477.096 | https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Internet_map_1024.jpg/28px-Internet_map_1024.jpg
+ 5473.549 |  5961.186 |   487.637 | https://wikimedia.org/api/rest_v1/media/math/render/svg/f5f3c8921a3b352de45446a6789b104458c9f90b
+ 5473.164 |  5963.470 |   490.306 | https://wikimedia.org/api/rest_v1/media/math/render/svg/32319283141584248ce57da63837f20742f4c2ed
+ 5482.289 |  5963.597 |   481.308 | https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Desktop_computer_clipart_-_Yellow_theme.svg/32px-Desktop_computer_clipart_-_Yellow_theme.svg.png
+ 5472.010 |  5973.320 |   501.310 | https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/TCP_CLOSE.svg/260px-TCP_CLOSE.svg.png
+ 5470.936 |  5982.008 |   511.072 | https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Tcp_state_diagram_fixed_new.svg/250px-Tcp_state_diagram_fixed_new.svg.png
+ 5459.779 |  5982.164 |   522.385 | https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector
+ 5474.101 |  5982.478 |   508.377 | https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Tcp.svg/250px-Tcp.svg.png
+ 5657.554 |  5982.687 |   325.133 | https://en.wikipedia.org/static/images/project-logos/enwiki.png
+ 5488.572 |  6001.799 |   513.227 | https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png
+ 5488.122 |  6002.205 |   514.083 | https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Wikiversity-logo.svg/40px-Wikiversity-logo.svg.png
+ 5631.438 |  6003.099 |   371.661 | https://upload.wikimedia.org/wikipedia/commons/2/23/Icons-mini-file_acrobat.gif
+ 6000.804 |  6082.447 |    81.643 | https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=jquery%2Cmediawiki%7Cmediawiki.legacy.wikibits&only=scripts&skin=vector&version=0v61to4
+</transactions>
+
+<responses>
+status       | mime_type       | charset | url -> redirect_url
+TLS Redirect |                 |         | http://en.wikipedia.org/wiki/Transmission_Control_Protocol -> https://en.wikipedia.org/wiki/Transmission_Control_Protocol
+          OK |       text/html |   utf-8 | https://en.wikipedia.org/wiki/Transmission_Control_Protocol -> nil
+          OK |        text/css |   utf-8 | https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=ext.cite.styles%7Cext.math.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&only=styles&skin=vector -> nil
+          OK |        text/css |   utf-8 | https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=ext.gadget.charinsert-styles&only=styles&skin=vector -> nil
+          OK |        text/css |   utf-8 | https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=site.styles&only=styles&skin=vector -> nil
+          OK |       image/png |         | https://en.wikipedia.org/static/images/wikimedia-button.png -> nil
+          OK |       image/png |         | https://en.wikipedia.org/static/images/poweredby_mediawiki_88x31.png -> nil
+          OK |       image/png |         | https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Bus_icon.svg/32px-Bus_icon.svg.png -> nil
+          OK |      image/jpeg |         | https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Internet_map_1024.jpg/28px-Internet_map_1024.jpg -> nil
+          OK |   image/svg+xml |         | https://wikimedia.org/api/rest_v1/media/math/render/svg/f5f3c8921a3b352de45446a6789b104458c9f90b -> nil
+          OK |   image/svg+xml |         | https://wikimedia.org/api/rest_v1/media/math/render/svg/32319283141584248ce57da63837f20742f4c2ed -> nil
+          OK |       image/png |         | https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Desktop_computer_clipart_-_Yellow_theme.svg/32px-Desktop_computer_clipart_-_Yellow_theme.svg.png -> nil
+          OK |       image/png |         | https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/TCP_CLOSE.svg/260px-TCP_CLOSE.svg.png -> nil
+          OK |       image/png |         | https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Tcp_state_diagram_fixed_new.svg/250px-Tcp_state_diagram_fixed_new.svg.png -> nil
+          OK | text/javascript |   utf-8 | https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector -> nil
+          OK |       image/png |         | https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Tcp.svg/250px-Tcp.svg.png -> nil
+          OK |       image/png |         | https://en.wikipedia.org/static/images/project-logos/enwiki.png -> nil
+          OK |       image/png |         | https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png -> nil
+          OK |       image/png |         | https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Wikiversity-logo.svg/40px-Wikiversity-logo.svg.png -> nil
+          OK |       image/gif |         | https://upload.wikimedia.org/wikipedia/commons/2/23/Icons-mini-file_acrobat.gif -> nil
+          OK | text/javascript |   utf-8 | https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=jquery%2Cmediawiki%7Cmediawiki.legacy.wikibits&only=scripts&skin=vector&version=0v61to4 -> nil
+</responses>
+
+<queries>
+Collections of histograms for DNS.
+Histogram: AsyncDNS.HaveDnsConfig recorded 3 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (3 = 100.0%)
+1  ... 
+
+Histogram: DNS.AttemptDiscarded recorded 3 samples, average = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (3 = 100.0%) {0.0%}
+2  ... 
+
+Histogram: DNS.AttemptSuccess recorded 3 samples, average = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (3 = 100.0%) {0.0%}
+2  ... 
+
+Histogram: DNS.AttemptSuccessDuration recorded 3 samples, average = 1684.3 (flags = 0x1)
+0     ... 
+16    ------------------------------------------------------------------------O (1 = 33.3%) {0.0%}
+18    ... 
+24    ------------------------------------O                                     (1 = 33.3%) {33.3%}
+28    ... 
+4904  -----------------------------O                                            (1 = 33.3%) {66.7%}
+5660  ... 
+
+Histogram: DNS.AttemptTimeSavedByRetry recorded 3 samples, average = 3588999.2 (flags = 0x1)
+0        ... 
+3118920  ------------------------------------------------------------------------O (3 = 100.0%) {0.0%}
+3600000  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: DNS.JobQueueTime recorded 3 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (3 = 100.0%)
+1  ... 
+
+Histogram: DNS.JobQueueTimeAfterChange recorded 3 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (3 = 100.0%)
+1  ... 
+
+Histogram: DNS.JobQueueTimeAfterChange_LOWEST recorded 3 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (3 = 100.0%)
+1  ... 
+
+Histogram: DNS.JobQueueTime_LOWEST recorded 3 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (3 = 100.0%)
+1  ... 
+
+Histogram: DNS.ResolveCategory recorded 3 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (3 = 100.0%)
+1  ... 
+
+Histogram: DNS.ResolveSuccess recorded 3 samples, average = 1684.0 (flags = 0x1)
+0     ... 
+16    ------------------------------------------------------------------------O (1 = 33.3%) {0.0%}
+18    ... 
+24    ------------------------------------O                                     (1 = 33.3%) {33.3%}
+28    ... 
+4904  -----------------------------O                                            (1 = 33.3%) {66.7%}
+5660  ... 
+
+Histogram: DNS.ResolveSuccess_FAMILY_UNSPEC recorded 3 samples, average = 1684.0 (flags = 0x1)
+0     ... 
+16    ------------------------------------------------------------------------O (1 = 33.3%) {0.0%}
+18    ... 
+24    ------------------------------------O                                     (1 = 33.3%) {33.3%}
+28    ... 
+4904  -----------------------------O                                            (1 = 33.3%) {66.7%}
+5660  ... 
+
+Histogram: DNS.TotalTime recorded 15 samples, average = 341.3 (flags = 0x1)
+0     ------------------------------------------------------------------------O (6 = 40.0%)
+1     ... 
+5     ------------------------O                                                 (2 = 13.3%) {40.0%}
+6     ------------O                                                             (1 = 6.7%) {53.3%}
+7     ... 
+12    ------O                                                                   (1 = 6.7%) {60.0%}
+14    ------O                                                                   (1 = 6.7%) {66.7%}
+16    ------O                                                                   (1 = 6.7%) {73.3%}
+18    O                                                                         (0 = 0.0%) {80.0%}
+21    --------O                                                                 (2 = 13.3%) {80.0%}
+24    ... 
+4904  --O                                                                       (1 = 6.7%) {93.3%}
+5660  ... 
+
+
+Collections of histograms for Net.
+Histogram: Net.CertVerifier_Job_Latency recorded 3 samples, average = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (3 = 100.0%) {0.0%}
+2  ... 
+
+Histogram: Net.Compress.SSL.BytesAfterCompression recorded 8 samples, average = 68969.1 (flags = 0x1)
+0       ------------------------------------------------------------------------O (1 = 12.5%)
+500     ... 
+1268    ------------------------------------------------------------------------O (1 = 12.5%) {12.5%}
+1370    ... 
+12985   ------------------------------------------------------------------------O (1 = 12.5%) {25.0%}
+14032   ... 
+20681   ------------------------------------------------------------------------O (1 = 12.5%) {37.5%}
+22349   ... 
+48545   ------------------------------------------------------------------------O (1 = 12.5%) {50.0%}
+52461   ... 
+77318   ------------------------------------------------------------------------O (1 = 12.5%) {62.5%}
+83554   ... 
+167943  ------------------------------------------------------------------------O (1 = 12.5%) {75.0%}
+181489  O                                                                         (0 = 0.0%) {87.5%}
+196128  ------------------------------------------------------------------------O (1 = 12.5%) {87.5%}
+211947  ... 
+
+Histogram: Net.Compress.SSL.BytesBeforeCompression recorded 8 samples, average = 18947.2 (flags = 0x1)
+0      ------------------------------------O                                     (1 = 12.5%)
+500    ... 
+796    ------------------------------------O                                     (1 = 12.5%) {12.5%}
+860    ... 
+5119   ------------------------------------O                                     (1 = 12.5%) {25.0%}
+5532   ------------------------------------O                                     (1 = 12.5%) {37.5%}
+5978   ... 
+11119  ------------------------------------O                                     (1 = 12.5%) {50.0%}
+12016  ... 
+26100  ------------------------------------O                                     (1 = 12.5%) {62.5%}
+28205  ... 
+48545  ------------------------------------------------------------------------O (2 = 25.0%) {75.0%}
+52461  ... 
+
+Histogram: Net.ConnectionTypeCount3 recorded 57 samples, average = 4.9 (flags = 0x1)
+0   ------------------------------------------------------------------------O (15 = 26.3%)
+1   -------------------------------------------------------------------O      (14 = 24.6%) {26.3%}
+2   ... 
+7   -------------------------------------------------------------------O      (14 = 24.6%) {50.9%}
+8   ... 
+12  -------------------------------------------------------------------O      (14 = 24.6%) {75.4%}
+13  ... 
+
+Histogram: Net.ConnectionUsedSSLVersionFallback recorded 22 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (22 = 100.0%)
+1  ... 
+
+Histogram: Net.DNS_Resolution_And_TCP_Connection_Latency2 recorded 15 samples, average = 382.6 (flags = 0x1)
+0     ... 
+37    ------------------------------------------------------------------------O (6 = 40.0%) {0.0%}
+42    O                                                                         (0 = 0.0%) {40.0%}
+48    ------------------------------------O                                     (3 = 20.0%) {40.0%}
+54    ------------------------------------O                                     (3 = 20.0%) {60.0%}
+61    ------------------------O                                                 (2 = 13.3%) {80.0%}
+69    ... 
+4727  ------------O                                                             (1 = 6.7%) {93.3%}
+5352  ... 
+
+Histogram: Net.HadConnectionType3 recorded 4 samples, average = 5.0 (flags = 0x1)
+0   ------------------------------------------------------------------------O (1 = 25.0%)
+1   ------------------------------------------------------------------------O (1 = 25.0%) {25.0%}
+2   ... 
+7   ------------------------------------------------------------------------O (1 = 25.0%) {50.0%}
+8   ... 
+12  ------------------------------------------------------------------------O (1 = 25.0%) {75.0%}
+13  ... 
+
+Histogram: Net.HttpConnectionLatency recorded 14 samples, average = 480.8 (flags = 0x1)
+0     ... 
+48    -----------------------------O                                            (2 = 14.3%) {0.0%}
+54    ... 
+78    -----------------------------O                                            (2 = 14.3%) {14.3%}
+88    ... 
+113   --------------O                                                           (1 = 7.1%) {28.6%}
+128   O                                                                         (0 = 0.0%) {35.7%}
+145   ------------------------------------------------------------------------O (5 = 35.7%) {35.7%}
+164   -------------------------------------------O                              (3 = 21.4%) {71.4%}
+186   ... 
+4727  --------------O                                                           (1 = 7.1%) {92.9%}
+5352  ... 
+
+Histogram: Net.HttpJob.TotalTime recorded 21 samples, average = 586.2 (flags = 0x1)
+0     ... 
+68    -------------O                                                            (2 = 9.5%) {0.0%}
+81    ... 
+135   -------------O                                                            (2 = 9.5%) {9.5%}
+160   -------------O                                                            (2 = 9.5%) {19.0%}
+190   O                                                                         (0 = 0.0%) {28.6%}
+226   -------O                                                                  (1 = 4.8%) {28.6%}
+268   O                                                                         (0 = 0.0%) {33.3%}
+318   -------------O                                                            (2 = 9.5%) {33.3%}
+378   O                                                                         (0 = 0.0%) {42.9%}
+449   ------------------------------------------------------------------------O (11 = 52.4%) {42.9%}
+533   ... 
+5017  -------O                                                                  (1 = 4.8%) {95.2%}
+5961  ... 
+
+Histogram: Net.HttpJob.TotalTimeCancel recorded 1 samples, average = 5106.0 (flags = 0x1)
+0     ... 
+5017  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+5961  ... 
+
+Histogram: Net.HttpJob.TotalTimeNotCached recorded 21 samples, average = 586.2 (flags = 0x1)
+0     ... 
+68    -------------O                                                            (2 = 9.5%) {0.0%}
+81    ... 
+135   -------------O                                                            (2 = 9.5%) {9.5%}
+160   -------------O                                                            (2 = 9.5%) {19.0%}
+190   O                                                                         (0 = 0.0%) {28.6%}
+226   -------O                                                                  (1 = 4.8%) {28.6%}
+268   O                                                                         (0 = 0.0%) {33.3%}
+318   -------------O                                                            (2 = 9.5%) {33.3%}
+378   O                                                                         (0 = 0.0%) {42.9%}
+449   ------------------------------------------------------------------------O (11 = 52.4%) {42.9%}
+533   ... 
+5017  -------O                                                                  (1 = 4.8%) {95.2%}
+5961  ... 
+
+Histogram: Net.HttpJob.TotalTimeSuccess recorded 20 samples, average = 360.2 (flags = 0x1)
+0    ... 
+68   -------------O                                                            (2 = 10.0%) {0.0%}
+81   ... 
+135  -------------O                                                            (2 = 10.0%) {10.0%}
+160  -------------O                                                            (2 = 10.0%) {20.0%}
+190  O                                                                         (0 = 0.0%) {30.0%}
+226  -------O                                                                  (1 = 5.0%) {30.0%}
+268  O                                                                         (0 = 0.0%) {35.0%}
+318  -------------O                                                            (2 = 10.0%) {35.0%}
+378  O                                                                         (0 = 0.0%) {45.0%}
+449  ------------------------------------------------------------------------O (11 = 55.0%) {45.0%}
+533  ... 
+
+Histogram: Net.HttpResponseCode recorded 21 samples, average = 204.8 (flags = 0x1)
+0    ... 
+200  ------------------------------------------------------------------------O (20 = 95.2%) {0.0%}
+201  ... 
+301  ------------------------------------------------------------------------O (1 = 4.8%) {95.2%}
+302  ... 
+
+Histogram: Net.HttpSocketType recorded 23 samples, average = 0.8 (flags = 0x1)
+0  ------------------------------------------------------------------------O (14 = 60.9%)
+1  O                                                                         (0 = 0.0%) {60.9%}
+2  ----------------------------------------------O                           (9 = 39.1%) {60.9%}
+3  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: Net.HttpTimeToFirstByte recorded 21 samples, average = 430.8 (flags = 0x1)
+0     ... 
+33    ------------------------O                                                 (2 = 9.5%) {0.0%}
+41    ... 
+75    ------------O                                                             (1 = 4.8%) {9.5%}
+92    ------------------------O                                                 (2 = 9.5%) {14.3%}
+113   O                                                                         (0 = 0.0%) {23.8%}
+139   ------------------------------------------------O                         (4 = 19.0%) {23.8%}
+171   ------------------------------------------------------------------------O (6 = 28.6%) {42.9%}
+210   ------------------------O                                                 (2 = 9.5%) {71.4%}
+258   O                                                                         (0 = 0.0%) {81.0%}
+317   ------------O                                                             (1 = 4.8%) {81.0%}
+389   O                                                                         (0 = 0.0%) {85.7%}
+477   ------------------------O                                                 (2 = 9.5%) {85.7%}
+585   ... 
+4524  ------------O                                                             (1 = 4.8%) {95.2%}
+5551  ... 
+
+Histogram: Net.NumDuplicateCookiesInDb recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.Priority_High_Latency_b recorded 1 samples, average = 5098.0 (flags = 0x1)
+0     ... 
+4727  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+5352  ... 
+
+Histogram: Net.RenegotiationExtensionSupported recorded 14 samples, average = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (14 = 100.0%) {0.0%}
+2  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: Net.SSLCertVerificationTime recorded 14 samples, average = 0.2 (flags = 0x1)
+0  ------------------------------------------------------------------------O (11 = 78.6%)
+1  --------------------O                                                     (3 = 21.4%) {78.6%}
+2  ... 
+
+Histogram: Net.SSL_Connection_Latency recorded 14 samples, average = 82.1 (flags = 0x1)
+0    ... 
+42   ----------------------------------------------------------O               (4 = 28.6%) {0.0%}
+48   ... 
+61   --------------O                                                           (1 = 7.1%) {28.6%}
+69   ... 
+88   -------------------------------------------O                              (3 = 21.4%) {35.7%}
+100  ------------------------------------------------------------------------O (5 = 35.7%) {57.1%}
+113  --------------O                                                           (1 = 7.1%) {92.9%}
+128  ... 
+
+Histogram: Net.SSL_Connection_Latency_Full_Handshake recorded 9 samples, average = 101.2 (flags = 0x1)
+0    ... 
+83   ------------------O                                                       (1 = 11.1%) {0.0%}
+92   ------------------------------------------------------O                   (3 = 33.3%) {11.1%}
+101  ------------------------------------------------------------------------O (4 = 44.4%) {44.4%}
+111  ------------------O                                                       (1 = 11.1%) {88.9%}
+122  ... 
+
+Histogram: Net.SSL_Connection_Latency_Resume_Handshake recorded 5 samples, average = 47.6 (flags = 0x1)
+0   ... 
+42  ------------------------------------------------------------------------O (4 = 80.0%) {0.0%}
+46  ... 
+56  --------------O                                                           (1 = 20.0%) {80.0%}
+62  ... 
+
+Histogram: Net.SocketIdleTimeBeforeNextUse_ReusedSocket recorded 9 samples, average = 34.9 (flags = 0x1)
+0    ------------------------------------------------------------------------O (5 = 55.6%)
+1    ... 
+18   -------O                                                                  (1 = 11.1%) {55.6%}
+20   ... 
+37   ---O                                                                      (1 = 11.1%) {66.7%}
+42   ... 
+75   ---O                                                                      (1 = 11.1%) {77.8%}
+84   ... 
+171  ---O                                                                      (1 = 11.1%) {88.9%}
+192  ... 
+
+Histogram: Net.SocketIdleTimeBeforeNextUse_ReusedSocket_HTTPProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketIdleTimeBeforeNextUse_ReusedSocket_SOCK recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketIdleTimeBeforeNextUse_ReusedSocket_SSL2 recorded 9 samples, average = 34.9 (flags = 0x1)
+0    ------------------------------------------------------------------------O (5 = 55.6%)
+1    ... 
+18   -------O                                                                  (1 = 11.1%) {55.6%}
+20   ... 
+37   ---O                                                                      (1 = 11.1%) {66.7%}
+42   ... 
+75   ---O                                                                      (1 = 11.1%) {77.8%}
+84   ... 
+171  ---O                                                                      (1 = 11.1%) {88.9%}
+192  ... 
+
+Histogram: Net.SocketIdleTimeBeforeNextUse_ReusedSocket_SSLForProxies recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketIdleTimeBeforeNextUse_ReusedSocket_SSLforHTTPSProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketIdleTimeBeforeNextUse_ReusedSocket_TCP recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketIdleTimeBeforeNextUse_ReusedSocket_TCPforHTTPProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketIdleTimeBeforeNextUse_ReusedSocket_TCPforHTTPSProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketIdleTimeBeforeNextUse_ReusedSocket_TCPforSOCKS recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketIdleTimeBeforeNextUse_UnusedSocket_HTTPProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketIdleTimeBeforeNextUse_UnusedSocket_SOCK recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketIdleTimeBeforeNextUse_UnusedSocket_SSL2 recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketIdleTimeBeforeNextUse_UnusedSocket_SSLForProxies recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketIdleTimeBeforeNextUse_UnusedSocket_SSLforHTTPSProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketIdleTimeBeforeNextUse_UnusedSocket_TCP recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketIdleTimeBeforeNextUse_UnusedSocket_TCPforHTTPProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketIdleTimeBeforeNextUse_UnusedSocket_TCPforHTTPSProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketIdleTimeBeforeNextUse_UnusedSocket_TCPforSOCKS recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketInitErrorCodes_HTTPProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketInitErrorCodes_SOCK recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketInitErrorCodes_SSL2 recorded 22 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (22 = 100.0%)
+1  ... 
+
+Histogram: Net.SocketInitErrorCodes_SSLForProxies recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketInitErrorCodes_SSLforHTTPSProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketInitErrorCodes_TCP recorded 15 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (15 = 100.0%)
+1  ... 
+
+Histogram: Net.SocketInitErrorCodes_TCPforHTTPProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketInitErrorCodes_TCPforHTTPSProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketInitErrorCodes_TCPforSOCKS recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketRequestTime_HTTPProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketRequestTime_SOCK recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketRequestTime_SSL2 recorded 13 samples, average = 128.8 (flags = 0x1)
+0    ... 
+48   -----------------------------O                                            (2 = 15.4%) {0.0%}
+54   ... 
+78   -----------------------------O                                            (2 = 15.4%) {15.4%}
+88   ... 
+113  --------------O                                                           (1 = 7.7%) {30.8%}
+128  O                                                                         (0 = 0.0%) {38.5%}
+145  ------------------------------------------------------------------------O (5 = 38.5%) {38.5%}
+164  -------------------------------------------O                              (3 = 23.1%) {76.9%}
+186  ... 
+
+Histogram: Net.SocketRequestTime_SSLForProxies recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketRequestTime_SSLforHTTPSProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketRequestTime_TCP recorded 15 samples, average = 382.9 (flags = 0x1)
+0     ... 
+37    ------------------------------------------------------------------------O (6 = 40.0%) {0.0%}
+42    O                                                                         (0 = 0.0%) {40.0%}
+48    ------------------------------------O                                     (3 = 20.0%) {40.0%}
+54    ------------------------------------O                                     (3 = 20.0%) {60.0%}
+61    O                                                                         (0 = 0.0%) {80.0%}
+69    ------------------------O                                                 (2 = 13.3%) {80.0%}
+78    ... 
+4727  ------------O                                                             (1 = 6.7%) {93.3%}
+5352  ... 
+
+Histogram: Net.SocketRequestTime_TCPforHTTPProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketRequestTime_TCPforHTTPSProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketRequestTime_TCPforSOCKS recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketType_HTTPProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketType_SOCK recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketType_SSL2 recorded 22 samples, average = 0.8 (flags = 0x1)
+0  ------------------------------------------------------------------------O (13 = 59.1%)
+1  O                                                                         (0 = 0.0%) {59.1%}
+2  --------------------------------------------------O                       (9 = 40.9%) {59.1%}
+3  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: Net.SocketType_SSLForProxies recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketType_SSLforHTTPSProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketType_TCP recorded 15 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (15 = 100.0%)
+1  ... 
+
+Histogram: Net.SocketType_TCPforHTTPProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketType_TCPforHTTPSProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketType_TCPforSOCKS recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.TCP_Connection_Latency recorded 15 samples, average = 41.0 (flags = 0x1)
+0   ... 
+37  ------------------------------------------------------------------------O (9 = 60.0%) {0.0%}
+42  ------------------------------------------------O                         (6 = 40.0%) {60.0%}
+48  ... 
+
+Histogram: Net.TCP_Connection_Latency_IPv4_No_Race recorded 15 samples, average = 41.0 (flags = 0x1)
+0   ... 
+37  ------------------------------------------------------------------------O (9 = 60.0%) {0.0%}
+42  ------------------------------------------------O                         (6 = 40.0%) {60.0%}
+48  ... 
+
+Histogram: Net.Transaction_Connected recorded 1 samples, average = 5098.0 (flags = 0x1)
+0     ... 
+4727  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+5352  ... 
+
+Histogram: Net.Transaction_Connected_New_b recorded 1 samples, average = 5098.0 (flags = 0x1)
+0     ... 
+4727  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+5352  ... 
+
+Histogram: Net.Transaction_Latency_Total recorded 20 samples, average = 360.2 (flags = 0x1)
+0    ... 
+69   ------------------------O       [31260:31267:3589781492:FATAL:url_request_context.cc(121)] Check failed: false. Leaked 2 URLRequest(s). First URL: https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice&skin=vector&version=03ts5td.
+                                          (2 = 10.0%) {0.0%}
+78   ... 
+128  ------------O                                                             (1 = 5.0%) {10.0%}
+145  ------------O                                                             (1 = 5.0%) {15.0%}
+164  ------------------------O                                                 (2 = 10.0%) {20.0%}
+186  ... 
+239  ------------O                                                             (1 = 5.0%) {30.0%}
+271  O                                                                         (0 = 0.0%) {35.0%}
+307  ------------O                                                             (1 = 5.0%) {35.0%}
+348  ------------O                                                             (1 = 5.0%) {40.0%}
+394  O                                                                         (0 = 0.0%) {45.0%}
+446  ------------------------------------------------------------------------O (6 = 30.0%) {45.0%}
+505  ------------------------------------------------------------O             (5 = 25.0%) {75.0%}
+572  ... 
+
+Histogram: Net.Transaction_Latency_Total_New_Connection recorded 13 samples, average = 369.8 (flags = 0x1)
+0    ... 
+128  ------------O                                                             (1 = 7.7%) {0.0%}
+145  ------------O                                                             (1 = 7.7%) {7.7%}
+164  ------------------------O                                                 (2 = 15.4%) {15.4%}
+186  ... 
+239  ------------O                                                             (1 = 7.7%) {30.8%}
+271  ... 
+446  ------------------------------------------------------------------------O (6 = 46.2%) {38.5%}
+505  ------------------------O                                                 (2 = 15.4%) {84.6%}
+572  ... 
+
+Histogram: Net.Transaction_Latency_b recorded 20 samples, average = 206.1 (flags = 0x1)
+0    ... 
+37   ------------O                                                             (1 = 5.0%) {0.0%}
+42   ------------------------------------O                                     (3 = 15.0%) {5.0%}
+48   O                                                                         (0 = 0.0%) {20.0%}
+54   ------------O                                                             (1 = 5.0%) {20.0%}
+61   O                                                                         (0 = 0.0%) {25.0%}
+69   ------------------------O                                                 (2 = 10.0%) {25.0%}
+78   ... 
+113  ------------------------------------O                                     (3 = 15.0%) {35.0%}
+128  ... 
+307  ------------------------------------------------------------------------O (6 = 30.0%) {50.0%}
+348  ------------------------------------O                                     (3 = 15.0%) {80.0%}
+394  ------------O                                                             (1 = 5.0%) {95.0%}
+446  ... 
+
+
+</queries>
+Received signal 6
+ [0x000000531f1e] base::debug::StackTrace::StackTrace()
+ [0x000000532418] base::debug::(anonymous namespace)::StackDumpSignalHandler()
+ [0x7f824b854340] <unknown>
+ [0x7f824a87dcc9] gsignal
+ [0x7f824a8810d8] abort
+ [0x00000056c349] base::debug::BreakDebugger()
+ [0x0000005405cd] logging::LogMessage::~LogMessage()
+ [0x000001c2eb7e] net::URLRequestContext::AssertNoURLRequests()
+ [0x000001c2ebc8] net::URLRequestContext::~URLRequestContext()
+ [0x000001aec899] TestShellRequestContext::~TestShellRequestContext()
+ [0x000001ae3c1f] (anonymous namespace)::IOThread::CleanUp()
+ [0x00000055eafd] base::Thread::ThreadMain()
+ [0x00000055e361] base::(anonymous namespace)::ThreadFunc()
+ [0x7f824b84c182] start_thread
+ [0x7f824a94147d] clone
+  r8: 000000000204024d  r9: 00007f82415d8b5e r10: 0000000000000008 r11: 0000000000000202
+ r12: 0000000000000000 r13: 00007f824ac06868 r14: 00007f82415da9c0 r15: 00007f82415da700
+  di: 0000000000007a1c  si: 0000000000007a23  bp: 00007f824b42b3c0  bx: 00007f82415d9650
+  dx: 0000000000000006  ax: 0000000000000000  cx: ffffffffffffffff  sp: 00007f82415d8df8
+  ip: 00007f824a87dcc9 efl: 0000000000000202 cgf: 0000000000000033 erf: 0000000000000000
+ trp: 0000000000000000 msk: 0000000000000000 cr2: 0000000000000000

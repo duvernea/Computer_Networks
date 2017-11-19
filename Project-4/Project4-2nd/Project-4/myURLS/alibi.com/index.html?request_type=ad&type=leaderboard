@@ -1,0 +1,96 @@
+(function () {
+console.log('need leaderboard ad');
+	if (document.currentScript) {
+		// is the same script getting run over and over?
+		if (document.currentScript.getAttribute('x-run')) {
+			console.log('Feels like I have been here before.');
+			return;
+		} else {
+			document.currentScript.setAttribute('x-run','1');
+			console.log('First time I have been here.');
+		}
+	}
+
+	if (document.domain != 'alibi.com') {
+		// we are in someone else's iframe.
+		console.log('leaderboard ad: in domain '+document.domain+' so creating iframe');
+		document.write("<iframe src=\"http://alibi.com/index.php?cb=ifr_617012160&amp;no_more_iframes=1&amp;request_type=ad_iframe&amp;type=leaderboard\" style=\"border:none;width:729px;height:90px;\" frameborder=\"0\" name=\"ifr_617012160\" width=\"729\" height=\"90\" scrolling=\"no\" data-resizeme=\"1\"></iframe>");
+	} else {
+
+		// at this point, we are pretty sure we are in the right domain.. but maybe not in the right document.
+		var here=null, impression_id=null;
+		if (document.currentScript) { // modern browsers
+			here=document.currentScript.parentNode;
+		} else if (false) { // MSIE
+			document.write("<div id='mscnt_1755659962'></div>");
+			var ms;
+			if (ms=document.getElementById("mscnt_1755659962")) {
+				here=ms.parentNode;
+				here.removeChild(ms);
+			}
+		}
+		function here_to_imp(here) {
+			var i=0;
+			while (here) {
+				if (++i > 5) { // try to stop runaway
+					console.log('leaderboard ad: so deep. is it right?');
+					break;
+				}
+
+				if (here.getAttribute) {
+					var str='leaderboard ad: checking out '+here.nodeName;
+					if (here.id)
+						str=str+'#'+here.id;
+					console.log(str);
+					if (impression_id=here.getAttribute("data-impression")) {
+						return Number(impression_id);
+					}
+				} else {
+					// got all the way up to the htmldocument or something like that
+					break;
+				}
+				if (here.nodeName=='BODY') {
+					console.log('leaderboard ad: no need to look higher than body, right?');
+					break;
+				}
+
+				var p=here.parentNode;
+				if (p===here) {
+					console.log('leaderboard ad: you are your own grandpa!?!');
+					return null;
+				}
+				here=p;
+			}
+			return null;
+		}
+		impression_id=here_to_imp(here);  // VMG case; it is right here in this document
+		
+		if (!impression_id) {
+			// AAN case
+			var w=window;
+			var i=0;
+			while (w) {
+				console.log("leaderboard ad: checking parent doc");
+				if (w.frameElement) {
+					impression_id=here_to_imp(w.frameElement);
+					if (impression_id) { // got it!
+						w.frameElement.setAttribute('data-domain',w.document.domain); // for debugging
+						console.log("leaderboard ad: got it! "+impression_id);
+						break;
+					}
+				}
+				p=w.parent;
+				if (p===w) // we are at top; give up
+					break;
+				w=p;
+
+				if (++i > 3) {
+					console.log("leaderboard ad: too much parenting!");
+					break;
+				}
+			}
+		}
+
+		document.write('<iframe src="http://alibi.com/?request_type=iframe&resource=ad&type=leaderboard'+(impression_id?('&impression='+impression_id):'')+'&cb=ifr_632548227" style="border:none;width:729px;height:90px;" frameborder="0" name="ifr_632548227" width="729" height="90" scrolling="no" data-resizeme="1"></iframe>');
+	}
+})();

@@ -1,0 +1,17 @@
+<html>
+<head><title>Pixels</title></head>
+<body>
+<script type="text/javascript">(function() {
+  var PX_LS_KEY = 'pd',
+      px = 'v2|1507860130|aaa4aydt9VaB';
+  try {
+    localStorage.setItem(PX_LS_KEY, px);
+  } catch (err) {
+    // failed to set cookieless pixel in local storage
+  }
+})();
+</script>
+
+<iframe src="http://cmap.ox.ace.advertising.com/cfcm.ashx?providerId=1009" width='0' height='0' style='display:none;'></iframe><iframe src="https://openx2-match.dotomi.com/openx/match?nuid={OX_USER_ID} " width='0' height='0' style='display:none;'></iframe><iframe src="http://rp.gwallet.com/r1/cm/p25" width='0' height='0' style='display:none;'></iframe><iframe src="http://px.owneriq.net/eox" width='0' height='0' style='display:none;'></iframe><iframe src="http://magnetic.t.domdex.com/sync/openx" width='0' height='0' style='display:none;'></iframe><iframe src="http://pxl.connexity.net/c/cse?a=Q&B=37" width='0' height='0' style='display:none;'></iframe>
+</body>
+</html>

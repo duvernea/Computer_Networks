@@ -1,0 +1,17 @@
+005_tcp_3g.txt:saving to mptcp-005-Oct15-22:28/cwnd.png
+005_tcp_wifi.txt:saving to mptcp-005-Oct15-22:23/cwnd.png
+005.txt:saving to mptcp-005-Oct15-22:18/cwnd.png
+01_tcp_3g.txt:saving to mptcp-01-Oct15-22:27/cwnd.png
+01_tcp_wifi.txt:saving to mptcp-01-Oct15-22:22/cwnd.png
+01.txt:saving to mptcp-01-Oct15-22:17/cwnd.png
+02_tcp_3g.txt:saving to mptcp-02-Oct15-22:25/cwnd.png
+02_tcp_wifi.txt:saving to mptcp-02-Oct15-22:20/cwnd.png
+02.txt:saving to mptcp-02-Oct15-22:15/cwnd.png
+05_tcp_3g.txt:saving to mptcp-05-Oct15-22:24/cwnd.png
+05_tcp_wifi.txt:saving to mptcp-05-Oct15-22:19/cwnd.png
+05.txt:saving to mptcp-05-Oct15-22:14/cwnd.png
+
+005 tcp 3g 22:28
+005 tcp wifi 22:23
+005 22:18
+01 3g 22:27

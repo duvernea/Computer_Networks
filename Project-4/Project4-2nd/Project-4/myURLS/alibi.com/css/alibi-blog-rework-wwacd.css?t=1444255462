@@ -1,0 +1,1979 @@
+div.blogpost {
+
+	font-family: georgia, "times new roman", serif;
+	font-size: 14px;
+	text-align: left;
+	line-height: 16px;
+/*	padding: 15px 0px 0px 40px; /*
+/*	margin-top: 0px;		    /*
+/*	margin-bottom: 0px;		    /*
+/*	margin-left: 20px;		    /*
+/*	margin-right: 20px;		    /*
+    background: #4A260D;
+    background: red;
+/*	border: 12px solid black; */
+	margin: 0;
+	padding: 0;
+	background: none;
+
+}
+
+
+#headerStoryBar {
+
+	display:none;
+
+}
+
+div.rocksquawk div.blogpost {
+
+    background: #941200;
+    background: white;
+
+}
+
+div.rocksquawk div.blogpost div.topblurb {
+
+    background: #FFBFBE;
+    background: white;
+    border: 1px rgb(148, 18, 0) solid;
+    color: black;
+    /*font-family: georgia, "times new roman", serif;*/
+    font-size: 12px;
+    line-height: 14px;
+    padding-left: 20px;
+    display:block;
+    margin-left:20px;
+	margin-right:20px;
+	font-family: Arial, sans-serif;
+
+}
+
+div.politics div.blogpost {
+
+    background: #B20505;
+    background: white;
+
+}
+
+div.election div.blogpost {
+
+    background: #235371;
+    background: white;
+
+}
+
+
+div.politics div.blogpost div.topblurb {
+
+    background: #294F9F;
+    background: white;
+    
+}
+
+
+div.election div.blogpost div.topblurb {
+
+    background: black;
+    background: white;
+    
+}
+
+
+
+div.blogpost div.topblurb {
+
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", Trebuchet, Arial, sans-serif;	
+	font-size: 10px;
+	line-height: 12px;
+	padding: 6px;
+	clear: both; 
+	background: #5E785D; 
+	color: white;
+	display:none;
+	
+}
+
+
+div.blogpost div.bloglogo {
+
+ 	background: #4A260D url(../editorial/images/weblog-logo-repeater.gif) repeat-x;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", Trebuchet, Arial, sans-serif;	
+	/* color: white; */
+	letter-spacing: .3em;
+	margin-bottom: 20px;
+	margin-top: 6px;
+	clear: both;
+	display:none;
+
+}
+
+
+
+div.bloglogo img {
+
+	background: #4A260D;
+
+}
+
+
+div.blogpost div.commentslogo {
+
+ 	background: #4A260D url(../users/blog/images/weblog-medium-repeater.gif) repeat-x;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", Trebuchet, Arial, sans-serif;	color: white;
+	letter-spacing: .3em;
+	padding-bottom: 20px;
+	margin-bottom: 0px;
+	margin-top: 6px;
+	clear: both;
+	margin-top: 0;
+	display: none;
+	
+}
+
+div.commentslogo img {
+
+	background: #4A260D;
+	border: none;
+
+}
+
+
+div.blogpost div.usernav {
+
+	float: right; 
+	clear: right;
+	color: white;
+	padding-right: 6px;
+	
+}
+
+div.usernav a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+/* 	color: #FFCC00; */
+	color: #F6DCA5;
+	
+}
+	
+div.usernav a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #CDA95F;
+}
+	
+div.usernav a:hover, div.usernav a:active { 
+	text-decoration: underline; 
+	color: #ffffff;
+}
+
+
+
+
+
+div.blogpost div.post {
+
+ 	background: white;
+	/* padding: 10px 30px 10px 30px; */
+	padding-top: 10px;
+	padding-bottom: 0px;
+	/* padding: 10px 0px 10px 0px; */
+	margin-top: 0px;
+	margin-bottom: 0px;
+	clear: both;
+	/* margin-left: 0px; */
+	margin-left: auto;
+	margin-right: auto;
+	border: 0;
+}
+
+div.rocksquawk div.blogpost div.post {
+
+/*    background: #F1D3D5;*/
+    background: white;    
+    border-left: 12px solid #eaeaea;
+    border-left: 0;
+    
+}
+
+div.politics div.blogpost div.post {
+
+/*    background: #F1D3D5;*/
+    background: white;    
+    border-left: 12px solid #294F9F;
+    border-left: 0;
+}
+
+
+div.election div.blogpost div.post {
+
+/*    background: #F1D3D5;*/
+    background: #F6F1D6;    
+    background: white;
+    border-left: 12px solid #BB332E;
+    border-left: 0;
+}
+
+
+div.blogpost div.profilepost {
+    
+
+ 	background: #CCE9DB;
+	padding: 10px 30px 0px 30px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-left: 12px solid #246C48;
+	clear: both;
+	color: black;
+	
+/* 	margin-left: 40px; */
+/* 	margin-right: 40px; */
+/* 	border-top: 2px solid #CDA95F; */
+/* 	border-bottom: 2px solid #CDA95F; */
+	
+	
+}
+
+/* another annoying firefox bug: when width was 95%, form would go wide on blog page, but 92% works OK. */
+
+div.profile_subtitle {
+	clear: both;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+div.profilepost input.text {
+	
+	width: 92%;
+	background: #eeeeee;
+
+
+}
+
+div.profilepost textarea {
+	
+	width: 92%;
+	background: #eeeeee;
+
+}
+
+div.profilepost input.submit {
+	
+	width: 120px;
+	background: #eeeeee;
+	font-size: 10px;
+	font-weight: bold;
+
+}
+
+
+
+
+/* this specifies font size for pages (like TOC) where other A tags also have font sizes specified */
+/* to avoid inheriting those sizes */
+
+div.post a:link, div.post a:visited, div.post a:hover, div.post a:active  {
+
+    font-size: 13px;
+    color: #660000;
+}
+
+div.post a:hover h2, div.post a:active h2 {
+	text-decoration: underline;
+}
+
+div.post a:hover h1, div.post a:active h1 {
+	text-decoration: underline;
+}
+
+
+div.post span.fn {
+
+}
+
+div.post div.hProduct {
+	margin: 0;
+	padding: 0;
+
+}
+
+div.post h3 {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 6px;
+
+}
+
+div.post a.filmlink {
+	font-size: large;
+}
+
+div.post h4 {
+	margin: 0;
+	padding: 0;
+	font-size: smaller;
+	font-weight: normal;
+
+}
+
+
+/* this is for the filemaker-produced empty <P></P> tags that appear between paragraphs */
+	
+div.blogpost p {
+
+    margin: 6px 0px 0px 0px;
+    padding: 0px;
+
+}	
+
+
+	
+div.blogpost h1 { 
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", Trebuchet, Arial, sans-serif;
+	font-family: Georgia,Times,"Times New Roman",serif;
+	font-weight: normal;
+	font-size: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #C60000;
+	clear: left;
+	line-height: 22px;
+
+	}	
+	
+	
+div.blogpost h2 { 
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", Trebuchet, Arial, sans-serif;
+	font-weight: normal;
+	line-height: 20px;
+	font-size: 16px;
+	padding-top: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	}
+	
+div.blogpost div.byline { 
+/* 	padding-top: 0px; */
+/* 	margin-top: 0px; */
+/* 	margin-bottom: 0px; */
+/* 	width: 100%; */
+	margin-bottom: 10px;
+	}
+
+
+/* 8/5/9 probably obsolete: */
+div.blogpost font.byline  {
+	text-align: left;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", Trebuchet, Arial, sans-serif;
+	font-size: 13px;
+	color: #0083D7;
+	vertical-align: baseline;
+}
+
+
+div.blogpost font.date  {
+/* 	float: right; */
+	font-family: "Courier New", Courier, monospace;
+	font-size: 11px;
+	font-weight: bold;
+	color: black;
+	text-align: right;
+	vertical-align: baseline;
+}
+	
+
+div.blogpost div.backnav {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", Trebuchet, Arial, sans-serif;	
+	font-size: 9px;
+	color: black;
+	margin-bottom: 15px;
+	margin-top: 0px;
+	line-height: 11px;
+	margin-top: 3px;
+	margin-right: 32px;
+	margin-left: 32px;
+	text-transform: uppercase;
+}
+
+div.backnav {
+	margin-top: 6px;
+	margin-bottom: 6px;  
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", Trebuchet, Arial, sans-serif;	
+
+}
+
+div.backnav a:hover, div.backnav a:active {
+	text-decoration: underline; 
+	color: #000000;
+	color: red;
+}
+
+div.headerbar {
+
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", Trebuchet, Arial, sans-serif;
+	color: gray;
+	font-size: 9px !important;
+	clear: both;
+	text-align: right;
+	float: right;
+	letter-spacing: .1em;
+	background: silver;
+	background: none;
+	width: auto;
+	margin-bottom: 0;
+	padding-bottom: 5px; /* 9/13/11 */
+	
+
+}
+
+div.headerbar a {
+
+	color: gray;
+	font-size: 9px !important;
+
+}
+
+div.headerbar a:hover, div.headerbar a:active { 
+	text-decoration: underline; 
+	color: #000000;
+	color: red;
+}
+
+div.subsection {
+	display: none;
+}
+
+div.subsection div.backnavdark {
+
+    text-align: right;
+    float: right;
+    clear: both;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 9px 6px 0px 0px;
+    font-family: georgia, "times new roman", serif;
+
+}
+
+div.backnavdark {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", Trebuchet, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 10px;
+/* 	color: #728A70; */
+	color: white;
+	margin-bottom: 15px;
+	margin-bottom: 0;
+	margin-top: auto;
+/* 	margin-top: 9px; */
+/* 	margin-right: 12px; */
+	line-height: 11px;
+	margin-left: 32px;
+	font-size: 12px;
+	font-variant: small-caps;
+}
+
+#alibi_forums div.backnavdark {
+
+	margin-left: 0;
+	margin-top: 6px;
+	color: black;
+	font-size: 13px;
+	font-variant: normal;
+
+}
+
+div.backnavdark a:link { 
+	text-decoration: none;
+/*	color: #F6DCA5; */
+	color: white;
+    color: #E10823;
+    color: gray;
+	}	
+
+div.backnavdark a:visited { 
+	text-decoration: none;
+/* 	color: #CDA95F; */
+	color: white;
+    color: #E10823;
+    color: gray;
+	}
+
+div.backnavdark a:hover, div.backnavdark a:active { 
+	text-decoration: underline; 
+	color: #728A70;
+	}
+
+
+
+div.blogpost p.storybreak {
+
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", Trebuchet, Arial, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: right;
+	background: none;
+
+}
+
+
+/* this specifies font size for pages (like TOC) where other A tags also have font sizes specified */
+/* to avoid inheriting those sizes */
+
+p.storybreak a:link, p.storybreak a:visited, p.storybreak a:hover, p.storybreak a:active  {
+
+    font-size: 14px; /* 9/30/14 */
+
+}
+
+
+
+div.blogpost div.userheader {
+
+	width: 100%;
+	padding: 0px;
+	clear: both;
+	margin-bottom: 20px;
+	margin-top: 10px;
+
+
+}
+
+
+/* commentform is part of the new comments stuff, to divorce it from blogpost which has things that look
+   great in the blogs and stories, but crappy in other sitations (e.g. brown line running down the left side). */
+/* 10/1/7 temporarily getting rid of it, though, so that we can get the old comments stuff working */
+/* 11/26/7 put it back, no longer syncable */
+/* 12/21/7 just made it use both, so it'll work with either version of code */
+div.commentform form {
+
+	/* background: #DDDDDD; */
+	padding-top: 15px;
+	margin: 0px;
+}
+/* div.blogpost div.commentform form {
+	background: transparent;
+} */
+
+/* another annoying firefox bug: when width was 95%, form would go wide on blog page, but 92% works OK. */
+
+div.blogpost input.text, div.commentform input.text {
+	
+	width: 92%;
+	background: #eeeeee;
+
+
+}
+
+div.blogpost textarea, div.commentform textarea {
+	
+	width: 92%;
+	background: #eeeeee;
+
+}
+
+div.blogpost input.submit, div.commentform input.submit {
+	
+	width: 120px;
+	background: #eeeeee;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+div.blogpost p.subhead, div.commentform p.subhead {
+
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", Trebuchet, Arial, sans-serif;
+	font-size: 14px;
+	/* padding-top: 8px;
+	padding-bottom: 0px; */
+	padding: 0px;
+	margin: 0px;
+}
+
+div.blogpost p.warning, .commentform .warning {
+
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", Trebuchet, Arial, sans-serif;
+	font-size: 14px;
+	color: white;
+	background: #C60000;
+	padding: 5px;
+	border-top: 2px black solid;
+	border-left: 2px black solid;
+	border-bottom: 2px black solid;
+	text-align:center;
+	margin-top: 25px;
+
+}
+
+div.blogpost p.subsubhead {
+
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", Trebuchet, Arial, sans-serif;
+	font-size: 11px;
+	width: 100%;
+/* 	background: #EEEEEE; */
+/* 	background: red; */
+/* 	margin-bottom: none; */
+
+}
+
+
+div.politics div.commenthead {
+
+    background: #294F9F;
+    background: white;
+
+}
+
+div.election div.commenthead {
+
+    background: black;
+    background: white;
+
+}
+
+#alibi_forums div.commenthead {
+    background: black !important;
+	color: white;
+	padding: 3px;
+}
+
+.profilepost div.commenthead {
+    background: black !important;
+	color: white;
+	padding: 3px;
+}
+
+.profilepost div.commenthead a {
+	font-size: 13px;
+	line-height: 16px;
+}
+
+div.commenthead {
+
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", Trebuchet, Arial, sans-serif;
+	font-size: 13px;
+/* 	text-align: left; */
+	line-height: 16px;
+	padding: 6px;
+	margin-top: 10px !important;
+	margin-bottom: 0px;
+ 	background: white; 
+	color: black;
+	clear: both;
+	border-left: thick;
+	margin: 0;
+	padding: 0;
+	background: white !important;
+	margin-right: 0 !important;
+}
+
+
+#alibi_forums div.commenthead {
+	font-size: 15px;
+}
+
+div.commenthead a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+/* 	color: #FFCC00; */
+	color: black;
+/*	font-size: 12px; */
+
+	}
+	
+div.commenthead a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: gray;
+/*	font-size: 12px; */
+	
+	}
+	
+div.commenthead a:active { 
+	text-decoration: underline; 
+	color: silver;
+/*	font-size: 12px; */
+	}
+
+div.commenthead a:hover { 
+	text-decoration: underline; 
+}	
+	
+	
+div.comment, div.altcomment {
+
+	font-family: georgia, "times new roman", serif;
+	font-size: 12px;
+	text-align: left;
+	line-height: 16px;
+	padding: 5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background: #eeeeee;
+	clear: both;
+	border-top: 1px silver solid;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 14px;
+	line-height: 140%;
+	padding: 20px;
+	
+}
+
+
+div.altcomment img, div.altcomment img {
+	clear: both;
+}
+
+div.comment p, div.altcomment p {
+}
+
+/* this specifies font size for pages (like TOC) where other A tags also have font sizes specified */
+/* to avoid inheriting those sizes */
+
+div.comment a:link, div.comment a:visited, div.comment a:hover, div.comment a:active, div.altcomment a:link, div.altcomment a:visited, div.altcomment a:hover, div.altcomment a:active  {
+
+    font-size: 12px;
+    font-size: 14px;
+
+}
+
+
+
+.comment blockquote, .altcomment blockquote {
+	/* margin-left: 114px; */ /* lameness finally(!) removed 8/7/12 because I simply don't remember who wanted it lame or why */
+	border-left: solid;
+	background-color: white;
+	/* opacity: 0.65; */  /* removed 8/21/8; conflicts with flash on firefox */
+	border: 1px solid; /* something overrides this, but I can't see what */
+	padding: 4px;
+}
+
+/* 12/3/8 don't indent nested quotes so much */
+.comment blockquote blockquote, .altcomment blockquote blockquote {
+	margin-left: 20px;
+}
+
+.post blockquote, .story blockquote {
+	background-color: white;
+	border: 1px solid;
+	padding: 6px;
+	overflow: auto; /* 5/13/9 */
+	clear: right; /* 8/21/9 */
+}
+
+span.posthead a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: black;
+	}	
+
+span.posthead a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: black;
+	}
+	
+span.posthead a:hover, span.posthead a:active { 
+	font-weight: bold; 
+	text-decoration: underline; 
+	color: gray;
+	}
+
+span.postcredit {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 10px;
+
+
+}
+
+span.staffblogger {
+
+}
+
+span.staffblogger a:link { 
+	text-decoration: none;
+	color: #0083D7;
+	color: black;
+	font-weight: normal;	
+	}	
+
+span.staffblogger a:visited { 
+	text-decoration: none;
+	color: #0083D7;
+	color: gray;
+	font-weight: normal;	
+	}
+	
+span.staffblogger a:hover, span.staffblogger a:active {
+	text-decoration: underline;
+	color: #C60000;
+	color: silver;
+	}
+	
+	
+	
+span.postcredit a:link { 
+	text-decoration: none;
+	color: #C60000;
+	}	
+
+span.postcredit a:visited { 
+	text-decoration: none;
+	color: #C60000;
+	}
+	
+span.postcredit a:hover, span.postcredit a:active {
+	font-weight: bold; 
+	text-decoration: underline;
+	color: gray;
+	}	
+
+
+div.post_section {
+	/* background: black; */
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	text-transform: uppercase;
+	/* float: left; */
+	color: white;
+	padding: 1px;
+	padding-right: 2px;
+	padding-left: 2px;
+	padding-bottom: 2px;
+	margin-bottom: 2px;
+}
+
+div.post_section a {
+	background: black;
+	padding: 1px;
+	padding-right: 2px;
+	padding-left: 2px;
+	padding-bottom: 2px;
+}
+
+
+
+
+div.post_section a:link, div.post_section a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+
+div.post_section a:hover, div.post_section a:active {
+	color: #E10823;
+	text-decoration: none;
+}
+
+
+div.blogpost div.imagebox {
+
+/* 	padding: 3px 5px 3px 5px; */
+	margin: 3px 5px 3px 5px;
+	clear: both;
+	background: red;
+	top: 0;
+	width: 300px;
+	vertical-align:top;
+}
+
+/* div.blogpost img.profile { */
+/*                            */
+/* 	vertical-align:top;       */
+/* 	float: right;             */
+/* 	border: thin black solid; */
+/* 	margin-bottom: 10px;      */
+/* 	margin-left: 10px;        */
+/*                            */
+/* }                          */
+
+
+/*#CCE9DB
+#C7FFE3 */                           
+                                      
+
+
+.prefs {
+	padding: 1px;
+	margin: 0px;
+	color: #ffddaa;
+	color: #C7FFE3;
+	font-family: arial, ms sans serif, geneva; 
+	font-size: 10pt;
+	background-color: #4A260D;
+	background: #339966;
+	width: 100%;
+	border: 2px;
+	border-color: transparent;
+	border-color: black;
+}
+
+div.prefs {
+    margin: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    /* dark green */
+    background: #246C48;
+    /* border: 2px solid black; */
+    width: 428px;
+    padding: 12px;
+}
+
+.prefs td {
+
+    padding: 3px;
+    padding-left: 12px;
+
+}
+
+.prefs td.right {
+
+    text-align: right;
+    font-weight: bold;
+
+
+}
+
+.prefs td.center {
+
+    text-align: center; margin-right: auto; margin-left: auto; padding: 6px;
+    
+
+}
+
+.prefs textarea, .prefs input {
+
+    background: #CCE9DB;
+    font-family: arial, ms sans serif, geneva;
+    font-size: 12px;
+    width: 200px;
+
+}
+
+.prefs input.button {
+
+    width:100px;
+
+}
+
+.prefs input.check {
+
+    width:12px;
+
+}
+
+.prefs img.profilesm {
+
+    border: 1px solid black;
+
+
+}
+
+.prefs h2 {
+
+    font-size: 16px;
+    color: #CCE9DB;
+
+}
+
+.prefs div.updatemsg {
+
+    text-align: center;
+    font-weight: bold;
+    padding-top: 6px;
+
+}
+
+#tabback {
+	background:black;
+	color: gray;
+	margin:0px;
+	padding: 0px;
+	clear:both;
+}
+#tabback a {
+	color: gray;
+}
+#prefback {
+	padding: 0px; margin: 0px;
+	color: #ffddaa;
+	background: #339966;
+	clear: both;
+	border: solid;
+	border-color:transparent;
+}
+
+
+
+div#userboxarea {
+	position: relative;
+	z-index: 1;
+	/* Remove the following seemingly-unnecessary line, to see the MSIE's spectacular "peekaboo" bug */
+	width: 298px;
+}
+
+div#userbox_debug {
+	position: absolute;
+	width: 298px;
+	left: -480px;
+	top: -4px;
+	background-color: rgb(32,32,32);
+	color: rgb(200,40,40);
+}
+
+ul#userboxes {
+	width:298px;
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+
+#userbox_addbutton {
+	visibility: hidden; /* Gets unhidden by javascript */
+	text-align: center;
+	width: 300px;
+	height: 16px;
+	background-color: rgb(32,32,32);
+	background-image: url(../editorial/images/widget-choose-boxes.gif);
+	background-repeat: no-repeat;
+	color: rgb(200,40,40);
+	cursor: pointer;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 3px;
+	z-index: 1;
+}
+
+#userbox_addbutton:hover {
+	background-color: rgb(32,32,32);
+	background-image: url(../editorial/images/widget-choose-boxes2.gif);
+	background-repeat: no-repeat;
+	color: rgb(200,40,40);
+}
+
+
+#userbox_menu {
+	visibility: hidden;
+	display: block;
+	position: absolute;
+	top: -298px;
+	width: 298px;
+	/* 10/4/7: left _was_ -202, but now it's set to not overlap center column.  user_boxes.js moves userbox_menu when displaying */
+	left: -182px;
+	z-index: 2;
+}
+
+li.userbox_menu_item {
+	width: 298px;
+	position: relative;
+	text-align: left;
+	list-style-type: none;
+	padding-left: 6px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	margin-bottom: -1px;
+	z-index: 3;
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 18px;
+	background-color: rgb(32,32,32);
+	color: rgb(212,212,212);
+	display: block;
+	cursor: pointer;
+	opacity: 0.92;
+}
+
+li.userbox_menu_item:hover, li.userbox_menu_item:active {
+	background-color: rgb(200,40,40);
+	color: white;
+	opacity: 1;
+}
+
+li.userbox_menu_intro {
+
+	width: 288px;
+	text-align: center;
+	padding: 6px 8px 8px 5px;
+    background: rgb(32,32,32);
+    color: white;
+    font-size: 11px;
+    line-height: 12px;
+    border: none;
+    list-style-type: none;
+
+}
+
+li.userbox_menu_intro:hover, li.userbox_menu_intro:active {
+	background-color: rgb(32,32,32);
+	color: white;
+}
+
+li.userbox_menu_intro a:hover, li.userbox_menu_intro a:active, li.userbox_menu_intro a:active, li.userbox_menu_intro a:link, li.userbox_menu_intro a:visited {
+	color: rgb(240,40,40);
+}
+
+
+li.userbox_menu_subhead {
+
+	width: 300px;
+	text-align: left;
+	padding-left: 4px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-bottom: -1px;
+    list-style-type: none;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+
+}
+
+li.userbox_menu_subhead:hover, li.userbox_menu_subhead:active {
+    background-color: black;
+	color: white;
+}
+
+
+.userbox {
+	text-align: left;
+	line-height: 16px;
+	padding: 0px;
+	margin: 4px 0px 3px 0px;
+	width: 298px;
+	border: 1px rgb(212,212,212) solid;
+	background-color: rgb(32,32,32);
+}
+
+.userbox_head {
+	width: 298px;
+}
+
+.userbox_head img {
+	border: 0px;
+}
+
+.ubh_image {
+	width: 298px;
+	overflow: hidden;
+	border: none;
+}
+
+.ubh_title {
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	float: left;
+	padding: 4px;
+	line-height: 16px;
+	background-color: rgb(212,212,212);
+	color: rgb(32,32,32);
+	width: 291px;
+/*	white-space: nowrap; */
+/*	overflow: hidden;    */
+}
+
+.ubh_widgets {
+	float: right;
+	padding: 0px;
+	width: 26px;
+	/* text-align is for safari, where we only show one of the two widgets. */
+	/* on all other browsers, contents should exactly fill the div */
+	text-align: right;
+	height: 14px;
+}
+
+
+.ubh_widgets img {
+	padding: 1px 1px 1px 0px;
+	cursor: pointer;
+}
+
+ul.ubitems {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	/* clear: both; */
+}
+
+
+.ubb_comment, .ubb_altcomment {
+	font-size: 13px;
+	background: white;
+	font-weight: normal;
+	line-height: 120%;
+	color: gray;
+	padding-top: 3px;
+	padding-bottom: 3px;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+	padding: 5px;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    line-height: 13px;
+    background-color: white;
+
+	
+}
+
+
+.ubb_comment {
+	/* do we really want non-5px here? */
+	padding: 4px;
+	background-color: rgb(240,240,240);
+}
+.ubb_altcomment {
+}
+
+
+
+.ubb_byline {
+	font-size: 9px;
+	/*font-variant: small-caps;*/
+	font-family: Arial, sans-serif;
+	line-height: 100%;
+	color: rgb(128,128,128);
+	padding-right: 10px;
+	padding-left: 0;
+	float: left;
+	clear: left;
+	vertical-align: baseline;
+
+}
+
+
+.ubb_threadhead {
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-transform:uppercase;
+	line-height: 12px;
+	color: white;
+	margin: 4px 0px 4px 0px;
+	border: none;
+	font-size: 12px;
+/*	line-height: 110%;
+	line-height: 100%; */
+
+}
+
+.ubb_threadhead a { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: black; /* 7/21/14 was white */
+	font-weight: bold; 
+	font-size: 12px;
+	
+}
+
+.ubb_threadhead a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	/* color: white; */
+}
+
+
+.ubb_threadhead a:hover {
+	color: rgb(212,212,212);
+	
+}
+
+
+.ubb_posthead a {
+	font-weight: normal !important; 
+	font-size: 12px;
+	font-family: Arial,sans-serif;
+
+}
+
+
+.ubb_posthead a:link {
+	font-weight: bold; 
+	text-decoration: none; 
+	color: black;
+
+}
+
+.ubb_posthead a:visited {
+	font-weight: bold; 
+	text-decoration: none; 
+	color: black;
+}
+
+.ubb_posthead a:hover, .ubb_posthead a:active {
+	font-weight: bold; 
+	color: navy;
+}
+
+
+
+
+.ubb_subhead {
+	font-style: italic;
+}
+
+.ubitems .ubb_date  {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 10px;
+	font-weight: bold;
+	color: rgb(128,128,128);
+	text-align: right;
+	vertical-align: baseline;
+	float: right;
+	clear: right;
+	line-height: 12px;
+}
+
+/* customize the individual boxes here: */
+
+/* color definitions are tied to "type+info" box identifier used in blog_boxes.php */
+/* and drawn from table "user_boxes" by CONCAT(box_type,box_info) */
+/* e.g., "1mostactive" or (I think) "25" (box type 2, rss feed id 5 in "feeds" table)*/
+
+/* default color scheme is defined in the .ubb_whatever CSS tags immediately above. */
+/* so where colors are not defined below, a standard scheme applies */
+
+/* I decided to minimize the colors used by these and future boxes, so the same */
+/* color definitions are used multiple times, making the CSS more repetitive than */
+/* might have been the case without the need to tie it to type+info. ks 07.25.07 */
+
+.ub_3recentvideos, .ub_3uservideos, #ub_3recentvideos, #ub_3uservideos {
+	color: black;
+	background: rgb(32,32,32);
+	margin-top: 3px;
+	clear: both;
+	margin-bottom: 6px;
+	font-size: 13px;
+	line-height: 16px;	
+
+}
+
+#ub_3recentvideos, #ub_3uservideos {
+	width: 154px;
+}
+
+#ub_3recentvideos .ubb_comment, #ub_3uservideos .ubb_comment, .ub_3recentvideos .ubb_comment, .ub_3uservideos .ubb_comment {
+	padding: 2px;
+	font-size: 10px;
+	line-height: 12px;
+	color: rgb(212,212,212);
+	font-weight: normal;
+}
+
+
+#ub_3recentvideos .ubb_threadhead a, #ub_3uservideos .ubb_threadhead a, .ub_3recentvideos .ubb_threadhead a, .ub_3uservideos .ubb_threadhead a {
+	font-size: 10px;
+	line-height: 12px;
+	color: white;
+}
+
+#ub_3recentvideos .ubb_threadhead a:hover, #ub_3recentvideos .ubb_threadhead a:active, #ub_3uservideos .ubb_threadhead a:hover, #ub_3uservideos .ubb_threadhead a:active {
+	color: white;
+}
+
+.ub_3recentvideos .ubb_threadhead, #ub_3recentvideos .ubb_threadhead, .ub_3uservideos .ubb_threadhead, #ub_3uservideos .ubb_threadhead {
+	padding: 3px;
+	color: white;
+	font-size: 10px;
+	line-height: 12px;
+	margin: 0px 1px 0px 1px;
+}
+
+.ub_3recentvideos .ubh_title, #ub_3recentvideos .ubh_title, .ub_3uservideos .ubh_title, #ub_3uservideos .ubh_title {
+
+	background: rgb(32,32,32);
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 13px;
+	padding-bottom: 4px;
+	padding-top: 3px;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	line-height: 12px;
+	font-family: "Trebuchet MS",Trebuchet,Arial,sans-serif;
+	color: white;
+	font-variant: normal;
+	width: 128px;
+	font-size: 13px;
+	margin-right: auto;
+}
+#ub_3recentvideos .ubh_title, #ub_3uservideos .ubh_title {
+	width: 142px;
+}
+.ub_3recentvideos .ubh_title, .ub_3uservideos .ubh_title {
+	width: 100%;
+}
+.ub_3recentvideos .ubb_comment, .ub_3uservideos .ubb_comment, #ub_3recentvideos .ubb_comment, #ub_3uservideos .ubb_comment {
+	background: transparent;
+	border: none;
+	font-family: georgia, "times new roman", serif;
+}
+.ub_3recentvideos table, .ub_3uservideos table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#ub_1recentblogs {
+
+	background-color: rgb(32,32,32);
+
+}
+
+
+div.ubh_image {
+	display: none;
+}
+
+#ub_1latestcomments, .ub_1latestcomments {
+	background-color: rgb932,32,32);
+}
+
+#ub_1squawkdiscuss, .ub_1squawkdiscuss {
+	background-color: #941200;
+	border-color: #941200;
+}
+
+div.userheader img.profile {
+	vertical-align:top;
+	float: left;
+	clear: left;
+	border: thin black solid;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+div.userheader a:visited, div.userheader a:hover, div.userheader a:active  {
+	color: black; /* because gray is nearly invisible */
+}
+
+div.userheader h1 {
+
+ /*    float: left; */
+    width: auto;
+    margin-left: 10px;
+    margin-bottom: 7px; 
+    clear: left;
+    font-family: georgia, "times new roman", serif;
+    font-weight: bold;
+    font-size: 24px; 
+
+}
+
+div.userheader p.userurl {
+
+	font-size: 10px;
+	float: left;
+	width: 75%;
+	margin-top: 3px;
+	margin-bottom: 6px;
+	padding-bottom: 0px;
+    margin-left: 10px;
+
+
+}
+
+div.userheader p.morelink {
+
+	font-size: 10px;
+	margin: 0px;
+	text-align: right;
+
+}
+
+
+ul.commentlist {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	margin-top: 6px; 
+	margin-top: 0;
+}
+div.blogpost div.userheader ul.commentlist {
+	margin-top: -10px; /* ridiculously embarrassing hack */
+}
+ul.commentlist li {
+	/* this doesn't _really_ fix the problem */
+	clear: left;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+/* 1/4/7 chowtown comments exceptions */
+/* Uh.. I'm not sure it really looks good, either, but Wes did't like the float clearing. */
+div#chowtownResults div.commenthead {
+	clear: none;
+}
+div#chowtownResults div.userheader {
+	clear: none;
+	margin-right: 0px;
+	padding-right: 0px;
+}
+div#chowtownResults div.comment {
+	clear: none;
+}
+
+/* 3/10/8 submission form */
+/* 5/15/9 switching to class selectors.  We can delete the id selectors a few hours
+after people load the new javascript */
+.bbcode_toolbar {
+	position:relative;
+	list-style:none;
+	border:1px solid #d7d7d7;
+	background-color:#F6F6F6;
+	margin:0px 0px 2px 0px;
+	padding:0;
+	height:18px;
+	width: 92%;
+}
+
+.bbcode_toolbar li {
+	list-style:none;
+	margin:0;
+	padding:0;
+	float:left;
+	clear:none; /* 3/9/12 fix helios conflict */
+}
+
+.bbcode_toolbar li a {
+	width:24px;
+	height:16px;
+	float:left;
+	display:block;
+	background-image:url("/images/bb_icons4.gif");
+	border:1px solid #fff;
+	border-right-color:#d7d7d7;
+}
+
+.bbcode_toolbar li a:hover {
+	border-color:#900;
+}
+
+.bbcode_toolbar li span {
+	display:none;
+}
+
+.bbcode_toolbar li a.bbcode_help_button {
+	position:absolute;
+	top:0;
+	right:0;
+	border-left-color:#d7d7d7;
+	border-right-color:#fff;
+}
+
+.bbcode_toolbar li a.bbcode_help_button:hover {
+	border-left-color:#900;
+	border-right-color:#900;
+}
+
+.bbcode_italics_button { background-position: 0 -119px !important; }
+.bbcode_bold_button { background-position: 0 -102px !important; }
+.bbcode_link_button { background-position: 0 0 !important; }
+.bbcode_image_button { background-position: 0 -170px !important; }
+.bbcode_quote_button { background-position: 0 -68px !important; }
+.bbcode_help_button { background-position: 0 -153px !important; }
+.bbcode_youtube_button  { background-position: 0 -306px !important; }
+.bbcode_flickr_button  { background-position: 0 -238px !important; }
+.bbcode_spoiler_button  { background-position: 0 -255px !important; }
+
+
+
+.flickr_viewer {
+	clear: both;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 6px;
+}
+
+.flickr_medium * {
+	border: none;
+}
+
+.flickr_controls img {
+	/* All of the images do something if you click 'em */
+	cursor: pointer;
+	vertical-align: middle;
+}
+/* .flickr_thumbs img {
+	width: 75px;
+	height: 75px;
+} */
+
+.orphan {
+    padding: 8px 20px 0px 20px;
+}
+.orphan .commenthead {
+	/*  *sigh*  */
+	margin-right: 10px;
+}
+
+/* msie does weird shit without this */
+.comment_preview {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	clear: both;
+}
+
+ul.userpop {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+
+	float: left;
+	margin: 5px;
+	margin-right: 9px;
+	width: 100px;
+
+	font-size: x-small;
+	line-height: 110%;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", Trebuchet, Arial, sans-serif;	
+	
+	background: silver;
+	color: black;
+	padding: 3px;
+	text-align: center;
+	margin-left: 0;
+	
+	
+}
+ul.userpop a {
+	color: red;
+}
+ul.userpop ul {
+	display: none;
+	list-style: none;
+	position: relative;
+	border: 1px solid #003366;
+	border: 0;
+	margin: 0px;
+	padding: 0px;
+	padding: 3px;
+	z-index: 2;
+	background-color: #CCDBE9; /* only msie needs this, since it gets the <li> part's width wrong */
+	background-color: black;
+	text-align: left;
+}
+
+ul.userpop li {
+	line-height: 140%;
+}
+
+ul.userpop li.user_action {
+	line-height: 140% !important;
+	font-size: 12px !important;
+	padding: 2px;
+	padding-left: 1px !important;
+	padding-right: 0px !important;
+	margin-right: 2px !important;
+}
+
+ul.userpop li.user_action a {
+	font-size: 12px !important;
+}
+
+ul.userpop li.user_action a:hover, ul.userpop li.user_action a:active {
+	background: silver;
+	color: black;
+}
+
+.userpop img {
+	border: 0px;
+}
+/* ul.userpop li li  {
+	position: relative;
+} */
+/* ul.userpop li a {
+	width: 100%;
+} */
+ul.userpop li li, ul.userpop li li a {
+	background-color: #CCDBE9;
+	color: #003366;
+	color: white;
+	display: block;
+	background-color: black;
+	/* msie doesn't show it quite right without a width, but msie7 shows it well enough.
+	The exceptions file handles msie6 */
+	/* width: 100% or about 250px; no matter what, you lose */
+}
+
+ul.userpop li li:hover a {
+	color: #CCDBE9;
+	color: white;
+	background-color: #003366;
+	text-decoration: none;
+	background-color: gray;
+}
+
+ul.userpop li:hover ul {
+	position: absolute;
+	display: block;
+}
+
+/* div.commentavatar {
+	float: left;
+	margin: 5px;
+	width: 100px;
+}
+.commentavatar img {
+	border: 0px;
+}
+
+span.user_stats {
+	font-size: smaller;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", Trebuchet, Arial, sans-serif;	
+} */
+
+.message {
+	/* the whole thing */
+	margin: 10px;
+}
+.message_nav {
+	/* the left-side inbox/sent/write new menu */
+	float: left;
+	text-align: left;
+	width: 20%;
+	background-color: #5592C8;
+	height: 100%;
+}
+.message_nav div {
+	/* the individual menu options */
+	border: 1px solid blue;
+	display: block;
+}
+.message_act {
+	/* the right-side display (a message or list or compose form) */
+	float: right;
+	text-align: left;
+	width: 79%;
+	background-color: #CCDBE9;
+	height: 100%;
+}
+.message_header {
+	/* from/to and subject */
+	background-color: #E6EEF6;
+}
+.message_act .commentform {
+	/* the message compose form */
+	margin-left: 30px;
+}
+.message_actionheader {
+	/* box name or explanation of what they are doing */
+	text-align: center;
+	background-color: #CCDBE9;
+	color: white;
+}
+
+.supervisor_controls {
+	display: none;
+	visibility: hidden;
+	background-color:gray;
+	border: solid 1px;
+}
+
+#earWigMain .commenthead {
+	/* margin-right: 10px; */
+	margin-right: 0px;
+	background-color: #551E13;
+}
+#earWigMain .userheader {
+	margin-right: 0px;
+}
+
+.story_tags {
+	margin-left: 5px;
+	margin: 0;
+	clear:both;
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+}
+div.story_tags li.tag a,
+div.story_tags li.tag a:link,
+div.story_tags li.tag a:visited,
+div.story_tags li.tag a:hover,
+div.story_tags li.tag a:active {
+	font-size: 10px;
+	color: white;
+	text-decoration: none;
+	padding: 2px;
+	padding-bottom: 0;
+	padding-top: 0;
+	margin: 0 !important;
+	display: block;
+}
+
+div.story_tags li.tag a:hover {
+    background: black;
+    
+}
+
+div.story_tags ul {
+	list-style-type:none;
+	margin-top: 3px;
+	margin-bottom: 0;
+	padding: 0px;
+	float: left;
+}
+div.story_tags li {
+	float: left;
+	margin-left: 3px;
+	margin-right: 3px;
+	text-transform: uppercase;
+	vertical-align: bottom;
+	padding-bottom: 0;
+	margin-top: 1px;
+	/* display: none; uh? */
+}
+div.story_tags li.tag {
+	border: solid 1px gray;
+	vertical-align: middle;
+	text-transform: lowercase;
+	background-color: gray;
+	display: block;
+	margin-left: 0;
+	padding: 0;
+}
+div.story_tags li.fancytag {
+	background-color: green;
+}
+
+div.story_geo {
+	margin: 5px;
+	float: right;
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 10px;
+	text-align: right;
+}
+
+div.story_geo a,
+div.story_geo a:link,
+div.story_geo a:visited,
+div.story_geo a:hover,
+div.story_geo a:active {
+	font-size: 10px;
+}
+
+/* 8/5/9 */
+div.blogpost div.byline  {
+	text-align: left;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", Trebuchet, Arial, sans-serif;
+	font-size: 13px;
+	color: #0083D7;
+	line-height: 20px;
+	vertical-align: baseline;
+	font-size: 12px;
+	font-family: Georgia,Times,"Times New Roman",serif;
+	font-variant: small-caps;
+	font-weight: normal;	
+	
+}
+
+div.blogpost .updated  {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 11px;
+	font-weight: bold;
+	color: black;
+	text-align: right;
+	vertical-align: baseline;
+}
+
+/* 8/21/9 */
+div.related_stories {
+	margin: 10px;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 10px;
+	background-color: #CCDBE9;
+	background: white;
+	border: 1px solid silver;
+	clear: both; /* 6/10/10 */
+	
+	/* 8/20/14 */
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+	line-height: 14px;
+}
+
+div.related_stories span.related_header {
+
+	font-size: large;
+
+}
+
+
+div.post div.related_stories {
+	background-color: #CDA95F;
+	background: white;
+	border: 1px solid silver;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", Trebuchet, Arial, sans-serif;
+}
+div.related_stories li,
+div.related_stories li a:link,
+div.related_stories li a:hover,
+div.related_stories li a:active,
+div.related_stories li a:visited
+{
+	font-size: 10px;
+	line-height: 140%;
+}
+
+div.related_stories li a:link,
+div.related_stories li a:hover,
+div.related_stories li a:active,
+div.related_stories li a:visited
+{
+	font-size: 11px;
+	line-height: 140%;
+}
+
+
+div.related_stories ul {
+	/*list-style: none;*/
+	margin:0;
+	margin-left: 20px;
+	margin-top: 4px;
+	padding:0; 
+}
+
+
+/* 4/16/10 */
+div.blogpost p.storybreak a.more,
+div.blogpost p.storybreak a.more:link,
+div.blogpost p.storybreak a.more:active,
+div.blogpost p.storybreak a.more:visited,
+div.blogpost p.storybreak a.more:hover {
+	font-size: 12px;
+}
+
+.username {
+	font-family: 'Courier New', Courier, mono;
+}
+
+.username a {
+	font-size: 12px !important;
+	line-height: 160%;
+}
+
+.discussion_controls {
+	font-size: 12px;
+}
+
+.discussion_controls a {
+	font-size: 12px !important;
+}
+
+.margin300 {
+	width:300px;
+}
+
+div.covers {
+	font-family: Arial, sans-serif;
+
+}

@@ -1,0 +1,59 @@
+
+body {
+	min-width:738px;
+	max-width:1060px;
+	margin:auto;
+}
+.columns {
+	max-width: 1060px;
+	min-width: 738px;
+}
+.main_content {
+	margin-right: 327px;
+	margin-left: 5px;
+}
+div.banner {
+	margin-left: 5px;
+}
+aside.right_column {
+	width: 300px;
+	margin-right: 5px;
+	padding-left: 10px;
+	border-width: 0px 0px 0px 2px;
+}
+div.btf_leaderboard { /* 5/1/17 */
+	display:none;
+}
+.search form#searchForm input#search_words { /* 5/8/17 */
+	width: 450px;
+}
+
+@media screen and (min-width: 1080px) {
+	/* theres enough width for the right column to be to the left of leaderboard ad */
+	aside.right_column {
+		top: 0px;
+		margin-top: 13px; /* the right column is _beside_ the leaderboard ad now, so border line can go all the way up */
+	}
+	/* nav.menu_bar span.section_links {
+		font-size: 20px;
+	} */
+	div.story {
+		font-size: 24px;
+		line-height: 25px;
+	}
+	div.btf_leaderboard { /* 5/1/17 */
+		display:block;
+	}
+	.search form#searchForm input#search_words { /* 5/8/17 */
+		width: 772px;
+	}
+}
+
+nav.sitemap {
+	min-width: 738px;
+}
+
+div.story {
+	padding-left: 12px;
+	padding-right: 12px;
+}

@@ -1,0 +1,125 @@
+<!doctype html>
+<!-- np-free -  -->
+
+<!-- FSET WebType:  -->
+
+<!-- FSET loid: 2.0.91875975 -->
+<html>
+	<head>
+		<!-- PERSREC OPTIMIZELY TESTING (STILL NEED TO ADD BEST OF WEB TO MFSP HEAD.JPT-->		
+
+<!-- PERSREC OPTIMIZELY TESTING ENDS-->
+
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+<link rel="apple-touch-icon" href="http://www.ajc.com/rw/Pub/Web/AJC/Images/favicon-apple-touch-icon.png" />
+
+<!-- begin site_meta_override block -->
+<title></title>
+<meta name="description" content="" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- begin head_settings_override block -->
+<script>
+function fixProtocol(url){
+    return "https://"+ url.replace(/^https?\:\/\//i, "");
+}
+
+window.janrain = window.janrain || {};
+window.janrain.settings = window.janrain.settings || {};
+window.janrain.settings.capture = window.janrain.settings.capture || {};
+window.janrain.settings.loadurl = window.janrain.settings.loadurl || {};
+window.janrainInitializeDefer = true;
+
+var cmg = cmg || {};
+cmg.data = cmg.data || {};
+cmg.settings = {};
+cmg.settings.pointsLocalSearchURL = "events.accessatlanta.com";
+
+
+cmg.data['jr_friendlySiteName'] = 'ajc.com';
+cmg.data['jr_backplaneBusName'] = 'coxmediagroup.com';
+cmg.data['jr_backplaneVersion'] = '1.2';
+cmg.data['jr_captureServer'] = 'https://cmg.janraincapture.com';
+cmg.data['jr_appId'] = '6z4jnndkpe6dmfx7vdg4c7hkmz';
+cmg.data['jr_federateServer'] = 'https://sso.cmgdigital.com';
+cmg.data['jr_clientId'] = 'zffft5b3d7j2j422tpthvu8uymqqcje8';
+
+janrain.settings.appUrl = 'https://login.cmgdigital.com';
+janrain.settings.loadurlHttps = "https://rpxnow.com/load/login.cmgdigital.com";
+janrain.settings.loadurlHttp = "http://widget-cdn.rpxnow.com/load/login.cmgdigital.com";
+janrain.settings.capture.flowName = 'standard_newspaper';
+janrain.settings.capture.appId = '6z4jnndkpe6dmfx7vdg4c7hkmz';
+janrain.settings.capture.captureServer = 'https://cmg.janraincapture.com';
+janrain.settings.capture.federate = true;
+janrain.settings.capture.federateServer = 'https://sso.cmgdigital.com';
+janrain.settings.capture.federateXdReceiver = fixProtocol('http://www.ajc.com/federation/xd-receiver.html');
+janrain.settings.capture.federateLogoutUri = fixProtocol('http://www.ajc.com/federation/federate-logout.html');
+janrain.settings.capture.federateEnableSafari = true;
+janrain.settings.capture.backplane = true;
+janrain.settings.capture.backplaneBusName = 'coxmediagroup.com';
+janrain.settings.capture.backplaneVersion = '1.2';
+janrain.settings.capture.clientId = 'zffft5b3d7j2j422tpthvu8uymqqcje8';
+janrain.settings.capture.redirectUri = fixProtocol('http://www.ajc.com');
+
+</script><div style="display: none" id="verifyEmail">
+	<div class="verify-email">
+		<h1>Whoa there!</h1>
+		<p>Looks like you're already verified.</p>
+		<p>If you still have trouble signing in, you probably need a new confirmation link email.</p>
+		<p>{* resendLink *} Please resend verification.</p>
+	</div>
+</div>
+
+<div style="display: none" id="verifyEmailSuccess">
+	<div class="verify-email">
+		<h1>Thanks for verifying your email address</h1>
+		<p>You're now logged in.</p>
+		<p>LINK YOUR ACCOUNT FOR PREMIUM ACCESS</p>
+			<p>Are you already a home delivery subscriber for ajc.com?</p>
+			<div class="verify-email-buttons"><a id="dss_url_methode" class="more-section-bg" href="https://myaccount.ajc.com/dssmatch.as

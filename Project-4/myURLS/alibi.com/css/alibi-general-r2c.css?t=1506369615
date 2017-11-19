@@ -1,0 +1,3266 @@
+img { border: 0px none; } /* experimental 5/4/15 */
+
+.highlightit img { /* used by toc_text_oldskool.php and toc_text_right_column.php */
+border: 1px solid black;
+}
+
+.highlightit:hover img{
+border: 1px solid #E10823;
+}
+
+
+.errormsg {
+	margin: 5px 5px 5px 5px;
+	padding: 6px 6px 6px 6px;
+    background: #fdff10;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+div.CentercolMinwidth {
+
+    background: white;
+    width: 548px;
+    height: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+div.storyboxlight {
+    background: #cccccc;
+    color: black;
+    padding: 10px 20px 10px 20px;
+	font-family: georgia, "times new roman", serif;
+	font-size: 13px;
+}
+div.storyboxdark {
+    background: #222222;
+    color: white;
+    padding: 10px 20px 10px 20px;
+	font-family: georgia, "times new roman", serif;
+	font-size: 14px;
+}
+
+div.storyboxdark a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+    color: #888888;
+
+}
+
+div.storyboxdark a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #999999;
+}
+
+body {
+    background: white;
+    color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	/* margin-bottom: 4em; so filmcaps persist_nav doesn't cover up bottom site nav */
+	/* line-height: 15px; kyle thinks this is too cramped in Helios 12/15/14 */
+	line-height: 17px;
+	line-height: 140%;
+}
+div.story {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+    color: rgb(200,40,40);
+    background: transparent; /* 5/28/7 */
+}
+
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: grey;
+}
+
+a:hover, a:link:hover, a:active { 
+	text-decoration: none; 
+	color: #D81818;
+
+}
+
+
+div.bottomnav {
+
+    margin-top: 12px;
+
+}
+
+/* display block eliminates stray space around images */   
+
+img.block {
+
+    padding: 0px;
+    margin: 0px;
+    border-width: 0px;
+    display: block;
+}
+
+
+/* buttons */
+
+/*
+div.specialbutton {
+
+    background: #5592C8;
+    border: 2px solid #99BDDF;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 12px;
+    width: 158px;
+    float: left;
+    clear: both;
+
+}
+
+div.specialbutton A:link {
+    text-decoration: none; 
+    color: black;
+}
+
+div.specialbutton A:visited {
+	text-decoration: none; 
+    color: #FFFFCC;
+} 
+
+div.specialbutton A:active{
+    color: #FFFF66;
+	text-decoration: none; 
+}
+
+div.specialbutton A:hover{
+    color: #cccccc;
+	text-decoration: none;
+}
+*/
+
+#specContainer {
+   margin-top: 5px;
+   margin-bottom: 5px;
+   width: 158px;
+   float: left;
+   clear: both;
+}
+
+div.specialbutton, div.specialbuttonTop, div.specialbuttonBottom {
+   border-left: 1px solid #99bddf;
+   border-right: 1px solid #99bddf;
+  	text-align: left;
+   background-color: #ccdbe9;
+  	border-top: 1px solid #99bddf;
+}
+
+div.specialbuttonTop { -moz-border-radius-topleft: 5px; -moz-border-radius-topright: 5px; }
+div.specialbuttonBottom { border-bottom: 1px solid #99bddf; -moz-border-radius-bottomleft: 5px; -moz-border-radius-bottomright: 5px; }
+
+div.specialbutton:hover, div.specialbuttonTop:hover, div.specialbuttonBottom:hover {
+   background-color: #5592c8;
+   color: #ffffff;
+   text-decoration: none;
+}
+
+div.specialbutton a, div.specialbuttonTop a, div.specialbuttonBottom a {
+  	color: #666666;
+  	font-size: 11px;
+   display: block;
+   padding: 2px 0px 2px 5px;
+}
+
+div.specialbutton a:hover, div.specialbuttonTop a:hover, div.specialbuttonBottom a:hover {
+   color: #ffffff;
+   text-decoration: none;
+   padding-left: 8px;
+   font-weight: bold;
+}
+
+
+
+.hnav_container {  
+/* for holding groups of left-floated items that you want to wrap together when width shrinks */
+    float: left;
+}
+
+
+/* override the h1 in classy CSS */
+
+h1 {
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+
+
+/* TOC */
+
+div.toc {
+    font-family: 'Open Sans', sans-serif;
+
+	font-size: 13px;
+/*	letter-spacing: .5px; */
+	margin-bottom: 0px;
+	color: #000000;
+	
+	padding-bottom: 0px;
+	
+	clear: both;
+
+    background-color: rgb(255,255,255);
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-top: 0px; /* work around other sheets */
+}
+
+div.toc h1.section {
+    
+	/* as usual, thanks to http://gradients.glrzad.com/ */
+	
+	background-image: linear-gradient(bottom, rgb(204,204,204) 25%, rgb(255,255,255) 75%);
+	background-image: -o-linear-gradient(bottom, rgb(204,204,204) 25%, rgb(255,255,255) 75%);
+	background-image: -moz-linear-gradient(bottom, rgb(204,204,204) 25%, rgb(255,255,255) 75%);
+	background-image: -webkit-linear-gradient(bottom, rgb(204,204,204) 25%, rgb(255,255,255) 75%);
+	background-image: -ms-linear-gradient(bottom, rgb(204,204,204) 25%, rgb(255,255,255) 75%);
+	
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.25, rgb(204,204,204)),
+		color-stop(0.75, rgb(255,255,255))
+	);
+	
+	/* so ugly that I thought it can't be serious; reverted to my version above */
+	/*
+	background-image: linear-gradient(bottom, rgb(32,32,32) 0%, rgb(255,255,255) 25%);
+	background-image: -o-linear-gradient(bottom, rgb(32,32,32) 0%, rgb(255,255,255) 25%);
+	background-image: -moz-linear-gradient(bottom, rgb(255,255,255) 0%, rgb(212,212,212) 1%, rgb(255,255,255) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(32,32,32) 0%, rgb(255,255,255) 25%);
+	background-image: -ms-linear-gradient(bottom, rgb(32,32,32) 5%, rgb(255,255,255) 25%);
+	
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.25, rgb(32,32,32)),
+		color-stop(0.75, rgb(255,255,255))
+
+	
+	); */
+	/*
+	border-radius: 0px 0px 0px 0px;
+	*/
+}
+
+div.toc h1.section,
+div.toc h1.section a {
+    color: rgb(32,32,32);
+    /* 
+    text-shadow: 1px 1px 0px rgb(32,32,32), 2px 2px 0px rgb(32,32,32), 3px 3px 0px rgb(32,32,32);
+	text-transform: uppercase;
+	font-weight: lighter; 
+	*/
+	font-size: 54px;
+	font-family: "Pathway Gothic One","sans-serif";
+	text-transform: uppercase;
+	line-height: 44px;
+	margin-top: 24px;
+	margin-bottom: 8px;
+	background-color: none;
+}
+
+
+div.toc .description,
+div.excerpt .description,
+div.excerpt p, /* 9/30/14 */
+.related_story div.excerpt .body_excerpt /* 12/12/14 */
+{
+    font-size: 16px; /*12px; */
+	font-family: 'Open Sans', sans-serif;
+
+}
+div.toc h2.story a {
+    font-size: 14px; /*12px; */
+    line-height:14px;
+    margin-top: 18px;
+	/* font-weight: bold;  */
+}
+div.toc h2.story a,
+div.toc h2.story a:link,
+div.toc h2.story a:visited
+{
+    color: #202020;
+}
+div.toc h2.story a:hover,
+div.toc h2.story a:active
+{
+	color: #D81818;
+}
+
+div.toc h2.degraded a { /* 7/28/14 */
+	font-size: 12px;
+	line-height: 12px;
+}
+
+div.toc .top_story h2.story a {
+    color: rgb(200,40,40);
+}
+
+div.toc div.top_story h2.story a:hover {
+    color: rgb(255,255,255);
+}
+div.toc div.top_story div.image {
+	width:160px;
+	margin-bottom:5px;
+}
+div.toc div.top_story div.image div.credit {
+	width:160px;
+}
+
+div.toc h2.story a:hover {
+    color: rgb(200,40,40);
+}
+
+div.toc h2.story {
+	font-size: 12px;
+	line-height: 12px;
+	text-transform: uppercase;
+	margin-top: 18px;
+}
+
+div.toc ul.other_stories {
+	list-style-type:none;
+	padding:0px;
+}
+div.toc ul.other_stories li.story {
+	clear: left;
+}
+div.toc ul.other_stories li.story div.image {
+	margin-bottom:6px;
+	margin-right:15px;
+	float:left;
+	clear:left;
+}
+
+div.toc .byline {
+	/* font-face: sans-serif !important; */
+	font-size: 16px;
+/*    line-height: 14px; */
+	font-weight: normal;
+	/* text-transform: capitalize; */
+	text-align: left;
+	color: rgb(86,86,86);
+	margin-bottom: 4px;
+
+	/* IMHO it might look a little better without these two: */
+	/*
+	margin-top: 10px;
+	margin-bottom: 10px;
+	*/
+}
+
+div.toc .story_date { /* 11/9/15 */
+	font-size: 13px;
+}
+
+div.toc .top_story {
+	clear: both;
+	float:right;
+	width:160px;
+	margin-left: 16px;
+	margin-bottom: 8px;
+	color: white;
+	padding: 4px;
+	background-color: rgb(32,32,32);
+	border-radius: 0px 0px 8px 8px;
+}
+
+div.toc .top_story .byline {
+    color: rgb(212,212,212);
+    line-height: 20px;
+}
+
+
+div.toc .top_story .image {
+	border-bottom: 0px solid black;
+}
+
+div.toc .section_foot {
+	clear:both;
+}
+
+div.toc .section_foot div.cal {
+	float: left;
+	padding: 3px 6px 2px 6px;
+	box-shadow: 1px 1px 2px;
+	border-radius: 6px;
+	text-align: left;
+	margin-bottom: 16px;
+}
+/* those overly broad sheets styling <a>s are killing us */
+
+div.toc .section_foot div.cal a {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+div.toc .section_foot div.cal a:hover {
+	color: rgb(0,0,0)
+}
+
+div.toc .section_foot div.cal a span,
+.toc .section_foot div.cal a img {
+	vertical-align: middle;
+}
+
+div.toc .section_foot a.more {
+	display: block;
+	float: right;
+	padding-left: 4px;
+	padding-right: 2px;
+	margin-bottom: 24px;
+	vertical-align: middle;
+	text-align: right;
+	
+	background-color: rgb(32,32,32);
+	border: medium black solid;
+	border-radius: 10px 0px 0px 10px;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+
+	color: rgb(212,212,212);
+	text-transform: uppercase
+}
+
+div.toc .section_foot a:hover {
+    color: rgb(200,40,40)
+}
+
+/*
+div.toc div.section {
+
+	margin-bottom: 0px;
+	margin-top: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+	clear: left;
+
+}
+
+div.toc div.pull {
+
+	margin-bottom: 0px;
+	margin-top: 12px;
+	padding: 0px 36px 0px 0px;
+
+} */
+
+
+/* div.toc a {
+	font-size: 12px;
+	font-weight: bold; 
+} */
+ 
+/*
+div.toc a:link { 
+	text-decoration: none; 
+	color: #660000;
+	}	
+
+div.toc a:visited { 
+	text-decoration: none; 
+	color: #663333;
+	}
+	
+div.toc a:hover, div.toc a:active { 
+	text-decoration: underline; 
+	color: gray;
+	}
+*/
+
+/* div.toc div.pull div.feat_link {
+	padding-bottom: 6px;
+}
+
+div.toc div.pull div.feat_link a {
+	font-size: 24px; 
+
+} */
+
+/* covers */
+
+div.cover {
+    width: 300px;
+	font-size: 10px;
+	text-align: center;
+	color: #000000;
+	margin: 0px;
+	margin-bottom: 6px;
+	font-size: 14px;
+ }
+ 
+ div.cover div.image {
+ 
+    padding: 0px;
+    margin: 0px;
+    
+	display: block; 
+ }
+
+ div.cover img {
+ 
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 2px;
+    border: 1px silver solid;
+ 
+ }
+
+div.cover_right {
+	border-left: dotted 3px silver;
+	padding-left: 9px;
+}
+
+div.covers {
+	border-bottom: solid 1px black;
+	font-family: 'Open Sans', sans-serif !important;	
+}
+
+div.covers .cover_browser {
+	text-transform:uppercase;
+	background:black;
+}
+
+aside.right_column div.covers .cover_browser a {
+	color:white;
+	font-weight:normal;
+}
+
+aside.right_column div.covers .cover_browser a:hover {
+	color:rgb(200,40,40);
+}
+
+/* margin ads and deadheads */
+
+
+img.marginbutton {
+
+    padding: 0px;
+    margin: 0px;
+    border: 0;
+    float: left;
+    clear: both;
+
+}
+
+
+td.marginad {
+
+	margin: 0px;
+	padding: 0px;
+	width: 160px;
+
+}
+
+td.marginadwide {
+
+	margin: 0px;
+	padding: 0px;
+	width: 220px;
+    padding-top: 4px;
+
+}
+
+img.marginad {
+
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 4px;
+    border: 0;
+
+}
+
+
+/* spacing */
+
+.clear {
+	clear: both;
+}
+
+
+br.clear { clear: both; }
+
+p.clear { clear: both;   margin: 0; padding: 0; }
+
+div.clearer {clear: left; line-height: 0px; height: 0; background: red; }
+
+div.hspace {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+/* helper styles */
+
+
+ul.thinner {
+	margin: 0;
+	padding: 0;
+	margin-left: 1.5em;
+}
+
+ul.thinner li {
+	margin: 0;
+	padding: 0;
+}
+
+
+/* a generic nav list style */
+ul.nav {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+
+ul.nav li {
+	border-right: 1px solid #777;
+	float: left;
+	margin-right: 0.9em;
+	padding-right: 0.9em;
+}
+
+
+ul.nav li.last {
+	border-right: none;
+}
+
+
+h3.nav {
+	float: left;
+}
+
+
+
+/* editorial display */
+
+div.excerpt {
+	font-size: 12px;
+    text-align: left;
+    /* padding: 6px 20px 6px 20px; */
+    padding-top: 0px;
+    padding-bottom: 6px;
+/*     border-top: thin silver solid; */
+
+	font-size: 13px;
+	line-height: 20px;
+	clear:left; /* 9/30/14 */
+	clear:both; /* fixes "view in alibi calendar" problem in r2c section TOC */
+}
+
+div.story {
+
+	font-size: 20px; /* from 13 */
+    text-align: left;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	/* DO NOT specify a padding-right, padding-left, margin-right, or margin-left here; put it in the computed stylesheet */
+ /* background: green;
+    border: thick black solid; */
+    
+    line-height: 21px; /* 8/8/14 increased from 20 */
+    padding-top: 0;
+
+	clear:both; /* 9/18/14 */    
+	line-height:140% !important;
+	font-size:16px !important;
+}
+
+div.excerpt .related_stories .related_header, div.story div.related_stories .related_header {
+	text-transform: uppercase;
+	font-size: 26px;
+	border-bottom: 1px solid black;
+	width: 100%;
+}
+
+
+
+div.excerpt .related_stories, div.story .related_stories {
+	font-family: 'Archivo Narrow', sans-serif;
+	padding-top: 20px;
+}
+
+div.excerpt .related_stories ul, div.story .related_stories ul {
+	padding-top: 12px;
+}
+
+div.excerpt .related_stories li, div.story .related_stories li {
+	font-size: 18px;
+}
+
+div.excerpt .related_stories li a:link, div.story .related_stories li a:link {
+	font-size: 18px;
+}
+
+#toc_reiterate div.story {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+div.postpart {
+	display:none;
+}
+
+div.excerpt h1 {
+	font-size: 16px;
+	color: #E10823;
+	padding: 0px;
+	margin: 0px 0px 5px 0px; /* 8/12/14 */
+	text-align: left;
+
+	font-size: 15px;
+	color: gray;
+	text-transform: uppercase;
+	margin: 9px 0px 0px 0px;
+}
+
+/* 8/12/14 section toc link colors */
+div.excerpt a h1, /* normal case */
+div.excerpt a:link h1,
+div.excerpt a:visited h1,
+div.excerpt h1 a, /* crazy headlineless (e.g. week in sloth) case */
+div.excerpt h1 a:link,
+div.excerpt h1 a:visited,
+div.excerpt a h2,
+div.excerpt a:link h2,
+div.excerpt a:visited h2,
+div.excerpt h2 a,
+div.excerpt h2 a:link,
+div.excerpt h2 a:visited
+{
+	color: #202020;
+}
+div.excerpt a:hover h1,
+div.excerpt a:active h1,
+div.excerpt h1 a:hover,
+div.excerpt h1 a:active,
+div.excerpt a:hover h2,
+div.excerpt a:active h2,
+div.excerpt h2 a:hover,
+div.excerpt h2 a:active h2
+{
+	color: #D81818;
+}
+
+div.story h1 {
+
+	font-size: 20px;
+	color: #E10823;
+	padding: 0px;
+	margin: 0px;
+	text-align: left;
+	/* background: silver; */
+
+	font-size: 15px;
+	color: gray;
+	text-transform: uppercase;
+	padding-right: 6px;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 20px;
+
+
+
+}
+
+
+div.excerpt h2 /*,
+div.story h2*/  /* 7/28/14 story and excerpt can finally be the same */
+{
+
+	font-weight: bold;
+	padding: 0px;
+	margin: 0px;
+	text-align: left;
+
+	font-size: 25px;
+	line-height: 25px;
+	margin-bottom: 5px;
+	color: #003366;
+
+	text-transform: uppercase;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 28px;
+	margin-top: 2px;
+
+
+
+}
+
+/* div.story h2 {
+
+	font-size: 16px;
+	font-weight: bold;
+	padding: 0px;
+	margin-top: 3px;
+	text-align: left;
+	
+	font-size: 40px;
+	line-height: 40px;	
+	margin-top: 30px;
+	margin-bottom: 15px;
+	color: #003366;
+
+} */
+
+
+div.excerpt h3,
+div.story h3 /* 7/28/14 same! */
+{
+	font-family: 'Open Sans', sans-serif;
+
+	font-weight: bold;
+	padding: 0px;
+	margin: 5px 0px 5px 0px; /* 8/27/14 merged with other contradictory rules */
+	text-align: left;
+	
+	font-size: 20px; /* 8/12/14 */
+	line-height: 22px; /* 8/27/14 increased from 20 */
+	color: black;
+}
+
+
+/* 8/10/9, 11/13/9 */
+div.story h4, div.hreview div.story h2.booktitle {
+
+	font-size: 13px;
+	font-weight: bold;
+	padding: 0px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	text-align: left;
+	
+}
+
+
+div.byline {
+	font-weight:bold;
+}
+
+div.excerpt div.byline,
+div.story div.byline,
+div.story div.byline a
+{
+	font-family: 'Open Sans', sans-serif;
+
+    font-size: 16px;
+    /* font-weight: bold; */
+	text-align: left;
+	color: #565656;
+	font-weight: normal;
+}
+
+div.excerpt div.byline {
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+	/* text-transform: uppercase; */
+}
+
+div.story div.byline {
+	text-align: left;
+	margin-bottom: 12px;
+	margin-top: 0;
+}
+
+
+div.story div.blurb {
+
+
+    margin-top: 9px;
+    font-size: 18px;
+
+	padding: 18px;
+	background: rgb(195, 202, 206);
+	font-family: 'Archivo Narrow', sans-serif;
+
+}
+
+.subsub {
+	margin-top: 24px;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.blogpost .subsub { /* 8/14/14 */
+	font-family: 'Open Sans', sans-serif;
+
+	font-size: 16px;
+}
+
+
+div.blurb .subsub {
+	margin-top: 0;
+	display: inline;
+}
+
+
+
+div.story p {
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 0;
+}
+
+div.story div.image {
+	margin: 18px 0 18px 0;
+}
+
+.story .alsoin {	
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-top: 25px;
+	color: white;
+	background: black;
+	padding: 6px;
+}
+
+div.excerpt div.image  {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 1px;
+	color: black;
+	clear: right;
+	
+	display: block;
+	
+}
+
+
+div.excerpt div.blurb {
+
+    margin-top: 9px;
+    padding: 9px;
+    background: #CCDBE9;
+    font-size: 10px;
+	font-family: georgia, "times new roman", serif;
+
+}
+
+
+div.excerpt p.storybreak {
+    font-size: 14px; /* 9/30/14 */
+    font-weight: bold;
+    margin-top: 2px;
+    
+	color: grey;
+	margin-top: 10px;
+	/* reverted 9/30/14 */
+/*	display: none; */
+}
+
+
+.postpart {
+	border-bottom: 3px dotted silver; /* disabled in wwacd redesign, but re-enabled 7/28/14 */
+	/* on toc, we don't want this to take up much space /*
+	height: 0px; /* was 15 */
+	margin-bottom: 0px; /* was 15 */
+	margin-left: 20px;
+	margin-right: 20px;
+	clear: both; /* 4/29/15 */
+}
+
+.excerpt .postpart {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.story_related_event {
+font-family: "Rokkitt", slab-serif, serif;
+/* font-family: 'Open Sans', sans-serif; wait until we eliminate Rokkitt from calendar entirely */
+font-size: 20px;
+line-height: 21px;
+}
+
+.story .postpart {
+	/* but on story pages we still want these to use up space */
+	height: 15px;
+	margin-bottom: 15px;
+}
+.print_issue .postpart {
+	margin-left: 0px;
+	margin-right; 0px;
+}
+
+div.story .postpart, div.post .postpart, div.excerpt .postpart {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+div.story div.filmtimes {
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+/* tabs and subnav styles */
+
+div.alibitabs {
+
+	background: white;
+	padding-bottom: 12px;
+	margin-top: 0px;
+
+}
+
+div.alibitabs div.innertabs {
+
+	background: #99BDDF;
+	padding: 6px;
+	margin: 6px;
+	margin-top: 0px;
+	clear: both;
+
+}
+
+div.alibitabs div.logonav {
+
+	margin-right: 6px;
+	margin-left: 6px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-top: 3px;
+	padding-bottom: 2px;
+	width: 130px;
+	display: inline;
+	float: left;
+	clear: both;
+
+}
+
+div.alibitabs div.firefox {
+
+    padding-top: 0px;
+	margin: 0px;
+	margin-right: 26px;
+	padding-top: 6px;
+	
+/* 	padding-top: 3px; */
+/* 	padding-bottom: 2px; */
+/*  text-align: right; */
+	display: inline;
+	float: right;
+	vertical-align: middle;
+/*  	background: red;  */
+}
+
+div.alibitabs div.googleSearch {
+
+/*	margin-right: 6px;
+ 	margin-left: 206px;
+	margin-bottom: 0px;
+	margin-top: 24px;
+	padding-top: 20px;
+	padding-bottom: 2px;
+	width: 300px;
+*/
+
+   padding-top: 3px;
+   padding-right: 6px;
+   padding-bottom: 3px;
+
+	display: inline;
+	float: right;
+
+    text-align: left;
+    font-size: 9px;
+    vertical-align: middle;
+
+/*  	background: green;  */
+
+/*    position: absolute; */
+/*    left: 250px; */
+/*    top: 160px; */
+/*    display: inline; */
+/*    font-size: 10px; */
+}
+
+
+
+div.alibitabs div.googleSearch input {
+   font-size: 10px;
+}
+
+div.alibitabs div.nav {
+ 
+	margin-top: 0px;
+	display: inline;
+	float: right;
+	clear: right;
+	padding-top: 0px;
+	padding-right: 12px;
+	text-align: right;
+}
+
+
+div.alibitabs img {
+
+	vertical-align: bottom;
+}
+
+div.alibitabs form {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+div.alibitabs fieldset.login {
+    border: 1px solid #a2b2c1;
+    font-size: 9px;
+    text-align: right;
+    padding: 5px;
+    width: 115px;
+    margin: 0px;
+    margin-right: 6px;
+    float: right;
+    clear: right;
+   	display: inline;
+    overflow:hidden;
+    height: 90px;
+	line-height: 11px; /* 2/27/12 override the new line height added to body */
+}
+
+div.alibitabs fieldset.login legend {
+   font-weight: bold;
+   color: #000000;
+}
+
+fieldset.login a:link, fieldset.login a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+    color: #C60000;
+}
+
+fieldset.login a.new_messages, fieldset.login a.new_messages:link, fieldset.login a.new_messages:visited, fieldset.login a.new_messages:active {
+	color: #007F00;
+}
+
+div.alibitabs div.loggedin {
+
+    border: 1px solid black;
+    font-size: 9px;
+    text-align: right;
+    padding: 9px;
+    width: 130px;
+    height: 70px;
+    margin: 12px;
+    float: right;
+/*     clear: right; */
+	display: inline;
+    overflow:hidden;
+
+
+}
+
+div.almostloggedin {
+
+    border: 1px solid black;
+    font-size: 9px;
+    text-align: right;
+    padding: 9px;
+    width: 220px;
+    height: 70px;
+    margin: 12px;
+    float: right;
+/*     clear: right; */
+	display: inline;
+    overflow:hidden;
+
+
+}
+
+
+/* div.loggedin { */
+/*  */
+/*     border: 1px solid black; */
+/*     background: green; */
+/*     font-size: 9px; */
+/*     text-align: right; */
+/*     padding: 9px; */
+/*     width: 130px; */
+/*     height: 130px; */
+/*     margin: 12px; */
+/*     float: right; */
+/*     clear: right; */
+/*     overflow:hidden; */
+/*  */
+/* } */
+
+div.loggedin a:link, div.loggedin a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+    color: #C60000;
+
+}
+
+div.alibitabs div.leftjustify {
+
+    text-align: left;
+    margin-bottom: 0px;
+    padding: 0;
+
+}
+
+
+div.alibitabs input.logintext {
+	
+	width: 60px;
+	background: #eee;
+    font-size: 9px;
+
+}
+
+
+div.alibitabs input.loginsubmit {
+
+    font-size: 9px;
+    margin-bottom: 0px;
+    padding: 0;
+	float: right;
+
+}
+
+
+/* 7/19/7 reworked it to be based on list items instead of anchors */
+
+.tabmenu {
+	margin: 0px;
+	padding-bottom : 20px;
+	padding-left : 10px;
+	clear: both;
+}
+
+.tabmenu ul, .tabmenu li {
+	list-style: none;
+	display: inline;
+	border: 0px;
+	-moz-border-radius-topleft: 9px;
+	-moz-border-radius-topright: 9px;
+	float: left;
+	font-weight: normal;
+	line-height: 16px;
+	margin-left: 8px;
+	margin-right: 8px;
+	padding: 2px;
+	padding-left: 6px;
+	padding-right: 6px;
+	text-decoration: none;
+}
+.tabmenu li.notselected, .tabmenu li.notselected a {
+	text-decoration: none;
+}
+.tabmenu li {
+	border-style: solid;
+	border-color: black;
+	border-width: 1px 1px 0px 1px;
+}
+#profilemenu li.selected {
+	color: white;
+	font-weight: bold;
+	background-color: black;
+}
+#profilemenu li.notselected, #profilemenu li.notselected a {
+	color: black;
+	background-color: #364436;
+	background-color: gray;
+}
+#profilemenu li.notselected:hover, #profilemenu li.notselected a:hover {
+	color: white;
+	background-color: gray;
+}
+
+#prefmenu li.selected {
+	color: #C7FFE3;
+	background: #339966;
+	font-weight: bold;
+}
+#prefmenu li.notselected, #prefmenu li.notselected a {
+	color: #CCE9DB;
+	background: #246C48;
+	font-weight: bold;
+}
+#prefmenu li.notselected:hover, #prefmenu li.notselected a:hover {
+	color: black;
+	background: #246C48;
+}
+
+#calmenu li.selected {
+	color: gray;
+	background-color: white;
+}
+#calmenu li.notselected, #calmenu li.notselected a {
+	color: black;
+	background-color: gray;
+}
+#calmenu li.notselected:hover, #calmenu li.notselected a:hover {
+	color: black;
+	background-color: white;
+}
+/* #menu li {
+	border-style: solid;
+	border-color: black;
+	border-width: 1px 1px 0px 1px;
+}
+#menu li, #menu li a {
+	font-size: 16px;
+	line-height: 16px;
+	margin-right: 6px;
+	margin-left: 6px;
+	font-weight: normal;
+}
+#menu li.selected {
+	color: white;
+	background-color: #5592C8;
+}
+#menu li.notselected, #menu li.notselected a {
+	color: white;
+	background-color: #003366;
+}
+#menu li.notselected:hover, #menu li.notselected a:hover {
+	color: black;
+	background-color: #003366;
+} */
+
+#menu {
+/* 	border-bottom : 1px solid #ccc; */
+	margin : 0;
+	padding-bottom : 19px;
+	padding-left : 10px;
+	z-index: 3;
+}
+
+#menu ul, #menu li	{
+	display: block;
+	float: left;
+	list-style-type : none;
+	margin : 0;
+	padding : 0;
+
+}
+
+
+#menu a:link, #menu a:visited {
+	background: #003366;
+	border: 1px solid black;
+	-moz-border-radius-topleft: 9px;
+	-moz-border-radius-topright: 9px;
+	color: #ffffff;
+	float: left;
+    font-size: 16px;
+	font-weight: normal;
+	line-height: 16px;
+	margin-right: 8px;
+	padding: 2px 10px 2px 10px;
+	text-decoration: none;
+}
+
+
+#menu a:link.active, #menu a:visited.active	{
+	background: #999;
+	border-bottom: 1px solid #fff;
+	color : #000;
+}
+
+#menu a:hover	{
+	color : gray;
+	color: white;
+	text-decoration: underline;
+}
+
+
+/* #menu ul a:hover {
+	color : #666 !important;
+} */ /* what was this for?! */
+
+/* 3/8/10 submenus */
+
+#menu li {
+	position: relative;
+}
+
+#menu li ul {
+	display: none;
+	list-style-type: none;
+	position: absolute;
+	border: 0px none transparent;
+	margin: 0px;
+	padding: 0px;
+
+	z-index: 3;
+	background-color: #003366; /* only msie needs this, since it gets the <li> part's width wrong */
+	/* border: 1px solid black; */ /* here's the damn jaggy */
+	float: none;
+	top: 20px;
+	left: 0px; /* msie7 needs this */
+}
+#menu li:hover ul {
+	display: block;
+}
+#menu li ul li,
+#menu li ul li a,
+#menu li ul li a:link,
+#menu li ul li a:visited,
+#menu li ul li a:hover,
+#menu li ul li a:active
+{
+	color: white;
+	font-size: 12px;
+	line-height: 15px;
+	font-weight: bold;
+	-moz-border-radius-topleft: 0;
+	-moz-border-radius-topright: 0;
+	width: 220px;
+	height: 100%;
+	border: 1px solid #CCDBE9;
+	border-top: 0px none transparent;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	z-index: 4;
+	text-decoration: none;
+}
+#menu li ul li {
+	border: 0px none transparent;
+}
+#menu li ul li a,
+#menu li ul li a:link,
+#menu li ul li a:visited,
+#menu li ul li a:hover,
+#menu li ul li a:active
+{
+	display: block;
+	padding-top:4px;
+	padding-bottom:4px;
+}
+#menu li ul li:last-child a {
+	border-bottom: 1px solid black;
+}
+
+#menu li ul.narrowmenu li,
+#menu li ul.narrowmenu li a,
+#menu li ul.narrowmenu li a:link,
+#menu li ul.narrowmenu li a:visited,
+#menu li ul.narrowmenu li a:hover,
+#menu li ul.narrowmenu li a:active
+{
+	/* my alibi, keep it from widening page */
+	width: 75px;
+}
+
+#menu li:hover ul li a:link,
+#menu li:hover ul li a:visited {
+	background-color: #003366;
+}
+
+#menu li:hover ul li a:hover,
+#menu li:hover ul li a:active {
+	background-color: #5592C8;
+}
+
+#subnav {
+/* 	background : #6699CC; */
+	background: #5592C8;
+/* 	border : 1px solid #ccc; */
+	border-bottom: 1px solid gray;
+/* 	border-left: 1px solid black; */
+ 	border-right: 1px solid gray; 
+	font-size: 11px;
+	margin-top : 0px;
+	clear: both;
+	margin: 0px;
+	padding: 5px 10px 5px 10px;
+    color: white;
+}
+
+#subnav A:link {
+    text-decoration: none; 
+    color: #ffffff;
+}
+
+#subnav A:visited {
+	text-decoration: none; 
+    color: #FFFFCC;
+} 
+
+#subnav A:active{
+    color: #FFFF66;
+	text-decoration: none; 
+}
+
+#subnav A:hover{
+    color: #cccccc;
+	text-decoration: none; 
+}
+
+
+
+
+div.image, figure.image, aside.image {
+	color: black;
+	clear: both;
+}
+
+
+div.imagecenter,
+div.recta /* new 10/30/15 */
+{
+
+	margin-top: 5px;
+	margin-bottom: 15px;
+	color: black;
+	display: block;
+/*    margin-left: auto;
+    margin-right: auto; */
+	text-align: center;
+	clear: both;
+}
+
+div.wpb_prefix {
+	width: 300px;
+	height: 15px;
+}
+
+div.ad_label a::before,
+div.ad_label_narrow a::before,
+div.wpb_prefix a::before
+{
+	display: block;
+	width: 100%;
+	background-color:white;
+	color:green;
+	text-align:center;
+	height: 13px;
+	content: "Advertisement";
+	/* most this stuff just ripped off from earlier Business Profile stuff where we've already decided how this sort of thing should look */
+	font-size: 9px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:normal;
+	color: #aaa;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	padding-bottom:4px;
+}
+/* less room, so be a little smaller */
+div.ad_label_narrow::before,
+{
+	letter-spacing: 6px;
+	font-size: 10px;
+	height: 12px;
+}
+
+div.credit {
+	text-align: right;	
+	margin-bottom: 0px;
+	line-height: 10px;
+	clear: both;
+	
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 3px;
+	font-size: 10px;
+	padding-bottom: 12px;
+
+
+	
+	overflow: hidden;	
+}
+
+
+a:link div.credit  {
+	color:black;
+	font-weight:normal;
+}
+
+a:hover div.credit {
+	text-decoration:underline;
+}
+
+
+.toc .top_story div.credit { /* 9/18/14 */
+	color: white;
+}
+/* 9/24/14 similarly-needed color change due to dark background */
+.toc .top_story div.credit a:hover,
+.toc .top_story div.credit a:active,
+.todays_events .picture div.credit a:hover,
+.todays_events .picture div.credit a:active {
+	color: white;
+}
+
+div.credit a {
+	font-size: 9px !important;
+}
+
+
+/* 4/27/10 */
+div.caption,
+figcaption.caption,
+.flickr_description
+{
+	clear: both;
+	
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+
+	line-height: 13px;
+	margin-bottom: 12px;
+	color: gray;
+	padding-top: 6px;
+	margin-top: 3px;
+	font-size: 14px;
+}
+
+
+
+
+div.caption p {
+	margin-top: 1px;
+}
+
+div.caption,
+figcaption.caption
+{
+	text-align: right;
+}
+
+div.caption a,
+figcaption.caption a
+{
+	font-size: 12px !important;
+}
+
+.flickr_description, .flickr_title {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.flickr_title {
+	margin-top: 0px;
+	margin-bottom: 2px;
+}
+
+.flickr_description a {
+	font-size: 10px !important;
+}
+
+div.story div.headerbar {
+	padding-bottom: 0;
+}
+
+div.issuedata {
+
+    color: black;
+    font-size: 11px;
+    clear: both;
+    
+	color: white;
+	background:black;
+	width:100%;
+	/* height:20px; */
+	padding: 0;
+	margin-bottom: 6px;
+	padding-right: 0;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:normal;
+	margin-top: 8px;
+	height:42px;
+	max-width:728px;
+	line-height: 20px;
+	overflow:hidden;
+
+
+}
+
+.issuedata .date {
+    float: right;
+    /*width: 60%;*/
+    vertical-align: baseline;
+    text-align: right;
+    margin-right: 12px;
+    margin-top: 12px;
+	text-transform: uppercase;
+	font-size: 19px;
+}
+
+.issuedata .nav {
+    float: right;
+    text-align: right;
+    /*width: 50%;*/
+    vertical-align: baseline;
+    font-size: 9px;
+    display: none;
+
+}
+
+.issuedata .page_intro {
+
+	text-transform: uppercase;
+	float: left;
+    /*width: 40%;*/
+    margin-left: 12px;
+    margin-top: 12px;
+	font-size: 29px;
+
+}
+
+
+.issuedata a {
+	color: white;
+}
+
+.issuedata a:hover {
+	color: #D81818;
+	
+}
+
+div.blogpost p.storybreak {
+
+	font-size: 8px;
+	font-weight: bold;
+	text-align: right;
+	width: 100%;
+	background: silver;
+
+}
+
+
+div.letterfooter {
+
+	text-align: right;
+
+}
+
+select.chowtown {
+	width: 160px; 
+	font-size: 10px;
+	}
+
+input.chowtown {
+	font-family: Veranda, Arial, Helvetica; 
+	font-size: small; 
+	height: 20px; 
+	border-left: 1px black solid; 
+	border-right: 1px black solid; 
+	border-top: 1px black solid; 
+	border-bottom: 1px black solid;
+}
+
+
+
+/*input.bob {
+	font-family: Veranda, Arial, Helvetica; 
+	font-size: small; 
+	height: 15px; 
+	width: 300px;
+	border-left: 1px black solid; 
+	border-right: 1px black solid; 
+	border-top: 1px black solid; 
+	border-bottom: 1px black solid;
+} */
+
+span.submitnewad {
+
+    margin-left: 6px;
+    background: #E10823;
+	padding: 0px 1px 1px 1px;
+	border: thin black solid;
+
+}
+
+
+
+span.submitnewad a:link { 
+/*	font-weight: bold; */
+	font-size: 12px; 
+/*	text-decoration: none; 
+    color: red; */
+}
+
+
+.adalert {
+	margin: 5px 15px 10px 1px;
+	padding: 6px 6px 6px 6px;
+    background: #E10823;
+}
+	
+/*span.submitnewad a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: red;
+}
+	
+span.submitnewad a:hover, span.submitnewad a:active { 
+	text-decoration: underline; 
+	color: #ffcc00;
+}
+*/	
+/*     padding: 10px 15px 15px 15px; */
+/* 	width: 120px; */
+
+
+div.sidebarlink {
+    background-color: #FFFFFF;
+	padding: 6px 1px 6px 1px;
+	border: black solid;
+    margin-bottom: 4px;
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 146px;
+}
+div.sidebarlink a:link { 
+	font-size: 12px; 
+    color: #E10823; 
+}
+
+.highlight { background: yellow; }
+.highlight2 { background: yellow; }
+
+/* FOR THE ROTATING BOX ON FRONT.. */
+
+
+
+/* END OF THE ROTATING BOX ON FRONT.. */
+
+
+/* Pull Quotes 5/11/7 */
+div.pullquote {
+    font-family: sans-serif;
+
+	width: 240px;
+	border-top: solid;
+	border-bottom: solid;
+	float: right;
+	clear: right;
+	text-align: right;
+	margin: 16px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+div.pullquote p {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+}
+
+div.pullquote .quotation {
+	font-size: 18px;
+    font-weight: bold;
+
+	/* font-style: italic; */
+}
+
+div.pullquote .attribution {
+	clear: both;
+	font-size: 14px;
+	text-align: right;
+    font-weight: normal;
+}
+
+/* end pull quotes */
+
+/* BOX FOR THE WORD COUNT */
+
+#wordCountBox {
+   position: fixed;
+   left: 0px;
+   bottom: 0px;
+   height: 40px;
+   width: 100%;
+   background: red url(/images/redesign/word_count_bg.gif);
+   font-size: 20px;
+   color: #ffffff;
+   text-align: center;
+   display: none;
+   z-index: 9;
+}
+
+#wordCountBox b {
+   font-size: 30px;
+   color: #ffffff;
+   font-weight: normal;
+}
+
+#wordCountBox small {
+   font-size: 10px;
+}
+
+
+/* END BOX FOR THE WORD COUNT */
+/* recent videos, left column.  This'll probably get changed a lot, later. */
+
+/* no longer used */
+#recentvideos {
+    color: black;
+    font-weight: bold;
+    background: #5592C8;
+    margin-top: 3px;
+    border-color: #003366;
+    float: left;
+    clear: both;
+    margin-bottom: 6px;
+    width: 154px;
+    
+}
+
+/* no longer used */
+#recentvideostitle {
+
+    background: #003366;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 13px;
+    padding-bottom: 4px;
+    padding-top: 3px;
+    width: 154px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 142px;
+    margin-right: 10px;
+
+}
+
+div.videobox {
+
+    text-align: center;
+    padding-left: 2px;
+    padding-right: 2px;
+
+}
+
+.sideBarCloud {
+   margin-top: 5px;
+   margin-bottom: 5px;
+   width: 156px;
+   float: left;
+   clear: both;
+   border-right: 1px solid #99bddf;
+}
+
+.sideBarCloud .head {
+   display: block;
+}
+
+.sideBarCloud .cont {
+   display: block;
+   background: #c7e3ff;
+   border: 1px solid #99bddf;
+   border-top: 0;
+   border-right: 0;
+}
+
+.sideBarCloud a { color: #383333; }
+.sideBarCloud a:hover { color: #e51414; }
+
+.sideBarCloud div { display: inline; }
+
+.sideBarCloud .size1 { font-size: 9px; }
+.sideBarCloud .size2 { font-size: 10px; }
+.sideBarCloud .size3 { font-size: 11px; }
+.sideBarCloud .size4 { font-size: 12px; }
+.sideBarCloud .size5 { font-size: 13px; }
+
+
+
+div.todaybox {
+
+    width: 250px; 
+    border: thin black solid;
+    border: none; 
+    float: right; 
+    clear: right; 
+    text-align: center; 
+    font-family: georgia, 'times new roman', serif; 
+    font-size: 11px;
+    margin-bottom: 9px;
+
+}
+
+div.todaybox a:link, div.todaybox a:active, div.todaybox a:visited, div.todaybox a:hover {
+    font-size: 11px;
+}
+
+.floating_ad_container {
+	background: gray;
+	color:white;
+	display:none;
+	visibility:hidden;
+	position:absolute;
+	top: 140px;
+	z-index:3;
+	border:thin solid black;
+}
+.floating_ad_container .ad_closer {
+	float: right;
+}
+.floating_ad_container .ad_closer a, .floating_ad_container .ad_closer a:link, .floating_ad_container .ad_closer a:visited, .floating_ad_container .ad_closer a:active {
+	color: white;
+}
+
+/* 8/5/9 recreating the old appearance with the new non-shitty markup */
+.hrecipe {
+	font-family: 'Open Sans', sans-serif;
+
+	padding-left: 5px;
+	margin-bottom: 10px;
+}
+.hrecipe .fn {
+	margin-top: 5px;
+}
+.hrecipe .instructions {
+	margin-top: 15px;
+}
+.hrecipe .ingredient {
+	padding-bottom: 6px; /* 10/22/14 */
+}
+
+.excerpt h1.tag_header {
+	font-size: x-large;
+	color: white;
+	background: grey;
+	padding: 6px;
+	display:block;
+	font-weight: normal;
+	margin-top: 9px;
+/*	margin-left: 20px;  */
+/*	margin-right: 20px; */
+
+}
+
+h1.tag_header span {
+	/* padding: 6px;*/
+}
+
+.hmt_banner {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top:6px;
+	padding-bottom:10px;
+	border: 0px none;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:10px;
+	margin-top:0;
+	color: white;
+	background-color: black;
+	font-family: "Arial", "Helvetica", sans-serif;
+}
+.hmt_banner .dtstart {
+	font-size: larger;
+}
+.hmt_banner .hmt_event_time {
+	line-height:180%;
+	font-family: georgia, "times new roman", serif;
+
+}
+.hmt_banner .banner_header {
+	font-size: 12px;
+	margin-left: auto;
+	margin-right: auto;
+	letter-spacing: 0.6em;
+	text-align:center;
+	margin-bottom:12px;
+	width:100%;
+	border-bottom: 1px white solid;
+	padding-bottom:3px;
+}
+.hmt_banner a {
+	text-decoration: underline;
+	font-weight:normal;
+}
+.hmt_banner .price {
+	font-family: georgia, "times new roman", serif;
+}
+.hmt_banner .vevent {
+	/* float:left; */
+	padding: 0px;
+	/* margin-right: 8px; */
+	border: 0px none;
+}
+.hmt_banner .vevent .flyer {
+	float:left;
+	margin-right: 8px;
+	margin-bottom: 8px;
+	height: 100%;
+}
+.hmt_banner .vevent .location {
+	font-weight:bold;
+	padding-bottom:4px;
+	font-size: larger;
+}
+.hmt_banner .vevent .summary {
+	/*font-style:italic;*/
+	font-family: georgia, "times new roman", serif;
+}
+
+/* 9/10/14 increased these from 14 to 22 */
+.music_media_header h4 {
+	font-size: 22px !important;
+}
+
+.music_media_header a {
+	font-size: 22px !important;
+}
+
+div.media_track {
+	margin-top: 3px;
+	font-size: 13px !important;
+	font-family: "Arial", "Helvetica", sans-serif;
+
+}
+
+div.media_track a {
+	font-size: 13px !important;
+
+}
+
+
+/* inset boxes for stories */ 
+
+.inset {
+      padding: 0.25em 0.5em;
+      border: 1px dotted #aaa;
+      border-top: 3px solid #333;
+      border-bottom: 3px solid #333;
+      background-color: #e0e0e0;
+}
+
+.inset h4 {
+      font-size: 16px !important;
+      margin: 0;
+      padding: 0;
+}
+
+.inset ul {
+	-moz-padding-start:0;
+	padding: 12px;
+	margin: 0;
+
+}
+
+.inset li {
+	margin-bottom:6px;
+
+}
+
+.textad {
+	margin-bottom: 3px;
+	border: solid thin black;
+}
+.textad a {
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+.backnavdark {
+}
+
+.alibi_bucks_ad {
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Trebuchet MS', Trebuchet, Arial, sans-serif;
+}
+
+/* 9/17/12 "see also" currently just a calendar thing but that may change */
+
+.related_story div.excerpt {
+	padding-top: 12px;
+	margin-top: 12px;
+	clear: both;
+	border-top: 3px dotted #C0C0C0;
+	width: 325px; clear: none; float: right;
+
+}
+
+.related_story div.excerpt h1 {
+	font-family: sans-serif; /* 9/19/14 */
+	height: 24px;  /* 9/19/14 */
+	font-weight: bold;
+}
+.related_story div.excerpt h1 .see_also_and_column {
+	/*background-color: black;*/
+	/*padding: 1px 5px;*/
+	width: 100%;
+}
+.related_story div.excerpt h1 .see_also {
+	text-transform: uppercase;
+	font-size: 10px;
+	color: white;
+	vertical-align: middle;
+	display: none;
+}
+.related_story div.excerpt h1 .column_name {
+	font-size: 15px;
+	color: gray;
+	color: black;
+}
+
+
+.related_story div.excerpt a {
+	text-decoration: none !important;
+}
+
+.related_story div.excerpt a h1 .column_name, .related_story div.excerpt a h3 {
+	text-decoration: none;
+}
+
+.related_story div.excerpt a:hover h1 .column_name, .related_story div.excerpt a:active h1 .column_name, .related_story div.excerpt a:hover h3, .related_story div.excerpt a:active h3 {
+	color: #C82828;
+}
+
+.related_story div.excerpt div.image {
+	margin-top: 10px;
+}
+
+.related_story div.excerpt h2 {
+	font-size: 24px;  /*otherwise comes out 25px */
+	font-size: 28px;
+	line-height: 30px;
+	padding-bottom: 6px;
+}
+.related_story div.excerpt h3 {
+	/*padding-top:6px;*/
+	font-size:20px;
+	font-size:25px;
+}
+.related_story div.excerpt .body_excerpt {
+	/*font-size:12px;*/
+	/*font-weight:bold;*/
+	margin-top: 10px;
+}
+
+.related_story div.excerpt .byline {
+	margin-bottom: 0;
+}
+
+.related_story div.excerpt .storybreak {
+	font-size: 15px;
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+
+.related_story div.excerpt .more {
+	font-size: 15px;
+}
+
+.related_story div.excerpt p {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+.story_related_event,
+.story_related_entity
+{
+	float: right;
+	clear: right; /* 9/30/14 */
+	background: white;
+	padding: 3px 6px 2px 6px;
+	border: 1px solid gray;
+	margin-bottom: 12px;
+	margin-top: 12px;
+}
+.story_related_event span,
+.story_related_entity span
+{
+	/*line-height: 24px;*/
+	vertical-align: middle;
+}
+.story_related_event img,
+.story_related_entity img
+{
+	vertical-align: middle;
+}
+
+/* 2/8/13 */
+.wbp_rh300 {
+	width: 300px;
+	height: 75px;
+	background: white url(/images/businessprofilebkg.jpg) no-repeat;
+	height: 76px;
+	padding-top: 2px;
+	padding-bottom: 0px;
+}
+.wbp_rh300 .wbp_inner {
+	display: block;
+	color: #082070;
+	margin-left:95px; /* 88 */
+	margin-right:9px; /* 2 */
+	overflow: hidden;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+.filmevents_link {
+	font-size: 21px;
+	font-family: 'Pathway Gothic One','sans-serif';
+	width: 100%;
+	float: left;
+	margin: 32px auto 0px auto;
+	text-align: center;
+	border-top: 2px solid #ccc;
+	border-bottom: 2px solid #ccc;
+	padding: 9px 0 9px 0;
+	line-height: 105%;
+}
+
+/* 8/5/15 */
+/* not sure which of these we'll be using, yet.  */
+.story .business_profile_header { /* story header approach */
+	border-bottom: 1px solid black;
+}
+.story .business_profile_float { /* pq-like float approach */
+	float: right;
+	width: 240px;
+	clear: right;
+	text-align: right;
+	
+	/* A lot of the things below will likely change. And some changes might require altering $BP_* stuff in story_display.php. */
+	border-top: solid;
+	border-bottom: solid;
+	margin: 16px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	font-size: smaller;
+}
+
+.story .business_profile_float li.company_name .info {
+	font-size: x-large;
+}
+
+.story .business_profile_float li.biz_email .info, .story .business_profile_float li.website .info {
+	font-size: smaller;
+
+}
+
+
+
+.excerpt .business_profile li.company_name, .excerpt .business_profile li.address, .excerpt .business_profile li.biz_email, .excerpt .business_profile li.website {
+	display: none;
+}
+
+/* But this'll be invariant regardless of which option we take .. I _think_ */
+.excerpt .business_profile ul, .story .business_profile ul {
+	list-style-type:none;
+	margin: 0px;
+	padding: 0px;
+}
+.story .business_profile ul li {
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.story .business_profile ul li .label {
+	font-weight: bold;
+	display: block;/* make label and data be on different lines.  It arguably looks just as good without this, too. */
+}
+
+/* 5/13/16, 8/15/16 */
+div.mailing_list_page {
+	width: 287px;
+	margin: 40px auto;
+}
+div.mailing_list_page .msg {
+	padding: 4px;
+	background-color: #7CFC00;
+	color: black;
+}
+
+div.mailing_list_popup ul.mailing_lists,
+div.mailing_list_page ul.mailing_lists
+{
+	list-style-type:none;
+	padding: 0px;
+	margin: 0;
+}
+div.mailing_list_popup ul.mailing_lists li,
+div.mailing_list_page ul.mailing_lists li
+{
+	list-style: none;
+	text-align: left;
+	margin: 0 0 5px;
+	/* width: 40%; */
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	padding-left: 20px;
+	height: 20px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+div.mailing_list_popup form input#email,
+div.mailing_list_page form input#email
+{
+	/*width: 289px;*/
+	width: 277px;
+	margin: 3px;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+div.mailing_list_popup form button,
+div.mailing_list_page form button
+{
+	border-width: 1px;
+	margin: 3px;
+	padding: 5px;
+	font-size: 13px;
+}
+div.mailing_list_popup form button#subscribe,
+div.mailing_list_page form button#subscribe
+{
+	/*width: 294px;*/
+	width: 282px;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+}
+div.mailing_list_popup form button#later,
+div.mailing_list_pageform button#later
+{
+	width: 128px;
+	float: left;
+	background-color: gray;
+	color: white;
+}
+div.mailing_list_popup form button#decline {
+	width: 128px;
+	float: right;
+	background-color: gray;
+	color: white;
+}
+/* 6/6/16, tried to copy the old "mini-form" styling as much as possible */
+a.newsletter_voluntary_popup_link,
+a.newsletter_link,
+a.newsletter_link:link,
+a.newsletter_link:hover,
+a.newsletter_link:active,
+a.newsletter_link:visited
+{
+	display: block;
+	background-color: #CCDBE9;
+	color: black;
+	border-radius: 4px;
+	padding: 6px 12px;
+	margin: 6px 0px;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+/* ****** R2C ****** */
+
+/* 1/10/17 finally, replacements for that old table! */
+.columns {
+	position: relative;
+	margin: auto;
+	top: 45px;
+	background-color: white; /* 6/1/17 in case reskin image has too-narrow blank area */
+	/* do not specify min-width or max-width here; see r2c_computed_style() */
+}
+.main_content {
+	clear: left;
+	/* do not specify margin-left or margin-right here; see r2c_computed_style() */
+}
+div.banner {
+	/* do not specify margin-left here; see r2c_computed_style() */
+	width: 728px;
+}
+aside.right_column {
+	position: absolute;
+	top: 100px; /* below leaderboard ad. when wider, we change that to 0. You probably want to edit the computed stylesheet too, if you change this. */
+	left: auto;
+	right: 0;
+	margin-left: 0px;
+	border-style: solid;
+	border-color: black;
+	margin-top: 15px; /* this keeps the left border from intersecting the leaderboard ad, when the right column is _under_ the leaderboard ad */
+	/* do not specify width, margin-right, padding-left, or border-width here; see r2c_computed_style() */
+}
+
+aside.right_column .covers {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 3px;
+}
+aside.right_column .covers a,
+aside.right_column .covers a:link,
+aside.right_column .covers a:visited {
+	color: black;
+}
+aside.right_column .covers a:hover,
+aside.right_column .covers a:active {
+	color: #D81818;
+}
+aside.right_column .covers .cover_prefix {
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 140%;
+}
+aside.right_column div.cover .issue_info {
+	font-size: 11px;
+	font-weight:normal;
+	line-height:100%;
+
+}
+
+
+
+.bottomnav {
+	clear: both;
+	width: 100%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+footer {
+	margin-top: 40px;
+	margin-right: 327px;
+	margin-left: 5px;
+}
+/* ul.home_toc {
+	list-style-type: none;
+	padding: 0;
+} */
+
+
+article.story {
+	/*padding: 2px 5px 2px 5px;*/
+	padding: 2px 0px;
+	border-bottom: 1px solid gray;
+
+	-webkit-column-break-inside: avoid;
+	page-break-inside: avoid;
+	break-inside: avoid;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid black;
+}
+article.story div.image {
+	margin-bottom: 5px;
+}
+header.issue_info {
+}
+header.issue_info h1 {
+	color: white;
+	background-color: black;
+	padding: 5px;
+	margin: 3px 0px 6px 3px;
+	text-transform:uppercase;	
+    font-family: 'Open Sans', sans-serif;
+	font-weight:normal;
+	font-size:19px;
+
+}
+
+main.main_content section {
+	-webkit-column-break-inside: avoid;
+	page-break-inside: avoid;
+	break-inside: avoid;
+	padding-top: 10px;
+}
+
+main.main_content h2.section {
+	color: white;
+	background-color: black;
+	text-transform: uppercase;
+	padding: 5px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	font-size: 29px;
+	padding: 12px;
+	margin-top: 8px;
+	
+}
+
+
+main.main_content h2.section a,
+main.main_content h2.section a:link,
+main.main_content h2.section a:visited
+{
+	color: white;
+}
+main.main_content h2.section a:hover,
+main.main_content h2.section a:active
+{
+	color: #D81818;
+}
+main.main_content article.story h3.head a,
+main.main_content article.story h3.head a:link,
+main.main_content article.story h3.head a:visited
+{
+	color: black;
+}
+main.main_content article.story h3.head a:hover,
+main.main_content article.story h3.head a:active
+{
+	color: #D81818;
+}
+
+main.main_content article.story .more {
+	text-align: right;
+	text-transform: uppercase;
+	/*padding-right: 10px;*/
+	font-family: 'Archivo Narrow', sans-serif;
+}
+main.main_content article.story .more a:link,
+main.main_content article.story .more a:visited
+{
+	color: black;
+}
+main.main_content article.story .more a:hover,
+main.main_content article.story .more a:active
+{
+	color: #D81818;
+}
+
+main.main_content article.story h3.head, div.story h2 {
+	margin: 0px 0px 2px 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-right: 10px;
+	font-size: 32px;
+	padding-bottom:2px;
+	line-height: 96%;
+	font-family: 'Archivo Narrow', sans-serif;
+	margin-top: 10px;
+
+}
+
+h2.section a:link, h2.select_events a:link {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:normal;
+}
+
+main.main_content article.story h4.subhead {
+	margin: 0px 0px 2px 0px;
+	padding-right: 10px;
+}
+
+main.main_content article.story h4.subhead {
+	font-size: 18px;
+	padding-bottom:3px;
+	font-weight: normal;
+}
+
+main.main_content article.story div.description {
+	margin: 10px 0px 0px 0px;
+	padding-right: 10px;
+}
+main.main_content article.story img {
+	width: 100%;
+}
+
+main.main_content article.story.top_story img {
+	margin-top: 6px;
+}
+
+div.more {
+	font-size: 16px;
+	font-family: 'Archivo Narrow', sans-serif;
+
+}
+
+div.issue {
+	padding-bottom:12px;
+}
+
+
+/* This was for the grid layout idea, which I think got obsoleted in the 2/10/17 meeting. */
+
+/*
+@media screen and (min-width: 760px) {
+	article.story.story {
+		width: 47%;
+    }
+}
+@media screen and (min-width: 1190px) {
+	article.story.story {
+		width: 31%;
+    }
+}
+*/
+
+main.main_content div.non_top_stories {
+	width: 100%;
+	padding: 0px;
+}
+
+
+
+@media screen and (min-width: 760px) {
+	main.main_content div.non_top_stories {
+		-webkit-column-count: 2;
+		-moz-column-count: 2;
+		column-count: 2;
+
+		-moz-column-rule: solid 2px black;
+		-webkit-column-rule: solid 2px black;
+		column-rule: solid 2px black;
+
+		-moz-column-gap: 20px;
+		-webkit-column-gap: 20px;
+		column-gap: 20px;
+	}
+
+
+	/* bump up font sizes for wider screen size */
+
+	div.story {
+		font-size:18px !important;
+	}
+
+	div.story div.blurb {
+		font-size:20px !important;
+	}
+	
+	
+	div.excerpt div.byline,
+	div.story div.byline,
+	div.story div.byline a
+	{
+		font-size: 18px;
+	}
+
+	div.excerpt h3, div.story h3 {
+		font-size: 22px;
+	}
+
+	main.main_content article.story h3.head, div.story h2 {
+		font-size: 34px;
+	}
+
+	div.story h1 {
+		font-size: 24px;
+	}
+}
+
+@media screen and (max-width: 786px) {
+	nav.menu_bar span.section_links {
+		font-size:14px !important;
+	}
+}
+
+@media screen and (min-width: 942px) {
+	nav.menu_bar span.section_links {
+		font-size:20px !important;
+	}
+}
+
+nav.sitemap {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 100;
+	width: 100%;
+}
+nav.menu_bar {
+	background-color: black;
+	color: white;
+	width: 100%;
+	padding: 5px;
+	padding: 6px;
+	font-size: 24px;
+	/* bottom-border: 1px solid white; */
+}
+nav.menu_bar h1 {
+	/* this is probably going to have to be replaced with a graphic */
+	display: inline;
+	font-style: italic;
+	font-size: 24px;
+}
+nav.menu_bar h1 a,
+nav.menu_bar h1 a:link,
+nav.menu_bar h1 a:visited
+{
+	color:#D81818;
+}
+nav.menu_bar h1 a:hover,
+nav.menu_bar h1 a:active
+{
+	color:white;
+}
+
+nav.menu_bar .nav_right {
+	float: right;
+	text-transform: uppercase;
+	padding-right: 4px;
+	padding-top: 0px; /* was 5 */
+	vertical-align: text-top;
+	/* text-align: right; */
+}
+
+nav.menu_bar span.section_links {
+	position: relative;
+	font-size: 16px;
+	top: -8px;
+}
+nav.menu_bar span.section_links a.section_link,
+nav.menu_bar span.section_links a.section_link:link,
+nav.menu_bar span.section_links a.section_link:visited
+{
+	color: white;
+	font-weight: normal;
+
+}
+nav.menu_bar span.section_links a.section_link:hover,
+nav.menu_bar span.section_links a.section_link:active
+{
+	color: #D81818;
+}
+
+nav.menu_bar span.search {
+	position: relative;
+	font-size: 16px;
+	top: -8px;
+}
+.search form#searchForm {
+	display: inline-block;
+	font-size: 16px;
+	line-height: 10px;
+}
+a.show_search,
+a.hide_search
+{
+	cursor: pointer;
+	position: relative;
+	left: 8px;
+	color: white;
+}
+a.show_search {
+	top: 0px;
+}
+a.hide_search {
+	top: 8px;
+}
+a.show_search:link,
+a.show_search:visited,
+a.hide_search:link,
+a.hide_search:link {
+	color: white;
+}
+a.show_search:hover,
+a.show_search:active,
+a.hide_search:hover,
+a.hide_search:active {
+	color: #D81818;
+}
+
+
+
+nav.menu_bar a.hamburger {
+	float: right;
+	display: block;
+	position: relative;
+	margin-right: 5px;
+	cursor: pointer;
+	font-size: 48px;
+	top: -4px;
+}
+nav.menu_bar a.hamburger,
+nav.menu_bar a.hamburger:link,
+nav.menu_bar a.hamburger:visited
+{
+	color: white;
+
+}
+nav.menu_bar a.hamburger:hover,
+nav.menu_bar a.hamburger:active
+{
+	color: #D81818;
+}
+
+nav.dropdown {
+	background-color: black;
+	opacity: 0.9;
+	position: absolute;
+	color: white;
+	width: 100%;
+	padding: 5px;
+	font-size: 12px;
+	z-index: 100;
+	margin-top: -1px;
+	padding: 12px 5px 5px 12px;
+	border-bottom: 2px solid white;
+
+	-webkit-column-count: 4;
+	-moz-column-count: 4;
+	column-count: 4;
+	-moz-column-rule: solid 2px white;
+	-webkit-column-rule: solid 2px white;
+	column-rule: solid 2px white;
+
+}
+nav.dropdown .column {
+	/* width: 25%;
+	float:left; */
+
+	-webkit-column-break-inside: avoid;
+	page-break-inside: avoid;
+	break-inside: avoid;
+
+}
+nav.dropdown a.menu_item {
+	font-size:16px;
+	display: block;
+	color: white;
+	background-color: black;
+	margin: 0px;
+	padding: 5px;
+	position:relative;
+}
+nav.dropdown a.menu_item:link,
+nav.dropdown a.menu_item:visited {
+	color: white;
+}
+nav.dropdown a.menu_item:hover,
+nav.dropdown a.menu_item:active {
+	color: #D81818;
+	/*background-color: #1f1f1f; */
+	opacity: 1.0;
+}
+nav.dropdown a.menu_item .notification,
+a.hamburger .notification
+{
+	position:relative;
+	border: solid 1px white;
+	border-radius:2px;
+	color: white;
+	font-weight: bold;
+	background-color: #D81818;
+	font-size: 12px;
+	text-align: center;
+	font-family:sans-serif;
+}
+nav.dropdown a.menu_item .notification {
+	display: inline-block;
+	width: 10px;
+	line-height: 12px;
+	height:13px;
+	margin-left: 7px;
+	padding: 2px 2px 1px 2px;
+}
+nav.issues {
+	/* width: 100%; */ /* removed 7/13/17 */
+	font-family: 'Open Sans', sans-serif;
+	text-transform:uppercase;
+	background:black;
+	padding: 12px;
+	/* something weird about this nav thing, I give it 24px height to get it to render at like 48px tall */
+	height: 24px;
+	font-size: 29px;
+	font-weight: normal;
+	
+}
+
+nav.issues a {
+    color: white;
+}
+
+nav.issues a:hover {
+    color: rgb(200,40,40);
+}
+
+nav.issues div.prev_issue {
+	float: left;
+}
+nav.issues div.next_issue {
+	float: right;
+}
+
+div.more_by {
+	font-family: 'Open Sans', sans-serif;
+	text-transform:uppercase;
+	background:black;
+	font-weight: normal;
+	padding: 12px;
+	color:white;
+}
+
+div.story_tags li.tag a {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size:11px;
+	text-transform: uppercase;
+}
+
+a.hamburger .notification {
+	right: -60%;
+	bottom: 22px;
+	height: 13px;
+	line-height: 12px;
+	width: 10px;
+	padding: 3px 1px 1px 1px;
+}
+
+nav.dropdown a.menu_item:hover .notification,
+nav.dropdown a.menu_item:active .notitication,
+a.hamburger:hover .notification,
+a.hamburger:active .notification
+{
+	background-color: yellow;
+	color: #D81818;
+	border-color: yellow;
+}
+
+nav.dropdown div.other_sites {
+	text-align: center;
+}
+
+
+figure.cover,
+aside.cover,
+figure.cover .caption,
+aside.cover .caption
+{
+	margin: 0px;
+}
+
+/* "print style" */
+.print_issue {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.print_issue div.header {
+	text-align: center;
+}
+
+.print_issue div.header div.prev {
+	float: left;
+	text-align: left;
+}
+
+.print_issue div.header .year {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.print_issue div.header div.next {
+	float: right;
+	text-align: right;
+}
+
+.print_issue div.intro .cover {
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.print_issue div.pdf {
+	margin-top: 15px;
+	background: black;
+	font-size: 28px;
+	height: 26px;
+	padding: 12px;
+	width: 60px;
+	text-align: center;
+	color: white;
+}
+
+h2.select_events {
+	width:290px;
+	width:280px;
+	background-color: black;
+	color: white;
+	text-transform: uppercase;
+	padding: 10px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	font-size: 24px;
+	margin-top: 8px;
+}
+
+
+h2.select_events a,
+h2.select_events a:link,
+h2.select_events a:visited
+{
+	color: white;
+}
+h2.select_events a:hover,
+h2.select_events a:active
+{
+	color: #D81818;
+}
+
+/*
+.upcoming_event {
+	background: FloralWhite;
+	background: WhiteSmoke;
+	background: GhostWhite;
+}
+*/
+
+.upcoming_event {
+	background-color: #dfdfdf;
+}
+
+.upcoming_event,
+.recta
+{
+	width: 300px;
+	border-bottom: 1px solid black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-bottom: 15px;
+	/*margin-bottom: 15px;*/
+}
+.upcoming_event h3 {
+	color: black;
+	text-transform: uppercase;
+	font-size: 24px;
+	line-height: 110%;
+	margin-bottom: 2px;
+	margin-top: 7px;
+	padding: 5px 5px 15px 5px;
+	padding: 0px 0px 0px 5px;
+	font-family: 'Archivo Narrow', sans-serif;
+
+}
+.upcoming_event h3 a,
+.upcoming_event h3 a:link,
+.upcoming_event h3 a:visited
+{
+	color: black;
+}
+.upcoming_event h3 a:hover,
+.upcoming_event h3 a:active
+{
+	color: #D81818;
+}
+.upcoming_event time {
+	display: block;
+	color: black;
+	font-size: 18px;
+	margin-bottom:12px;
+	padding: 5px 5px 15px 5px;
+	padding: 0px 0px 0px 5px;
+	margin-bottom: 0;
+}
+.upcoming_event .more {
+	text-align: right;
+	text-transform: uppercase;
+	padding-right: 10px;
+	margin-top: 2px;
+}
+.upcoming_event .more a,
+.upcoming_event .more a:link,
+.upcoming_event .more a:visited
+{
+	color: black;
+}
+.upcoming_event .more a:hover,
+.upcoming_event .more a:active
+{
+	color: #D81818;
+}
+.upcoming_event .event_image {
+	margin-left: auto;
+	margin-right: auto;
+	width: 292px;
+}
+.upcoming_event div.description
+{
+	padding: 5px 5px 15px 5px;
+}
+
+.upcoming_event h4.category {
+	float:right;
+	display:block;
+	margin:0;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+	text-transform: uppercase;
+	color: white;
+	background:black;
+	padding-left:4px;
+	padding-right:4px;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size:13px;
+
+ }
+
+.upcoming_event h4.location {
+	padding: 0px 0px 0px 5px;
+	margin: 5px 0px 5px 0px;
+	line-height:110%;
+	width:70%;
+}
+
+
+/* Thanks to https://avexdesigns.com/responsive-youtube-embed/ */
+.image .video-container {
+	position: relative;
+	padding-bottom: 56.25%; /* default to 9/16; see http://www.creativebloq.com/netmag/how-add-responsive-video-your-website-51411565 */
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+	margin-bottom:6px; /*video divs need this so caption/credits start the same place vertically as img divs. I don't know why. */
+}
+ 
+.image .video-container iframe,
+.image .video-container object,
+.image .video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.image .video-container video {
+	width: 100%;
+	height: auto;
+}
+div.pullquote {
+	clear: none;
+}
+
+/* 4/21/17 make text larger .. but just here? everywhere else is fine? riiiiight. */
+div.mailing_list_page {
+	font-size: 18px;
+}
+
+div.top_story_toc_image { /* was inline, but should be here. and msie needs to override some of this */
+	width: 100%;
+	margin: auto;
+	clear: both;
+}
+
+div.external_login_button {
+	padding: 5px;
+	margin: auto;
+}

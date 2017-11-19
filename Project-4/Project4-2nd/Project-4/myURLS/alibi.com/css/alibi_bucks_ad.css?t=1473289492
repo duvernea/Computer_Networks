@@ -1,0 +1,153 @@
+.alibi_bucks_ad_rectangle {
+	width: 296px;
+	/* min-height: 250px; 4/4/11 let it be higher if it has to */
+	/* height: 250px; */
+	margin-left: auto;
+	margin-right: auto;
+}
+.alibi_bucks_ad_skyscraper {
+	width: 160px;
+	height: 100%;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-bottom: 5px;
+}
+
+.alibi_bucks_ad {
+	background: url(http://alibi.com/images/bucks_box/main-bg.gif) repeat-x rgb(255, 255, 255);
+	background-color: white;
+	background: rgb(227, 239, 145);
+	background: #669A00;
+	background: #4E7600;
+	background: #779C42;
+
+	background: #789964;
+	/* background: url(http://alibi.com/images/bucks_box/main-bg-green2.gif) rgb(255, 255, 255); */	
+	font-size: 10px;
+	/* border: 2px  #4E7600 solid; */
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-radius: 0.8em;
+	border-bottom: 1px solid rgba(0,0,0,.1);
+	box-shadow: 0 1px 1px #7d7d7d;
+}
+
+div.alibi_bucks_food {
+	background: url(/images/bucks_box/ALIBI-BUCKS-box-bkgd-monkey.jpg) repeat-x rgb(255, 255, 255);
+}
+
+div.alibi_bucks_food img {
+	-webkit-border-radius: 20px;-moz-border-radius: 20px;border-radius: 20px;
+	border: 2px  black solid;
+}
+
+.alibi_bucks_ad a,
+.alibi_bucks_ad a:visited,
+.alibi_bucks_ad a:hover,
+.alibi_bucks_ad a:link,
+.alibi_bucks_ad a:active
+{
+	text-decoration: none;
+}
+
+.alibi_bucks_ad ul.left a:hover, .alibi_bucks_ad ul.right a:hover {
+	background: rgb(227, 239, 145);
+	background: #c9272b;
+}
+
+.alibi_bucks_ad ul.left a:hover .name, .alibi_bucks_ad ul.right a:hover .name {
+	color: white;
+}
+
+.alibi_bucks_ad ul.left a:hover .qty, .alibi_bucks_ad ul.right a:hover .qty {
+	color: white;
+}
+
+
+.alibi_bucks_ad .bkgd_wrapper {
+	background: rgb(227, 239, 145);
+	background: #c9272b;
+	background: #eee;
+	/* background: url(http://alibi.com/images/bucks_box/main-bg.gif) repeat-x rgb(255, 255, 255); */
+	min-height: 140px;
+	margin: 10px;
+	position: relative; /* to make .more_bucks easier to place */
+	border-radius: 0.4em;
+	/* border: 1px solid #c9272b; */
+	border-bottom: 1px solid rgba(0,0,0,.1);
+	box-shadow: 0 1px 1px #7d7d7d;
+}
+
+.alibi_bucks_ad ul.left {
+	/* for rectangle */
+	width: 150px;
+	width: 130px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	text-align: left;
+	list-style: none;
+	margin-left: 5px;
+}
+.alibi_bucks_ad ul.right {
+	/* for rectangle */
+	width: 150px;
+	width: 130px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	float: right;
+	clear: right;
+	text-align: left;
+	list-style: none;
+	margin-right: 5px;
+}
+.alibi_bucks_ad ul.single {
+	/* for skyscraper */
+	width: 160px;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	list-style: none;
+}
+
+.alibi_bucks_ad li {
+	margin: 5px 0px 0px 0px;
+	line-height: 120%;
+}
+.cal .alibi_bucks_ad li {
+	padding: 0;
+}
+
+.alibi_bucks_ad .name {
+	color: #DE0084;
+	color: black;
+}
+.alibi_bucks_ad .qty {
+	color: #07A1DE;
+	color: #800000;
+}
+.alibi_bucks_ad .item {
+	color: #222;
+	color: black;
+	font-weight: normal;
+}
+
+.more_bucks {
+	text-align: right;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	margin: 6px;
+}
+.more_bucks a,
+.more_bucks a:visited,
+.more_bucks a:hover,
+.more_bucks a:link,
+.more_bucks a:active {
+	color: #800000;
+}
+
+.more_bucks a:hover {
+	text-decoration: underline;
+}

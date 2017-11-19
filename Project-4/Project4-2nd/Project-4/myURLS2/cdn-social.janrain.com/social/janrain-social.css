@@ -1,0 +1,2069 @@
+.janrainSocialRoot {
+  font-family: Helvetica Neue, Helvetica, FreeSans, Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+}
+.janrainSocialRoot.janrainOrientationHorizontal {
+  height: 32px;
+}
+.janrainSocialRoot.janrainFormFactorDrawer.janrainOrientationHorizontal {
+  height: 42px;
+}
+.janrainSocialRoot.janrainFormFactorDrawer.janrainOrientationVertical {
+  height: 84px;
+}
+.janrainSocialRoot input,
+.janrainSocialRoot textarea,
+.janrainSocialRoot button {
+  font-family: Helvetica Neue, Helvetica, FreeSans, Arial, sans-serif;
+}
+.janrainSocialRoot input,
+.janrainSocialRoot textarea {
+  font-family: Helvetica Neue, Helvetica, FreeSans, Arial, sans-serif;
+  border: 1px solid #dcdcdc;
+  background: #f0f0f0;
+  border-radius: 3px;
+}
+.janrainSocialRoot textarea {
+  resize: vertical;
+}
+.janrainSocialRoot div,
+.janrainSocialRoot span,
+.janrainSocialRoot input,
+.janrainSocialRoot textarea,
+.janrainSocialRoot a {
+  font-size: 1rem;
+}
+.janrainSocialRoot button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+.janrainSocialRoot input:focus,
+.janrainSocialRoot input:invalid,
+.janrainSocialRoot textarea:focus {
+  border: 1px solid #85ceec;
+  background: #ddf1fa !important;
+  box-shadow: 0 0 2px #85ceec;
+}
+.janrainSocialRoot a:focus {
+  box-shadow: 0 0 1px 2px #85ceec;
+}
+.janrainSocialRoot button.janrainShare:focus {
+  border: 1px solid #85ceec;
+}
+.janrainSocialRoot button.janrainShare:focus span {
+  text-decoration: underline;
+}
+.janrainSocialRoot a:focus,
+.janrainSocialRoot input:focus,
+.janrainSocialRoot textarea:focus,
+.janrainSocialRoot button:focus,
+.janrainSocialRoot button.currentProviderShowing {
+  outline: none;
+  -webkit-appearance: none;
+}
+.janrainSocialRoot a:focus.janrainProvider,
+.janrainSocialRoot input:focus.janrainProvider,
+.janrainSocialRoot textarea:focus.janrainProvider,
+.janrainSocialRoot button:focus.janrainProvider,
+.janrainSocialRoot button.currentProviderShowing.janrainProvider {
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+.janrainSocialRoot a:focus.janrainProvider img,
+.janrainSocialRoot input:focus.janrainProvider img,
+.janrainSocialRoot textarea:focus.janrainProvider img,
+.janrainSocialRoot button:focus.janrainProvider img,
+.janrainSocialRoot button.currentProviderShowing.janrainProvider img {
+  width: 30px;
+  height: 30px;
+}
+.janrain_emailButton {
+  background: #009DDC;
+}
+.janrain_emailButton:hover,
+.janrain_emailButton:active {
+  background: #00719f;
+}
+.janrain_emailButton:focus,
+.janrain_emailButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #00acf0;
+  -moz-box-shadow: 0px 0px 2px 2px #00acf0;
+  box-shadow: 0px 0px 2px 2px #00acf0;
+}
+.janrainShareForm.janrainShareForm_email {
+  background: #009DDC;
+}
+.background-email {
+  background: #009DDC;
+}
+.background-email .janrainProgressIndicator {
+  background-color: #009DDC;
+}
+.border-email {
+  border-color: #009DDC;
+}
+.text-email {
+  color: #000000;
+}
+.janrainSocialRoot button.janrainShare.background-email:hover,
+.janrainSocialRoot button.janrainShare.background-email:active,
+.janrainSocialRoot button.janrainShare.background-email:focus {
+  background-color: #43c9ff;
+}
+.janrainSocialRoot button.janrainShare.background-email:hover,
+.janrainSocialRoot button.janrainShare.background-email:active {
+  border-color: #0080b3;
+}
+.janrainSocialRoot button.janrainShare.background-email.janrainLoading {
+  background-color: #1abdff;
+  cursor: default;
+}
+.janrain_email-googleButton {
+  background: #3B74F4;
+}
+.janrain_email-googleButton:hover,
+.janrain_email-googleButton:active {
+  background: #0d4fe5;
+}
+.janrain_email-googleButton:focus,
+.janrain_email-googleButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #4e82f5;
+  -moz-box-shadow: 0px 0px 2px 2px #4e82f5;
+  box-shadow: 0px 0px 2px 2px #4e82f5;
+}
+.janrainShareForm.janrainShareForm_email-google {
+  background: #3B74F4;
+}
+.background-email-google {
+  background: #3B74F4;
+}
+.background-email-google .janrainProgressIndicator {
+  background-color: #3B74F4;
+}
+.border-email-google {
+  border-color: #3B74F4;
+}
+.text-email-google {
+  color: #3B74F4;
+}
+.janrainSocialRoot button.janrainShare.background-email-google:hover,
+.janrainSocialRoot button.janrainShare.background-email-google:active,
+.janrainSocialRoot button.janrainShare.background-email-google:focus {
+  background-color: #9cb8f9;
+}
+.janrainSocialRoot button.janrainShare.background-email-google:hover,
+.janrainSocialRoot button.janrainShare.background-email-google:active {
+  border-color: #1459f2;
+}
+.janrainSocialRoot button.janrainShare.background-email-google.janrainLoading {
+  background-color: #759df7;
+  cursor: default;
+}
+.janrain_email-googleplusButton {
+  background: #CC3732;
+}
+.janrain_email-googleplusButton:hover,
+.janrain_email-googleplusButton:active {
+  background: #9b2a26;
+}
+.janrain_email-googleplusButton:focus,
+.janrain_email-googleplusButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #d14642;
+  -moz-box-shadow: 0px 0px 2px 2px #d14642;
+  box-shadow: 0px 0px 2px 2px #d14642;
+}
+.janrainShareForm.janrainShareForm_email-googleplus {
+  background: #CC3732;
+}
+.background-email-googleplus {
+  background: #CC3732;
+}
+.background-email-googleplus .janrainProgressIndicator {
+  background-color: #CC3732;
+}
+.border-email-googleplus {
+  border-color: #CC3732;
+}
+.text-email-googleplus {
+  color: #737373;
+}
+.janrainSocialRoot button.janrainShare.background-email-googleplus:hover,
+.janrainSocialRoot button.janrainShare.background-email-googleplus:active,
+.janrainSocialRoot button.janrainShare.background-email-googleplus:focus {
+  background-color: #e18683;
+}
+.janrainSocialRoot button.janrainShare.background-email-googleplus:hover,
+.janrainSocialRoot button.janrainShare.background-email-googleplus:active {
+  border-color: #ab2e2a;
+}
+.janrainSocialRoot button.janrainShare.background-email-googleplus.janrainLoading {
+  background-color: #d96663;
+  cursor: default;
+}
+.janrain_email-mailtoButton {
+  background: #009DDC;
+}
+.janrain_email-mailtoButton:hover,
+.janrain_email-mailtoButton:active {
+  background: #00719f;
+}
+.janrain_email-mailtoButton:focus,
+.janrain_email-mailtoButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #00acf0;
+  -moz-box-shadow: 0px 0px 2px 2px #00acf0;
+  box-shadow: 0px 0px 2px 2px #00acf0;
+}
+.janrainShareForm.janrainShareForm_email-mailto {
+  background: #009DDC;
+}
+.background-email-mailto {
+  background: #009DDC;
+}
+.background-email-mailto .janrainProgressIndicator {
+  background-color: #009DDC;
+}
+.border-email-mailto {
+  border-color: #009DDC;
+}
+.text-email-mailto {
+  color: #000000;
+}
+.janrainSocialRoot button.janrainShare.background-email-mailto:hover,
+.janrainSocialRoot button.janrainShare.background-email-mailto:active,
+.janrainSocialRoot button.janrainShare.background-email-mailto:focus {
+  background-color: #43c9ff;
+}
+.janrainSocialRoot button.janrainShare.background-email-mailto:hover,
+.janrainSocialRoot button.janrainShare.background-email-mailto:active {
+  border-color: #0080b3;
+}
+.janrainSocialRoot button.janrainShare.background-email-mailto.janrainLoading {
+  background-color: #1abdff;
+  cursor: default;
+}
+.janrain_email-yahooButton {
+  background: #670267;
+}
+.janrain_email-yahooButton:hover,
+.janrain_email-yahooButton:active {
+  background: #2b012b;
+}
+.janrain_email-yahooButton:focus,
+.janrain_email-yahooButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #7b027b;
+  -moz-box-shadow: 0px 0px 2px 2px #7b027b;
+  box-shadow: 0px 0px 2px 2px #7b027b;
+}
+.janrainShareForm.janrainShareForm_email-yahoo {
+  background: #670267;
+}
+.background-email-yahoo {
+  background: #670267;
+}
+.background-email-yahoo .janrainProgressIndicator {
+  background-color: #670267;
+}
+.border-email-yahoo {
+  border-color: #670267;
+}
+.text-email-yahoo {
+  color: #670267;
+}
+.janrainSocialRoot button.janrainShare.background-email-yahoo:hover,
+.janrainSocialRoot button.janrainShare.background-email-yahoo:active,
+.janrainSocialRoot button.janrainShare.background-email-yahoo:focus {
+  background-color: #cb04cb;
+}
+.janrainSocialRoot button.janrainShare.background-email-yahoo:hover,
+.janrainSocialRoot button.janrainShare.background-email-yahoo:active {
+  border-color: #3f013f;
+}
+.janrainSocialRoot button.janrainShare.background-email-yahoo.janrainLoading {
+  background-color: #a303a3;
+  cursor: default;
+}
+.janrain_native-facebookButton {
+  background: #3B5998;
+}
+.janrain_native-facebookButton:hover,
+.janrain_native-facebookButton:active {
+  background: #2a3f6c;
+}
+.janrain_native-facebookButton:focus,
+.janrain_native-facebookButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #4162a7;
+  -moz-box-shadow: 0px 0px 2px 2px #4162a7;
+  box-shadow: 0px 0px 2px 2px #4162a7;
+}
+.janrainShareForm.janrainShareForm_native-facebook {
+  background: #3B5998;
+}
+.background-native-facebook {
+  background: #3B5998;
+}
+.background-native-facebook .janrainProgressIndicator {
+  background-color: #3B5998;
+}
+.border-native-facebook {
+  border-color: #3B5998;
+}
+.text-native-facebook {
+  color: #3B5998;
+}
+.janrainSocialRoot button.janrainShare.background-native-facebook:hover,
+.janrainSocialRoot button.janrainShare.background-native-facebook:active,
+.janrainSocialRoot button.janrainShare.background-native-facebook:focus {
+  background-color: #718dc8;
+}
+.janrainSocialRoot button.janrainShare.background-native-facebook:hover,
+.janrainSocialRoot button.janrainShare.background-native-facebook:active {
+  border-color: #30487b;
+}
+.janrainSocialRoot button.janrainShare.background-native-facebook.janrainLoading {
+  background-color: #5476bd;
+  cursor: default;
+}
+.janrain_native-googleplusButton {
+  background: #CC3732;
+}
+.janrain_native-googleplusButton:hover,
+.janrain_native-googleplusButton:active {
+  background: #9b2a26;
+}
+.janrain_native-googleplusButton:focus,
+.janrain_native-googleplusButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #d14642;
+  -moz-box-shadow: 0px 0px 2px 2px #d14642;
+  box-shadow: 0px 0px 2px 2px #d14642;
+}
+.janrainShareForm.janrainShareForm_native-googleplus {
+  background: #CC3732;
+}
+.background-native-googleplus {
+  background: #CC3732;
+}
+.background-native-googleplus .janrainProgressIndicator {
+  background-color: #CC3732;
+}
+.border-native-googleplus {
+  border-color: #CC3732;
+}
+.text-native-googleplus {
+  color: #737373;
+}
+.janrainSocialRoot button.janrainShare.background-native-googleplus:hover,
+.janrainSocialRoot button.janrainShare.background-native-googleplus:active,
+.janrainSocialRoot button.janrainShare.background-native-googleplus:focus {
+  background-color: #e18683;
+}
+.janrainSocialRoot button.janrainShare.background-native-googleplus:hover,
+.janrainSocialRoot button.janrainShare.background-native-googleplus:active {
+  border-color: #ab2e2a;
+}
+.janrainSocialRoot button.janrainShare.background-native-googleplus.janrainLoading {
+  background-color: #d96663;
+  cursor: default;
+}
+.janrain_native-linkedinButton {
+  background: #005A87;
+}
+.janrain_native-linkedinButton:hover,
+.janrain_native-linkedinButton:active {
+  background: #00314a;
+}
+.janrain_native-linkedinButton:focus,
+.janrain_native-linkedinButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #00689b;
+  -moz-box-shadow: 0px 0px 2px 2px #00689b;
+  box-shadow: 0px 0px 2px 2px #00689b;
+}
+.janrainShareForm.janrainShareForm_native-linkedin {
+  background: #005A87;
+}
+.background-native-linkedin {
+  background: #005A87;
+}
+.background-native-linkedin .janrainProgressIndicator {
+  background-color: #005A87;
+}
+.border-native-linkedin {
+  border-color: #005A87;
+}
+.text-native-linkedin {
+  color: #005A87;
+}
+.janrainSocialRoot button.janrainShare.background-native-linkedin:hover,
+.janrainSocialRoot button.janrainShare.background-native-linkedin:active,
+.janrainSocialRoot button.janrainShare.background-native-linkedin:focus {
+  background-color: #009eed;
+}
+.janrainSocialRoot button.janrainShare.background-native-linkedin:hover,
+.janrainSocialRoot button.janrainShare.background-native-linkedin:active {
+  border-color: #003f5e;
+}
+.janrainSocialRoot button.janrainShare.background-native-linkedin.janrainLoading {
+  background-color: #0083c4;
+  cursor: default;
+}
+.janrain_native-mixiButton {
+  background: #D1AD5A;
+}
+.janrain_native-mixiButton:hover,
+.janrain_native-mixiButton:active {
+  background: #ba9134;
+}
+.janrain_native-mixiButton:focus,
+.janrain_native-mixiButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #d5b56a;
+  -moz-box-shadow: 0px 0px 2px 2px #d5b56a;
+  box-shadow: 0px 0px 2px 2px #d5b56a;
+}
+.janrainShareForm.janrainShareForm_native-mixi {
+  background: #D1AD5A;
+}
+.background-native-mixi {
+  background: #D1AD5A;
+}
+.background-native-mixi .janrainProgressIndicator {
+  background-color: #D1AD5A;
+}
+.border-native-mixi {
+  border-color: #D1AD5A;
+}
+.text-native-mixi {
+  color: #D1AD5A;
+}
+.janrainSocialRoot button.janrainShare.background-native-mixi:hover,
+.janrainSocialRoot button.janrainShare.background-native-mixi:active,
+.janrainSocialRoot button.janrainShare.background-native-mixi:focus {
+  background-color: #e7d5aa;
+}
+.janrainSocialRoot button.janrainShare.background-native-mixi:hover,
+.janrainSocialRoot button.janrainShare.background-native-mixi:active {
+  border-color: #c89d3a;
+}
+.janrainSocialRoot button.janrainShare.background-native-mixi.janrainLoading {
+  background-color: #dec58a;
+  cursor: default;
+}
+.janrain_native-pinterestButton {
+  background: #BE0A1E;
+}
+.janrain_native-pinterestButton:hover,
+.janrain_native-pinterestButton:active {
+  background: #840715;
+}
+.janrain_native-pinterestButton:focus,
+.janrain_native-pinterestButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #d10b21;
+  -moz-box-shadow: 0px 0px 2px 2px #d10b21;
+  box-shadow: 0px 0px 2px 2px #d10b21;
+}
+.janrainShareForm.janrainShareForm_native-pinterest {
+  background: #BE0A1E;
+}
+.background-native-pinterest {
+  background: #BE0A1E;
+}
+.background-native-pinterest .janrainProgressIndicator {
+  background-color: #BE0A1E;
+}
+.border-native-pinterest {
+  border-color: #BE0A1E;
+}
+.text-native-pinterest {
+  color: #CB2027;
+}
+.janrainSocialRoot button.janrainShare.background-native-pinterest:hover,
+.janrainSocialRoot button.janrainShare.background-native-pinterest:active,
+.janrainSocialRoot button.janrainShare.background-native-pinterest:focus {
+  background-color: #f5394e;
+}
+.janrainSocialRoot button.janrainShare.background-native-pinterest:hover,
+.janrainSocialRoot button.janrainShare.background-native-pinterest:active {
+  border-color: #970818;
+}
+.janrainSocialRoot button.janrainShare.background-native-pinterest.janrainLoading {
+  background-color: #f3132c;
+  cursor: default;
+}
+.janrain_native-sinaweiboButton {
+  background: #D72829;
+}
+.janrain_native-sinaweiboButton:hover,
+.janrain_native-sinaweiboButton:active {
+  background: #a31e1f;
+}
+.janrain_native-sinaweiboButton:focus,
+.janrain_native-sinaweiboButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #da393a;
+  -moz-box-shadow: 0px 0px 2px 2px #da393a;
+  box-shadow: 0px 0px 2px 2px #da393a;
+}
+.janrainShareForm.janrainShareForm_native-sinaweibo {
+  background: #D72829;
+}
+.background-native-sinaweibo {
+  background: #D72829;
+}
+.background-native-sinaweibo .janrainProgressIndicator {
+  background-color: #D72829;
+}
+.border-native-sinaweibo {
+  border-color: #D72829;
+}
+.text-native-sinaweibo {
+  color: #D72829;
+}
+.janrainSocialRoot button.janrainShare.background-native-sinaweibo:hover,
+.janrainSocialRoot button.janrainShare.background-native-sinaweibo:active,
+.janrainSocialRoot button.janrainShare.background-native-sinaweibo:focus {
+  background-color: #e77e7f;
+}
+.janrainSocialRoot button.janrainShare.background-native-sinaweibo:hover,
+.janrainSocialRoot button.janrainShare.background-native-sinaweibo:active {
+  border-color: #b52222;
+}
+.janrainSocialRoot button.janrainShare.background-native-sinaweibo.janrainLoading {
+  background-color: #e15c5c;
+  cursor: default;
+}
+.janrain_native-twitterButton {
+  background: #27C9FF;
+}
+.janrain_native-twitterButton:hover,
+.janrain_native-twitterButton:active {
+  background: #00afe9;
+}
+.janrain_native-twitterButton:focus,
+.janrain_native-twitterButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #3bceff;
+  -moz-box-shadow: 0px 0px 2px 2px #3bceff;
+  box-shadow: 0px 0px 2px 2px #3bceff;
+}
+.janrainShareForm.janrainShareForm_native-twitter {
+  background: #27C9FF;
+}
+.background-native-twitter {
+  background: #27C9FF;
+}
+.background-native-twitter .janrainProgressIndicator {
+  background-color: #27C9FF;
+}
+.border-native-twitter {
+  border-color: #27C9FF;
+}
+.text-native-twitter {
+  color: #27C9FF;
+}
+.janrainSocialRoot button.janrainShare.background-native-twitter:hover,
+.janrainSocialRoot button.janrainShare.background-native-twitter:active,
+.janrainSocialRoot button.janrainShare.background-native-twitter:focus {
+  background-color: #8de3ff;
+}
+.janrainSocialRoot button.janrainShare.background-native-twitter:hover,
+.janrainSocialRoot button.janrainShare.background-native-twitter:active {
+  border-color: #00befd;
+}
+.janrainSocialRoot button.janrainShare.background-native-twitter.janrainLoading {
+  background-color: #64d8ff;
+  cursor: default;
+}
+.janrain_native-tumblrButton {
+  background: #31516F;
+}
+.janrain_native-tumblrButton:hover,
+.janrain_native-tumblrButton:active {
+  background: #1e3245;
+}
+.janrain_native-tumblrButton:focus,
+.janrain_native-tumblrButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #375b7d;
+  -moz-box-shadow: 0px 0px 2px 2px #375b7d;
+  box-shadow: 0px 0px 2px 2px #375b7d;
+}
+.janrainShareForm.janrainShareForm_native-tumblr {
+  background: #31516F;
+}
+.background-native-tumblr {
+  background: #31516F;
+}
+.background-native-tumblr .janrainProgressIndicator {
+  background-color: #31516F;
+}
+.border-native-tumblr {
+  border-color: #31516F;
+}
+.text-native-tumblr {
+  color: #31516F;
+}
+.janrainSocialRoot button.janrainShare.background-native-tumblr:hover,
+.janrainSocialRoot button.janrainShare.background-native-tumblr:active,
+.janrainSocialRoot button.janrainShare.background-native-tumblr:focus {
+  background-color: #5385b3;
+}
+.janrainSocialRoot button.janrainShare.background-native-tumblr:hover,
+.janrainSocialRoot button.janrainShare.background-native-tumblr:active {
+  border-color: #253c53;
+}
+.janrainSocialRoot button.janrainShare.background-native-tumblr.janrainLoading {
+  background-color: #447099;
+  cursor: default;
+}
+.janrain_native-xingButton {
+  background: #006567;
+}
+.janrain_native-xingButton:hover,
+.janrain_native-xingButton:active {
+  background: #00292a;
+}
+.janrain_native-xingButton:focus,
+.janrain_native-xingButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #00797b;
+  -moz-box-shadow: 0px 0px 2px 2px #00797b;
+  box-shadow: 0px 0px 2px 2px #00797b;
+}
+.janrainShareForm.janrainShareForm_native-xing {
+  background: #006567;
+}
+.background-native-xing {
+  background: #006567;
+}
+.background-native-xing .janrainProgressIndicator {
+  background-color: #006567;
+}
+.border-native-xing {
+  border-color: #006567;
+}
+.text-native-xing {
+  color: #006567;
+}
+.janrainSocialRoot button.janrainShare.background-native-xing:hover,
+.janrainSocialRoot button.janrainShare.background-native-xing:active,
+.janrainSocialRoot button.janrainShare.background-native-xing:focus {
+  background-color: #00c9cd;
+}
+.janrainSocialRoot button.janrainShare.background-native-xing:hover,
+.janrainSocialRoot button.janrainShare.background-native-xing:active {
+  border-color: #003d3e;
+}
+.janrainSocialRoot button.janrainShare.background-native-xing.janrainLoading {
+  background-color: #00a1a4;
+  cursor: default;
+}
+.janrain_native-redditButton {
+  background: #FF4500;
+}
+.janrain_native-redditButton:hover,
+.janrain_native-redditButton:active {
+  background: #c23400;
+}
+.janrain_native-redditButton:focus,
+.janrain_native-redditButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #ff5414;
+  -moz-box-shadow: 0px 0px 2px 2px #ff5414;
+  box-shadow: 0px 0px 2px 2px #ff5414;
+}
+.janrainShareForm.janrainShareForm_native-reddit {
+  background: #FF4500;
+}
+.background-native-reddit {
+  background: #FF4500;
+}
+.background-native-reddit .janrainProgressIndicator {
+  background-color: #FF4500;
+}
+.border-native-reddit {
+  border-color: #FF4500;
+}
+.text-native-reddit {
+  color: #FF4500;
+}
+.janrainSocialRoot button.janrainShare.background-native-reddit:hover,
+.janrainSocialRoot button.janrainShare.background-native-reddit:active,
+.janrainSocialRoot button.janrainShare.background-native-reddit:focus {
+  background-color: #ff8f66;
+}
+.janrainSocialRoot button.janrainShare.background-native-reddit:hover,
+.janrainSocialRoot button.janrainShare.background-native-reddit:active {
+  border-color: #d63a00;
+}
+.janrainSocialRoot button.janrainShare.background-native-reddit.janrainLoading {
+  background-color: #ff723d;
+  cursor: default;
+}
+.janrain_native-odnoklassnikiButton {
+  background: #fa9113;
+}
+.janrain_native-odnoklassnikiButton:hover,
+.janrain_native-odnoklassnikiButton:active {
+  background: #cb7104;
+}
+.janrain_native-odnoklassnikiButton:focus,
+.janrain_native-odnoklassnikiButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #fa9a27;
+  -moz-box-shadow: 0px 0px 2px 2px #fa9a27;
+  box-shadow: 0px 0px 2px 2px #fa9a27;
+}
+.janrainShareForm.janrainShareForm_native-odnoklassniki {
+  background: #fa9113;
+}
+.background-native-odnoklassniki {
+  background: #fa9113;
+}
+.background-native-odnoklassniki .janrainProgressIndicator {
+  background-color: #fa9113;
+}
+.border-native-odnoklassniki {
+  border-color: #fa9113;
+}
+.text-native-odnoklassniki {
+  color: #fa9113;
+}
+.janrainSocialRoot button.janrainShare.background-native-odnoklassniki:hover,
+.janrainSocialRoot button.janrainShare.background-native-odnoklassniki:active,
+.janrainSocialRoot button.janrainShare.background-native-odnoklassniki:focus {
+  background-color: #fcc077;
+}
+.janrainSocialRoot button.janrainShare.background-native-odnoklassniki:hover,
+.janrainSocialRoot button.janrainShare.background-native-odnoklassniki:active {
+  border-color: #df7c05;
+}
+.janrainSocialRoot button.janrainShare.background-native-odnoklassniki.janrainLoading {
+  background-color: #fbad4f;
+  cursor: default;
+}
+.janrain_native-vkButton {
+  background: #45668e;
+}
+.janrain_native-vkButton:hover,
+.janrain_native-vkButton:active {
+  background: #314865;
+}
+.janrain_native-vkButton:focus,
+.janrain_native-vkButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #4c709c;
+  -moz-box-shadow: 0px 0px 2px 2px #4c709c;
+  box-shadow: 0px 0px 2px 2px #4c709c;
+}
+.janrainShareForm.janrainShareForm_native-vk {
+  background: #45668e;
+}
+.background-native-vk {
+  background: #45668e;
+}
+.background-native-vk .janrainProgressIndicator {
+  background-color: #45668e;
+}
+.border-native-vk {
+  border-color: #45668e;
+}
+.text-native-vk {
+  color: #45668e;
+}
+.janrainSocialRoot button.janrainShare.background-native-vk:hover,
+.janrainSocialRoot button.janrainShare.background-native-vk:active,
+.janrainSocialRoot button.janrainShare.background-native-vk:focus {
+  background-color: #7a99bf;
+}
+.janrainSocialRoot button.janrainShare.background-native-vk:hover,
+.janrainSocialRoot button.janrainShare.background-native-vk:active {
+  border-color: #385273;
+}
+.janrainSocialRoot button.janrainShare.background-native-vk.janrainLoading {
+  background-color: #5f84b1;
+  cursor: default;
+}
+.janrain_facebookButton {
+  background: #3B5998;
+}
+.janrain_facebookButton:hover,
+.janrain_facebookButton:active {
+  background: #2a3f6c;
+}
+.janrain_facebookButton:focus,
+.janrain_facebookButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #4162a7;
+  -moz-box-shadow: 0px 0px 2px 2px #4162a7;
+  box-shadow: 0px 0px 2px 2px #4162a7;
+}
+.janrainShareForm.janrainShareForm_facebook {
+  background: #3B5998;
+}
+.background-facebook {
+  background: #3B5998;
+}
+.background-facebook .janrainProgressIndicator {
+  background-color: #3B5998;
+}
+.border-facebook {
+  border-color: #3B5998;
+}
+.text-facebook {
+  color: #3B5998;
+}
+.janrainSocialRoot button.janrainShare.background-facebook:hover,
+.janrainSocialRoot button.janrainShare.background-facebook:active,
+.janrainSocialRoot button.janrainShare.background-facebook:focus {
+  background-color: #718dc8;
+}
+.janrainSocialRoot button.janrainShare.background-facebook:hover,
+.janrainSocialRoot button.janrainShare.background-facebook:active {
+  border-color: #30487b;
+}
+.janrainSocialRoot button.janrainShare.background-facebook.janrainLoading {
+  background-color: #5476bd;
+  cursor: default;
+}
+.janrain_linkedinButton {
+  background: #005A87;
+}
+.janrain_linkedinButton:hover,
+.janrain_linkedinButton:active {
+  background: #00314a;
+}
+.janrain_linkedinButton:focus,
+.janrain_linkedinButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #00689b;
+  -moz-box-shadow: 0px 0px 2px 2px #00689b;
+  box-shadow: 0px 0px 2px 2px #00689b;
+}
+.janrainShareForm.janrainShareForm_linkedin {
+  background: #005A87;
+}
+.background-linkedin {
+  background: #005A87;
+}
+.background-linkedin .janrainProgressIndicator {
+  background-color: #005A87;
+}
+.border-linkedin {
+  border-color: #005A87;
+}
+.text-linkedin {
+  color: #005A87;
+}
+.janrainSocialRoot button.janrainShare.background-linkedin:hover,
+.janrainSocialRoot button.janrainShare.background-linkedin:active,
+.janrainSocialRoot button.janrainShare.background-linkedin:focus {
+  background-color: #009eed;
+}
+.janrainSocialRoot button.janrainShare.background-linkedin:hover,
+.janrainSocialRoot button.janrainShare.background-linkedin:active {
+  border-color: #003f5e;
+}
+.janrainSocialRoot button.janrainShare.background-linkedin.janrainLoading {
+  background-color: #0083c4;
+  cursor: default;
+}
+.janrain_mixiButton {
+  background: #D1AD5A;
+}
+.janrain_mixiButton:hover,
+.janrain_mixiButton:active {
+  background: #ba9134;
+}
+.janrain_mixiButton:focus,
+.janrain_mixiButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #d5b56a;
+  -moz-box-shadow: 0px 0px 2px 2px #d5b56a;
+  box-shadow: 0px 0px 2px 2px #d5b56a;
+}
+.janrainShareForm.janrainShareForm_mixi {
+  background: #D1AD5A;
+}
+.background-mixi {
+  background: #D1AD5A;
+}
+.background-mixi .janrainProgressIndicator {
+  background-color: #D1AD5A;
+}
+.border-mixi {
+  border-color: #D1AD5A;
+}
+.text-mixi {
+  color: #D1AD5A;
+}
+.janrainSocialRoot button.janrainShare.background-mixi:hover,
+.janrainSocialRoot button.janrainShare.background-mixi:active,
+.janrainSocialRoot button.janrainShare.background-mixi:focus {
+  background-color: #e7d5aa;
+}
+.janrainSocialRoot button.janrainShare.background-mixi:hover,
+.janrainSocialRoot button.janrainShare.background-mixi:active {
+  border-color: #c89d3a;
+}
+.janrainSocialRoot button.janrainShare.background-mixi.janrainLoading {
+  background-color: #dec58a;
+  cursor: default;
+}
+.janrain_qqButton {
+  background: #20B2ED;
+}
+.janrain_qqButton:hover,
+.janrain_qqButton:active {
+  background: #108dc0;
+}
+.janrain_qqButton:focus,
+.janrain_qqButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #33b9ef;
+  -moz-box-shadow: 0px 0px 2px 2px #33b9ef;
+  box-shadow: 0px 0px 2px 2px #33b9ef;
+}
+.janrainShareForm.janrainShareForm_qq {
+  background: #20B2ED;
+}
+.background-qq {
+  background: #20B2ED;
+}
+.background-qq .janrainProgressIndicator {
+  background-color: #20B2ED;
+}
+.border-qq {
+  border-color: #20B2ED;
+}
+.text-qq {
+  color: #201D28;
+}
+.janrainSocialRoot button.janrainShare.background-qq:hover,
+.janrainSocialRoot button.janrainShare.background-qq:active,
+.janrainSocialRoot button.janrainShare.background-qq:focus {
+  background-color: #7ed3f5;
+}
+.janrainSocialRoot button.janrainShare.background-qq:hover,
+.janrainSocialRoot button.janrainShare.background-qq:active {
+  border-color: #119bd3;
+}
+.janrainSocialRoot button.janrainShare.background-qq.janrainLoading {
+  background-color: #59c6f2;
+  cursor: default;
+}
+.janrain_tencentweiboButton {
+  background: #20B8E5;
+}
+.janrain_tencentweiboButton:hover,
+.janrain_tencentweiboButton:active {
+  background: #158fb3;
+}
+.janrain_tencentweiboButton:focus,
+.janrain_tencentweiboButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #32bee7;
+  -moz-box-shadow: 0px 0px 2px 2px #32bee7;
+  box-shadow: 0px 0px 2px 2px #32bee7;
+}
+.janrainShareForm.janrainShareForm_tencentweibo {
+  background: #20B8E5;
+}
+.background-tencentweibo {
+  background: #20B8E5;
+}
+.background-tencentweibo .janrainProgressIndicator {
+  background-color: #20B8E5;
+}
+.border-tencentweibo {
+  border-color: #20B8E5;
+}
+.text-tencentweibo {
+  color: #20B8E5;
+}
+.janrainSocialRoot button.janrainShare.background-tencentweibo:hover,
+.janrainSocialRoot button.janrainShare.background-tencentweibo:active,
+.janrainSocialRoot button.janrainShare.background-tencentweibo:focus {
+  background-color: #7bd5f0;
+}
+.janrainSocialRoot button.janrainShare.background-tencentweibo:hover,
+.janrainSocialRoot button.janrainShare.background-tencentweibo:active {
+  border-color: #179dc5;
+}
+.janrainSocialRoot button.janrainShare.background-tencentweibo.janrainLoading {
+  background-color: #57c9eb;
+  cursor: default;
+}
+.janrain_twitterButton {
+  background: #27C9FF;
+}
+.janrain_twitterButton:hover,
+.janrain_twitterButton:active {
+  background: #00afe9;
+}
+.janrain_twitterButton:focus,
+.janrain_twitterButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #3bceff;
+  -moz-box-shadow: 0px 0px 2px 2px #3bceff;
+  box-shadow: 0px 0px 2px 2px #3bceff;
+}
+.janrainShareForm.janrainShareForm_twitter {
+  background: #27C9FF;
+}
+.background-twitter {
+  background: #27C9FF;
+}
+.background-twitter .janrainProgressIndicator {
+  background-color: #27C9FF;
+}
+.border-twitter {
+  border-color: #27C9FF;
+}
+.text-twitter {
+  color: #27C9FF;
+}
+.janrainSocialRoot button.janrainShare.background-twitter:hover,
+.janrainSocialRoot button.janrainShare.background-twitter:active,
+.janrainSocialRoot button.janrainShare.background-twitter:focus {
+  background-color: #8de3ff;
+}
+.janrainSocialRoot button.janrainShare.background-twitter:hover,
+.janrainSocialRoot button.janrainShare.background-twitter:active {
+  border-color: #00befd;
+}
+.janrainSocialRoot button.janrainShare.background-twitter.janrainLoading {
+  background-color: #64d8ff;
+  cursor: default;
+}
+.janrain_xingButton {
+  background: #006567;
+}
+.janrain_xingButton:hover,
+.janrain_xingButton:active {
+  background: #00292a;
+}
+.janrain_xingButton:focus,
+.janrain_xingButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #00797b;
+  -moz-box-shadow: 0px 0px 2px 2px #00797b;
+  box-shadow: 0px 0px 2px 2px #00797b;
+}
+.janrainShareForm.janrainShareForm_xing {
+  background: #006567;
+}
+.background-xing {
+  background: #006567;
+}
+.background-xing .janrainProgressIndicator {
+  background-color: #006567;
+}
+.border-xing {
+  border-color: #006567;
+}
+.text-xing {
+  color: #006567;
+}
+.janrainSocialRoot button.janrainShare.background-xing:hover,
+.janrainSocialRoot button.janrainShare.background-xing:active,
+.janrainSocialRoot button.janrainShare.background-xing:focus {
+  background-color: #00c9cd;
+}
+.janrainSocialRoot button.janrainShare.background-xing:hover,
+.janrainSocialRoot button.janrainShare.background-xing:active {
+  border-color: #003d3e;
+}
+.janrainSocialRoot button.janrainShare.background-xing.janrainLoading {
+  background-color: #00a1a4;
+  cursor: default;
+}
+.janrainSocialRoot.janrainOrientationHorizontal .janrainProviderList {
+  height: 32px;
+}
+.janrainSocialRoot.janrainOrientationHorizontal .janrainProviderList,
+.janrainSocialRoot .janrainEmailProviderList {
+  display: inline-block;
+}
+.janrainSocialRoot button.janrainProvider {
+  font-family: Helvetica Neue, Helvetica, FreeSans, Arial, sans-serif;
+  display: inline-block;
+  position: relative;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  border: 0px solid #000;
+  -webkit-border-radius: 3px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 3px;
+  -moz-background-clip: padding;
+  border-radius: 3px;
+  background-clip: padding-box;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+}
+.janrainSocialRoot button.janrainProvider img {
+  margin: 0px;
+  width: 32px;
+  height: 32px;
+}
+.janrainSocialRoot button.janrainProvider.currentProviderShowing.shareScreenVisible {
+  overflow: visible;
+  /* necessary for IE only */
+}
+.janrainSocialRoot button.janrainProvider.currentProviderShowing.shareScreenVisible:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  height: 0px;
+  width: 0px;
+  z-index: -1;
+  border-style: solid;
+}
+.janrainSocialRoot.janrainOrientationHorizontal button.currentProviderShowing.shareScreenVisible:before {
+  top: 33px;
+  left: 0;
+  border-color: #aaaaaa transparent;
+  border-width: 0 16px 11px 16px;
+}
+.janrainSocialRoot.janrainOrientationVertical button.currentProviderShowing.shareScreenVisible:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  border-color: transparent #aaaaaa;
+}
+.janrainSocialRoot.janrainOrientationVertical.janrainGravityEast button.currentProviderShowing.shareScreenVisible:before {
+  border-width: 16px 14.5px 16px 0;
+  left: 33px;
+  right: auto;
+}
+.janrainSocialRoot.janrainOrientationVertical.janrainGravityWest button.currentProviderShowing.shareScreenVisible:before {
+  border-width: 16px 0 16px 14.5px;
+  left: auto;
+  right: 33px;
+}
+.janrainSocialRoot .janrainEmailProviderList {
+  width: 100%;
+  text-align: center;
+  padding-top: 17px;
+}
+.janrainSocialRoot .janrainEmailProviderList .janrainEmailProviderSelection {
+  display: inline-block;
+  padding: 8.5px 17px;
+  text-align: center;
+}
+.janrainSocialRoot .janrainEmailProviderList .janrainEmailProviderSelection button.janrainProvider {
+  display: block;
+  width: 48px;
+  height: 48px;
+  margin: 6px auto;
+}
+.janrainSocialRoot .janrainEmailProviderList .janrainEmailProviderSelection button.janrainProvider img {
+  width: 48px;
+  height: 48px;
+}
+.janrainSocialRoot .janrainEmailProviderList .janrainEmailProviderSelection .janrainEmailProviderLabel {
+  display: block;
+  text-align: center;
+  font-size: 13px;
+}
+.janrainSocialRoot.janrainShareCountHidden.janrainFormFactorBar .janrainProviderList button.janrainProvider:first-child {
+  margin-left: 0px;
+}
+@media screen and (max-device-width: 480px) {
+  .janrainSocialRoot .janrainEmailProviderList .janrainEmailProviderSelection {
+    display: block;
+  }
+}
+.janrainSocialRoot .janrainSocialBar {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  overflow: visible;
+}
+.janrainSocialRoot .janrainShareCountContainer {
+  -webkit-border-radius: 2px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 2px;
+  -moz-background-clip: padding;
+  border-radius: 2px;
+  background-clip: padding-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 4px 0px;
+  color: #333;
+  background: #f8f8f8;
+  width: 46px;
+  height: 24px;
+  border: 1px solid #dcdcdc;
+  vertical-align: top;
+  text-align: center;
+}
+.janrainSocialRoot .janrainShareCount {
+  height: 24px;
+  display: block;
+  font-size: 11px;
+  font-weight: bold;
+  color: #555;
+  line-height: 22px;
+  vertical-align: middle;
+}
+.janrainSocialRoot.janrainOrientationVertical .janrainSocialBar {
+  margin-bottom: 0px;
+}
+.janrainSocialRoot.janrainOrientationVertical button.janrainProvider {
+  display: block;
+  margin-bottom: 9px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.janrainSocialRoot.janrainOrientationVertical .janrainShareCountContainer {
+  display: block;
+}
+.janrainSocialRoot.janrainOrientationHorizontal button.janrainProvider {
+  display: inline-block;
+  margin-left: 9px;
+}
+.janrainSocialRoot.janrainOrientationHorizontal .janrainShareCountContainer {
+  display: inline-block;
+}
+.janrainSocialRoot[dir="rtl"].janrainOrientationHorizontal button.janrainProvider {
+  margin-left: 0;
+  margin-right: 9px;
+}
+.janrainSocialRoot.janrainFormFactorDrawer.janrainOrientationHorizontal .janrainShareCountContainer {
+  margin: 9px 5px;
+}
+.janrainSocialRoot.janrainFormFactorDrawer .janrainDrawerButtonContainer {
+  display: inline-block;
+}
+.janrainSocialRoot.janrainFormFactorDrawer .janrainDrawerButton {
+  height: 42px;
+  width: 42px;
+  border: 2px solid #aaaaaa;
+  padding: 2px;
+  background: #dcdcdc;
+  color: #333;
+  font-weight: bold;
+}
+.janrainSocialRoot.janrainFormFactorDrawer .janrainProviderList {
+  position: absolute;
+  padding: 5px;
+  background: #aaaaaa;
+  z-index: 1;
+}
+.janrainSocialRoot.janrainFormFactorDrawer button.janrainProvider {
+  position: relative;
+  z-index: 1;
+}
+.janrainSocialRoot.janrainFormFactorDrawer.janrainOrientationHorizontal .janrainProviderList {
+  position: absolute;
+  top: 0;
+  display: none;
+}
+.janrainSocialRoot.janrainFormFactorDrawer.janrainOrientationHorizontal .janrainProviderList button.janrainProvider {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.janrainSocialRoot.janrainFormFactorDrawer.janrainOrientationHorizontal .janrainProviderList button.janrainProvider:first-child {
+  margin-left: 0;
+}
+.janrainSocialRoot.janrainFormFactorDrawer.janrainOrientationVertical .janrainProviderList {
+  display: none;
+}
+.janrainSocialRoot.janrainFormFactorDrawer.janrainOrientationVertical .janrainProviderList button.janrainProvider {
+  margin-left: 0;
+  margin-right: 0;
+}
+.janrainSocialRoot.janrainFormFactorDrawer.janrainOrientationVertical .janrainProviderList button.janrainProvider:first-child {
+  margin-top: 0;
+}
+.janrainSocialRoot.janrainFormFactorDrawer.janrainOrientationVertical .janrainProviderList button.janrainProvider:last-child {
+  margin-bottom: 0;
+}
+.janrainSocialRoot.janrainFormFactorDrawer.janrainProviderListOpen {
+  z-index: 2;
+}
+.janrainSocialRoot.janrainFormFactorDrawer.janrainProviderListOpen.janrainOrientationHorizontal .janrainProviderList {
+  display: inline-block;
+  white-space: nowrap;
+}
+.janrainSocialRoot.janrainFormFactorDrawer.janrainProviderListOpen.janrainOrientationVertical .janrainProviderList {
+  display: block;
+}
+.janrainSocialRoot.janrainShareCountHidden .janrainShareCountContainer {
+  display: none;
+}
+.janrainSocialRoot .janrainContactList {
+  margin-top: 17px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+}
+.janrainSocialRoot .janrainContactList ul {
+  list-style: none;
+}
+.janrainSocialRoot .janrainShareFromLine {
+  margin-top: 17px;
+}
+.janrainSocialRoot .janrainShareFromLine.janrainEmailSharing + .janrainContactList {
+  margin-top: 0;
+}
+.janrainSocialRoot .janrainContactList .janrainShareCaption,
+.janrainSocialRoot .janrainShareFromLine .janrainShareCaption {
+  display: inline-block;
+  width: 12%;
+  padding: 6px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: right;
+}
+.janrainSocialRoot .janrainContactList .janrainReturnAddress,
+.janrainSocialRoot .janrainShareFromLine .janrainReturnAddress {
+  margin-left: 6px;
+  font-size: 0.875em;
+}
+.janrainSocialRoot .janrainContactList .janrainReturnAddressEmail,
+.janrainSocialRoot .janrainShareFromLine .janrainReturnAddressEmail {
+  font-style: italic;
+  font-size: 0.75em;
+  margin-left: .5em;
+}
+.janrainSocialRoot[dir="ltr"] .janrainReturnAddressEmail:before {
+  content: "<";
+}
+.janrainSocialRoot[dir="ltr"] .janrainReturnAddressEmail:after {
+  content: ">";
+}
+.janrainSocialRoot .janrainComposeMessageHeader {
+  margin-top: 8.5px;
+  padding-left: 12px;
+}
+.janrainSocialRoot .janrainComposeMessageHeader + .janrainShareMessage {
+  margin-top: 4px;
+}
+.janrainSocialRoot .janrainShareContactSearch {
+  padding: 6px;
+  margin: 0px;
+  width: 88%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.janrainSocialRoot .janrainShareContactSearchResults {
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #aaaaaa;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 10;
+}
+.janrainSocialRoot .janrainShareContactSearchResult {
+  font-size: 14px;
+  line-height: 24px;
+}
+.janrainSocialRoot .janrainShareContactSearchResult a {
+  display: block;
+  padding: 0 6px;
+  line-height: 24px;
+  height: 30px;
+  vertical-align: middle;
+  border-bottom: 1px solid #dcdcdc;
+  color: inherit;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.janrainSocialRoot .janrainShareContactSearchResult a .janrainShareAddContact {
+  display: inline;
+  width: 12px;
+  height: 12px;
+  margin-right: 4px;
+  vertical-align: middle;
+  background-image: url(data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAaElEQVR42mNkoDFgHLWA2hasgdIhtLLgN5RmpaUF/4GYbUhbAAIjPIhASdEPKvcfSR2IzQLl/0ETh7E3MqAlYVwW+ONwEDOU/otDnigLaB5EhCwAgRGeighZAAJDN4hoXlyTDEYtIAgAD2cfGfAXu4IAAAAASUVORK5CYII=);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.janrainSocialRoot .janrainShareContactSearchResult a .janrainShareContactImage {
+  display: inline-block;
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+.janrainSocialRoot .janrainShareContactSearchResult a .janrainContactUserName {
+  font-weight: 700;
+  margin-right: 6px;
+}
+.janrainSocialRoot .janrainShareContactSearchResult a .janrainContactUserId {
+  font-weight: 300;
+  font-size: 0.9em;
+}
+.janrainSocialRoot .janrainShareContactSearchResult a span,
+.janrainSocialRoot .janrainShareContactSearchResult a em {
+  font-size: 14px;
+  line-height: 30px;
+  vertical-align: middle;
+}
+.janrainSocialRoot .janrainShareContactSearchResult:last-child a {
+  border-bottom: none;
+}
+.janrainSocialRoot .janrainShareContactSearchResult:hover {
+  background-color: #e3eff4;
+}
+.janrainSocialRoot .janrainShareContactSelected {
+  background-color: #f0f0f0;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAQAAABuvaSwAAAABGdBTUEAAYagMeiWXwAAAAJiS0dEAACqjSMyAAAACXBIWXMAAAAYAAAAGADw/D6dAAAAiElEQVQoz2NgGFJAiEGBWKWCDPMYTjOYE6d0LsM/hpcMwcQqfcUQwcBIrNJIWitlY4hlsCbW1FiGTwzXMZTjcIAmw26G/wzXUJTjcasSwx4U5QS8hayciBCAKL/K4Mkwm5jAgij/wPCHuHCFKH9JTMQyMDAwqDCsYogiTikDAwMDNwMzsUqpCQAyqzpFGnm0gAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxNC0wNi0yNFQxMzoxOToxOS0wNzowMLTr/McAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTQtMDEtMTRUMTI6MzE6NTAtMDg6MDADju97AAAAJnRFWHRzdmc6YmFzZS11cmkAZmlsZTovLy90bXAvdG1wUHZlS3JnLnN2Z5eRPvMAAAAASUVORK5CYII=);
+  background-size: 14px 14px;
+  background-repeat: no-repeat;
+  background-position: 98% 50%;
+  text-decoration: none;
+}
+.janrainSocialRoot .janrainShareContactSelected span,
+.janrainSocialRoot .janrainShareContactSelected em {
+  color: #c8c8c8;
+}
+.janrainSocialRoot .janrainShareContactSelected img {
+  opacity: .5;
+}
+.janrainSocialRoot .janrainShareSelectedContacts {
+  display: block;
+  position: relative;
+  margin-bottom: 8.5px;
+  margin-top: 4px;
+  max-width: 100%;
+}
+.janrainSocialRoot .janrainShareSelectedContacts > a {
+  display: block;
+  padding-left: 6px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #0000ee;
+  font-size: 0.8rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.janrainSocialRoot .mysteryPerson {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAQAAABKfvVzAAAABGdBTUEAAYagMeiWXwAAAAJiS0dEAACqjSMyAAAACXBIWXMAAAAYAAAAGADw/D6dAAABuUlEQVQ4y4XUv0vUcRzH8cfddd3VXZGhYVQeBuEhSaGDoFnRDwkaQoL6F2qIHGoJatClNQhqCCpIrJaWlhqcFGpICvUiGqLMhApc7upSv11Dafq97+Fr+fD+8fz8eH/enw9htXtoxpw5nw3ZHw7HQvZJ1733yDRyztrtsmdqqkPBVRuX7YwBk/bVSk964J7UKt8GQ+5aFw20mtJd5T1s0p7/ZnxFKK/obRUwpawlGtiq6GcV8ENJXTSQlZaoAhLSNkUBcZ3eRK4woTMK+G1BSVAFLCpZiN7SmB47q4CcLmPRZW004k6o5kn3Pdeghk6Ykl/l2avgqJrKeuqG5LK93i1PVrRKhI774tK/lKwrZh1ZnRDukk8WXXDQiJhjWs2bCV/L0liv1SkXxZ1X0SVn1E2H9NiMeWUVlt5Du3M6pH0z6rEJFQkEYtqccUCDslduG/87e6+CYX3yMpHnysjrM6ygF5q9NBh6BVFKGfRCc0K/HfoV1wQCr522Ja5JoFF6TSCtUaApps01LWZ9MO2rOUVlCwIkJKVl1dlml2bbvTMQQ1a7bm1y6mWkJJb/korALyXffTRhzLjiH6oxbaQg0dFYAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE0LTA2LTI0VDEyOjI3OjE4LTA3OjAwSCF4RAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxNC0wMS0wOVQxODoyNjo1NC0wODowMGAg4O0AAAAmdEVYdHN2ZzpiYXNlLXVyaQBmaWxlOi8vL3RtcC90bXA2TTh0WWwuc3Znbb/jgwAAAABJRU5ErkJggg==);
+  background-size: cover;
+}
+.janrainSocialRoot .janrainShareSelectedContactRemoveButton {
+  text-align: right;
+}
+.janrainSocialRoot .janrainShareSelectedContactsDetails {
+  position: absolute;
+  top: 27px;
+  width: 96%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 7px;
+  border: 1px solid #aaaaaa;
+  -webkit-border-radius: 4px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 4px;
+  -moz-background-clip: padding;
+  border-radius: 4px;
+  background-clip: padding-box;
+  background: #fff;
+  max-height: 208px;
+  z-index: 10;
+}
+.janrainSocialRoot .janrainShareSelectedContactsDetails::before,
+.janrainSocialRoot .janrainShareSelectedContactsDetails::after {
+  border: solid transparent;
+  content: " ";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  pointer-events: none;
+}
+.janrainSocialRoot .janrainShareSelectedContactsDetails::before {
+  border-width: 7px;
+}
+.janrainSocialRoot .janrainShareSelectedContactsDetails::after {
+  border-width: 6px;
+}
+.janrainSocialRoot .janrainShareSelectedContactsDetails::before,
+.janrainSocialRoot .janrainShareSelectedContactsDetails::after {
+  bottom: 100%;
+  left: 50%;
+}
+.janrainSocialRoot .janrainShareSelectedContactsDetails::before {
+  border-bottom-color: #aaaaaa;
+  margin-left: -7px;
+}
+.janrainSocialRoot .janrainShareSelectedContactsDetails::after {
+  border-bottom-color: #ffffff;
+  margin-left: -6px;
+}
+.janrainSocialRoot .janrainShareSelectedContactsDetails::before,
+.janrainSocialRoot .janrainShareSelectedContactsDetails::after {
+  left: 12%;
+}
+.janrainSocialRoot .janrainShareSelectedContactsList {
+  padding: 0px;
+  margin: 0px;
+  overflow-y: scroll;
+  max-height: 194px;
+}
+.janrainSocialRoot .janrainShareSelectedContactEntry {
+  text-align: left;
+  position: relative;
+  padding: 7px 0px;
+  border-top: 1px dotted #dcdcdc;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.janrainSocialRoot .janrainShareSelectedContactEntry:first-child {
+  border-top: none;
+}
+.janrainSocialRoot .janrainShareSelectedContactEntry a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  float: right;
+}
+.janrainSocialRoot .janrainShareSelectedContactImage {
+  float: left;
+}
+.janrainSocialRoot .janrainShareSelectedContactName {
+  font-size: .75em;
+}
+.janrainSocialRoot .janrainShareSelectedContactName {
+  text-overflow: ellipsis;
+  max-width: 200px;
+  white-space: nowrap;
+  display: block;
+  margin-left: 24px;
+  margin-right: 24px;
+  padding-left: 6px;
+  line-height: 24px;
+  overflow: hidden;
+  padding-right: 38px;
+}
+.janrainSocialRoot .janrainShareSelectedContactRemoveButton {
+  display: block;
+  float: right;
+  width: 12px;
+  height: 12px;
+  padding: 5px 10px;
+  background-image: url(data:image/gif;base64,R0lGODlhGAAYAPECAAAAAAEBAQAAAAAAACH5BAEAAAIAIf8LSW1hZ2VNYWdpY2sHZ2FtbWE9MQAsAAAAABgAGAAAAj+Uj6nL7e9CgHLJ2u5MeqtuaZ/IgIeZkWjUkZDQYq/Rzkhtw7EdX6+5CvlOrtHwViQeOUmdTOhBUqK5qvVqKAAAOw==);
+  background-size: 12px 12px;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+  transition: opacity 0.5s ease-in;
+}
+.janrainSocialRoot .janrainShareSelectedContactRemoveButton:hover {
+  opacity: 1;
+}
+@media screen and (max-width: 480px) {
+  .janrainSocialRoot .janrainContactList {
+    padding-right: 33px;
+  }
+  .janrainSocialRoot .janrainShareSelectedContacts {
+    margin-top: 4px;
+  }
+}
+.janrainSocialRoot .janrainShareForm {
+  -webkit-border-radius: 4px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 4px;
+  -moz-background-clip: padding;
+  border-radius: 4px;
+  background-clip: padding-box;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 6px 12px 4px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0px 6px 12px 4px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 6px 12px 4px rgba(0, 0, 0, 0.35);
+  border-top: 1px solid #aaaaaa;
+  width: 450px;
+  background: #ffffff;
+  position: absolute;
+  z-index: 2;
+}
+.janrainSocialRoot textarea {
+  background: #f8f8f8;
+  border: 1px solid #ccc;
+}
+.janrainSocialRoot.janrainOrientationVertical .janrainShareForm {
+  display: inline-block;
+  top: 15px;
+  left: 46.5px;
+}
+.janrainSocialRoot.janrainFormFactorBar.janrainOrientationHorizontal.janrainShareCountHidden .janrainShareForm {
+  left: 0px;
+}
+.janrainSocialRoot.janrainFormFactorBar.janrainOrientationHorizontal .janrainShareForm {
+  top: 43px;
+  left: 38px;
+}
+.janrainSocialRoot.janrainFormFactorBar.janrainOrientationHorizontal .janrainShareForm.janrainGravityWest {
+  right: 0px;
+  left: auto;
+}
+.janrainSocialRoot.janrainFormFactorBar.janrainOrientationVertical.janrainShareCountHidden .janrainShareForm {
+  top: 0px;
+}
+.janrainSocialRoot.janrainFormFactorBar.janrainOrientationVertical .janrainShareForm {
+  left: 46.5px;
+}
+.janrainSocialRoot.janrainFormFactorBar.janrainOrientationVertical .janrainShareForm.janrainGravityWest {
+  left: auto;
+  right: 46.5px;
+}
+.janrainSocialRoot.janrainFormFactorDrawer.janrainOrientationHorizontal.janrainShareCountHidden .janrainShareForm {
+  left: 0px;
+}
+.janrainSocialRoot.janrainFormFactorDrawer.janrainOrientationHorizontal .janrainShareForm {
+  left: 42px;
+  top: 48px;
+}
+.janrainSocialRoot.janrainFormFactorDrawer.janrainOrientationVertical.janrainShareCountHidden .janrainShareForm {
+  top: 0px;
+}
+.janrainSocialRoot.janrainFormFactorDrawer.janrainOrientationVertical .janrainShareForm {
+  left: 51.5px;
+  top: 42px;
+}
+.janrainSocialRoot.janrainFormFactorDrawer.janrainOrientationVertical .janrainShareForm.janrainGravityWest {
+  left: auto;
+  right: 46.5px;
+}
+.janrainSocialRoot .janrainShareCaption {
+  font-size: 13px;
+  font-weight: bold;
+}
+.janrainSocialRoot .janrainShareTitle {
+  margin-right: 27px;
+  display: inline-block;
+}
+.janrainSocialRoot .janrainShareCloseButton {
+  display: block;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  padding: 17px;
+  top: 0;
+  right: 0;
+  background-image: url(data:image/gif;base64,R0lGODlhFAAUAJEAAE1NTf///////wAAACH5BAEHAAIALAAAAAAUABQAAAIzBISpK+YMm5Enpodw1HlCfnkKOIqU1VXk55goVb2hi7Y0q95lfG70uurNaqLgTviyyUoFADs=);
+  background-size: 10px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  -webkit-opacity: 0.6;
+  -moz-opacity: 0.6;
+  opacity: 0.6;
+}
+.janrainSocialRoot .janrainShareCloseButton:hover,
+.janrainSocialRoot .janrainShareCloseButton:focus {
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+}
+.janrainSocialRoot[dir="rtl"] .janrainShareCloseButton {
+  left: 0;
+  right: auto;
+}
+.janrainSocialRoot .janrainShareUserInputArea {
+  padding: 17px;
+}
+.janrainSocialRoot .janrainShareMessage {
+  padding: 4px 12px;
+  min-height: 60px;
+  height: 60px;
+  width: 100%;
+  margin-top: 17px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.janrainSocialRoot .janrainShareResponseMessage {
+  display: none;
+  line-height: 46px;
+  vertical-align: top;
+  margin-top: 17px;
+  margin-left: 17px;
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0;
+}
+.janrainSocialRoot .janrainShareResponseMessage.janrainVisible {
+  display: inline;
+  -webkit-transition: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+}
+.janrainSocialRoot button.janrainShare {
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+  margin: 0 17px 0 0;
+  padding: 7px 14px;
+  -webkit-border-radius: 3px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 3px;
+  -moz-background-clip: padding;
+  border-radius: 3px;
+  background-clip: padding-box;
+  cursor: pointer;
+  min-width: 100px;
+}
+.janrainSocialRoot button.janrainShare span {
+  font-size: 18px;
+  line-height: 1.5;
+  max-height: 27px;
+}
+.janrainSocialRoot[dir="rtl"] button.janrainShare {
+  margin: 0 0 0 17px;
+}
+@-webkit-keyframes bouncing-dots {
+  0% {
+    transform: translateY(5px);
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
+    opacity: .6;
+  }
+  15% {
+    transform: scale(1.1) translateY(-5px);
+    -webkit-transform: scale(1.1) translateY(-5px);
+    -moz-transform: scale(1.1) translateY(-5px);
+    -ms-transform: scale(1.1) translateY(-5px);
+    -o-transform: scale(1.1) translateY(-5px);
+    opacity: .9;
+  }
+  30% {
+    transform: translateY(5px);
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
+    opacity: .9;
+  }
+  50% {
+    opacity: .6;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: .6;
+  }
+}
+@-moz-keyframes bouncing-dots {
+  0% {
+    transform: translateY(5px);
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
+    opacity: .6;
+  }
+  15% {
+    transform: scale(1.1) translateY(-5px);
+    -webkit-transform: scale(1.1) translateY(-5px);
+    -moz-transform: scale(1.1) translateY(-5px);
+    -ms-transform: scale(1.1) translateY(-5px);
+    -o-transform: scale(1.1) translateY(-5px);
+    opacity: .9;
+  }
+  30% {
+    transform: translateY(5px);
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
+    opacity: .9;
+  }
+  50% {
+    opacity: .6;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: .6;
+  }
+}
+@-ms-keyframes bouncing-dots {
+  0% {
+    transform: translateY(5px);
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
+    opacity: .6;
+  }
+  15% {
+    transform: scale(1.1) translateY(-5px);
+    -webkit-transform: scale(1.1) translateY(-5px);
+    -moz-transform: scale(1.1) translateY(-5px);
+    -ms-transform: scale(1.1) translateY(-5px);
+    -o-transform: scale(1.1) translateY(-5px);
+    opacity: .9;
+  }
+  30% {
+    transform: translateY(5px);
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
+    opacity: .9;
+  }
+  50% {
+    opacity: .6;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: .6;
+  }
+}
+@-o-keyframes bouncing-dots {
+  0% {
+    transform: translateY(5px);
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
+    opacity: .6;
+  }
+  15% {
+    transform: scale(1.1) translateY(-5px);
+    -webkit-transform: scale(1.1) translateY(-5px);
+    -moz-transform: scale(1.1) translateY(-5px);
+    -ms-transform: scale(1.1) translateY(-5px);
+    -o-transform: scale(1.1) translateY(-5px);
+    opacity: .9;
+  }
+  30% {
+    transform: translateY(5px);
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
+    opacity: .9;
+  }
+  50% {
+    opacity: .6;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: .6;
+  }
+}
+@keyframes bouncing-dots {
+  0% {
+    transform: translateY(5px);
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
+    opacity: .6;
+  }
+  15% {
+    transform: scale(1.1) translateY(-5px);
+    -webkit-transform: scale(1.1) translateY(-5px);
+    -moz-transform: scale(1.1) translateY(-5px);
+    -ms-transform: scale(1.1) translateY(-5px);
+    -o-transform: scale(1.1) translateY(-5px);
+    opacity: .9;
+  }
+  30% {
+    transform: translateY(5px);
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
+    opacity: .9;
+  }
+  50% {
+    opacity: .6;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: .6;
+  }
+}
+.janrainSocialRoot .janrainShareSubmitActions {
+  padding-top: 17px;
+  overflow: hidden;
+}
+.janrainSocialRoot .janrainSharingProgressBar {
+  display: none;
+}
+.janrainSocialRoot .janrainSharingProgressBar.janrainVisible {
+  background: none;
+  display: block;
+  height: 41px;
+}
+.janrainSocialRoot .janrainSharingProgressBar.janrainVisible .janrainProgressIndicator {
+  width: 10.25px;
+  height: 10.25px;
+  line-height: 41px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 12.300123001230013px 0.5em;
+}
+.janrainSocialRoot .janrainSharingProgressBar.janrainVisible .janrainProviderDestination {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  float: right;
+}
+.janrainSocialRoot .janrainSharingProgressBar .ellipsis-1 {
+  -webkit-animation: bouncing-dots 2.5s 0.1s ease infinite;
+  -moz-animation: bouncing-dots 2.5s 0.1s ease infinite;
+  -o-animation: bouncing-dots 2.5s 0.1s ease infinite;
+  animation: bouncing-dots 2.5s 0.1s ease infinite;
+}
+.janrainSocialRoot .janrainSharingProgressBar .ellipsis-2 {
+  -webkit-animation: bouncing-dots 2.5s 0.2s ease infinite;
+  -moz-animation: bouncing-dots 2.5s 0.2s ease infinite;
+  -o-animation: bouncing-dots 2.5s 0.2s ease infinite;
+  animation: bouncing-dots 2.5s 0.2s ease infinite;
+}
+.janrainSocialRoot .janrainSharingProgressBar .ellipsis-3 {
+  -webkit-animation: bouncing-dots 2.5s 0.30000000000000004s ease infinite;
+  -moz-animation: bouncing-dots 2.5s 0.30000000000000004s ease infinite;
+  -o-animation: bouncing-dots 2.5s 0.30000000000000004s ease infinite;
+  animation: bouncing-dots 2.5s 0.30000000000000004s ease infinite;
+}
+.janrainSocialRoot .janrainShareContent {
+  background: #f0f0f0;
+  color: #333;
+  border-top: 1px solid #dcdcdc;
+  -webkit-box-shadow: 0px 0px 6px rgba(220, 220, 220, 0.8);
+  -moz-box-shadow: 0px 0px 6px rgba(220, 220, 220, 0.8);
+  box-shadow: 0px 0px 6px rgba(220, 220, 220, 0.8);
+  margin: 0;
+  padding: 17px;
+  overflow: hidden;
+}
+.janrainSocialRoot .janrainShareInputCounter {
+  text-align: right;
+}
+.janrainSocialRoot .janrainShareInputCounterExcess {
+  color: #f00;
+}
+.janrainSocialRoot .janrainShareTitle,
+.janrainSocialRoot .janrainShareDescription,
+.janrainSocialRoot .janrainShareUrl {
+  display: block;
+  margin-bottom: 10px;
+}
+.janrainSocialRoot[dir="rtl"] .janrainShareUrl {
+  text-align: right;
+  direction: ltr;
+}
+.janrainSocialRoot .janrainImageSupported .janrainShareImage {
+  display: block;
+}
+.janrainSocialRoot .janrainShareImage {
+  display: none;
+  float: left;
+  height: 120px;
+  margin-right: 10px;
+}
+.janrainSocialRoot .janrainShareImage img {
+  max-height: 120px;
+  vertical-align: top;
+}
+.janrainSocialRoot .janrainShareTextContainer {
+  padding-left: 10px;
+}
+.janrainSocialRoot .janrainShareTitle {
+  font-weight: bold;
+  margin: 0 0 10px;
+}
+.janrainSocialRoot .janrainShareDescription {
+  font-size: 84%;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+}
+.janrainSocialRoot .janrainShareUrl {
+  font-size: 70%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+@media screen and (max-width: 480px) {
+  .janrainSocialRoot .janrainShareForm {
+    overflow-y: auto;
+    width: auto;
+    margin: 0;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-width: 1px;
+    position: fixed;
+    top: 12px !important;
+    left: 12px !important;
+    right: 12px;
+    bottom: 12px;
+  }
+  .janrainSocialRoot .janrainShareForm:before,
+  .janrainSocialRoot .janrainShareForm:after {
+    border: 0;
+    margin: 0;
+    display: none;
+  }
+  .janrainSocialRoot .janrainShareForm > textarea,
+  .janrainSocialRoot .janrainShareForm > input,
+  .janrainSocialRoot .janrainShareForm > button {
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  .janrainSocialRoot .janrainImageSupported .janrainShareTextContainer {
+    position: absolute;
+    bottom: 17px;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 4px 0;
+  }
+  .janrainSocialRoot .janrainShareTextContainer {
+    bottom: 0px;
+    padding-left: 0;
+  }
+  .janrainSocialRoot .janrainShareContent {
+    position: relative;
+    margin-bottom: 0;
+    bottom: 0;
+    height: auto;
+  }
+  .janrainSocialRoot .janrainShareContent .janrainShareImage {
+    float: none;
+    line-height: 0px;
+    overflow: hidden;
+    border-right: none;
+    margin-right: 0px;
+    text-align: center;
+    min-height: 170px;
+    margin: 0;
+  }
+  .janrainSocialRoot .janrainShareContent .janrainShareImage img {
+    max-height: initial;
+    width: 100%;
+  }
+  .janrainSocialRoot .janrainShareContent .janrainShareTitle,
+  .janrainSocialRoot .janrainShareContent .janrainShareDescription,
+  .janrainSocialRoot .janrainShareContent .janrainShareUrl {
+    padding: 0px 10px;
+    margin: 4px;
+    font-size: 80%;
+  }
+}

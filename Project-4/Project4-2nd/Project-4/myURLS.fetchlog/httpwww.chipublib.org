@@ -1,0 +1,1099 @@
+[11800:11807:4940586202:ERROR:nss_util.cc(90)] Failed to create /home/mininet/.pki/nssdb directory.
+[11800:11807:4940589068:WARNING:proxy_service.cc(889)] PAC support disabled because there is no system implementation
+*** Renamed /assets/responsive_external_header-fd177190cc05bd67d333d1ffd23ced39.css to /6d12a9f6b4d882fa1235c92af9e887a9 ***
+*** Renamed /dynamic_stylesheet/IL-CPL/external_library_branding.css?1507711553617 to /c62c33b15403def4230004a89f32f303 ***
+*** Renamed /wp-content/themes/chicago/style.css?v=1507726616150772661615077265863&ver=4.8.2 to /bfe07c753975f47502a4d2da80068897 ***
+*** Renamed /wp-content/themes/chicago/css/header_all.css?ver=1507726616150772661615077265863 to /fdf228af038191ad105617a5a2951680 ***
+*** Renamed /wp-content/themes/bibliocommons/css/fontello/css/cms-wordpress.css?ver=1507726616150772661615077265863 to /d689d480efe4ba2cdce2bccecddd03f9 ***
+*** Renamed /wp-content/mu-plugins/biblioweb/inc/feature-toggles/live.js?ver=4.8.2 to /7948c6d3cb2c19b70f4d976764f00691 ***
+*** Renamed /wp-content/uploads/sites/3/2016/02/CPLSupportCPLF_web_130x60.png?v=1507726616150772661615077265863 to /2f72299851ee2a19a235934ac0f7911d ***
+*** Renamed /assets/responsive_external_header-410716856e365855745ec8f3591bae6b.js to /f554d8542aff087925b09bad39143c7a ***
+*** Renamed /wp-content/themes/bibliocommons/js/jsdist/lib/require.js?v=1507726616150772661615077265863 to /c9c5afb9fc9bc2e390b413d2ca72ba97 ***
+*** Renamed /j.php?a=252356&u=https%3A%2F%2Fwww.chipublib.org%2F&r=0.7275468644220382 to /9251c5a1b3ce9e3453e83b79faf8d9a2 ***
+*** Renamed /wp-content/themes/bibliocommons/images/CPL_PinnedCardBorder.png?v=3 to /2add51e643ca227d568cbe0dd8841130 ***
+*** Renamed /header/state?callback=jQuery18103448958939407021_1507771271883&_=1507771272501 to /01b86451ed4ac85cd8a9ce6d14dd9663 ***
+*** Renamed /wp-content/themes/bibliocommons/css/fontello/font/cms-wordpress.woff?35133332 to /320dcb30eb4085b002c545eb9fa214ee ***
+*** Renamed /wp-content/themes/bibliocommons/js/jsdist/pathway.js?v=150772661615077266161507726586322 to /e4b171503b2de53fa19d1e269e153298 ***
+*** Renamed /v.gif?a=252356&d=chipublib.org&u=2E50C959C9B8EFFEFD543FC14AB25291&h=b9da3e746edd63d28bc12223dadb3e57&t=false&r=0.5605485909618437 to /eb6eea76f6ea93d735dc597dfa98478b ***
+*** Renamed /r/collect?v=1&_v=j64&a=889367862&t=pageview&_s=1&dl=https%3A%2F%2Fwww.chipublib.org%2F&ul=en-us&de=UTF-8&dt=Chicago%20Public%20Library&sd=16-bit&sr=1024x768&vp=785x600&je=0&fl=11.2%20r202&_u=IEBAAAQAI~&jid=1936340530&gjid=1991786577&cid=1459421784.1507771273&tid=UA-89251399-1&_gid=218370654.1507771273&_r=1&z=1964387363 to /8da7f589896a0c40b41737f6e351e6da ***
+*** Renamed /r/collect?v=1&_v=j64&a=889367862&t=pageview&_s=1&dl=https%3A%2F%2Fwww.chipublib.org%2F&ul=en-us&de=UTF-8&dt=Chicago%20Public%20Library&sd=16-bit&sr=1024x768&vp=785x600&je=0&fl=11.2%20r202&_u=IGDACAQAJ~&jid=989448717&gjid=2051807159&cid=1459421784.1507771273&tid=UA-477834-4&_gid=218370654.1507771273&_r=1&z=648932217 to /fb1b6a6b43138baf0ab8f38c9670a0fb ***
+*** Renamed /r/collect?v=1&_v=j64&a=889367862&t=pageview&_s=1&dl=https%3A%2F%2Fwww.chipublib.org%2F&ul=en-us&de=UTF-8&dt=Chicago%20Public%20Library&sd=16-bit&sr=1024x768&vp=785x600&je=0&fl=11.2%20r202&_u=IGDACAQAJ~&jid=1556736507&gjid=330934743&cid=1459421784.1507771273&tid=UA-12552489-8&_gid=218370654.1507771273&_r=1&z=1406643421 to /cae537b08cf5fc2f435aa81afa114049 ***
+*** Renamed /impression.php/f151fc24bc/?api_key=1751736171744932&lid=115&payload=%7B%22source%22%3A%22jssdk%22%7D to /7131a9144d70848c48bb916a10aa1ca8 ***
+*** Renamed /connect/xd_arbiter/r/K6RbmRhg2m2.js?version=42#channel=f179493f34&origin=https%3A%2F%2Fwww.chipublib.org to /32c0738a77b0da78f223fe02ec2a3f92 ***
+*** Renamed /widgets/is_local_branch.json?callback=jQuery18103448958939407021_1507771271883&_=1507771273032 to /46283aaf4101d07c93603e61f55d4318 ***
+*** Renamed /widgets/twitter_cookies.html?namespace=twttr%3Acookies&origin=https%3A%2F%2Fwww.chipublib.org to /d8774ff581000ed11fbdb1c4dee1050c ***
+*** Renamed /wp-content/uploads/sites/3/2017/10/woman-flower-knife-270x230.jpg?v=1507730316 to /9d798d822453f33749598ac65999e568 ***
+*** Renamed /wp-content/themes/bibliocommons/images/image_sizer.php?image_url=https%3A%2F%2Fsecure.syndetics.com%2Findex.aspx%3Fisbn%3D9780544435247%2FMC.GIF%26client%3Dchicagoplb%26type%3Dxw12%26oclc%3D&width=120&height=185 to /4f29c5d4f7db1984a96ccfbe38ee5931 ***
+*** Renamed /wp-content/themes/bibliocommons/images/image_sizer.php?image_url=https%3A%2F%2Fsecure.syndetics.com%2Findex.aspx%3Fisbn%3D9780374120924%2FMC.GIF%26client%3Dchicagoplb%26type%3Dxw12%26oclc%3D&width=120&height=185 to /b73afb4e548ec56b0cf22b085f03916e ***
+*** Renamed /wp-content/themes/bibliocommons/images/image_sizer.php?image_url=https%3A%2F%2Fsecure.syndetics.com%2Findex.aspx%3Fisbn%3D9780316352536%2FMC.GIF%26client%3Dchicagoplb%26type%3Dxw12%26oclc%3D&width=120&height=185 to /a8cb89731e32a74c365c05d450c89db0 ***
+*** Renamed /wp-content/uploads/sites/3/2017/09/ghost-270x230.jpg?v=1506537821 to /5b37c6e946fbd6789fe5982124ef4879 ***
+<stats>
+c:tfo.supported:	0
+c:WebFrameActiveCount:	2
+t:tfo.page_load_timer:	7483
+c:URLRequestCount:	56
+c:disk_cache.miss:	57
+c:HttpNetworkTransaction.Count:	57
+c:tcp.connect:	33
+c:tcp.write_bytes:	38122
+c:tcp.read_bytes:	898902
+</stats>
+
+<resolves>
+strt (ms) | end (ms)  | len (ms)  | err | url:port -> address_list
+   55.049 |    84.294 |    29.245 |   0 | www.chipublib.org:80 ->  206.223.160.80:80
+   55.076 |    55.076 |     0.000 |   1 | www.chipublib.org:80 ->  nil
+  242.049 |   242.125 |     0.076 |   0 | www.chipublib.org:443 ->  206.223.160.80:443
+  242.115 |   242.115 |     0.000 |   1 | www.chipublib.org:443 ->  nil
+  242.123 |   242.123 |     0.000 |   1 | www.chipublib.org:443 ->  nil
+  603.876 |  6785.701 |  6181.825 |   0 | cor-cdn-static.bibliocommons.com:443 ->  52.84.11.162:443 52.84.11.37:443 52.84.11.124:443 52.84.11.176:443 52.84.11.16:443 52.84.11.175:443 52.84.11.87:443 52.84.11.220:443
+  603.905 |   603.905 |     0.000 |   1 | cor-cdn-static.bibliocommons.com:443 ->  nil
+  606.295 |   632.914 |    26.619 |   0 | cor-liv-cdn-static.bibliocommons.com:443 ->  52.84.11.148:443 52.84.11.224:443 52.84.11.176:443 52.84.11.233:443 52.84.11.159:443 52.84.11.16:443 52.84.11.178:443 52.84.11.141:443
+  606.357 |   606.357 |     0.000 |   1 | cor-liv-cdn-static.bibliocommons.com:443 ->  nil
+  607.232 |   607.232 |     0.000 |   1 | cor-liv-cdn-static.bibliocommons.com:443 ->  nil
+  607.268 |   607.268 |     0.000 |   1 | cor-liv-cdn-static.bibliocommons.com:443 ->  nil
+  608.178 |  7700.961 |  7092.783 |   0 | d34rompce3lx70.cloudfront.net:443 ->  52.84.7.247:443 52.84.7.20:443 52.84.7.56:443 52.84.7.233:443 52.84.7.211:443 52.84.7.209:443 52.84.7.139:443 52.84.7.252:443
+  608.216 |   608.216 |     0.000 |   1 | d34rompce3lx70.cloudfront.net:443 ->  nil
+  608.721 |   608.721 |     0.000 |   1 | d34rompce3lx70.cloudfront.net:443 ->  nil
+  608.749 |   608.749 |     0.000 |   1 | d34rompce3lx70.cloudfront.net:443 ->  nil
+  609.182 |   609.182 |     0.000 |   1 | d34rompce3lx70.cloudfront.net:443 ->  nil
+  609.215 |   609.215 |     0.000 |   1 | d34rompce3lx70.cloudfront.net:443 ->  nil
+  609.626 |   609.626 |     0.000 |   1 | d34rompce3lx70.cloudfront.net:443 ->  nil
+  609.652 |   609.652 |     0.000 |   1 | d34rompce3lx70.cloudfront.net:443 ->  nil
+  610.320 |   631.807 |    21.487 |   0 | ajax.googleapis.com:443 ->  216.58.216.234:443 172.217.6.106:443 216.58.216.74:443 216.58.192.234:443 172.217.9.42:443 216.58.192.170:443 172.217.9.74:443 172.217.8.170:443 216.58.192.138:443 172.217.6.10:443 216.58.216.202:443 172.217.8.202:443 172.217.4.106:443 172.217.4.234:443 172.217.0.10:443 172.217.1.42:443 [2607:f8b0:4009:808::200a]:443
+  610.348 |   610.348 |     0.000 |   1 | ajax.googleapis.com:443 ->  nil
+  610.986 |   633.035 |    22.049 |   0 | cdnjs.cloudflare.com:443 ->  104.19.194.102:443 104.19.196.102:443 104.19.193.102:443 104.19.192.102:443 104.19.195.102:443 [2400:cb00:2048:1::6813:c066]:443 [2400:cb00:2048:1::6813:c166]:443 [2400:cb00:2048:1::6813:c466]:443 [2400:cb00:2048:1::6813:c366]:443 [2400:cb00:2048:1::6813:c266]:443
+  611.019 |   611.019 |     0.000 |   1 | cdnjs.cloudflare.com:443 ->  nil
+  611.625 |   611.625 |     0.000 |   1 | d34rompce3lx70.cloudfront.net:443 ->  nil
+  611.646 |   611.646 |     0.000 |   1 | d34rompce3lx70.cloudfront.net:443 ->  nil
+  616.124 |   616.124 |     0.000 |   1 | cor-liv-cdn-static.bibliocommons.com:443 ->  nil
+  616.157 |   616.157 |     0.000 |   1 | cor-liv-cdn-static.bibliocommons.com:443 ->  nil
+  617.015 |   617.015 |     0.000 |   1 | d34rompce3lx70.cloudfront.net:443 ->  nil
+  617.037 |   617.037 |     0.000 |   1 | d34rompce3lx70.cloudfront.net:443 ->  nil
+  617.391 |   617.391 |     0.000 |   1 | d34rompce3lx70.cloudfront.net:443 ->  nil
+  620.643 |   620.643 |     0.000 |   1 | d34rompce3lx70.cloudfront.net:443 ->  nil
+  620.937 |   620.937 |     0.000 |   1 | d34rompce3lx70.cloudfront.net:443 ->  nil
+  621.142 |   621.142 |     0.000 |   1 | d34rompce3lx70.cloudfront.net:443 ->  nil
+  621.291 |   621.291 |     0.000 |   1 | d34rompce3lx70.cloudfront.net:443 ->  nil
+  621.925 |   643.108 |    21.183 |   0 | chicago.bibliocms.com:443 ->  206.223.184.6:443
+  621.945 |   621.945 |     0.000 |   1 | chicago.bibliocms.com:443 ->  nil
+  622.929 |   622.929 |     0.000 |   1 | cor-cdn-static.bibliocommons.com:443 ->  nil
+  622.945 |   622.945 |     0.000 |   1 | cor-cdn-static.bibliocommons.com:443 ->  nil
+  623.238 |   623.238 |     0.000 |   1 | d34rompce3lx70.cloudfront.net:443 ->  nil
+  623.488 |   623.488 |     0.000 |   1 | d34rompce3lx70.cloudfront.net:443 ->  nil
+  623.743 |   623.743 |     0.000 |   1 | d34rompce3lx70.cloudfront.net:443 ->  nil
+  631.802 |   631.802 |     0.000 |   1 | ajax.googleapis.com:443 ->  nil
+  632.631 |   632.631 |     0.000 |   1 | cor-liv-cdn-static.bibliocommons.com:443 ->  nil
+  632.827 |   632.827 |     0.000 |   1 | cor-liv-cdn-static.bibliocommons.com:443 ->  nil
+  632.911 |   632.911 |     0.000 |   1 | cor-liv-cdn-static.bibliocommons.com:443 ->  nil
+  633.032 |   633.032 |     0.000 |   1 | cdnjs.cloudflare.com:443 ->  nil
+  633.368 |   633.368 |     0.000 |   1 | d34rompce3lx70.cloudfront.net:443 ->  nil
+  633.532 |   633.532 |     0.000 |   1 | d34rompce3lx70.cloudfront.net:443 ->  nil
+  633.641 |   633.641 |     0.000 |   1 | d34rompce3lx70.cloudfront.net:443 ->  nil
+  633.736 |   633.736 |     0.000 |   1 | d34rompce3lx70.cloudfront.net:443 ->  nil
+  633.832 |   633.832 |     0.000 |   1 | d34rompce3lx70.cloudfront.net:443 ->  nil
+  633.927 |   633.927 |     0.000 |   1 | d34rompce3lx70.cloudfront.net:443 ->  nil
+  643.101 |   643.101 |     0.000 |   1 | chicago.bibliocms.com:443 ->  nil
+  794.376 |   794.376 |     0.000 |   1 | cor-cdn-static.bibliocommons.com:443 ->  nil
+  795.493 |   795.493 |     0.000 |   1 | cor-cdn-static.bibliocommons.com:443 ->  nil
+  874.536 |  7298.287 |  6423.751 |   0 | fonts.googleapis.com:443 ->  172.217.4.106:443 [2607:f8b0:4009:800::200a]:443
+  874.571 |   874.571 |     0.000 |   1 | fonts.googleapis.com:443 ->  nil
+ 5909.064 |  5909.064 |     0.000 |   1 | fonts.googleapis.com:443 ->  nil
+ 6029.860 |  6029.860 |     0.000 |   1 | d34rompce3lx70.cloudfront.net:443 ->  nil
+ 6060.532 |  6060.532 |     0.000 |   1 | fonts.googleapis.com:443 ->  nil
+ 6130.066 |  7008.632 |   878.566 |   0 | www.google-analytics.com:443 ->  172.217.4.110:443 [2607:f8b0:4009:803::200e]:443
+ 6130.099 |  6130.099 |     0.000 |   1 | www.google-analytics.com:443 ->  nil
+ 6136.534 |  6797.832 |   661.298 |   0 | dev.visualwebsiteoptimizer.com:443 ->  50.97.40.233:443
+ 6136.582 |  6136.582 |     0.000 |   1 | dev.visualwebsiteoptimizer.com:443 ->  nil
+ 6145.942 |  6145.942 |     0.000 |   1 | www.google-analytics.com:443 ->  nil
+ 6150.228 |  6150.228 |     0.000 |   1 | dev.visualwebsiteoptimizer.com:443 ->  nil
+ 6172.745 |  6172.745 |     0.000 |   1 | d34rompce3lx70.cloudfront.net:443 ->  nil
+ 6378.676 |  6445.581 |    66.905 |   0 | connect.facebook.net:443 ->  157.240.2.25:443 [2a03:2880:f027:18:face:b00c:0:3]:443
+ 6378.709 |  6378.709 |     0.000 |   1 | connect.facebook.net:443 ->  nil
+ 6445.576 |  6445.576 |     0.000 |   1 | connect.facebook.net:443 ->  nil
+ 6729.280 |  7260.559 |   531.279 |   0 | chipublib.bibliocommons.com:443 ->  206.223.184.15:443
+ 6729.313 |  6729.313 |     0.000 |   1 | chipublib.bibliocommons.com:443 ->  nil
+ 6754.380 |  6754.380 |     0.000 |   1 | chipublib.bibliocommons.com:443 ->  nil
+ 6781.839 |  6800.648 |    18.809 |   0 | fonts.gstatic.com:443 ->  216.58.192.195:443 [2607:f8b0:4009:802::2003]:443
+ 6781.869 |  6781.869 |     0.000 |   1 | fonts.gstatic.com:443 ->  nil
+ 6783.822 |  6783.822 |     0.000 |   1 | fonts.gstatic.com:443 ->  nil
+ 6783.888 |  6783.888 |     0.000 |   1 | fonts.gstatic.com:443 ->  nil
+ 6784.452 |  6784.452 |     0.000 |   1 | fonts.gstatic.com:443 ->  nil
+ 6784.490 |  6784.490 |     0.000 |   1 | fonts.gstatic.com:443 ->  nil
+ 6785.056 |  6785.056 |     0.000 |   1 | fonts.gstatic.com:443 ->  nil
+ 6785.096 |  6785.096 |     0.000 |   1 | fonts.gstatic.com:443 ->  nil
+ 6785.694 |  6785.694 |     0.000 |   1 | cor-cdn-static.bibliocommons.com:443 ->  nil
+ 6786.412 |  6786.412 |     0.000 |   1 | d34rompce3lx70.cloudfront.net:443 ->  nil
+ 6788.694 |  6807.759 |    19.065 |   0 | dnn506yrbagrg.cloudfront.net:443 ->  52.84.7.82:443 52.84.7.202:443 52.84.7.56:443 52.84.7.29:443 52.84.7.212:443 52.84.7.65:443 52.84.7.185:443 52.84.7.46:443
+ 6788.734 |  6788.734 |     0.000 |   1 | dnn506yrbagrg.cloudfront.net:443 ->  nil
+ 6793.034 |  6793.034 |     0.000 |   1 | d34rompce3lx70.cloudfront.net:443 ->  nil
+ 6797.827 |  6797.827 |     0.000 |   1 | dev.visualwebsiteoptimizer.com:443 ->  nil
+ 6800.303 |  6800.303 |     0.000 |   1 | fonts.gstatic.com:443 ->  nil
+ 6800.418 |  6800.418 |     0.000 |   1 | fonts.gstatic.com:443 ->  nil
+ 6800.529 |  6800.529 |     0.000 |   1 | fonts.gstatic.com:443 ->  nil
+ 6800.637 |  6800.637 |     0.000 |   1 | fonts.gstatic.com:443 ->  nil
+ 6807.754 |  6807.754 |     0.000 |   1 | dnn506yrbagrg.cloudfront.net:443 ->  nil
+ 7001.670 |  7001.670 |     0.000 |   1 | www.google-analytics.com:443 ->  nil
+ 7005.752 |  7005.752 |     0.000 |   1 | www.google-analytics.com:443 ->  nil
+ 7005.782 |  7005.782 |     0.000 |   1 | www.google-analytics.com:443 ->  nil
+ 7005.817 |  7005.817 |     0.000 |   1 | www.google-analytics.com:443 ->  nil
+ 7008.602 |  7008.602 |     0.000 |   1 | www.google-analytics.com:443 ->  nil
+ 7008.628 |  7008.628 |     0.000 |   1 | www.google-analytics.com:443 ->  nil
+ 7008.631 |  7008.631 |     0.000 |   1 | www.google-analytics.com:443 ->  nil
+ 7107.795 |  7124.252 |    16.457 |   0 | www.facebook.com:443 ->  157.240.2.35:443 [2a03:2880:f127:83:face:b00c:0:25de]:443
+ 7107.827 |  7107.827 |     0.000 |   1 | www.facebook.com:443 ->  nil
+ 7123.310 |  7138.977 |    15.667 |   0 | staticxx.facebook.com:443 ->  157.240.2.25:443 [2a03:2880:f027:18:face:b00c:0:3]:443
+ 7123.343 |  7123.343 |     0.000 |   1 | staticxx.facebook.com:443 ->  nil
+ 7124.250 |  7124.250 |     0.000 |   1 | www.facebook.com:443 ->  nil
+ 7138.972 |  7138.972 |     0.000 |   1 | staticxx.facebook.com:443 ->  nil
+ 7260.553 |  7260.553 |     0.000 |   1 | chipublib.bibliocommons.com:443 ->  nil
+ 7296.295 |  7327.513 |    31.218 |   0 | www.sharebutton.co:443 ->  104.25.152.99:443 104.25.151.99:443 [2400:cb00:2048:1::6819:9763]:443 [2400:cb00:2048:1::6819:9863]:443
+ 7296.329 |  7296.329 |     0.000 |   1 | www.sharebutton.co:443 ->  nil
+ 7298.278 |  7298.278 |     0.000 |   1 | fonts.googleapis.com:443 ->  nil
+ 7327.508 |  7327.508 |     0.000 |   1 | www.sharebutton.co:443 ->  nil
+ 7352.324 |  7538.475 |   186.151 |   0 | platform.twitter.com:443 ->  199.96.57.6:443
+ 7352.358 |  7352.358 |     0.000 |   1 | platform.twitter.com:443 ->  nil
+ 7373.488 |  7373.488 |     0.000 |   1 | platform.twitter.com:443 ->  nil
+ 7538.466 |  7538.466 |     0.000 |   1 | platform.twitter.com:443 ->  nil
+ 7540.560 |  7554.525 |    13.965 |   0 | syndication.twitter.com:443 ->  199.16.156.52:443 199.16.157.105:443
+ 7540.589 |  7540.589 |     0.000 |   1 | syndication.twitter.com:443 ->  nil
+ 7554.521 |  7554.521 |     0.000 |   1 | syndication.twitter.com:443 ->  nil
+ 7692.064 |  7692.064 |     0.000 |   1 | d34rompce3lx70.cloudfront.net:443 ->  nil
+ 7694.600 |  7694.600 |     0.000 |   1 | d34rompce3lx70.cloudfront.net:443 ->  nil
+ 7695.647 |  7695.647 |     0.000 |   1 | d34rompce3lx70.cloudfront.net:443 ->  nil
+ 7697.025 |  7697.025 |     0.000 |   1 | d34rompce3lx70.cloudfront.net:443 ->  nil
+ 7700.954 |  7700.954 |     0.000 |   1 | d34rompce3lx70.cloudfront.net:443 ->  nil
+</resolves>
+
+<transactions>
+strt (ms) | end (ms)  | len (ms)  | url
+   55.023 |   241.529 |   186.506 | http://www.chipublib.org/
+  242.025 |   621.457 |   379.432 | https://www.chipublib.org/
+  608.162 |   745.212 |   137.050 | https://d34rompce3lx70.cloudfront.net/wp-content/plugins/gravityformspolls/css/gpoll.css?ver=3.1
+  617.005 |   748.214 |   131.209 | https://d34rompce3lx70.cloudfront.net/wp-content/themes/bibliocommons/images/bg.png
+  611.615 |   748.485 |   136.870 | https://d34rompce3lx70.cloudfront.net/wp-content/mu-plugins/biblioweb/inc/feature-toggles/live.js?ver=4.8.2
+  616.105 |   749.513 |   133.408 | https://cor-liv-cdn-static.bibliocommons.com/images/IL-CPL/logo.png?1507711553617
+  609.613 |   754.436 |   144.823 | https://d34rompce3lx70.cloudfront.net/wp-content/themes/bibliocommons/css/fontello/css/cms-wordpress.css?ver=1507726616150772661615077265863
+  606.272 |   756.828 |   150.556 | https://cor-liv-cdn-static.bibliocommons.com/dynamic_stylesheet/IL-CPL/external_library_branding.css?1507711553617
+  609.159 |   759.911 |   150.752 | https://d34rompce3lx70.cloudfront.net/wp-content/themes/chicago/css/header_all.css?ver=1507726616150772661615077265863
+  607.213 |   765.655 |   158.442 | https://cor-liv-cdn-static.bibliocommons.com/dynamic_stylesheet/IL-CPL/stylesheet.css?1507711553617
+  610.973 |   776.551 |   165.578 | https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js?ver=4.8.2
+  610.307 |   776.980 |   166.673 | https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js?ver=1.8.1
+  617.381 |   779.350 |   161.969 | https://d34rompce3lx70.cloudfront.net/wp-content/themes/bibliocommons/images/placeholder-120x185.png
+  620.930 |   779.890 |   158.960 | https://d34rompce3lx70.cloudfront.net/wp-content/themes/bibliocommons/images/twitter-icon.png
+  620.621 |   781.090 |   160.469 | https://d34rompce3lx70.cloudfront.net/wp-content/themes/bibliocommons/images/facebook-icon.png
+  608.707 |   788.161 |   179.454 | https://d34rompce3lx70.cloudfront.net/wp-content/themes/chicago/style.css?v=1507726616150772661615077265863&ver=4.8.2
+  621.284 |   788.279 |   166.995 | https://d34rompce3lx70.cloudfront.net/wp-content/themes/bibliocommons/images/newsletter-icon.png
+  621.142 |   788.350 |   167.208 | https://d34rompce3lx70.cloudfront.net/wp-content/themes/bibliocommons/images/instagram-icon.png
+  623.482 |   798.528 |   175.046 | https://d34rompce3lx70.cloudfront.net/wp-content/themes/bibliocommons/css/images/close.dark.png?v=3
+  623.230 |   799.542 |   176.312 | https://d34rompce3lx70.cloudfront.net/wp-content/themes/bibliocommons/js/jsdist/lib/require.js?v=1507726616150772661615077265863
+  623.736 |   800.985 |   177.249 | https://d34rompce3lx70.cloudfront.net/wp-includes/js/wp-embed.min.js?ver=4.8.2
+  603.858 |   873.920 |   270.062 | https://cor-cdn-static.bibliocommons.com/assets/responsive_external_header-fd177190cc05bd67d333d1ffd23ced39.css
+  622.919 |   894.450 |   271.531 | https://cor-cdn-static.bibliocommons.com/assets/responsive_external_header-410716856e365855745ec8f3591bae6b.js
+  621.918 |  1013.607 |   391.689 | https://chicago.bibliocms.com/wp-content/uploads/sites/3/2016/02/CPLSupportCPLF_web_130x60.png?v=1507726616150772661615077265863
+  874.494 |  6000.728 |  5126.234 | https://fonts.googleapis.com/css?family=Open+Sans:400,600,700
+ 6029.844 |  6069.353 |    39.509 | https://d34rompce3lx70.cloudfront.net/wp-includes/js/wp-emoji-release.min.js?ver=4.8.2
+ 6060.515 |  6086.616 |    26.101 | https://fonts.googleapis.com/css?family=Open+Sans:700,300,600,400
+ 6172.728 |  6780.035 |   607.307 | https://d34rompce3lx70.cloudfront.net/wp-content/themes/bibliocommons/images/CPL_PinnedCardBorder.png?v=3
+ 6136.510 |  6780.975 |   644.465 | https://dev.visualwebsiteoptimizer.com/j.php?a=252356&u=https%3A%2F%2Fwww.chipublib.org%2F&r=0.7275468644220382
+ 6788.677 |  6907.096 |   118.419 | https://dnn506yrbagrg.cloudfront.net/pages/scripts/0017/8067.js?418825
+ 6797.810 |  6936.373 |   138.563 | https://dev.visualwebsiteoptimizer.com/v.gif?a=252356&d=chipublib.org&u=2E50C959C9B8EFFEFD543FC14AB25291&h=b9da3e746edd63d28bc12223dadb3e57&t=false&r=0.5605485909618437
+ 6130.050 |  6939.994 |   809.944 | https://www.google-analytics.com/analytics.js
+ 6785.681 |  6951.656 |   165.975 | https://cor-cdn-static.bibliocommons.com/assets/fontello-7aaf5df643343c6846d1d2be8803acd8.woff
+ 6786.403 |  6952.178 |   165.775 | https://d34rompce3lx70.cloudfront.net/wp-content/themes/bibliocommons/css/fontello/font/cms-wordpress.woff?35133332
+ 6783.798 |  7020.992 |   237.194 | https://fonts.gstatic.com/s/opensans/v15/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff
+ 6784.434 |  7021.072 |   236.638 | https://fonts.gstatic.com/s/opensans/v15/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff
+ 6781.825 |  7021.262 |   239.437 | https://fonts.gstatic.com/s/opensans/v15/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff
+ 6785.039 |  7021.435 |   236.396 | https://fonts.gstatic.com/s/opensans/v15/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff
+ 7001.652 |  7035.431 |    33.779 | https://www.google-analytics.com/r/collect?v=1&_v=j64&a=889367862&t=pageview&_s=1&dl=https%3A%2F%2Fwww.chipublib.org%2F&ul=en-us&de=UTF-8&dt=Chicago%20Public%20Library&sd=16-bit&sr=1024x768&vp=785x600&je=0&fl=11.2%20r202&_u=IEBAAAQAI~&jid=1936340530&gjid=1991786577&cid=1459421784.1507771273&tid=UA-89251399-1&_gid=218370654.1507771273&_r=1&z=1964387363
+ 6378.659 |  7049.646 |   670.987 | https://connect.facebook.net/en_US/sdk.js
+ 7005.737 |  7105.211 |    99.474 | https://www.google-analytics.com/r/collect?v=1&_v=j64&a=889367862&t=pageview&_s=1&dl=https%3A%2F%2Fwww.chipublib.org%2F&ul=en-us&de=UTF-8&dt=Chicago%20Public%20Library&sd=16-bit&sr=1024x768&vp=785x600&je=0&fl=11.2%20r202&_u=IGDACAQAJ~&jid=989448717&gjid=2051807159&cid=1459421784.1507771273&tid=UA-477834-4&_gid=218370654.1507771273&_r=1&z=648932217
+ 7008.588 |  7105.398 |    96.810 | https://www.google-analytics.com/r/collect?v=1&_v=j64&a=889367862&t=pageview&_s=1&dl=https%3A%2F%2Fwww.chipublib.org%2F&ul=en-us&de=UTF-8&dt=Chicago%20Public%20Library&sd=16-bit&sr=1024x768&vp=785x600&je=0&fl=11.2%20r202&_u=IGDACAQAJ~&jid=1556736507&gjid=330934743&cid=1459421784.1507771273&tid=UA-12552489-8&_gid=218370654.1507771273&_r=1&z=1406643421
+ 6729.264 |  7125.565 |   396.301 | https://chipublib.bibliocommons.com/header/state?callback=jQuery18103448958939407021_1507771271883&_=1507771272501
+ 6793.019 |  7160.444 |   367.425 | https://d34rompce3lx70.cloudfront.net/wp-content/themes/bibliocommons/js/jsdist/pathway.js?v=150772661615077266161507726586322
+ 7107.778 |  7338.920 |   231.142 | https://www.facebook.com/impression.php/f151fc24bc/?api_key=1751736171744932&lid=115&payload=%7B%22source%22%3A%22jssdk%22%7D
+ 7298.256 |  7342.802 |    44.546 | https://fonts.googleapis.com/css?family=Lato:900&text=Share
+ 7123.295 |  7358.526 |   235.231 | https://staticxx.facebook.com/connect/xd_arbiter/r/K6RbmRhg2m2.js?version=42#channel=f179493f34&origin=https%3A%2F%2Fwww.chipublib.org
+ 7296.279 |  7413.432 |   117.153 | https://www.sharebutton.co/fonts/v2/entypo.min.css
+ 7260.529 |  7469.916 |   209.387 | https://chipublib.bibliocommons.com/widgets/is_local_branch.json?callback=jQuery18103448958939407021_1507771271883&_=1507771273032
+ 7352.308 |  7491.720 |   139.412 | https://platform.twitter.com/widgets.js?v=1507726616150772661615077265863
+ 7538.449 |  7563.986 |    25.537 | https://platform.twitter.com/widgets/twitter_cookies.html?namespace=twttr%3Acookies&origin=https%3A%2F%2Fwww.chipublib.org
+ 7692.047 |  7737.647 |    45.600 | https://d34rompce3lx70.cloudfront.net/wp-content/uploads/sites/3/2017/10/woman-flower-knife-270x230.jpg?v=1507730316
+ 7694.586 |  7738.057 |    43.471 | https://d34rompce3lx70.cloudfront.net/wp-content/themes/bibliocommons/images/image_sizer.php?image_url=https%3A%2F%2Fsecure.syndetics.com%2Findex.aspx%3Fisbn%3D9780544435247%2FMC.GIF%26client%3Dchicagoplb%26type%3Dxw12%26oclc%3D&width=120&height=185
+ 7695.635 |  7743.286 |    47.651 | https://d34rompce3lx70.cloudfront.net/wp-content/themes/bibliocommons/images/image_sizer.php?image_url=https%3A%2F%2Fsecure.syndetics.com%2Findex.aspx%3Fisbn%3D9780374120924%2FMC.GIF%26client%3Dchicagoplb%26type%3Dxw12%26oclc%3D&width=120&height=185
+ 7700.938 |  7743.510 |    42.572 | https://d34rompce3lx70.cloudfront.net/wp-content/uploads/sites/3/2017/09/ghost-270x230.jpg?v=1506537821
+ 7540.549 |  7756.654 |   216.105 | https://syndication.twitter.com/settings
+ 7697.011 |  7954.947 |   257.936 | https://d34rompce3lx70.cloudfront.net/wp-content/themes/bibliocommons/images/image_sizer.php?image_url=https%3A%2F%2Fsecure.syndetics.com%2Findex.aspx%3Fisbn%3D9780316352536%2FMC.GIF%26client%3Dchicagoplb%26type%3Dxw12%26oclc%3D&width=120&height=185
+</transactions>
+
+<responses>
+status       | mime_type       | charset | url -> redirect_url
+Moved Permanently |       text/html |   utf-8 | http://www.chipublib.org/ -> https://www.chipublib.org/
+          OK |       text/html |   utf-8 | https://www.chipublib.org/ -> nil
+          OK |        text/css |         | https://d34rompce3lx70.cloudfront.net/wp-content/plugins/gravityformspolls/css/gpoll.css?ver=3.1 -> nil
+          OK |       image/png |         | https://d34rompce3lx70.cloudfront.net/wp-content/themes/bibliocommons/images/bg.png -> nil
+          OK | application/javascript |         | https://d34rompce3lx70.cloudfront.net/wp-content/mu-plugins/biblioweb/inc/feature-toggles/live.js?ver=4.8.2 -> nil
+          OK |       image/png |         | https://cor-liv-cdn-static.bibliocommons.com/images/IL-CPL/logo.png?1507711553617 -> nil
+          OK |        text/css |         | https://d34rompce3lx70.cloudfront.net/wp-content/themes/bibliocommons/css/fontello/css/cms-wordpress.css?ver=1507726616150772661615077265863 -> nil
+          OK |        text/css |         | https://cor-liv-cdn-static.bibliocommons.com/dynamic_stylesheet/IL-CPL/external_library_branding.css?1507711553617 -> nil
+          OK |        text/css |         | https://d34rompce3lx70.cloudfront.net/wp-content/themes/chicago/css/header_all.css?ver=1507726616150772661615077265863 -> nil
+          OK |        text/css |         | https://cor-liv-cdn-static.bibliocommons.com/dynamic_stylesheet/IL-CPL/stylesheet.css?1507711553617 -> nil
+          OK | application/javascript |   utf-8 | https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js?ver=4.8.2 -> nil
+          OK | text/javascript |   utf-8 | https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js?ver=1.8.1 -> nil
+          OK |       image/png |         | https://d34rompce3lx70.cloudfront.net/wp-content/themes/bibliocommons/images/placeholder-120x185.png -> nil
+          OK |       image/png |         | https://d34rompce3lx70.cloudfront.net/wp-content/themes/bibliocommons/images/twitter-icon.png -> nil
+          OK |       image/png |         | https://d34rompce3lx70.cloudfront.net/wp-content/themes/bibliocommons/images/facebook-icon.png -> nil
+          OK |        text/css |         | https://d34rompce3lx70.cloudfront.net/wp-content/themes/chicago/style.css?v=1507726616150772661615077265863&ver=4.8.2 -> nil
+          OK |       image/png |         | https://d34rompce3lx70.cloudfront.net/wp-content/themes/bibliocommons/images/newsletter-icon.png -> nil
+          OK |       image/png |         | https://d34rompce3lx70.cloudfront.net/wp-content/themes/bibliocommons/images/instagram-icon.png -> nil
+          OK |       image/png |         | https://d34rompce3lx70.cloudfront.net/wp-content/themes/bibliocommons/css/images/close.dark.png?v=3 -> nil
+          OK | application/javascript |         | https://d34rompce3lx70.cloudfront.net/wp-content/themes/bibliocommons/js/jsdist/lib/require.js?v=1507726616150772661615077265863 -> nil
+          OK | application/javascript |         | https://d34rompce3lx70.cloudfront.net/wp-includes/js/wp-embed.min.js?ver=4.8.2 -> nil
+          OK |        text/css |         | https://cor-cdn-static.bibliocommons.com/assets/responsive_external_header-fd177190cc05bd67d333d1ffd23ced39.css -> nil
+          OK | text/javascript |         | https://cor-cdn-static.bibliocommons.com/assets/responsive_external_header-410716856e365855745ec8f3591bae6b.js -> nil
+          OK |       image/png |         | https://chicago.bibliocms.com/wp-content/uploads/sites/3/2016/02/CPLSupportCPLF_web_130x60.png?v=1507726616150772661615077265863 -> nil
+          OK |        text/css |   utf-8 | https://fonts.googleapis.com/css?family=Open+Sans:400,600,700 -> nil
+          OK | application/javascript |         | https://d34rompce3lx70.cloudfront.net/wp-includes/js/wp-emoji-release.min.js?ver=4.8.2 -> nil
+          OK |        text/css |   utf-8 | https://fonts.googleapis.com/css?family=Open+Sans:700,300,600,400 -> nil
+          OK |       image/png |         | https://d34rompce3lx70.cloudfront.net/wp-content/themes/bibliocommons/images/CPL_PinnedCardBorder.png?v=3 -> nil
+          OK | application/javascript |   utf-8 | https://dev.visualwebsiteoptimizer.com/j.php?a=252356&u=https%3A%2F%2Fwww.chipublib.org%2F&r=0.7275468644220382 -> nil
+          OK | application/x-javascript |         | https://dnn506yrbagrg.cloudfront.net/pages/scripts/0017/8067.js?418825 -> nil
+          OK |       image/gif |         | https://dev.visualwebsiteoptimizer.com/v.gif?a=252356&d=chipublib.org&u=2E50C959C9B8EFFEFD543FC14AB25291&h=b9da3e746edd63d28bc12223dadb3e57&t=false&r=0.5605485909618437 -> nil
+          OK | text/javascript |         | https://www.google-analytics.com/analytics.js -> nil
+          OK | application/font-woff |         | https://cor-cdn-static.bibliocommons.com/assets/fontello-7aaf5df643343c6846d1d2be8803acd8.woff -> nil
+          OK | application/font-woff |         | https://d34rompce3lx70.cloudfront.net/wp-content/themes/bibliocommons/css/fontello/font/cms-wordpress.woff?35133332 -> nil
+          OK |       font/woff |         | https://fonts.gstatic.com/s/opensans/v15/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff -> nil
+          OK |       font/woff |         | https://fonts.gstatic.com/s/opensans/v15/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff -> nil
+          OK |       font/woff |         | https://fonts.gstatic.com/s/opensans/v15/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff -> nil
+          OK |       font/woff |         | https://fonts.gstatic.com/s/opensans/v15/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff -> nil
+          OK |       image/gif |         | https://www.google-analytics.com/r/collect?v=1&_v=j64&a=889367862&t=pageview&_s=1&dl=https%3A%2F%2Fwww.chipublib.org%2F&ul=en-us&de=UTF-8&dt=Chicago%20Public%20Library&sd=16-bit&sr=1024x768&vp=785x600&je=0&fl=11.2%20r202&_u=IEBAAAQAI~&jid=1936340530&gjid=1991786577&cid=1459421784.1507771273&tid=UA-89251399-1&_gid=218370654.1507771273&_r=1&z=1964387363 -> nil
+          OK | application/x-javascript |   utf-8 | https://connect.facebook.net/en_US/sdk.js -> nil
+          OK |       image/gif |         | https://www.google-analytics.com/r/collect?v=1&_v=j64&a=889367862&t=pageview&_s=1&dl=https%3A%2F%2Fwww.chipublib.org%2F&ul=en-us&de=UTF-8&dt=Chicago%20Public%20Library&sd=16-bit&sr=1024x768&vp=785x600&je=0&fl=11.2%20r202&_u=IGDACAQAJ~&jid=989448717&gjid=2051807159&cid=1459421784.1507771273&tid=UA-477834-4&_gid=218370654.1507771273&_r=1&z=648932217 -> nil
+          OK |       image/gif |         | https://www.google-analytics.com/r/collect?v=1&_v=j64&a=889367862&t=pageview&_s=1&dl=https%3A%2F%2Fwww.chipublib.org%2F&ul=en-us&de=UTF-8&dt=Chicago%20Public%20Library&sd=16-bit&sr=1024x768&vp=785x600&je=0&fl=11.2%20r202&_u=IGDACAQAJ~&jid=1556736507&gjid=330934743&cid=1459421784.1507771273&tid=UA-12552489-8&_gid=218370654.1507771273&_r=1&z=1406643421 -> nil
+          OK | application/json |   utf-8 | https://chipublib.bibliocommons.com/header/state?callback=jQuery18103448958939407021_1507771271883&_=1507771272501 -> nil
+          OK | application/javascript |         | https://d34rompce3lx70.cloudfront.net/wp-content/themes/bibliocommons/js/jsdist/pathway.js?v=150772661615077266161507726586322 -> nil
+          OK |       image/gif |         | https://www.facebook.com/impression.php/f151fc24bc/?api_key=1751736171744932&lid=115&payload=%7B%22source%22%3A%22jssdk%22%7D -> nil
+          OK |        text/css |   utf-8 | https://fonts.googleapis.com/css?family=Lato:900&text=Share -> nil
+          OK |       text/html |   utf-8 | https://staticxx.facebook.com/connect/xd_arbiter/r/K6RbmRhg2m2.js?version=42#channel=f179493f34&origin=https%3A%2F%2Fwww.chipublib.org -> nil
+          OK |        text/css |         | https://www.sharebutton.co/fonts/v2/entypo.min.css -> nil
+          OK | application/json |   utf-8 | https://chipublib.bibliocommons.com/widgets/is_local_branch.json?callback=jQuery18103448958939407021_1507771271883&_=1507771273032 -> nil
+          OK | application/javascript |   utf-8 | https://platform.twitter.com/widgets.js?v=1507726616150772661615077265863 -> nil
+          OK |       text/html |   utf-8 | https://platform.twitter.com/widgets/twitter_cookies.html?namespace=twttr%3Acookies&origin=https%3A%2F%2Fwww.chipublib.org -> nil
+          OK |      image/jpeg |         | https://d34rompce3lx70.cloudfront.net/wp-content/uploads/sites/3/2017/10/woman-flower-knife-270x230.jpg?v=1507730316 -> nil
+          OK |      image/jpeg |         | https://d34rompce3lx70.cloudfront.net/wp-content/themes/bibliocommons/images/image_sizer.php?image_url=https%3A%2F%2Fsecure.syndetics.com%2Findex.aspx%3Fisbn%3D9780544435247%2FMC.GIF%26client%3Dchicagoplb%26type%3Dxw12%26oclc%3D&width=120&height=185 -> nil
+          OK |      image/jpeg |         | https://d34rompce3lx70.cloudfront.net/wp-content/themes/bibliocommons/images/image_sizer.php?image_url=https%3A%2F%2Fsecure.syndetics.com%2Findex.aspx%3Fisbn%3D9780374120924%2FMC.GIF%26client%3Dchicagoplb%26type%3Dxw12%26oclc%3D&width=120&height=185 -> nil
+          OK |      image/jpeg |         | https://d34rompce3lx70.cloudfront.net/wp-content/uploads/sites/3/2017/09/ghost-270x230.jpg?v=1506537821 -> nil
+          OK | application/json |   utf-8 | https://syndication.twitter.com/settings -> nil
+          OK |      image/jpeg |         | https://d34rompce3lx70.cloudfront.net/wp-content/themes/bibliocommons/images/image_sizer.php?image_url=https%3A%2F%2Fsecure.syndetics.com%2Findex.aspx%3Fisbn%3D9780316352536%2FMC.GIF%26client%3Dchicagoplb%26type%3Dxw12%26oclc%3D&width=120&height=185 -> nil
+</responses>
+
+<queries>
+Collections of histograms for DNS.
+Histogram: AsyncDNS.HaveDnsConfig recorded 19 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (19 = 100.0%)
+1  ... 
+
+Histogram: DNS.AttemptDiscarded recorded 19 samples, average = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (19 = 100.0%) {0.0%}
+2  ... 
+
+Histogram: DNS.AttemptSuccess recorded 19 samples, average = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (19 = 100.0%) {0.0%}
+2  ... 
+
+Histogram: DNS.AttemptSuccessDuration recorded 19 samples, average = 295.7 (flags = 0x1)
+0     ... 
+12    ------------------------------------------------------O                   (2 = 10.5%) {0.0%}
+14    ------------------------------------------------------O                   (2 = 10.5%) {10.5%}
+16    ---------------------------O                                              (1 = 5.3%) {21.1%}
+18    ------------------------------------O                                     (2 = 10.5%) {26.3%}
+21    ------------------------------------------------------------------------O (4 = 21.1%) {36.8%}
+24    -----------------------------------------O                                (3 = 15.8%) {57.9%}
+28    ---------------------------O                                              (2 = 10.5%) {73.7%}
+32    ... 
+58    -----------O                                                              (1 = 5.3%) {84.2%}
+67    ... 
+182   -----------O                                                              (1 = 5.3%) {89.5%}
+210   ... 
+4904  -----------O                                                              (1 = 5.3%) {94.7%}
+5660  ... 
+
+Histogram: DNS.AttemptTimeSavedByRetry recorded 19 samples, average = 4945046.0 (flags = 0x1)
+0        ... 
+3600000  ------------------------------------------------------------------------O (19 = 100.0%) {0.0%}
+
+Histogram: DNS.JobQueueTime recorded 19 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (19 = 100.0%)
+1  ... 
+
+Histogram: DNS.JobQueueTimeAfterChange recorded 19 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (19 = 100.0%)
+1  ... 
+
+Histogram: DNS.JobQueueTimeAfterChange_LOWEST recorded 19 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (19 = 100.0%)
+1  ... 
+
+Histogram: DNS.JobQueueTime_LOWEST recorded 19 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (19 = 100.0%)
+1  ... 
+
+Histogram: DNS.ResolveCategory recorded 19 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (19 = 100.0%)
+1  ... 
+
+Histogram: DNS.ResolveSuccess recorded 19 samples, average = 295.6 (flags = 0x1)
+0     ... 
+12    ------------------------------------------------------O                   (2 = 10.5%) {0.0%}
+14    ------------------------------------------------------O                   (2 = 10.5%) {10.5%}
+16    ---------------------------O                                              (1 = 5.3%) {21.1%}
+18    ------------------------------------O                                     (2 = 10.5%) {26.3%}
+21    ------------------------------------------------------------------------O (4 = 21.1%) {36.8%}
+24    -----------------------------------------O                                (3 = 15.8%) {57.9%}
+28    ---------------------------O                                              (2 = 10.5%) {73.7%}
+32    ... 
+58    -----------O                                                              (1 = 5.3%) {84.2%}
+67    ... 
+182   -----------O                                                              (1 = 5.3%) {89.5%}
+210   ... 
+4904  -----------O                                                              (1 = 5.3%) {94.7%}
+5660  ... 
+
+Histogram: DNS.ResolveSuccess_FAMILY_UNSPEC recorded 19 samples, average = 295.6 (flags = 0x1)
+0     ... 
+12    ------------------------------------------------------O                   (2 = 10.5%) {0.0%}
+14    ------------------------------------------------------O                   (2 = 10.5%) {10.5%}
+16    ---------------------------O                                              (1 = 5.3%) {21.1%}
+18    ------------------------------------O                                     (2 = 10.5%) {26.3%}
+21    ------------------------------------------------------------------------O (4 = 21.1%) {36.8%}
+24    -----------------------------------------O                                (3 = 15.8%) {57.9%}
+28    ---------------------------O                                              (2 = 10.5%) {73.7%}
+32    ... 
+58    -----------O                                                              (1 = 5.3%) {84.2%}
+67    ... 
+182   -----------O                                                              (1 = 5.3%) {89.5%}
+210   ... 
+4904  -----------O                                                              (1 = 5.3%) {94.7%}
+5660  ... 
+
+Histogram: DNS.TotalTime recorded 33 samples, average = 181.4 (flags = 0x1)
+0     ------------------------------------------------------------------------O (3 = 9.1%)
+1     ... 
+12    ------------------------O                                                 (2 = 6.1%) {9.1%}
+14    ------------------------------------O                                     (3 = 9.1%) {15.2%}
+16    ------------------------------------------------------------O             (5 = 15.2%) {24.2%}
+18    ----------------O                                                         (2 = 6.1%) {39.4%}
+21    ----------------------------------------O                                 (5 = 15.2%) {45.5%}
+24    ------------------------------------------O                               (7 = 21.2%) {60.6%}
+28    ------------O                                                             (2 = 6.1%) {81.8%}
+32    ... 
+58    -----O                                                                    (1 = 3.0%) {87.9%}
+67    ... 
+158   -----O                                                                    (1 = 3.0%) {90.9%}
+182   -----O                                                                    (1 = 3.0%) {93.9%}
+210   ... 
+4904  -----O                                                                    (1 = 3.0%) {97.0%}
+5660  ... 
+
+
+Collections of histograms for Net.
+Histogram: Net.CertVerifier_Job_Latency recorded 19 samples, average = 0.4 (flags = 0x1)
+0  ------------------------------------------------------------------------O (13 = 68.4%)
+1  ----------------------O                                                   (4 = 21.1%) {68.4%}
+2  -----------O                                                              (2 = 10.5%) {89.5%}
+3  ... 
+
+Histogram: Net.Compress.SSL.BytesAfterCompression recorded 28 samples, average = 77316.1 (flags = 0x1)
+0       ------------------------------------------------------------------------O (4 = 14.3%)
+500     ... 
+584     ------------------O                                                       (1 = 3.6%) {14.3%}
+631     ------------------O                                                       (1 = 3.6%) {17.9%}
+682     O                                                                         (0 = 0.0%) {21.4%}
+737     ------------------O                                                       (1 = 3.6%) {21.4%}
+796     ... 
+1004    ------------------O                                                       (1 = 3.6%) {25.0%}
+1085    ... 
+1370    ------------------O                                                       (1 = 3.6%) {28.6%}
+1480    ... 
+3753    ------------------O                                                       (1 = 3.6%) {32.1%}
+4056    ------------------O                                                       (1 = 3.6%) {35.7%}
+4383    ... 
+6981    ------------------O                                                       (1 = 3.6%) {39.3%}
+7544    ... 
+11119   ------------------O                                                       (1 = 3.6%) {42.9%}
+12016   ... 
+14032   ------------------O                                                       (1 = 3.6%) {46.4%}
+15164   ... 
+22349   ------------------O                                                       (1 = 3.6%) {50.0%}
+24152   ... 
+32938   ------------------O                                                       (1 = 3.6%) {53.6%}
+35595   ... 
+41569   ------------------O                                                       (1 = 3.6%) {57.1%}
+44922   ... 
+71547   ------------------O                                                       (1 = 3.6%) {60.7%}
+77318   ... 
+90293   ------------------O                                                       (1 = 3.6%) {64.3%}
+97576   ------------------O                                                       (1 = 3.6%) {67.9%}
+105446  ------------------O                                                       (1 = 3.6%) {71.4%}
+113951  ------------------O                                                       (1 = 3.6%) {75.0%}
+123142  ... 
+143809  ------------------O                                                       (1 = 3.6%) {78.6%}
+155408  ... 
+196128  ------------------O                                                       (1 = 3.6%) {82.1%}
+211947  O                                                                         (0 = 0.0%) {85.7%}
+229042  ------------------O                                                       (1 = 3.6%) {85.7%}
+247516  O                                                                         (0 = 0.0%) {89.3%}
+267480  ------------------------------------O                                     (2 = 7.1%) {89.3%}
+289055  ... 
+337565  ------------------O                                                       (1 = 3.6%) {96.4%}
+364793  ... 
+
+Histogram: Net.Compress.SSL.BytesBeforeCompression recorded 28 samples, average = 19113.8 (flags = 0x1)
+0      ------------------------------------------------------------------------O (8 = 28.6%)
+500    ... 
+737    ---------O                                                                (1 = 3.6%) {28.6%}
+796    ... 
+1268   ---------O                                                                (1 = 3.6%) {32.1%}
+1370   ... 
+1599   ---------O                                                                (1 = 3.6%) {35.7%}
+1728   ---------O                                                                (1 = 3.6%) {39.3%}
+1867   ... 
+3214   ---------O                                                                (1 = 3.6%) {42.9%}
+3473   ... 
+4056   ---------O                                                                (1 = 3.6%) {46.4%}
+4383   ... 
+5978   ---------O                                                                (1 = 3.6%) {50.0%}
+6460   ... 
+14032  ------------------O                                                       (2 = 7.1%) {53.6%}
+15164  ... 
+20681  ---------O                                                                (1 = 3.6%) {60.7%}
+22349  ... 
+26100  ------------------O                                                       (2 = 7.1%) {64.3%}
+28205  ---------O                                                                (1 = 3.6%) {71.4%}
+30480  ---------O                                                                (1 = 3.6%) {75.0%}
+32938  ------------------O                                                       (2 = 7.1%) {78.6%}
+35595  ... 
+61265  ------------------O                                                       (2 = 7.1%) {85.7%}
+66207  ---------O                                                                (1 = 3.6%) {92.9%}
+71547  O                                                                         (0 = 0.0%) {96.4%}
+77318  ---------O                                                                (1 = 3.6%) {96.4%}
+83554  ... 
+
+Histogram: Net.Compress.SSL.ShouldHaveBeenCompressed recorded 1 samples, average = 19.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+500... 
+
+Histogram: Net.ConnectionTypeCount3 recorded 129 samples, average = 5.0 (flags = 0x1)
+0   ------------------------------------------------------------------------O (33 = 25.6%)
+1   ----------------------------------------------------------------------O   (32 = 24.8%) {25.6%}
+2   ... 
+7   ----------------------------------------------------------------------O   (32 = 24.8%) {50.4%}
+8   ... 
+12  ----------------------------------------------------------------------O   (32 = 24.8%) {75.2%}
+13  ... 
+
+Histogram: Net.ConnectionUsedSSLVersionFallback recorded 56 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (56 = 100.0%)
+1  ... 
+
+Histogram: Net.DNS_Resolution_And_TCP_Connection_Latency2 recorded 33 samples, average = 207.0 (flags = 0x1)
+0     ... 
+16    ---------------------O                                                    (1 = 3.0%) {0.0%}
+18    ---------------------O                                                    (1 = 3.0%) {3.0%}
+20    ... 
+26    --------------O                                                           (1 = 3.0%) {6.1%}
+29    ---------------------O                                                    (2 = 6.1%) {9.1%}
+33    ------------------------------------------------------------------------O (7 = 21.2%) {15.2%}
+37    ---------------------------------O                                        (4 = 12.1%) {36.4%}
+42    -----------------------------------------O                                (5 = 15.2%) {48.5%}
+48    -------------------------O                                                (3 = 9.1%) {63.6%}
+54    O                                                                         (0 = 0.0%) {72.7%}
+61    ----------------O                                                         (2 = 6.1%) {72.7%}
+69    O                                                                         (0 = 0.0%) {78.8%}
+78    ----------------O                                                         (2 = 6.1%) {78.8%}
+88    --------O                                                                 (1 = 3.0%) {84.8%}
+100   --------O                                                                 (1 = 3.0%) {87.9%}
+113   ... 
+186   ----------------O                                                         (2 = 6.1%) {90.9%}
+211   ... 
+4727  --------O                                                                 (1 = 3.0%) {97.0%}
+5352  ... 
+
+Histogram: Net.HadConnectionType3 recorded 4 samples, average = 5.0 (flags = 0x1)
+0   ------------------------------------------------------------------------O (1 = 25.0%)
+1   ------------------------------------------------------------------------O (1 = 25.0%) {25.0%}
+2   ... 
+7   ------------------------------------------------------------------------O (1 = 25.0%) {50.0%}
+8   ... 
+12  ------------------------------------------------------------------------O (1 = 25.0%) {75.0%}
+13  ... 
+
+Histogram: Net.HttpConnectionLatency recorded 32 samples, average = 278.2 (flags = 0x1)
+0     ... 
+33    --------O                                                                 (1 = 3.1%) {0.0%}
+37    ... 
+61    -------------O                                                            (2 = 6.2%) {3.1%}
+69    -------O                                                                  (1 = 3.1%) {9.4%}
+78    -------O                                                                  (1 = 3.1%) {12.5%}
+88    ---------------------------------------O                                  (6 = 18.8%) {15.6%}
+100   ------------------------------------------------------------------------O (11 = 34.4%) {34.4%}
+113   --------------------O                                                     (3 = 9.4%) {68.8%}
+128   O                                                                         (0 = 0.0%) {78.1%}
+145   -------O                                                                  (1 = 3.1%) {78.1%}
+164   ... 
+211   --------------------O                                                     (3 = 9.4%) {81.2%}
+239   -------O                                                                  (1 = 3.1%) {90.6%}
+271   O                                                                         (0 = 0.0%) {93.8%}
+307   -------O                                                                  (1 = 3.1%) {93.8%}
+348   ... 
+4727  -------O                                                                  (1 = 3.1%) {96.9%}
+5352  ... 
+
+Histogram: Net.HttpJob.TotalTime recorded 57 samples, average = 290.7 (flags = 0x1)
+0     ... 
+24    -----------O                                                              (2 = 3.5%) {0.0%}
+29    ------O                                                                   (1 = 1.8%) {3.5%}
+34    ------O                                                                   (1 = 1.8%) {5.3%}
+40    ----------------------------O                                             (5 = 8.8%) {7.0%}
+48    ... 
+96    -----------O                                                              (2 = 3.5%) {15.8%}
+114   ----------------------O                                                   (4 = 7.0%) {19.3%}
+135   --------------------------------------------------O                       (9 = 15.8%) {26.3%}
+160   ------------------------------------------------------------------------O (13 = 22.8%) {42.1%}
+190   -----------O                                                              (2 = 3.5%) {64.9%}
+226   --------------------------------------------O                             (8 = 14.0%) {68.4%}
+268   ------O                                                                   (1 = 1.8%) {82.5%}
+318   ------O                                                                   (1 = 1.8%) {84.2%}
+378   -----------------O                                                        (3 = 5.3%) {86.0%}
+449   O                                                                         (0 = 0.0%) {91.2%}
+533   ------O                                                                   (1 = 1.8%) {91.2%}
+633   -----------O                                                              (2 = 3.5%) {93.0%}
+752   ------O                                                                   (1 = 1.8%) {96.5%}
+894   ... 
+5017  ------O                                                                   (1 = 1.8%) {98.2%}
+5961  ... 
+
+Histogram: Net.HttpJob.TotalTimeCancel recorded 1 samples, average = 186.0 (flags = 0x1)
+0    ... 
+160  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+190  ... 
+
+Histogram: Net.HttpJob.TotalTimeNotCached recorded 57 samples, average = 290.7 (flags = 0x1)
+0     ... 
+24    -----------O                                                              (2 = 3.5%) {0.0%}
+29    ------O                                                                   (1 = 1.8%) {3.5%}
+34    ------O                                                                   (1 = 1.8%) {5.3%}
+40    ----------------------------O                                             (5 = 8.8%) {7.0%}
+48    ... 
+96    -----------O                                                              (2 = 3.5%) {15.8%}
+114   ----------------------O                                                   (4 = 7.0%) {19.3%}
+135   --------------------------------------------------O                       (9 = 15.8%) {26.3%}
+160   ------------------------------------------------------------------------O (13 = 22.8%) {42.1%}
+190   -----------O                                                              (2 = 3.5%) {64.9%}
+226   --------------------------------------------O                             (8 = 14.0%) {68.4%}
+268   ------O                                                                   (1 = 1.8%) {82.5%}
+318   ------O                                                                   (1 = 1.8%) {84.2%}
+378   -----------------O                                                        (3 = 5.3%) {86.0%}
+449   O                                                                         (0 = 0.0%) {91.2%}
+533   ------O                                                                   (1 = 1.8%) {91.2%}
+633   -----------O                                                              (2 = 3.5%) {93.0%}
+752   ------O                                                                   (1 = 1.8%) {96.5%}
+894   ... 
+5017  ------O                                                                   (1 = 1.8%) {98.2%}
+5961  ... 
+
+Histogram: Net.HttpJob.TotalTimeSuccess recorded 56 samples, average = 292.6 (flags = 0x1)
+0     ... 
+24    ------------O                                                             (2 = 3.6%) {0.0%}
+29    ------O                                                                   (1 = 1.8%) {3.6%}
+34    ------O                                                                   (1 = 1.8%) {5.4%}
+40    ------------------------------O                                           (5 = 8.9%) {7.1%}
+48    ... 
+96    ------------O                                                             (2 = 3.6%) {16.1%}
+114   ------------------------O                                                 (4 = 7.1%) {19.6%}
+135   ------------------------------------------------------O                   (9 = 16.1%) {26.8%}
+160   ------------------------------------------------------------------------O (12 = 21.4%) {42.9%}
+190   ------------O                                                             (2 = 3.6%) {64.3%}
+226   ------------------------------------------------O                         (8 = 14.3%) {67.9%}
+268   ------O                                                                   (1 = 1.8%) {82.1%}
+318   ------O                                                                   (1 = 1.8%) {83.9%}
+378   ------------------O                                                       (3 = 5.4%) {85.7%}
+449   O                                                                         (0 = 0.0%) {91.1%}
+533   ------O                                                                   (1 = 1.8%) {91.1%}
+633   ------------O                                                             (2 = 3.6%) {92.9%}
+752   ------O                                                                   (1 = 1.8%) {96.4%}
+894   ... 
+5017  ------O                                                                   (1 = 1.8%) {98.2%}
+5961  ... 
+
+Histogram: Net.HttpResponseCode recorded 57 samples, average = 201.8 (flags = 0x1)
+0    ... 
+200  ------------------------------------------------------------------------O (56 = 98.2%) {0.0%}
+201  ... 
+301  ------------------------------------------------------------------------O (1 = 1.8%) {98.2%}
+302  ... 
+
+Histogram: Net.HttpSocketType recorded 57 samples, average = 0.9 (flags = 0x1)
+0  ------------------------------------------------------------------------O (32 = 56.1%)
+1  O                                                                         (0 = 0.0%) {56.1%}
+2  --------------------------------------------------------O                 (25 = 43.9%) {56.1%}
+3  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: Net.HttpTimeToFirstByte recorded 57 samples, average = 216.3 (flags = 0x1)
+0     ... 
+12    ----------O                                                               (1 = 1.8%) {0.0%}
+15    ------------------------------------------------------------O             (6 = 10.5%) {1.8%}
+18    ---------------O                                                          (2 = 3.5%) {12.3%}
+22    ------------------O                                                       (3 = 5.3%) {15.8%}
+27    O                                                                         (0 = 0.0%) {21.1%}
+33    ------------O                                                             (2 = 3.5%) {21.1%}
+41    O                                                                         (0 = 0.0%) {24.6%}
+50    ------------O                                                             (2 = 3.5%) {24.6%}
+61    O                                                                         (0 = 0.0%) {28.1%}
+75    ------------O                                                             (2 = 3.5%) {28.1%}
+92    ------O                                                                   (1 = 1.8%) {31.6%}
+113   ------------------------------------------------------------------------O (12 = 21.1%) {33.3%}
+139   ------------------------------------------------------------------------O (12 = 21.1%) {54.4%}
+171   ------------------------------------------O                               (7 = 12.3%) {75.4%}
+210   ------------O                                                             (2 = 3.5%) {87.7%}
+258   ------O                                                                   (1 = 1.8%) {91.2%}
+317   ------O                                                                   (1 = 1.8%) {93.0%}
+389   ------------O                                                             (2 = 3.5%) {94.7%}
+477   ... 
+4524  ------O                                                                   (1 = 1.8%) {98.2%}
+5551  ... 
+
+Histogram: Net.NumDuplicateCookiesInDb recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.PreconnectUtilization2 recorded 1 samples, average = 2.0 (flags = 0x1)
+0  ... 
+2  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+3  ... 
+
+Histogram: Net.Priority_High_Latency_b recorded 1 samples, average = 118.0 (flags = 0x1)
+0    ... 
+113  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+128  ... 
+
+Histogram: Net.RenegotiationExtensionSupported recorded 32 samples, average = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (32 = 100.0%) {0.0%}
+2  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: Net.SSLCertVerificationTime recorded 32 samples, average = 0.3 (flags = 0x1)
+0  ------------------------------------------------------------------------O (25 = 78.1%)
+1  --------------O                                                           (5 = 15.6%) {78.1%}
+2  ------O                                                                   (2 = 6.2%) {93.8%}
+3  ... 
+
+Histogram: Net.SSL_Connection_Latency recorded 32 samples, average = 65.3 (flags = 0x1)
+0    ... 
+16   ----------------------------------------O                                 (2 = 6.2%) {0.0%}
+18   ... 
+29   ----------------------------------------O                                 (4 = 12.5%) {6.2%}
+33   O                                                                         (0 = 0.0%) {18.8%}
+37   ----------------O                                                         (2 = 6.2%) {18.8%}
+42   ----------------O                                                         (2 = 6.2%) {25.0%}
+48   --------O                                                                 (1 = 3.1%) {31.2%}
+54   ------------------------------------------------------------------------O (9 = 28.1%) {34.4%}
+61   ------------------------O                                                 (3 = 9.4%) {62.5%}
+69   --------------------------------O                                         (4 = 12.5%) {71.9%}
+78   --------O                                                                 (1 = 3.1%) {84.4%}
+88   --------O                                                                 (1 = 3.1%) {87.5%}
+100  ... 
+128  --------O                                                                 (1 = 3.1%) {90.6%}
+145  --------O                                                                 (1 = 3.1%) {93.8%}
+164  ... 
+239  --------O                                                                 (1 = 3.1%) {96.9%}
+271  ... 
+
+Histogram: Net.SSL_Connection_Latency_Full_Handshake recorded 30 samples, average = 68.6 (flags = 0x1)
+0    ... 
+31   ------------------------------------------------O                         (4 = 13.3%) {0.0%}
+34   O                                                                         (0 = 0.0%) {13.3%}
+38   ------------------O                                                       (2 = 6.7%) {13.3%}
+42   ------------------O                                                       (2 = 6.7%) {20.0%}
+46   -------O                                                                  (1 = 3.3%) {26.7%}
+51   O                                                                         (0 = 0.0%) {30.0%}
+56   ------------------------------------------------------------------------O (10 = 33.3%) {30.0%}
+62   --------------O                                                           (2 = 6.7%) {63.3%}
+68   O                                                                         (0 = 0.0%) {70.0%}
+75   -----------------------------O                                            (4 = 13.3%) {70.0%}
+83   -------O                                                                  (1 = 3.3%) {83.3%}
+92   -------O                                                                  (1 = 3.3%) {86.7%}
+101  ... 
+135  -------O                                                                  (1 = 3.3%) {90.0%}
+149  -------O                                                                  (1 = 3.3%) {93.3%}
+164  ... 
+244  -------O                                                                  (1 = 3.3%) {96.7%}
+269  ... 
+
+Histogram: Net.SSL_Connection_Latency_Resume_Handshake recorded 2 samples, average = 16.5 (flags = 0x1)
+0   ... 
+15  ------------------------------------------------------------------------O (1 = 50.0%) {0.0%}
+17  ------------------------------------------------------------------------O (1 = 50.0%) {50.0%}
+19  ... 
+
+Histogram: Net.SocketIdleTimeBeforeNextUse_ReusedSocket recorded 25 samples, average = 1629.6 (flags = 0x1)
+0     ------------------------------------------------------------------------O (9 = 36.0%)
+1     ... 
+6     --------O                                                                 (1 = 4.0%) {36.0%}
+7     ... 
+16    ----O                                                                     (1 = 4.0%) {40.0%}
+18    ... 
+42    --O                                                                       (1 = 4.0%) {44.0%}
+47    O                                                                         (0 = 0.0%) {48.0%}
+53    --O                                                                       (1 = 4.0%) {48.0%}
+60    --O                                                                       (1 = 4.0%) {52.0%}
+67    ... 
+95    --O                                                                       (1 = 4.0%) {56.0%}
+107   ... 
+135   --O                                                                       (1 = 4.0%) {60.0%}
+152   ... 
+492   --O                                                                       (1 = 4.0%) {64.0%}
+553   ... 
+700   --O                                                                       (1 = 4.0%) {68.0%}
+788   ... 
+1122  --O                                                                       (1 = 4.0%) {72.0%}
+1262  ... 
+5187  --O                                                                       (1 = 4.0%) {76.0%}
+5835  ---O                                                                      (2 = 8.0%) {80.0%}
+6564  -----O                                                                    (3 = 12.0%) {88.0%}
+7384  ... 
+
+Histogram: Net.SocketIdleTimeBeforeNextUse_ReusedSocket_HTTPProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketIdleTimeBeforeNextUse_ReusedSocket_SOCK recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketIdleTimeBeforeNextUse_ReusedSocket_SSL2 recorded 25 samples, average = 1629.6 (flags = 0x1)
+0     ------------------------------------------------------------------------O (9 = 36.0%)
+1     ... 
+6     --------O                                                                 (1 = 4.0%) {36.0%}
+7     ... 
+16    ----O                                                                     (1 = 4.0%) {40.0%}
+18    ... 
+42    --O                                                                       (1 = 4.0%) {44.0%}
+47    O                                                                         (0 = 0.0%) {48.0%}
+53    --O                                                                       (1 = 4.0%) {48.0%}
+60    --O                                                                       (1 = 4.0%) {52.0%}
+67    ... 
+95    --O                                                                       (1 = 4.0%) {56.0%}
+107   ... 
+135   --O                                                                       (1 = 4.0%) {60.0%}
+152   ... 
+492   --O                                                                       (1 = 4.0%) {64.0%}
+553   ... 
+700   --O                                                                       (1 = 4.0%) {68.0%}
+788   ... 
+1122  --O                                                                       (1 = 4.0%) {72.0%}
+1262  ... 
+5187  --O                                                                       (1 = 4.0%) {76.0%}
+5835  ---O                                                                      (2 = 8.0%) {80.0%}
+6564  -----O                                                                    (3 = 12.0%) {88.0%}
+7384  ... 
+
+Histogram: Net.SocketIdleTimeBeforeNextUse_ReusedSocket_SSLForProxies recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketIdleTimeBeforeNextUse_ReusedSocket_SSLforHTTPSProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketIdleTimeBeforeNextUse_ReusedSocket_TCP recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketIdleTimeBeforeNextUse_ReusedSocket_TCPforHTTPProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketIdleTimeBeforeNextUse_ReusedSocket_TCPforHTTPSProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketIdleTimeBeforeNextUse_ReusedSocket_TCPforSOCKS recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketIdleTimeBeforeNextUse_UnusedSocket_HTTPProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketIdleTimeBeforeNextUse_UnusedSocket_SOCK recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketIdleTimeBeforeNextUse_UnusedSocket_SSL2 recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketIdleTimeBeforeNextUse_UnusedSocket_SSLForProxies recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketIdleTimeBeforeNextUse_UnusedSocket_SSLforHTTPSProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketIdleTimeBeforeNextUse_UnusedSocket_TCP recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketIdleTimeBeforeNextUse_UnusedSocket_TCPforHTTPProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketIdleTimeBeforeNextUse_UnusedSocket_TCPforHTTPSProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketIdleTimeBeforeNextUse_UnusedSocket_TCPforSOCKS recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketInitErrorCodes_HTTPProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketInitErrorCodes_SOCK recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketInitErrorCodes_SSL2 recorded 56 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (56 = 100.0%)
+1  ... 
+
+Histogram: Net.SocketInitErrorCodes_SSLForProxies recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketInitErrorCodes_SSLforHTTPSProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketInitErrorCodes_TCP recorded 33 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (33 = 100.0%)
+1  ... 
+
+Histogram: Net.SocketInitErrorCodes_TCPforHTTPProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketInitErrorCodes_TCPforHTTPSProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketInitErrorCodes_TCPforSOCKS recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketRequestTime_HTTPProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketRequestTime_SOCK recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketRequestTime_SSL2 recorded 31 samples, average = 283.7 (flags = 0x1)
+0     ... 
+33    ---------O                                                                (1 = 3.2%) {0.0%}
+37    ... 
+61    --------------O                                                           (2 = 6.5%) {3.2%}
+69    -------O                                                                  (1 = 3.2%) {9.7%}
+78    -------O                                                                  (1 = 3.2%) {12.9%}
+88    -------------------------------------------O                              (6 = 19.4%) {16.1%}
+100   ------------------------------------------------------------------------O (10 = 32.3%) {35.5%}
+113   ----------------------O                                                   (3 = 9.7%) {67.7%}
+128   O                                                                         (0 = 0.0%) {77.4%}
+145   -------O                                                                  (1 = 3.2%) {77.4%}
+164   ... 
+211   ----------------------O                                                   (3 = 9.7%) {80.6%}
+239   -------O                                                                  (1 = 3.2%) {90.3%}
+271   O                                                                         (0 = 0.0%) {93.5%}
+307   -------O                                                                  (1 = 3.2%) {93.5%}
+348   ... 
+4727  -------O                                                                  (1 = 3.2%) {96.8%}
+5352  ... 
+
+Histogram: Net.SocketRequestTime_SSLForProxies recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketRequestTime_SSLforHTTPSProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketRequestTime_TCP recorded 33 samples, average = 207.0 (flags = 0x1)
+0     ... 
+16    ---------------------O                                                    (1 = 3.0%) {0.0%}
+18    ---------------------O                                                    (1 = 3.0%) {3.0%}
+20    ... 
+26    --------------O                                                           (1 = 3.0%) {6.1%}
+29    ---------------------O                                                    (2 = 6.1%) {9.1%}
+33    ------------------------------------------------------------------------O (7 = 21.2%) {15.2%}
+37    -------------------------O                                                (3 = 9.1%) {36.4%}
+42    -------------------------------------------------O                        (6 = 18.2%) {45.5%}
+48    -------------------------O                                                (3 = 9.1%) {63.6%}
+54    O                                                                         (0 = 0.0%) {72.7%}
+61    ----------------O                                                         (2 = 6.1%) {72.7%}
+69    O                                                                         (0 = 0.0%) {78.8%}
+78    ----------------O                                                         (2 = 6.1%) {78.8%}
+88    --------O                                                                 (1 = 3.0%) {84.8%}
+100   --------O                                                                 (1 = 3.0%) {87.9%}
+113   ... 
+186   ----------------O                                                         (2 = 6.1%) {90.9%}
+211   ... 
+4727  --------O                                                                 (1 = 3.0%) {97.0%}
+5352  ... 
+
+Histogram: Net.SocketRequestTime_TCPforHTTPProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketRequestTime_TCPforHTTPSProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketRequestTime_TCPforSOCKS recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketType_HTTPProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketType_SOCK recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketType_SSL2 recorded 56 samples, average = 0.9 (flags = 0x1)
+0  ------------------------------------------------------------------------O (31 = 55.4%)
+1  O                                                                         (0 = 0.0%) {55.4%}
+2  ----------------------------------------------------------O               (25 = 44.6%) {55.4%}
+3  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: Net.SocketType_SSLForProxies recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketType_SSLforHTTPSProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketType_TCP recorded 33 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (33 = 100.0%)
+1  ... 
+
+Histogram: Net.SocketType_TCPforHTTPProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketType_TCPforHTTPSProxy recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.SocketType_TCPforSOCKS recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Net.TCP_Connection_Latency recorded 33 samples, average = 25.1 (flags = 0x1)
+0   ... 
+12  -----------O                                                              (2 = 6.1%) {0.0%}
+14  ----------------------O                                                   (4 = 12.1%) {6.1%}
+16  ------------------------------------------------------------------------O (13 = 39.4%) {18.2%}
+18  ----------------------------O                                             (5 = 15.2%) {57.6%}
+20  -------O                                                                  (2 = 6.1%) {72.7%}
+23  ... 
+29  ---O                                                                      (1 = 3.0%) {78.8%}
+33  O                                                                         (0 = 0.0%) {81.8%}
+37  --O                                                                       (1 = 3.0%) {81.8%}
+42  O                                                                         (0 = 0.0%) {84.8%}
+48  --O                                                                       (1 = 3.0%) {84.8%}
+54  O                                                                         (0 = 0.0%) {87.9%}
+61  ----O                                                                     (2 = 6.1%) {87.9%}
+69  --O                                                                       (1 = 3.0%) {93.9%}
+78  --O                                                                       (1 = 3.0%) {97.0%}
+88  ... 
+
+Histogram: Net.TCP_Connection_Latency_IPv4_No_Race recorded 33 samples, average = 25.1 (flags = 0x1)
+0   ... 
+12  -----------O                                                              (2 = 6.1%) {0.0%}
+14  ----------------------O                                                   (4 = 12.1%) {6.1%}
+16  ------------------------------------------------------------------------O (13 = 39.4%) {18.2%}
+18  ----------------------------O                                             (5 = 15.2%) {57.6%}
+20  -------O                                                                  (2 = 6.1%) {72.7%}
+23  ... 
+29  ---O                                                                      (1 = 3.0%) {78.8%}
+33  O                                                                         (0 = 0.0%) {81.8%}
+37  --O                                                                       (1 = 3.0%) {81.8%}
+42  O                                                                         (0 = 0.0%) {84.8%}
+48  --O                                                                       (1 = 3.0%) {84.8%}
+54  O                                                                         (0 = 0.0%) {87.9%}
+61  ----O                                                                     (2 = 6.1%) {87.9%}
+69  --O                                                                       (1 = 3.0%) {93.9%}
+78  --O                                                                       (1 = 3.0%) {97.0%}
+88  ... 
+
+Histogram: Net.Transaction_Connected recorded 1 samples, average = 118.0 (flags = 0x1)
+0    ... 
+113  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+128  ... 
+
+Histogram: Net.Transaction_Connected_New_b recorded 1 samples, average = 118.0 (flags = 0x1)
+0    ... 
+113  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+128  ... 
+
+Histogram: Net.Transaction_Latency_Total recorded 53 samples, average = 211.1 (flags = 0x1)
+0    ... 
+23   ------------O                                                             (1 = 1.9%) {0.0%}
+26   ... 
+33   ---------O                                                                (1 = 1.9%) {1.9%}
+37   -------O                                                                  (1 = 1.9%) {3.8%}
+42   -----------------------------O                                            (4 = 7.5%) {5.7%}
+48   ... 
+88   --------------O                                                           (2 = 3.8%) {13.2%}
+100  O                                                                         (0 = 0.0%) {17.0%}
+113  --------------O                                                           (2 = 3.8%) {17.0%}
+128  --------------------------------------------------O                       (7 = 13.2%) {20.8%}
+145  -------------------------------------------O                              (6 = 11.3%) {34.0%}
+164  ------------------------------------------------------------------------O (10 = 18.9%) {45.3%}
+186  -------O                                                                  (1 = 1.9%) {64.2%}
+211  -------------------------------------------O                              (6 = 11.3%) {66.0%}
+239  ----------------------O                                                   (3 = 5.7%) {77.4%}
+271  -------O                                                                  (1 = 1.9%) {83.0%}
+307  O                                                                         (0 = 0.0%) {84.9%}
+348  ----------------------O                                                   (3 = 5.7%) {84.9%}
+394  -------O                                                                  (1 = 1.9%) {90.6%}
+446  ... 
+572  --------------O                                                           (2 = 3.8%) {92.5%}
+648  -------O                                                                  (1 = 1.9%) {96.2%}
+734  -------O                                                                  (1 = 1.9%) {98.1%}
+831  ... 
+
+Histogram: Net.Transaction_Latency_Total_New_Connection recorded 30 samples, average = 252.2 (flags = 0x1)
+0    ... 
+88   ------------O                                                             (1 = 3.3%) {0.0%}
+100  O                                                                         (0 = 0.0%) {3.3%}
+113  ------------------------O                                                 (2 = 6.7%) {3.3%}
+128  ------------------------------------------------------------------------O (6 = 20.0%) {10.0%}
+145  ------------------------------------O                                     (3 = 10.0%) {30.0%}
+164  ------------------------------------O                                     (3 = 10.0%) {40.0%}
+186  O                                                                         (0 = 0.0%) {50.0%}
+211  ------------------------------------------------------------------------O (6 = 20.0%) {50.0%}
+239  ------------------------O                                                 (2 = 6.7%) {70.0%}
+271  ------------O                                                             (1 = 3.3%) {76.7%}
+307  O                                                                         (0 = 0.0%) {80.0%}
+348  ------------------------O                                                 (2 = 6.7%) {80.0%}
+394  ------------O                                                             (1 = 3.3%) {86.7%}
+446  ... 
+572  ------------O                                                             (1 = 3.3%) {90.0%}
+648  ------------O                                                             (1 = 3.3%) {93.3%}
+734  ------------O                                                             (1 = 3.3%) {96.7%}
+831  ... 
+
+Histogram: Net.Transaction_Latency_b recorded 53 samples, average = 118.8 (flags = 0x1)
+0    ... 
+16   ------------------------------------------------------------O             (2 = 3.8%) {0.0%}
+18   ------------------------------------------------------------O             (2 = 3.8%) {3.8%}
+20   O                                                                         (0 = 0.0%) {7.5%}
+23   ----------------------------------------O                                 (2 = 3.8%) {7.5%}
+26   ------------------------------------------------------------O             (3 = 5.7%) {11.3%}
+29   ------------------------------------------------------------O             (4 = 7.5%) {17.0%}
+33   ---------------------------------------------O                            (3 = 5.7%) {24.5%}
+37   ------------------------------------O                                     (3 = 5.7%) {30.2%}
+42   ------------------------------------------------------------------------O (6 = 11.3%) {35.8%}
+48   ------------------------O                                                 (2 = 3.8%) {47.2%}
+54   ------------------------O                                                 (2 = 3.8%) {50.9%}
+61   ------------------------O                                                 (2 = 3.8%) {54.7%}
+69   ------------------------------------------------O                         (4 = 7.5%) {58.5%}
+78   ... 
+113  ------------------------------------------------O                         (4 = 7.5%) {66.0%}
+128  ------------O                                                             (1 = 1.9%) {73.6%}
+145  ------------------------O                                                 (2 = 3.8%) {75.5%}
+164  ------------------------------------------------O                         (4 = 7.5%) {79.2%}
+186  ------------O                                                             (1 = 1.9%) {86.8%}
+211  O                                                                         (0 = 0.0%) {88.7%}
+239  ------------O                                                             (1 = 1.9%) {88.7%}
+271  ... 
+348  ------------O                                                             (1 = 1.9%) {90.6%}
+394  ... 
+505  ------------------------O                                                 (2 = 3.8%) {92.5%}
+572  ------------O                                                             (1 = 1.9%) {96.2%}
+648  O                                                                         (0 = 0.0%) {98.1%}
+734  ------------O                                                             (1 = 1.9%) {98.1%}
+831  ... 
+
+
+</queries>
